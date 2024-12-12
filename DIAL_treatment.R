@@ -8,11 +8,11 @@ rm(list = ls())
 ## Loading
 
 db_dial_skyrim.esm <- read.csv(".\\dbs\\db_DIAL_skyrim.esm.csv", sep = ";")
-#db_dlbr_skyrim.esm <- read.csv(".\\dbs\\db_DLBR_skyrim.esm.csv")
+
 
 ## DB SHAPING #######################################################################
 
-## DIAL ###############
+
 colnames(db_dial_skyrim.esm)[c(4,7)] <- c("INFO","Scriptname")
 
 ## NA tagging
@@ -35,12 +35,6 @@ db_dial_info_skyrim.esm <- db_dial_skyrim.esm %>%
 
 #########################
 
-## DLBR #################
-
-#colnames(db_dlbr_skyrim.esm)[2] <- "Formid_DLBR"
-
-
-##########################
 
 ## join both
 
@@ -65,12 +59,6 @@ db_dial_skyrim.esm_massclass <- db_dial_skyrim.esm_merged %>%
         )
       ) 
       
-## specific exclusions for quests that are sometimes not real quests)
-
-db_dial_skyrim.esm_specexc <- db_dial_skyrim.esm_massclass %>% 
-        filter(QNAM_type == "misc" & str_detect(QNAM, "City Dialogue") & is.na(Scriptname))  ## City Dialogue quests require scripts to be considered as it
-
-
 
 
 ## ready for json db
@@ -79,10 +67,10 @@ db_dial_skyrim.esm_json_ready <- db_dial_skyrim.esm_massclass %>%
    mutate(
       Formid_isolated = as.character(str_extract_all(Formid, "(?<=DIAL:)[^\\]]*")) ## get only formid
     ) %>%
-      anti_join(db_dial_skyrim.esm_specexc)  %>% ## remove exclusions
-          filter(!is.na(QNAM_type) & !is.na(FULL)) %>% ## if not classified, not quest dialogue
+          filter(!is.na(QNAM_type) & !is.na(Scriptname) & (!is.na(RNAM) | (!is.na(FULL)))) %>% ## if not classified, and is NA on both RNAM and FULL (without script for the latter) -> not a quest
               mutate(
-                FULL_trans = paste0(FULL, " (Quest)") ## Add "(Quest)"
+                FULL_trans = paste0(FULL, " (Quest)"), ## Add "(Quest)"
+                RNAM_trans = paste0(RNAM, " (Quest)")
               )
 
 
@@ -96,25 +84,60 @@ json_gen <- function(db_dial_json_ready,plugin){
 
 
   json_obj_list <- vector("list", length(nrow(db_dial_json_ready)))
+  json_extra_obj_list <- vector("list") ## in case we need to save the FULL and RNAM of the same
 
 
 
   for(i in seq_len(nrow(db_dial_json_ready))){
 
-    json_obj_list[[i]] <- { 
-     list(
-       form_id = paste0(db_dial_json_ready[i,"Formid_isolated"],"|",plugin), 
-       type = "DIAL FULL",     
-       string = db_dial_json_ready[i,"FULL_trans"]    
-     )
-   }
+    if(!identical(db_dial_json_ready[i,"FULL_trans"],"NA (Quest)") && identical(db_dial_json_ready[i,"RNAM_trans"],"NA (Quest)")){ ## If FULL_trans is not empty and RNAM is, include FULL
 
+      json_obj_list[[i]] <- { 
+        list(
+          form_id = paste0(db_dial_json_ready[i,"Formid_isolated"],"|",plugin), 
+          type = "DIAL FULL",     
+          string = db_dial_json_ready[i,"FULL_trans"]    
+        )
+      }
+
+    } else if(identical(db_dial_json_ready[i,"FULL_trans"],"NA (Quest)") && !identical(db_dial_json_ready[i,"RNAM_trans"],"NA (Quest)")) { ## opposite of previous
+      json_obj_list[[i]] <- { 
+        list(
+          form_id = paste0(db_dial_json_ready[i,"Formid_isolated"],"|",plugin), 
+          type = "DIAL FULL",     
+          string = db_dial_json_ready[i,"RNAM_trans"]    
+        )
+
+      }
    
+    } else { ## both filled (no NA (Quest) on neither)
+
+      json_obj_list[[i]] <- { 
+        list(
+          form_id = paste0(db_dial_json_ready[i,"Formid_isolated"],"|",plugin), 
+          type = "DIAL FULL",     
+          string = db_dial_json_ready[i,"FULL_trans"]    
+        )
+      }
+
+      json_extra_obj_list[[i]] <- { 
+        list(
+          form_id = paste0(db_dial_json_ready[i,"Formid_isolated"],"|",plugin), 
+          type = "DIAL FULL",     
+          string = db_dial_json_ready[i,"RNAM_trans"]    
+        )
+      }
+    }
   }
-  
+
+  json_extra_obj_list <- json_extra_obj_list[lengths(json_extra_obj_list) != 0] ## clean NULL objects
+  ## print(length(json_extra_obj_list))
+  json_obj_list <- append(json_obj_list,json_extra_obj_list) ## join both
+  json_obj_list <- json_obj_list[!duplicated(json_obj_list)] ## cleaning duplicates 
   json_output <- toJSON(json_obj_list, pretty = TRUE, auto_unbox = TRUE)
 
-
+  message(sprintf("GENERATED JSON ENTRIES: %d",
+    length(json_obj_list)))
 
   return(json_output)
 
