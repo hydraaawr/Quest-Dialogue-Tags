@@ -67,7 +67,7 @@ db_dial_skyrim.esm_json_ready <- db_dial_skyrim.esm_massclass %>%
    mutate(
       Formid_isolated = as.character(str_extract_all(Formid, "(?<=DIAL:)[^\\]]*")) ## get only formid
     ) %>%
-          filter(!is.na(QNAM_type) & !is.na(Scriptname) & (!is.na(RNAM) | (!is.na(FULL)))) %>% ## if not classified, and is NA on both RNAM and FULL (without script for the latter) -> not a quest
+          filter(!is.na(QNAM_type) & (!is.na(Scriptname) | !str_detect(QNAM,"City Dialogue")) & (!is.na(RNAM) | (!is.na(FULL)))) %>% 
               mutate(
                 FULL_trans = paste0(FULL, " (Quest)"), ## Add "(Quest)"
                 RNAM_trans = paste0(RNAM, " (Quest)")
