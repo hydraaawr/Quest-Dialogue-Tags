@@ -215,11 +215,6 @@
     "string": "Here you go. (Give 5 gold) (Quest)"
   },
   {
-    "form_id": "001034D0|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Sorry, I can't spare any gold. (Quest)"
-  },
-  {
     "form_id": "0010104E|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I'd like it to have the power of healing. (Quest)"
@@ -593,11 +588,6 @@
     "form_id": "000E7288|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I would be honored to help. (Quest)"
-  },
-  {
-    "form_id": "000E7287|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'm sorry, I can't right now. (Quest)"
   },
   {
     "form_id": "000E7286|Skyrim.esm",
@@ -1030,11 +1020,6 @@
     "string": "I've already cleared Redbelly Mine. (Quest)"
   },
   {
-    "form_id": "000E48AE|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "The town guards can't help you? (Quest)"
-  },
-  {
     "form_id": "000E4891|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "What's been sending you to Darkwater Crossing? (Quest)"
@@ -1290,11 +1275,6 @@
     "string": "I'll take care of it. (Quest)"
   },
   {
-    "form_id": "000E2D47|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'd rather not get involved. (Quest)"
-  },
-  {
     "form_id": "000E2D1F|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "That criminal won't be a problem anymore. (Quest)"
@@ -1545,11 +1525,6 @@
     "string": "Do you need help finding the sword? (Quest)"
   },
   {
-    "form_id": "000E1FD3|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Sorry to hear that. (Quest)"
-  },
-  {
     "form_id": "000E1ED6|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Where did Gallus go? (Quest)"
@@ -1693,11 +1668,6 @@
     "form_id": "000E17AD|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "All I've got. (Quest)"
-  },
-  {
-    "form_id": "000E178F|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'm sorry to hear what happened to you. (Quest)"
   },
   {
     "form_id": "000E178E|Skyrim.esm",
@@ -2620,11 +2590,6 @@
     "string": "I could do it for you. (Quest)"
   },
   {
-    "form_id": "000DA700|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Sorry, I can't help you with that. (Quest)"
-  },
-  {
     "form_id": "000DA6FF|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I delivered the supplies to High Hrothgar. (Quest)"
@@ -2735,11 +2700,6 @@
     "string": "I could investigate for you. (Quest)"
   },
   {
-    "form_id": "000D9B4B|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Sorry, I can't help you. (Quest)"
-  },
-  {
     "form_id": "000D9B4A|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Has anyone ever explored the barrow? (Quest)"
@@ -2823,11 +2783,6 @@
     "form_id": "000D9385|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I could get your amulet back. (Quest)"
-  },
-  {
-    "form_id": "000D9384|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Sorry to hear that. (Quest)"
   },
   {
     "form_id": "000D9383|Skyrim.esm",
@@ -4545,11 +4500,6 @@
     "string": "I don't see any bodies here. (Quest)"
   },
   {
-    "form_id": "000D0692|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'd rather not say. (Quest)"
-  },
-  {
     "form_id": "000D0691|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "It's not for me. It's for Calcelmo. (Quest)"
@@ -5080,11 +5030,6 @@
     "string": "What if I talk to <Alias.ShortName=Target>? (Quest)"
   },
   {
-    "form_id": "000CA1EE|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Sorry to hear that. (Quest)"
-  },
-  {
     "form_id": "000CA1ED|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I want to talk to you about <Alias.ShortName=QuestGiver>. (Quest)"
@@ -5558,11 +5503,6 @@
     "form_id": "000C41CE|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Your days of exploiting your son are over. (Quest)"
-  },
-  {
-    "form_id": "000C41CC|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "On second thought, let's talk about this another time. (Quest)"
   },
   {
     "form_id": "000C3CF0|Skyrim.esm",
@@ -6345,11 +6285,6 @@
     "string": "Your cannibal has been taken care of. (Quest)"
   },
   {
-    "form_id": "000BCD13|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Stop right there. I'm not interested. (Quest)"
-  },
-  {
     "form_id": "000BCD12|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "What is this place? Who's Azura? (Quest)"
@@ -7050,11 +6985,6 @@
     "string": "Museum of the Mythic Dawn? (Quest)"
   },
   {
-    "form_id": "000B7374|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Not interested. (Quest)"
-  },
-  {
     "form_id": "000B6273|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I cured Kodlak. (Quest)"
@@ -7443,11 +7373,6 @@
     "form_id": "000AF0D5|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I desire to bend the will of those around me. (Quest)"
-  },
-  {
-    "form_id": "000AECE7|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I can't help with that right now. (Quest)"
   },
   {
     "form_id": "000AE724|Skyrim.esm",
@@ -7898,11 +7823,6 @@
     "form_id": "000A3E25|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I don't want that job. (Quest)"
-  },
-  {
-    "form_id": "000A3E24|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'd rather not do that. (Quest)"
   },
   {
     "form_id": "000A3499|Skyrim.esm",
@@ -8870,11 +8790,6 @@
     "string": "What happened to the salts? (Quest)"
   },
   {
-    "form_id": "00094147|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Don't bother asking. I'm not interested. (Quest)"
-  },
-  {
     "form_id": "00094146|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I have the Fine-Cut Void Salts. (Quest)"
@@ -8888,11 +8803,6 @@
     "form_id": "00094144|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "They're as good as dead. (Quest)"
-  },
-  {
-    "form_id": "00094143|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Not interested. (Quest)"
   },
   {
     "form_id": "00094142|Skyrim.esm",
@@ -8948,11 +8858,6 @@
     "form_id": "00094030|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I'll see what I can do. (Quest)"
-  },
-  {
-    "form_id": "0009402F|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Not interested. (Quest)"
   },
   {
     "form_id": "0009402E|Skyrim.esm",
@@ -9393,11 +9298,6 @@
     "form_id": "00090DE2|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "It would be an honor. (Quest)"
-  },
-  {
-    "form_id": "00090DE1|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'm not interested. (Quest)"
   },
   {
     "form_id": "00090DE0|Skyrim.esm",
@@ -11192,11 +11092,6 @@
   {
     "form_id": "0006F3D6|Skyrim.esm",
     "type": "DIAL FULL",
-    "string": "Sorry to hear that. (Quest)"
-  },
-  {
-    "form_id": "0006F3D6|Skyrim.esm",
-    "type": "DIAL FULL",
     "string": "I can't do that right now. (Quest)"
   },
   {
@@ -11715,11 +11610,6 @@
     "string": "I could find those frost salts for you. (Quest)"
   },
   {
-    "form_id": "00068EE4|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Sorry to hear that. (Quest)"
-  },
-  {
     "form_id": "00068EE2|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I have your frost salts. (Quest)"
@@ -11945,11 +11835,6 @@
     "string": "Then leave. This isn't your problem. (Quest)"
   },
   {
-    "form_id": "0006661F|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Sorry, I can't. (Quest)"
-  },
-  {
     "form_id": "0006661B|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I've decided to help you end the nightmares. (Quest)"
@@ -12018,11 +11903,6 @@
     "form_id": "00065C1F|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Sure, I'll match your bet! (Brawl) (Quest)"
-  },
-  {
-    "form_id": "00065C1E|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "How about another time? (Quest)"
   },
   {
     "form_id": "00065C1D|Skyrim.esm",
@@ -12118,11 +11998,6 @@
     "form_id": "00064E8D|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "What can I do for you? (Quest)"
-  },
-  {
-    "form_id": "00064E8B|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Sorry, not interested. (Quest)"
   },
   {
     "form_id": "00064E8A|Skyrim.esm",
@@ -12658,11 +12533,6 @@
     "form_id": "0005D2FC|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I'll come along with you. (Quest)"
-  },
-  {
-    "form_id": "0005D2FB|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'd rather scout ahead. (Quest)"
   },
   {
     "form_id": "0005D2E1|Skyrim.esm",
@@ -13550,11 +13420,6 @@
     "string": "Okay, I'll do it. (Quest)"
   },
   {
-    "form_id": "0005567B|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Maybe another time. (Quest)"
-  },
-  {
     "form_id": "0005567A|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I have a purchase agreement for you. (Quest)"
@@ -13710,11 +13575,6 @@
     "string": "I'll take care of it. (Quest)"
   },
   {
-    "form_id": "00054753|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'd rather not handle that. (Quest)"
-  },
-  {
     "form_id": "00054752|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I've taken care of the problem. (Quest)"
@@ -13785,11 +13645,6 @@
     "string": "I'll take care of it. (Quest)"
   },
   {
-    "form_id": "00053F03|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'd rather not take that job. (Quest)"
-  },
-  {
     "form_id": "00053A07|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I'm looking for a Khajiit... might be a Thalmor spy. (Quest)"
@@ -13798,11 +13653,6 @@
     "form_id": "000539C2|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Come on, you'd better get out of here. (Free her) (Quest)"
-  },
-  {
-    "form_id": "000539C1|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I can't help you right now. (Quest)"
   },
   {
     "form_id": "00053901|Skyrim.esm",
@@ -14980,11 +14830,6 @@
     "string": "You helped me. I'll do what I can to help you. (Quest)"
   },
   {
-    "form_id": "0004C49B|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Sorry, I can't help right now. (Quest)"
-  },
-  {
     "form_id": "0004C49A|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Tell me about this Thalmor assassin that's hunting you. (Quest)"
@@ -15700,11 +15545,6 @@
     "string": "I could find it for you. (Quest)"
   },
   {
-    "form_id": "000452DF|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Sorry to hear that. (Quest)"
-  },
-  {
     "form_id": "00044BFA|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "So, you're Orthorn? (Quest)"
@@ -15748,11 +15588,6 @@
     "form_id": "000443DC|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "What's in it for me? (Quest)"
-  },
-  {
-    "form_id": "000443D5|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Sorry, I can't help. (Quest)"
   },
   {
     "form_id": "00044044|Skyrim.esm",
@@ -15818,11 +15653,6 @@
     "form_id": "00043AFD|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Trouble? (Quest)"
-  },
-  {
-    "form_id": "00043AFC|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Sorry, I'm not interested. (Quest)"
   },
   {
     "form_id": "00043AFB|Skyrim.esm",
@@ -15955,11 +15785,6 @@
     "string": "He helped me escape from prison. (Quest)"
   },
   {
-    "form_id": "00041E05|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I can't help you with that. (Quest)"
-  },
-  {
     "form_id": "00041E04|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Any tips on who might accept these? (Quest)"
@@ -15978,11 +15803,6 @@
     "form_id": "00041DE9|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Sure, I'll help you. (Quest)"
-  },
-  {
-    "form_id": "00041DE8|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Maybe another time. (Quest)"
   },
   {
     "form_id": "00041DBA|Skyrim.esm",
@@ -16023,11 +15843,6 @@
     "form_id": "00041913|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Sure. Here you are. (Quest)"
-  },
-  {
-    "form_id": "00041907|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Sorry, can't help you. (Quest)"
   },
   {
     "form_id": "00041712|Skyrim.esm",
@@ -17255,11 +17070,6 @@
     "string": "I could find those for you. (Quest)"
   },
   {
-    "form_id": "000369E5|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Can't help you there. (Quest)"
-  },
-  {
     "form_id": "000369E4|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I have them right here. (Quest)"
@@ -18068,11 +17878,6 @@
     "form_id": "0002C49B|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "What happened to Nurelion? (Quest)"
-  },
-  {
-    "form_id": "0002C49A|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'm sorry to hear that. (Quest)"
   },
   {
     "form_id": "0002C34A|Skyrim.esm",
@@ -19415,11 +19220,6 @@
     "string": "Do you want to find your daughter's killer or not? (Quest)"
   },
   {
-    "form_id": "00025E3C|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'm sorry to have troubled you. (Quest)"
-  },
-  {
     "form_id": "00025E3B|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I'd like to investigate her house, but I'll need the key. (Quest)"
@@ -20055,11 +19855,6 @@
     "string": "You're welcome to join me. (Quest)"
   },
   {
-    "form_id": "00021D1A|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'd rather not have company right now. (Quest)"
-  },
-  {
     "form_id": "00021A69|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "So we're learning about Wards? (Quest)"
@@ -20610,11 +20405,6 @@
     "string": "I don't know the spell. (Quest)"
   },
   {
-    "form_id": "0001F80C|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Never mind. I'm not interested. (Quest)"
-  },
-  {
     "form_id": "0001F80A|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Okay, this is for the spell. (Give 30 gold) (Quest)"
@@ -20865,11 +20655,6 @@
     "string": "Sounds easy enough. (Quest)"
   },
   {
-    "form_id": "0001DA2C|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'm not interested right now, thanks. (Quest)"
-  },
-  {
     "form_id": "0001DA27|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Are you aware there's a plot to steal Frost? (Quest)"
@@ -20913,11 +20698,6 @@
     "form_id": "0001D4D6|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "You're welcome to join me. (Quest)"
-  },
-  {
-    "form_id": "0001D4D5|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'd rather not have company right now. (Quest)"
   },
   {
     "form_id": "0001CDA7|Skyrim.esm",
@@ -21138,11 +20918,6 @@
     "form_id": "0001BFBB|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I've got things to do. (Quest)"
-  },
-  {
-    "form_id": "0001BC87|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I think I'd rather be a regular soldier. (Quest)"
   },
   {
     "form_id": "0001BC86|Skyrim.esm",
@@ -21385,11 +21160,6 @@
     "string": "What's wrong with the Divines? (Quest)"
   },
   {
-    "form_id": "00018465|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'm not interested. (Quest)"
-  },
-  {
     "form_id": "00018464|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Yes. Tell me what to do. (Quest)"
@@ -21578,11 +21348,6 @@
     "form_id": "00013625|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I'll get some for you. (Quest)"
-  },
-  {
-    "form_id": "00013624|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Sorry to hear that. (Quest)"
   },
   {
     "form_id": "00013623|Skyrim.esm",

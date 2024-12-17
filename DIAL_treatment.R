@@ -67,11 +67,25 @@ db_dial_skyrim.esm_json_ready <- db_dial_skyrim.esm_massclass %>%
    mutate(
       Formid_isolated = as.character(str_extract_all(Formid, "(?<=DIAL:)[^\\]]*")) ## get only formid
     ) %>%
-          filter(!is.na(QNAM_type) & (!is.na(Scriptname) | !str_detect(QNAM,"City Dialogue")) & (!is.na(RNAM) | (!is.na(FULL)))) %>% 
-              mutate(
-                FULL_trans = paste0(FULL, " (Quest)"), ## Add "(Quest)"
-                RNAM_trans = paste0(RNAM, " (Quest)")
-              )
+  filter(
+    ## No classified out
+    !is.na(QNAM_type),
+    # Exclude "City Dialogue" without Scriptname
+    !(str_detect(QNAM, "City Dialogue") & is.na(Scriptname))
+  ) %>%
+  filter(
+    # Remove entries with rejection phrases because those might or might not contain scriptname
+     !str_detect(FULL, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather") |
+     !str_detect(RNAM, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not")
+  ) %>%
+  filter(
+    # Ensure at least one of RNAM or FULL has a value
+    !is.na(RNAM) | !is.na(FULL)
+  ) %>% 
+            mutate(
+              FULL_trans = paste0(FULL, " (Quest)"), ## Add "(Quest)"
+              RNAM_trans = paste0(RNAM, " (Quest)")
+            )
 
 
 ################################################################################
