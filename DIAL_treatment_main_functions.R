@@ -15,7 +15,7 @@ shaper <- function(db_dial){
     ## NA tagging
 
     db_dial <- db_dial %>%
-    mutate_all(~ na_if(., "")) ## replace empties with NAs
+    mutate_all(~ na_if(as.character(.), "")) ## replace empties with NAs
 
     ##  separate into 2 dbs because of record subrecord structure
 
