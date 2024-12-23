@@ -1,6 +1,13 @@
 ## Author: Hydraaawr https://github.com/hydraaawr; https://www.nexusmods.com/users/83984133
 
 
+library(tidyr)
+library(dplyr)
+library(jsonlite)
+
+
+rm(list = ls())
+
 shaper <- function(db_dial){
 
     colnames(db_dial)[c(4,7)] <- c("INFO","Scriptname")

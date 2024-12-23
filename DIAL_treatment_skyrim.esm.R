@@ -1,10 +1,7 @@
 ## Author: Hydraaawr https://github.com/hydraaawr; https://www.nexusmods.com/users/83984133
 
-library(tidyr)
-library(stringr)
-library(dplyr)
-library(jsonlite)
 
+library(stringr)
 
 rm(list = ls())
 
