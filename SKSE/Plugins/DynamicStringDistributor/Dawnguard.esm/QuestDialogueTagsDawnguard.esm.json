@@ -1,0 +1,3827 @@
+[
+  {
+    "form_id": "0201AAEC|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Can the Betrayed ever be cured? (Quest)"
+  },
+  {
+    "form_id": "0201AAEB|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why? (Quest)"
+  },
+  {
+    "form_id": "0201AAEA|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Then there's no hope for them. (Quest)"
+  },
+  {
+    "form_id": "0201AA80|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Does that mean you can take us to it now? (Quest)"
+  },
+  {
+    "form_id": "0201A975|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How's a moth related to the Elder Scrolls? (Quest)"
+  },
+  {
+    "form_id": "0201A974|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Moths barely make a sound, let alone speak. (Quest)"
+  },
+  {
+    "form_id": "0201A973|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How does that help the Moth Priest? (Quest)"
+  },
+  {
+    "form_id": "0201A972|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Then how do I even stand a chance? (Quest)"
+  },
+  {
+    "form_id": "0201A971|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Is it normal for Moth Priests to go blind? (Quest)"
+  },
+  {
+    "form_id": "0201A970|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What went wrong? (Quest)"
+  },
+  {
+    "form_id": "0201A94D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Carefully gather the bark? How? (Quest)"
+  },
+  {
+    "form_id": "0201A94C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Carefully gather the bark? How? (Quest)"
+  },
+  {
+    "form_id": "0201A42A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Is there any more Aetherium? (Quest)"
+  },
+  {
+    "form_id": "0201A429|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What now? (Quest)"
+  },
+  {
+    "form_id": "0201A3D8|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Any interest in ancient falmer tomes? (Quest)"
+  },
+  {
+    "form_id": "0201A3D7|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Depends how much you're paying. (Quest)"
+  },
+  {
+    "form_id": "0201A3D6|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Deal. (Give Book) (Quest)"
+  },
+  {
+    "form_id": "0201A3D4|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I have another ancient falmer tome. (Quest)"
+  },
+  {
+    "form_id": "0201A3D3|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Deal. (Give Book) (Quest)"
+  },
+  {
+    "form_id": "0201A3D2|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'm going to hold onto it. (Quest)"
+  },
+  {
+    "form_id": "02019F79|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "If we do, he'll have to die. (Quest)"
+  },
+  {
+    "form_id": "02019F78|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Maybe we can reason with him. (Quest)"
+  },
+  {
+    "form_id": "02019F77|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Let's run as far from him as we can. (Quest)"
+  },
+  {
+    "form_id": "02019F75|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Then let's face him, together. (Quest)"
+  },
+  {
+    "form_id": "02019F74|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Then we kill him, before he kills us. (Quest)"
+  },
+  {
+    "form_id": "02019F73|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "We have the bow, he'll listen to us. (Quest)"
+  },
+  {
+    "form_id": "02019F72|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "We should honor our agreement with him. (Quest)"
+  },
+  {
+    "form_id": "02019F70|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Then let's face him, together. (Quest)"
+  },
+  {
+    "form_id": "02019F6F|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "We need your help, Isran. (Quest)"
+  },
+  {
+    "form_id": "02019F6E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I trust her to do the right thing. (Quest)"
+  },
+  {
+    "form_id": "02019F5B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What now, Isran? (Quest)"
+  },
+  {
+    "form_id": "02019F52|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You're an insult to our kind. (Quest)"
+  },
+  {
+    "form_id": "02019F52|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Your kind is a blight on this world. (Quest)"
+  },
+  {
+    "form_id": "02019F51|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I would never harm Serana. She's too important to me. (Quest)"
+  },
+  {
+    "form_id": "02019F50|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'm only here to kill you. (Quest)"
+  },
+  {
+    "form_id": "02019F4F|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "This is about more than killing vampires. (Quest)"
+  },
+  {
+    "form_id": "02019F4E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I would never use Serana like that. (Quest)"
+  },
+  {
+    "form_id": "02019F4D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "No, I'm here to prevent our annihilation. (Quest)"
+  },
+  {
+    "form_id": "02019F4C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "The bow belongs to me now. (Quest)"
+  },
+  {
+    "form_id": "02019F4B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Enough of this! (Quest)"
+  },
+  {
+    "form_id": "02019F4A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Never. (Quest)"
+  },
+  {
+    "form_id": "02019F0E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "We should check back with Isran. (Quest)"
+  },
+  {
+    "form_id": "02019F0D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Where do you want to go? (Quest)"
+  },
+  {
+    "form_id": "0201992E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What can I do to help? (Quest)"
+  },
+  {
+    "form_id": "0201992D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Who are the Dawnguard? (Quest)"
+  },
+  {
+    "form_id": "0201992C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "... (Quest)"
+  },
+  {
+    "form_id": "0201992B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Understood. (Quest)"
+  },
+  {
+    "form_id": "0201992A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I've killed the Dawnguard leaders. (Quest)"
+  },
+  {
+    "form_id": "020198AF|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do you have against the Vigilants? (Quest)"
+  },
+  {
+    "form_id": "0201980E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "It seems they were looking for a woman who was sealed in a crypt. (Quest)"
+  },
+  {
+    "form_id": "0201980C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "She's asking me to take her home, to some castle. (Quest)"
+  },
+  {
+    "form_id": "0201980B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Tolan said you're a vampire hunter. (Quest)"
+  },
+  {
+    "form_id": "0201980A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Nice castle you've got here. (Quest)"
+  },
+  {
+    "form_id": "02019303|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I have Auriel's Bow. (Quest)"
+  },
+  {
+    "form_id": "020191F7|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What is it between you two? (Quest)"
+  },
+  {
+    "form_id": "020191F6|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Does Harkon even care about you anymore? (Quest)"
+  },
+  {
+    "form_id": "020191F5|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "We can't waste time on cryptic clues. (Quest)"
+  },
+  {
+    "form_id": "020191F4|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Maybe your mother didn't trust you, either. (Quest)"
+  },
+  {
+    "form_id": "02018CD9|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "The woman was a vampire, and they wanted her back. (Quest)"
+  },
+  {
+    "form_id": "02018CD8|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "They also have an Elder Scroll. (Quest)"
+  },
+  {
+    "form_id": "02018C69|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Not exactly. (Quest)"
+  },
+  {
+    "form_id": "02018C68|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I have news, but I wouldn't call it good. (Quest)"
+  },
+  {
+    "form_id": "02018B62|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I've never heard of it. (Quest)"
+  },
+  {
+    "form_id": "02018B61|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Of course. Hasn't everyone? (Quest)"
+  },
+  {
+    "form_id": "020181BB|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Any clues about the other Elder Scroll? (Quest)"
+  },
+  {
+    "form_id": "020181BA|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I need the Elder Scroll that speaks of dragons. (Quest)"
+  },
+  {
+    "form_id": "020181B9|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why is that? (Quest)"
+  },
+  {
+    "form_id": "02017FE2|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "They were trying to free a woman trapped in a crypt. (Quest)"
+  },
+  {
+    "form_id": "02017FE1|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "She just wants to go home. (Quest)"
+  },
+  {
+    "form_id": "02017FE0|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I don't know, but she must be connected. (Quest)"
+  },
+  {
+    "form_id": "020179E5|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Never mind, I'll look somewhere else. (Quest)"
+  },
+  {
+    "form_id": "020179E4|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Finding that Moth Priest is worth a lot to me. (<bribecost> gold) (Quest)"
+  },
+  {
+    "form_id": "020179E3|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'll try my luck elsewhere. (Quest)"
+  },
+  {
+    "form_id": "020179E2|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Finding that Moth Priest is worth a lot to me. (<bribecost> gold) (Quest)"
+  },
+  {
+    "form_id": "020179E1|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'll try my luck elsewhere. (Quest)"
+  },
+  {
+    "form_id": "020179E0|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Have you seen a Moth Priest? (Quest)"
+  },
+  {
+    "form_id": "020179DF|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "That's right. You've seen him? (Quest)"
+  },
+  {
+    "form_id": "020179DE|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Please, it's very important that I find him. (Persuade) (Quest)"
+  },
+  {
+    "form_id": "020179DD|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Maybe this will put your mind at ease. (<bribecost> gold) (Quest)"
+  },
+  {
+    "form_id": "020179DC|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Never mind, I'll look somewhere else. (Quest)"
+  },
+  {
+    "form_id": "0201769E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Did you spend a lot of time down here? (Quest)"
+  },
+  {
+    "form_id": "0201769C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What did this area used to be? (Quest)"
+  },
+  {
+    "form_id": "0201769B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You sound like you were a weird little kid. (Quest)"
+  },
+  {
+    "form_id": "0201769A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "That sounds pretty lonely. (Quest)"
+  },
+  {
+    "form_id": "02017698|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Do you know this place? (Quest)"
+  },
+  {
+    "form_id": "02017696|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Did your mother keep gargoyles here? (Quest)"
+  },
+  {
+    "form_id": "02017695|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "It sounds like you already didn't like him much. (Quest)"
+  },
+  {
+    "form_id": "02017694|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You shouldn't blame yourself. (Quest)"
+  },
+  {
+    "form_id": "02017693|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "It probably didn't have anything to do with you. (Quest)"
+  },
+  {
+    "form_id": "02017691|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "It sounds like they were both being selfish. (Quest)"
+  },
+  {
+    "form_id": "02017677|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Are all of those ingredients here? (Quest)"
+  },
+  {
+    "form_id": "02017677|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I already found all of the ingredients. (Quest)"
+  },
+  {
+    "form_id": "020175D4|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Have you seen a Moth Priest? (Quest)"
+  },
+  {
+    "form_id": "020175D3|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "That's right. You've seen him? (Quest)"
+  },
+  {
+    "form_id": "020175D2|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Please, it's very important that I find him. (Persuade) (Quest)"
+  },
+  {
+    "form_id": "020175D1|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Maybe this will put your mind at ease. (<bribecost> gold) (Quest)"
+  },
+  {
+    "form_id": "02016902|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do we do now? (Quest)"
+  },
+  {
+    "form_id": "0201667B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Do you think this would help? (Give Journal) (Quest)"
+  },
+  {
+    "form_id": "0201666B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What is this place? (Quest)"
+  },
+  {
+    "form_id": "020163E5|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How did you die? (Quest)"
+  },
+  {
+    "form_id": "020163E4|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do you think of this place? (Quest)"
+  },
+  {
+    "form_id": "020163E3|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Forge something? With what? (Quest)"
+  },
+  {
+    "form_id": "020163E2|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Do you think there's more Aetherium somewhere? (Quest)"
+  },
+  {
+    "form_id": "020163C2|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What about you? (Quest)"
+  },
+  {
+    "form_id": "020163C1|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What about the scroll? (Quest)"
+  },
+  {
+    "form_id": "02016312|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "DLC1VQ07Attack (Quest)"
+  },
+  {
+    "form_id": "02015F9F|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "That was interesting. (Quest)"
+  },
+  {
+    "form_id": "02015F9E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Don't worry, I'm fine. (Quest)"
+  },
+  {
+    "form_id": "02015F9D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "That felt strange. (Quest)"
+  },
+  {
+    "form_id": "02015F9C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Never mind that... it worked! (Quest)"
+  },
+  {
+    "form_id": "02015F9A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "It's in a place called Darkfall Cave. (Quest)"
+  },
+  {
+    "form_id": "02015F99|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "The scrolls gave me its exact location. (Quest)"
+  },
+  {
+    "form_id": "02015F91|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Now what? (Quest)"
+  },
+  {
+    "form_id": "02015E08|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "... (Quest)"
+  },
+  {
+    "form_id": "02015CD1|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Got any ideas about the knife? (Quest)"
+  },
+  {
+    "form_id": "02015CD0|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Damn moths! Why are they doing that? (Quest)"
+  },
+  {
+    "form_id": "02015CCF|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How many more? (Quest)"
+  },
+  {
+    "form_id": "02015A85|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Any idea how to get out of here? (Quest)"
+  },
+  {
+    "form_id": "02015A7A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I don't see you with any better ideas. (Quest)"
+  },
+  {
+    "form_id": "02015A79|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I guess we should head towards your family's home, then. (Quest)"
+  },
+  {
+    "form_id": "02015A75|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What is it? (Quest)"
+  },
+  {
+    "form_id": "02015A72|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What is it now? (Quest)"
+  },
+  {
+    "form_id": "02015A71|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Are you all right? (Quest)"
+  },
+  {
+    "form_id": "02015A54|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What can you tell me about Auriel's Bow? (Quest)"
+  },
+  {
+    "form_id": "02015A53|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What can it do? (Quest)"
+  },
+  {
+    "form_id": "02015A52|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Sounds powerful. (Quest)"
+  },
+  {
+    "form_id": "02015A51|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Vyrthur said something about using blood? (Quest)"
+  },
+  {
+    "form_id": "02015A50|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How do I obtain Sunhallowed Arrows? (Quest)"
+  },
+  {
+    "form_id": "02015A4F|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What will happen to the Chantry now? (Quest)"
+  },
+  {
+    "form_id": "02015A4E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Then I've contributed to your kind's extinction. (Quest)"
+  },
+  {
+    "form_id": "02015A4D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What will you do then? (Quest)"
+  },
+  {
+    "form_id": "020159F9|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "When will you return to Tamriel? (Quest)"
+  },
+  {
+    "form_id": "020159F8|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "And if Harkon were slain? (Quest)"
+  },
+  {
+    "form_id": "020159F7|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Have we angered the Ideal Masters? (Quest)"
+  },
+  {
+    "form_id": "020159F6|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What if you're wrong? (Quest)"
+  },
+  {
+    "form_id": "020159F5|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I could use help with the crystals around here. (Quest)"
+  },
+  {
+    "form_id": "020159F4|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How many do you need? (Quest)"
+  },
+  {
+    "form_id": "020159F3|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I have five soul husks here. (Quest)"
+  },
+  {
+    "form_id": "020159F2|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Harkon is dead. (Quest)"
+  },
+  {
+    "form_id": "020159F1|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "He died by my hand. (Quest)"
+  },
+  {
+    "form_id": "020156FA|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Heard anything about a Moth Priest passing through? (Quest)"
+  },
+  {
+    "form_id": "020156F5|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Heard anything about a Moth Priest passing through? (Quest)"
+  },
+  {
+    "form_id": "020156F2|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "It's ironic that we're helping these priests. (Quest)"
+  },
+  {
+    "form_id": "02015423|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do you know about Auriel's Bow? (Quest)"
+  },
+  {
+    "form_id": "02015422|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What does it have to do with the sun? (Quest)"
+  },
+  {
+    "form_id": "02015421|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What exactly does it do? (Quest)"
+  },
+  {
+    "form_id": "020150F6|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Most snow elves? (Quest)"
+  },
+  {
+    "form_id": "020150F5|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "The wayshrines are part of the Chantry then? (Quest)"
+  },
+  {
+    "form_id": "020150F4|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "And the wayshrines? (Quest)"
+  },
+  {
+    "form_id": "020150D8|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Who are the Dawnguard? (Quest)"
+  },
+  {
+    "form_id": "020150D7|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do you mean by discreet. (Quest)"
+  },
+  {
+    "form_id": "020150D6|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Understood. (Quest)"
+  },
+  {
+    "form_id": "020150D5|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Who are the Dawnguard? (Quest)"
+  },
+  {
+    "form_id": "020150D4|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do you mean by a high profile target? (Quest)"
+  },
+  {
+    "form_id": "020150D3|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "So we're pinning the murder on the Dawnguard? (Quest)"
+  },
+  {
+    "form_id": "020150D2|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Understood. (Quest)"
+  },
+  {
+    "form_id": "0201505B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "It appears the Nords won. (Quest)"
+  },
+  {
+    "form_id": "0201505A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Everyone couldn't have possibly agreed to that. (Quest)"
+  },
+  {
+    "form_id": "02015059|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What turned your people into the Betrayed? (Quest)"
+  },
+  {
+    "form_id": "02015058|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Is that why you had retained your sight? (Quest)"
+  },
+  {
+    "form_id": "02015057|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You mean the Betrayed. (Quest)"
+  },
+  {
+    "form_id": "02015055|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "There are others here like you? (Quest)"
+  },
+  {
+    "form_id": "02015008|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What can I do to help? (Quest)"
+  },
+  {
+    "form_id": "02015007|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What is this artifact? (Quest)"
+  },
+  {
+    "form_id": "02015006|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Any idea what I'll be up against? (Quest)"
+  },
+  {
+    "form_id": "02015005|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Understood. (Quest)"
+  },
+  {
+    "form_id": "02015004|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "... (Quest)"
+  },
+  {
+    "form_id": "02015003|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I've retrieved the <Alias=Item> from <Alias=Dungeon>. (Quest)"
+  },
+  {
+    "form_id": "02014F6E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Do you know anything about this place? (Quest)"
+  },
+  {
+    "form_id": "02014F6D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Any soul gem? (Quest)"
+  },
+  {
+    "form_id": "02014F6C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Does anything live here? (Quest)"
+  },
+  {
+    "form_id": "02014F6B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Do you think we'll meet the Ideal Masters? (Quest)"
+  },
+  {
+    "form_id": "02014F6A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why are they collecting these souls? (Quest)"
+  },
+  {
+    "form_id": "02014F69|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why would a necromancer want to deal with them? (Quest)"
+  },
+  {
+    "form_id": "02014F68|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Summon them you mean? (Quest)"
+  },
+  {
+    "form_id": "02014F67|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How do the necromancers communicate with them? (Quest)"
+  },
+  {
+    "form_id": "02014F66|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Are you sure Valerica has the Elder Scroll? (Quest)"
+  },
+  {
+    "form_id": "02014F65|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "And if she doesn't? (Quest)"
+  },
+  {
+    "form_id": "02014F64|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why not hide it in the Soul Cairn and then return? (Quest)"
+  },
+  {
+    "form_id": "02014F63|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How are you feeling after talking to your mother? (Quest)"
+  },
+  {
+    "form_id": "02014F62|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why did you ever agree to her plan? (Quest)"
+  },
+  {
+    "form_id": "02014F61|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "She doesn't seem too fond of him. (Quest)"
+  },
+  {
+    "form_id": "02014F60|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "And you were caught in the middle. (Quest)"
+  },
+  {
+    "form_id": "02014F37|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Yes. (Quest)"
+  },
+  {
+    "form_id": "02014EED|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I already have the other three shards. (Quest)"
+  },
+  {
+    "form_id": "02014EED|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I have two of the other shards already. (Quest)"
+  },
+  {
+    "form_id": "02014EED|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I already have another shard. (Quest)"
+  },
+  {
+    "form_id": "02014EE7|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Do you think there's more Aetherium somewhere? (Quest)"
+  },
+  {
+    "form_id": "02014ED2|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Can't we inform the Jarl's men of the threat? (Quest)"
+  },
+  {
+    "form_id": "02014ED1|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How can I avoid trouble with the law? (Quest)"
+  },
+  {
+    "form_id": "02014ED0|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Understood. (Quest)"
+  },
+  {
+    "form_id": "02014ECF|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What is the vampire doing? (Quest)"
+  },
+  {
+    "form_id": "02014BA3|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I made it. (Quest)"
+  },
+  {
+    "form_id": "02014BA2|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I've heard of you. From Katria. (Quest)"
+  },
+  {
+    "form_id": "02014BA2|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I had some help. From Katria. (Quest)"
+  },
+  {
+    "form_id": "02014B9E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "No, I don't think so. (Quest)"
+  },
+  {
+    "form_id": "02014B9C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What are you doing here? (Quest)"
+  },
+  {
+    "form_id": "02014B9A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Who are you? (Quest)"
+  },
+  {
+    "form_id": "02014B99|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Who are you? (Quest)"
+  },
+  {
+    "form_id": "02014743|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'm just here for the Elder Scroll. (Quest)"
+  },
+  {
+    "form_id": "0201472E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do you mean by allaying fear through vampiric seduction? (Quest)"
+  },
+  {
+    "form_id": "0201472D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Can't anyone become a vampire if bitten by one? (Quest)"
+  },
+  {
+    "form_id": "0201472C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why am I able to bestow the gift of Harkon's blood? (Quest)"
+  },
+  {
+    "form_id": "0201472B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Understood. (Quest)"
+  },
+  {
+    "form_id": "0201472A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "... (Quest)"
+  },
+  {
+    "form_id": "020145D9|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "If I leave the Soul Cairn, can I safely return? (Quest)"
+  },
+  {
+    "form_id": "0201432D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Your name sounds familiar... (Quest)"
+  },
+  {
+    "form_id": "0201432C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What were you looking for? (Quest)"
+  },
+  {
+    "form_id": "0201432B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You mentioned a treasure? (Quest)"
+  },
+  {
+    "form_id": "0201432B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What treasure? (Quest)"
+  },
+  {
+    "form_id": "02014329|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "And that story led you here? (Quest)"
+  },
+  {
+    "form_id": "02014327|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Congratulations. And... thanks, Katria. (Quest)"
+  },
+  {
+    "form_id": "020142CF|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'm already a vampire. What more can you offer me? (Quest)"
+  },
+  {
+    "form_id": "020142CE|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'm a werewolf. What will happen if I accept your gift? (Quest)"
+  },
+  {
+    "form_id": "020142CD|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "And if I want to remain a werewolf? (Quest)"
+  },
+  {
+    "form_id": "02014297|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Is that where you were attacked? (Quest)"
+  },
+  {
+    "form_id": "02014296|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Didn't work out that way I assume. (Quest)"
+  },
+  {
+    "form_id": "02014293|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What will you do now? (Quest)"
+  },
+  {
+    "form_id": "02014292|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I don't suppose there's a way to free you. (Quest)"
+  },
+  {
+    "form_id": "02014291|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How so? (Quest)"
+  },
+  {
+    "form_id": "0201414C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What exactly are you doing? (Quest)"
+  },
+  {
+    "form_id": "0201414B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Opus? What do you mean? (Quest)"
+  },
+  {
+    "form_id": "0201414A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Let's just start at the beginning... (Quest)"
+  },
+  {
+    "form_id": "02014149|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I don't have time for this. (Quest)"
+  },
+  {
+    "form_id": "02014148|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Now, what were you saying? (Quest)"
+  },
+  {
+    "form_id": "02014147|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Nope, never heard of you. (Quest)"
+  },
+  {
+    "form_id": "02014146|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You're talking about a book? (Quest)"
+  },
+  {
+    "form_id": "02014145|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Maybe a shorter title is in order? (Quest)"
+  },
+  {
+    "form_id": "02014144|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How is your work going so far? (Quest)"
+  },
+  {
+    "form_id": "02014143|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Who threw you in here? (Quest)"
+  },
+  {
+    "form_id": "02014142|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Prison? You mean the Soul Cairn? (Quest)"
+  },
+  {
+    "form_id": "02014141|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "A dremora captured you? (Quest)"
+  },
+  {
+    "form_id": "02014140|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You must be crazy. (Quest)"
+  },
+  {
+    "form_id": "0201413F|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Your soul was trapped. (Quest)"
+  },
+  {
+    "form_id": "0201413E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You're dead. (Quest)"
+  },
+  {
+    "form_id": "0201413D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Could I help? (Quest)"
+  },
+  {
+    "form_id": "0201413C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I do, but you can't leave that way. (Quest)"
+  },
+  {
+    "form_id": "0201413B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How many pages did you lose? (Quest)"
+  },
+  {
+    "form_id": "0201413A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why would a dremora attack you? (Quest)"
+  },
+  {
+    "form_id": "02014139|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "That was... a bit before my time. (Quest)"
+  },
+  {
+    "form_id": "02014138|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why was Dagon able to do this? (Quest)"
+  },
+  {
+    "form_id": "02014137|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What ended up happening? (Quest)"
+  },
+  {
+    "form_id": "02014136|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Where were you captured? (Quest)"
+  },
+  {
+    "form_id": "02014135|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How did you earn your nicknames? (Quest)"
+  },
+  {
+    "form_id": "02014134|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Winged Menace? (Quest)"
+  },
+  {
+    "form_id": "02014133|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What was your campaign against them? (Quest)"
+  },
+  {
+    "form_id": "02014131|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Were you successful? (Quest)"
+  },
+  {
+    "form_id": "02014130|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You said you were in prison? (Quest)"
+  },
+  {
+    "form_id": "0201412F|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What did you do? (Quest)"
+  },
+  {
+    "form_id": "0201412E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How'd you get caught? (Quest)"
+  },
+  {
+    "form_id": "0201412D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Rival assassin? (Quest)"
+  },
+  {
+    "form_id": "0201412C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "So what ended up happening to you? (Quest)"
+  },
+  {
+    "form_id": "0201412B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Here's all of the pages. (Quest)"
+  },
+  {
+    "form_id": "0201412A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "So now what? (Quest)"
+  },
+  {
+    "form_id": "02014129|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'll be off then. (Quest)"
+  },
+  {
+    "form_id": "02013E07|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I know why they needed you, because we need you for the same purpose. (Quest)"
+  },
+  {
+    "form_id": "02013E06|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'll explain later. Right now, we need your help and time is short. (Quest)"
+  },
+  {
+    "form_id": "020137BC|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Do I need to read the scrolls in any particular order? (Quest)"
+  },
+  {
+    "form_id": "020137BB|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Do I need to read the scrolls in any particular order? (Quest)"
+  },
+  {
+    "form_id": "0201376E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why else would she risk her life to come here? (Quest)"
+  },
+  {
+    "form_id": "0201376D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Set your hatred aside and try to see the larger picture, Isran. (Quest)"
+  },
+  {
+    "form_id": "0201376C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You don't trust her, fine. Trust me. I believe her. (Quest)"
+  },
+  {
+    "form_id": "02013668|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I suspected as much. (Quest)"
+  },
+  {
+    "form_id": "02013665|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "When do you plan to start trusting me? (Quest)"
+  },
+  {
+    "form_id": "02013663|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "The Dawnguard tried to stop me, but they posed no threat. (Quest)"
+  },
+  {
+    "form_id": "02013654|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "The Dawnguard were there. They fought well, but not well enough. (Quest)"
+  },
+  {
+    "form_id": "02013653|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "The Dawnguard were protecting him, and they nearly killed me. (Quest)"
+  },
+  {
+    "form_id": "020132B1|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Know anything about a Moth Priest visiting Dragon Bridge? (Quest)"
+  },
+  {
+    "form_id": "020132B0|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Know anything about a Moth Priest visiting Dragon Bridge? (Quest)"
+  },
+  {
+    "form_id": "020132AF|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Know anything about a Moth Priest visiting Dragon Bridge? (Quest)"
+  },
+  {
+    "form_id": "020132AE|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Know anything about a Moth Priest visiting Dragon Bridge? (Quest)"
+  },
+  {
+    "form_id": "0201329C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What's so special about the moondial? (Quest)"
+  },
+  {
+    "form_id": "0201329A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Does it work? (Quest)"
+  },
+  {
+    "form_id": "02013299|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "So what exactly am I doing to it? (Quest)"
+  },
+  {
+    "form_id": "0201328B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How did you end up in the Soul Cairn? (Quest)"
+  },
+  {
+    "form_id": "0201328A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Were you a part of all that? (Quest)"
+  },
+  {
+    "form_id": "02013289|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "So you sought the Soul Cairn for answers. (Quest)"
+  },
+  {
+    "form_id": "02013288|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "They didn't tell you she was immortal. (Quest)"
+  },
+  {
+    "form_id": "02013287|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Is that why you're free now? (Quest)"
+  },
+  {
+    "form_id": "02013286|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why do you call me Qahnaarin? (Quest)"
+  },
+  {
+    "form_id": "02013285|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Fellow dovah? I am not a dragon. (Quest)"
+  },
+  {
+    "form_id": "02012F89|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Something on your mind, Garan? (Quest)"
+  },
+  {
+    "form_id": "02012F88|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "See to it at once. (Quest)"
+  },
+  {
+    "form_id": "02012F87|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I don't care. Do as you like. (Quest)"
+  },
+  {
+    "form_id": "02012F86|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Stop wasting my time, Garan. (Quest)"
+  },
+  {
+    "form_id": "02012F5B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Very well. (Give Auriel's Bow) (Quest)"
+  },
+  {
+    "form_id": "02012F4C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "The Elder Scrolls have served me well, Dexion. (Quest)"
+  },
+  {
+    "form_id": "02012F4B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "They're bound to bring me fortune and glory. (Quest)"
+  },
+  {
+    "form_id": "02012F4A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I hadn't really thought about it. (Quest)"
+  },
+  {
+    "form_id": "02012F49|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "They're indestructible, so they'd make good armor. (Quest)"
+  },
+  {
+    "form_id": "02012F48|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Did you have something in mind? (Quest)"
+  },
+  {
+    "form_id": "02012F47|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Do you still want the Elder Scrolls? (Quest)"
+  },
+  {
+    "form_id": "02012F46|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "6000 gold, and they're yours. (Quest)"
+  },
+  {
+    "form_id": "02012F45|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'd be happy for you to have them. Here. (Quest)"
+  },
+  {
+    "form_id": "02012F44|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'm going to hold on to them for now. (Quest)"
+  },
+  {
+    "form_id": "020126D0|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I want to buy back the Elder Scroll I sold you. (Quest)"
+  },
+  {
+    "form_id": "020126CF|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Just tell me how much it will cost. (Quest)"
+  },
+  {
+    "form_id": "020126CE|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Make it 3,000 and you have a deal. (Persuade) (Quest)"
+  },
+  {
+    "form_id": "020126CD|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Fine, here you are. (4000 gold) (Quest)"
+  },
+  {
+    "form_id": "020126CC|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Forget it, I'll come back. (Quest)"
+  },
+  {
+    "form_id": "020126CB|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'm the Arch-Mage. It's 2,000 coins. (Quest)"
+  },
+  {
+    "form_id": "02012183|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Do you still want to come with me? (Quest)"
+  },
+  {
+    "form_id": "02012182|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Never mind. (Quest)"
+  },
+  {
+    "form_id": "0201217F|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Do you still want to come with me? (Quest)"
+  },
+  {
+    "form_id": "0201217E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Never mind. (Quest)"
+  },
+  {
+    "form_id": "0201217D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Let's go to the castle's secret entrance. (Quest)"
+  },
+  {
+    "form_id": "0201217C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Are you ready to go? (Quest)"
+  },
+  {
+    "form_id": "0201217B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Actually, I have some things to do first. (Quest)"
+  },
+  {
+    "form_id": "0201217A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I have some preparations to make, first. (Quest)"
+  },
+  {
+    "form_id": "02011DFE|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "The ingredients are in the vessel. (Quest)"
+  },
+  {
+    "form_id": "02011DFD|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You sure? They might prove useful. (Quest)"
+  },
+  {
+    "form_id": "0201198B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You first. (Quest)"
+  },
+  {
+    "form_id": "02011988|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You're a reclusive cannibal cult. (Quest)"
+  },
+  {
+    "form_id": "02011986|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I don't really care what you are. (Quest)"
+  },
+  {
+    "form_id": "02011982|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What happens now? (Quest)"
+  },
+  {
+    "form_id": "02011981|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Do I get a reward for finding your daughter? (Quest)"
+  },
+  {
+    "form_id": "02011952|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Who were you expecting? (Quest)"
+  },
+  {
+    "form_id": "0201194E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "A man named Isran. (Quest)"
+  },
+  {
+    "form_id": "0201194C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "That's not your concern. (Quest)"
+  },
+  {
+    "form_id": "0201194A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do you mean, like you? (Quest)"
+  },
+  {
+    "form_id": "02011944|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Are you a... (Quest)"
+  },
+  {
+    "form_id": "02011911|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Who's your father? (Quest)"
+  },
+  {
+    "form_id": "02011900|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "No, a group called the Dawnguard sent me here. (Quest)"
+  },
+  {
+    "form_id": "020118FB|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How did you know I was a vampire? (Quest)"
+  },
+  {
+    "form_id": "020118FA|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You're a vampire? (Quest)"
+  },
+  {
+    "form_id": "020118F8|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "The Dawnguard would want me to kill you. (Quest)"
+  },
+  {
+    "form_id": "020118F7|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why were you locked away like this? (Quest)"
+  },
+  {
+    "form_id": "020118F6|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Where do you need to go? (Quest)"
+  },
+  {
+    "form_id": "020118F5|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "As long as you don't get in my way. (Quest)"
+  },
+  {
+    "form_id": "02011569|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I thought you were dead. (Quest)"
+  },
+  {
+    "form_id": "02011568|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why are we speaking? (Quest)"
+  },
+  {
+    "form_id": "02011567|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Didn't you try to kill me? (Quest)"
+  },
+  {
+    "form_id": "02011566|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why did you call me Qahnaarin? (Quest)"
+  },
+  {
+    "form_id": "02011565|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I have more pressing matters at the moment. (Quest)"
+  },
+  {
+    "form_id": "02011564|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I found you equally worthy. (Quest)"
+  },
+  {
+    "form_id": "02011563|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do you want from me? (Quest)"
+  },
+  {
+    "form_id": "02011561|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I don't trust things that try to kill me. (Quest)"
+  },
+  {
+    "form_id": "02011560|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What kind of a favor? (Quest)"
+  },
+  {
+    "form_id": "0201155F|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What's stopping you? (Quest)"
+  },
+  {
+    "form_id": "0201155E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How could I help? (Quest)"
+  },
+  {
+    "form_id": "0201155D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Just call your name in Tamriel? That's it? (Quest)"
+  },
+  {
+    "form_id": "0201155C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You're staying here? (Quest)"
+  },
+  {
+    "form_id": "0201155B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "We'll return for you when we can. (Quest)"
+  },
+  {
+    "form_id": "0201155A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "We could use your help in Tamriel. (Quest)"
+  },
+  {
+    "form_id": "02011559|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "We may never return. (Quest)"
+  },
+  {
+    "form_id": "02010F17|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "The vampires were looking for a woman trapped in Dimhollow. (Quest)"
+  },
+  {
+    "form_id": "02010F16|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "She wanted to go home, so I took her to her castle. (Quest)"
+  },
+  {
+    "form_id": "02010F14|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'm lucky I made it out alive. (Quest)"
+  },
+  {
+    "form_id": "02010F13|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "There were too many of them, and only one of me. (Quest)"
+  },
+  {
+    "form_id": "02010F12|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I never got the chance. (Quest)"
+  },
+  {
+    "form_id": "02010F11|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "She's the daughter of a powerful vampire lord. (Quest)"
+  },
+  {
+    "form_id": "02010EB6|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What exactly are you planning to do to these vampires? (Quest)"
+  },
+  {
+    "form_id": "02010EB4|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What is it? (Quest)"
+  },
+  {
+    "form_id": "02010DD9|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Yes, the place was crawling with vampires. (Quest)"
+  },
+  {
+    "form_id": "02010DD8|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Tolan was right. And he's dead. The vampires killed him. (Quest)"
+  },
+  {
+    "form_id": "02010DD7|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I don't know who she is. She says she lives in a castle near Solitude. (Quest)"
+  },
+  {
+    "form_id": "02010DD6|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "She didn't want to follow me here. But she wants me to take her home. (Quest)"
+  },
+  {
+    "form_id": "02010DD5|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'm pretty sure she's a vampire, actually. (Quest)"
+  },
+  {
+    "form_id": "02010DD3|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "She says she lives in a castle near Solitude. (Quest)"
+  },
+  {
+    "form_id": "02010DAC|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Will I be able to safely revisit the Soul Cairn? (Quest)"
+  },
+  {
+    "form_id": "02010A51|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How long will that take? (Quest)"
+  },
+  {
+    "form_id": "02010674|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Do you have the Elder Scroll with you? (Quest)"
+  },
+  {
+    "form_id": "02010388|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "That's why I'm here. Let's go. (Quest)"
+  },
+  {
+    "form_id": "02010385|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Her name's Serana. It was her that the vampires were seeking. (Quest)"
+  },
+  {
+    "form_id": "02010384|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Because she's one of them. (Quest)"
+  },
+  {
+    "form_id": "02010383|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I don't think so. In fact, I'm going to help her get home. (Quest)"
+  },
+  {
+    "form_id": "02010382|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I can handle myself, and there are still unanswered questions (Quest)"
+  },
+  {
+    "form_id": "0200FFD9|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What's all this have to do with the Dawnguard? (Quest)"
+  },
+  {
+    "form_id": "0200FFD8|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You want us to help you? (Quest)"
+  },
+  {
+    "form_id": "0200FFD7|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Do you have any ideas? (Quest)"
+  },
+  {
+    "form_id": "0200FFD6|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Where would a Moth Priest actually go? (Quest)"
+  },
+  {
+    "form_id": "0200FFD5|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Do you have any ideas? (Quest)"
+  },
+  {
+    "form_id": "0200FFD4|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Where would a Moth Priest actually go? (Quest)"
+  },
+  {
+    "form_id": "0200FE83|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What's the Dawnguard? (Quest)"
+  },
+  {
+    "form_id": "0200FAB4|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Serana underwent this ritual willingly? (Quest)"
+  },
+  {
+    "form_id": "0200FAB3|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Coldharbour? (Quest)"
+  },
+  {
+    "form_id": "0200FAB2|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Who are the Ideal Masters? (Quest)"
+  },
+  {
+    "form_id": "0200FAB1|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do they resemble? (Quest)"
+  },
+  {
+    "form_id": "0200FAB0|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How so? (Quest)"
+  },
+  {
+    "form_id": "0200FAAF|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "And the crystals? (Quest)"
+  },
+  {
+    "form_id": "0200FAAE|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why would they require sustenance? (Quest)"
+  },
+  {
+    "form_id": "0200FAAD|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do the Masters provide in return? (Quest)"
+  },
+  {
+    "form_id": "0200FAAC|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why haven't you pursued the prophecy? (Quest)"
+  },
+  {
+    "form_id": "0200FAAB|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What sort of attention? (Quest)"
+  },
+  {
+    "form_id": "0200FAAA|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "So you prefer living in the shadows. (Quest)"
+  },
+  {
+    "form_id": "0200F846|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I've saved her from your foolish plan. (Quest)"
+  },
+  {
+    "form_id": "0200F844|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'm just here for the Elder Scroll. (Quest)"
+  },
+  {
+    "form_id": "0200F843|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do you mean? (Quest)"
+  },
+  {
+    "form_id": "0200F842|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How does Serana fit in? (Quest)"
+  },
+  {
+    "form_id": "0200F841|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "The Tyranny of the Sun requires Serana's blood? (Quest)"
+  },
+  {
+    "form_id": "0200F840|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'll need your help. (Quest)"
+  },
+  {
+    "form_id": "0200F83F|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Perhaps her death is destined. (Quest)"
+  },
+  {
+    "form_id": "0200F83E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "And Serana's opinion in this? (Quest)"
+  },
+  {
+    "form_id": "0200F83D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How did you become imprisoned here? (Quest)"
+  },
+  {
+    "form_id": "0200F83C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What was the bargain? (Quest)"
+  },
+  {
+    "form_id": "0200F83B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "They tricked you. (Quest)"
+  },
+  {
+    "form_id": "0200F83A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You became trapped. (Quest)"
+  },
+  {
+    "form_id": "0200F839|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You've been imprisoned here for all this time? (Quest)"
+  },
+  {
+    "form_id": "0200F817|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Here, I've got a dwarven gyro. Take it. (Quest)"
+  },
+  {
+    "form_id": "0200F7F9|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "... (Quest)"
+  },
+  {
+    "form_id": "0200F7F8|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "... (Quest)"
+  },
+  {
+    "form_id": "0200F7C7|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "There's no time. You need to get moving now. (Persuade) (Quest)"
+  },
+  {
+    "form_id": "0200F4EF|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Who is your father? (Quest)"
+  },
+  {
+    "form_id": "0200F4ED|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Is that an Elder Scroll? (Quest)"
+  },
+  {
+    "form_id": "0200F4EC|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why do you have an Elder Scroll? (Quest)"
+  },
+  {
+    "form_id": "0200F4EB|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Is it fragile? Do we need to be careful with it? (Quest)"
+  },
+  {
+    "form_id": "0200F34F|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Loyalty? You never intended to let me live. (Quest)"
+  },
+  {
+    "form_id": "0200F34F|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Hatred born of your neglect. (Quest)"
+  },
+  {
+    "form_id": "0200F349|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I have the bow. (Quest)"
+  },
+  {
+    "form_id": "0200F348|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do we do now? (Quest)"
+  },
+  {
+    "form_id": "0200E9DC|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Can you help get my soul back? (Quest)"
+  },
+  {
+    "form_id": "0200E9DB|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Good, I could use all the help I can get. (Quest)"
+  },
+  {
+    "form_id": "0200E9B6|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Any idea where it could be? (Quest)"
+  },
+  {
+    "form_id": "0200E871|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Wouldn't that kill me? (Quest)"
+  },
+  {
+    "form_id": "0200E870|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Soul trap me. I won't feel right as a vampire. (Quest)"
+  },
+  {
+    "form_id": "0200E86E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'm ready. (Quest)"
+  },
+  {
+    "form_id": "0200E86D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I trust you completely. (Quest)"
+  },
+  {
+    "form_id": "0200E86C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Don't worry about it. (Quest)"
+  },
+  {
+    "form_id": "0200E86B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Let's just get this over with. (Quest)"
+  },
+  {
+    "form_id": "0200E86A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'm ready to be soul trapped. (Quest)"
+  },
+  {
+    "form_id": "0200D8BE|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'm here to join the Dawnguard. (Quest)"
+  },
+  {
+    "form_id": "0200D8BD|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I heard you were looking for vampire hunters. (Quest)"
+  },
+  {
+    "form_id": "0200D8BC|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I was just looking around. What is this place? (Quest)"
+  },
+  {
+    "form_id": "0200D8BB|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What can I do to help? (Quest)"
+  },
+  {
+    "form_id": "0200D885|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Anything you can tell me about the Soul Cairn? (Quest)"
+  },
+  {
+    "form_id": "0200D884|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why was your mother so fascinated by it? (Quest)"
+  },
+  {
+    "form_id": "0200D883|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What exactly are the Ideal Masters? (Quest)"
+  },
+  {
+    "form_id": "0200D882|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Then how are you sure they even exist? (Quest)"
+  },
+  {
+    "form_id": "0200D881|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Fools? Why do you say that? (Quest)"
+  },
+  {
+    "form_id": "0200D880|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Your mother maintained quite a laboratory. (Quest)"
+  },
+  {
+    "form_id": "0200D87F|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What did she research? (Quest)"
+  },
+  {
+    "form_id": "0200D87E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "To what end? (Quest)"
+  },
+  {
+    "form_id": "0200D7D7|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Were you and Valerica close? (Quest)"
+  },
+  {
+    "form_id": "0200D7D6|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "So you always got along? (Quest)"
+  },
+  {
+    "form_id": "0200D7D5|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "But then it all changed. (Quest)"
+  },
+  {
+    "form_id": "0200D7D4|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "That's why we're headed there? (Quest)"
+  },
+  {
+    "form_id": "0200D7CB|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What happened to the castle courtyard? (Quest)"
+  },
+  {
+    "form_id": "0200D7CA|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Then he just walled it off. (Quest)"
+  },
+  {
+    "form_id": "0200D3D7|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "The ingredients are in the vessel. (Quest)"
+  },
+  {
+    "form_id": "0200D3D6|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Can I ask you something first? (Quest)"
+  },
+  {
+    "form_id": "0200D3D5|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'm ready. (Quest)"
+  },
+  {
+    "form_id": "0200D3D4|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What will you do if we find your mother? (Quest)"
+  },
+  {
+    "form_id": "0200D3D3|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "It sounds like she did everything for your sake. (Quest)"
+  },
+  {
+    "form_id": "0200D3D2|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I don't know what she was thinking. (Quest)"
+  },
+  {
+    "form_id": "0200D3D1|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "It sounds like she was pretty selfish. (Quest)"
+  },
+  {
+    "form_id": "0200D3D0|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "We won't know until we find her. (Quest)"
+  },
+  {
+    "form_id": "0200D3CF|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Let's get that portal open. (Quest)"
+  },
+  {
+    "form_id": "0200D3C7|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'm ready. (Quest)"
+  },
+  {
+    "form_id": "0200D3C6|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "In that case, I'm glad you're the one doing it. (Quest)"
+  },
+  {
+    "form_id": "0200D3C5|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I understand. (Quest)"
+  },
+  {
+    "form_id": "0200D3C4|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Let's just get it over with. (Quest)"
+  },
+  {
+    "form_id": "0200D3C3|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'm ready to be turned. (Quest)"
+  },
+  {
+    "form_id": "0200CF3E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Who are you? (Quest)"
+  },
+  {
+    "form_id": "0200CF3D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I can handle myself. (Persuade) (Quest)"
+  },
+  {
+    "form_id": "0200CF3C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Get out of my way. (Quest)"
+  },
+  {
+    "form_id": "0200CF3B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I won't give up that easily. (Quest)"
+  },
+  {
+    "form_id": "0200CF3A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Sure. (Quest)"
+  },
+  {
+    "form_id": "0200CF39|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "No thanks. (Quest)"
+  },
+  {
+    "form_id": "0200CF36|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What happened to this place? (Quest)"
+  },
+  {
+    "form_id": "0200CF35|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Any dangers I should be aware of? (Quest)"
+  },
+  {
+    "form_id": "0200CF34|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You mean... the earthquake? (Quest)"
+  },
+  {
+    "form_id": "0200CF33|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Any advice? (Quest)"
+  },
+  {
+    "form_id": "0200CF2B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Are you going to help? (Quest)"
+  },
+  {
+    "form_id": "0200CF23|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What? What is this? (Quest)"
+  },
+  {
+    "form_id": "0200CF22|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What are you talking about? (Quest)"
+  },
+  {
+    "form_id": "0200CF20|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "So... what now? (Quest)"
+  },
+  {
+    "form_id": "0200CF1E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Then what? (Quest)"
+  },
+  {
+    "form_id": "0200CF1C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Yes, I have them. What now? (Quest)"
+  },
+  {
+    "form_id": "0200CF18|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do you make of all this? (Quest)"
+  },
+  {
+    "form_id": "0200CF16|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How do we do that? (Quest)"
+  },
+  {
+    "form_id": "0200CDF5|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "<Alias=Candidate> has been welcomed to the family. (Quest)"
+  },
+  {
+    "form_id": "0200CDF4|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What can I do to help? (Quest)"
+  },
+  {
+    "form_id": "0200CDF3|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I've collected all the Rings of Blood Magic. (Quest)"
+  },
+  {
+    "form_id": "0200CDF2|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do these rings do? (Quest)"
+  },
+  {
+    "form_id": "0200CDF1|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Will I be able to keep these rings? (Quest)"
+  },
+  {
+    "form_id": "0200CDF0|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Understood. (Quest)"
+  },
+  {
+    "form_id": "0200CDEF|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Where did these rings come from? (Quest)"
+  },
+  {
+    "form_id": "0200CDEE|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Is there anything I can do to help? (Quest)"
+  },
+  {
+    "form_id": "0200CDED|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do these amulets do? (Quest)"
+  },
+  {
+    "form_id": "0200CDEC|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Where did these amulets come from? (Quest)"
+  },
+  {
+    "form_id": "0200CDEB|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Will I be able to keep these amulets? (Quest)"
+  },
+  {
+    "form_id": "0200CDEA|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Understood. (Quest)"
+  },
+  {
+    "form_id": "0200CDE9|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I've collected all the Amulets of Night Power. (Quest)"
+  },
+  {
+    "form_id": "0200CCC0|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I've found your mother's notes. (Quest)"
+  },
+  {
+    "form_id": "0200CCBF|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What's this Soul Cairn that she mentions? (Quest)"
+  },
+  {
+    "form_id": "0200CCBE|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why did she care where used souls went? (Quest)"
+  },
+  {
+    "form_id": "0200CCBD|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "If she made it there, we'll find her. (Quest)"
+  },
+  {
+    "form_id": "0200CCBC|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do we need? (Quest)"
+  },
+  {
+    "form_id": "0200CCBB|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What's wrong? (Quest)"
+  },
+  {
+    "form_id": "0200CCBA|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You share her blood. (Quest)"
+  },
+  {
+    "form_id": "0200C615|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Sealed away like you were? (Quest)"
+  },
+  {
+    "form_id": "0200C614|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "In Castle Volkihar? (Quest)"
+  },
+  {
+    "form_id": "0200C612|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Isn't that pretty risky, staying around the castle? (Quest)"
+  },
+  {
+    "form_id": "0200C217|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "So where is this Elder Scroll? (Quest)"
+  },
+  {
+    "form_id": "0200BDDA|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Can't it wait? (Quest)"
+  },
+  {
+    "form_id": "0200BDD9|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What's on your mind? (Quest)"
+  },
+  {
+    "form_id": "0200B664|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I was sent to retrieve something from this cave. (Quest)"
+  },
+  {
+    "form_id": "0200B663|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "A man named Isran. (Quest)"
+  },
+  {
+    "form_id": "0200B662|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "That's not really your business. (Quest)"
+  },
+  {
+    "form_id": "0200B661|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Nobody. I just walked in here. (Quest)"
+  },
+  {
+    "form_id": "0200B660|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "No. We expected some kind of artifact. (Quest)"
+  },
+  {
+    "form_id": "0200B65F|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I don't think he knew much of anything. (Quest)"
+  },
+  {
+    "form_id": "0200B65E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I wasn't told where to take you. (Quest)"
+  },
+  {
+    "form_id": "0200B65D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Where do you want to go? (Quest)"
+  },
+  {
+    "form_id": "0200B65C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How long were you in there? (Quest)"
+  },
+  {
+    "form_id": "0200B65B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why were you locked away? (Quest)"
+  },
+  {
+    "form_id": "0200B65A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Tell me about your home. (Quest)"
+  },
+  {
+    "form_id": "0200B659|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why wouldn't you be safe there? (Quest)"
+  },
+  {
+    "form_id": "0200B658|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Someone you don't want to see? (Quest)"
+  },
+  {
+    "form_id": "0200B657|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why didn't you tell me it was so huge? (Quest)"
+  },
+  {
+    "form_id": "0200B656|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "It's impressive. (Quest)"
+  },
+  {
+    "form_id": "0200B53B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Hello. (Quest)"
+  },
+  {
+    "form_id": "0200B539|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do you mean by allaying fear through vampiric seduction? (Quest)"
+  },
+  {
+    "form_id": "0200B1B5|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What is this bloodspring? (Quest)"
+  },
+  {
+    "form_id": "0200A859|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Who are you? (Quest)"
+  },
+  {
+    "form_id": "0200A858|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "This cave is a temple to Auriel? (Quest)"
+  },
+  {
+    "form_id": "0200A856|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Snow elves? You're a Falmer? (Quest)"
+  },
+  {
+    "form_id": "0200A854|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How did you know? (Quest)"
+  },
+  {
+    "form_id": "0200A853|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Kill your brother, why? (Quest)"
+  },
+  {
+    "form_id": "0200A852|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What type of assistance do you need? (Quest)"
+  },
+  {
+    "form_id": "0200A851|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Do I have a choice? (Quest)"
+  },
+  {
+    "form_id": "0200A850|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Didn't you fight back? (Quest)"
+  },
+  {
+    "form_id": "0200A84F|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You don't even know if he's alive. (Quest)"
+  },
+  {
+    "form_id": "0200A84E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Have you tried getting into the Inner Sanctum? (Quest)"
+  },
+  {
+    "form_id": "0200A843|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How many more wayshrines are there? (Quest)"
+  },
+  {
+    "form_id": "0200A842|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "These caves must be massive. (Quest)"
+  },
+  {
+    "form_id": "0200A841|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "So I need to fill this at each wayshrine? (Quest)"
+  },
+  {
+    "form_id": "0200A840|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'll be off then. (Quest)"
+  },
+  {
+    "form_id": "0200A36E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "He simply said It is time. (Quest)"
+  },
+  {
+    "form_id": "0200A28E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What can I do to help? (Quest)"
+  },
+  {
+    "form_id": "0200A28D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Can't anyone become a vampire if bitten by one? (Quest)"
+  },
+  {
+    "form_id": "0200A28B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "... (Quest)"
+  },
+  {
+    "form_id": "0200A28A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why am I able to bestow the gift of Harkon's blood? (Quest)"
+  },
+  {
+    "form_id": "0200A289|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Understood. (Quest)"
+  },
+  {
+    "form_id": "0200A288|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "... (Quest)"
+  },
+  {
+    "form_id": "020098B0|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What are you doing here? (Quest)"
+  },
+  {
+    "form_id": "020098AF|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What about it? (Quest)"
+  },
+  {
+    "form_id": "020098AE|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What sort of prophecy? (Quest)"
+  },
+  {
+    "form_id": "020098AD|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "No, you're right. We just have to convince the others you're on our side. (Quest)"
+  },
+  {
+    "form_id": "020098AC|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Because we're going to need her help. (Quest)"
+  },
+  {
+    "form_id": "020098A7|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Who can? (Quest)"
+  },
+  {
+    "form_id": "02008A59|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Serana believes in me, why won't you? (Quest)"
+  },
+  {
+    "form_id": "020088F1|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Yes, he said to meet him at Fort Dawnguard. (Quest)"
+  },
+  {
+    "form_id": "020088F0|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How did you know? (Quest)"
+  },
+  {
+    "form_id": "020088EF|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Isran's at Fort Dawnguard. (Quest)"
+  },
+  {
+    "form_id": "02008857|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I have made the Moth Priest my thrall. (Quest)"
+  },
+  {
+    "form_id": "02008851|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I have a new task for you, thrall. (Quest)"
+  },
+  {
+    "form_id": "02008850|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You must read an Elder Scroll. (Quest)"
+  },
+  {
+    "form_id": "0200884F|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Then you may begin your reading. (Quest)"
+  },
+  {
+    "form_id": "0200884B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Do you know where these other scrolls are? (Quest)"
+  },
+  {
+    "form_id": "0200846B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Isran asked me to find you. (Quest)"
+  },
+  {
+    "form_id": "0200846A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You had a falling out? (Quest)"
+  },
+  {
+    "form_id": "02008469|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Vampires threaten all of Skyrim. We need your help. (Quest)"
+  },
+  {
+    "form_id": "02008468|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "They have an Elder Scroll. (Quest)"
+  },
+  {
+    "form_id": "02008467|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "We're not sure, but Isran is concerned. (Quest)"
+  },
+  {
+    "form_id": "02008465|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "We're meeting at Fort Dawnguard. (Quest)"
+  },
+  {
+    "form_id": "02008463|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Isran needs your help. (Quest)"
+  },
+  {
+    "form_id": "02008462|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "We're up against vampires. (Quest)"
+  },
+  {
+    "form_id": "02008461|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "We're not sure, but they have an Elder Scroll. (Quest)"
+  },
+  {
+    "form_id": "020083FD|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why don't you come back with us? (Quest)"
+  },
+  {
+    "form_id": "020083FC|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You said even if I could. Why? (Quest)"
+  },
+  {
+    "form_id": "020083FB|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "And if Harkon failed? (Quest)"
+  },
+  {
+    "form_id": "020083FA|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You hate him that much? (Quest)"
+  },
+  {
+    "form_id": "02008383|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Are you able to give us the scroll now? (Quest)"
+  },
+  {
+    "form_id": "02007EC0|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You are in danger. A vampire has infiltrated your court. (Quest)"
+  },
+  {
+    "form_id": "02007EBF|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What can I do to help? (Quest)"
+  },
+  {
+    "form_id": "02007EBE|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I've destroyed the vampire in the Jarl of <Alias=Capital>'s court. (Quest)"
+  },
+  {
+    "form_id": "02007C2D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What can I do to help? (Quest)"
+  },
+  {
+    "form_id": "02007C2C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "... (Quest)"
+  },
+  {
+    "form_id": "02007C2B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "... (Quest)"
+  },
+  {
+    "form_id": "02007C2A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "... (Quest)"
+  },
+  {
+    "form_id": "02007C29|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I've rescued <Alias=Prisoner> from <Alias=Dungeon>. (Quest)"
+  },
+  {
+    "form_id": "02007C28|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Hello. (Quest)"
+  },
+  {
+    "form_id": "02007B7E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I command you to travel to Castle Volkihar. (Quest)"
+  },
+  {
+    "form_id": "02007B7D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Off the northern coast of Skyrim, due west of Solitude. (Quest)"
+  },
+  {
+    "form_id": "02007B7B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'll meet you back there. (Quest)"
+  },
+  {
+    "form_id": "020076DD|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What is your decision? (Quest)"
+  },
+  {
+    "form_id": "020076DC|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do we need to do? (Quest)"
+  },
+  {
+    "form_id": "020076DB|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "We'll return soon. (Quest)"
+  },
+  {
+    "form_id": "020076C9|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "So you're just going to give up? (Quest)"
+  },
+  {
+    "form_id": "020076C8|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "We have to do something. (Quest)"
+  },
+  {
+    "form_id": "020076C6|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Where can I find the people we need? (Quest)"
+  },
+  {
+    "form_id": "020076C5|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "She'll help us? (Quest)"
+  },
+  {
+    "form_id": "020076B8|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I need to find a Moth Priest. (Quest)"
+  },
+  {
+    "form_id": "020076B7|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "My business is my own. Just tell me what I need to know. (Quest)"
+  },
+  {
+    "form_id": "020071B8|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Are you saying Harkon means to kill her? (Quest)"
+  },
+  {
+    "form_id": "0200701A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do you want? (Quest)"
+  },
+  {
+    "form_id": "02007019|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What are you talking about? (Quest)"
+  },
+  {
+    "form_id": "02007018|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You must be the face sculptor I've heard about. (Quest)"
+  },
+  {
+    "form_id": "02007017|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do you do? (Quest)"
+  },
+  {
+    "form_id": "02006FAA|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Who were your people? (Quest)"
+  },
+  {
+    "form_id": "02006FA6|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Where is he now? (Quest)"
+  },
+  {
+    "form_id": "02006FA5|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "It's important that I find him right away. (Persuade) (Quest)"
+  },
+  {
+    "form_id": "02006F9D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "That's why I'm here for the Elder Scroll. (Quest)"
+  },
+  {
+    "form_id": "02006F7D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why weren't the snow elves here affected? (Quest)"
+  },
+  {
+    "form_id": "02006F55|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What is the Chantry of Auri-El? (Quest)"
+  },
+  {
+    "form_id": "02006F48|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What will happen to you now? (Quest)"
+  },
+  {
+    "form_id": "02006EF7|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "The Betrayed weren't to blame. (Quest)"
+  },
+  {
+    "form_id": "02006EE7|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You're welcome. (Quest)"
+  },
+  {
+    "form_id": "02006BA7|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What can I do to help? (Quest)"
+  },
+  {
+    "form_id": "02006BA6|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'm back from <Alias=Dungeon> with the <Alias=Item>. (Quest)"
+  },
+  {
+    "form_id": "020069DD|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Glad you made it here safely, Dexion. (Quest)"
+  },
+  {
+    "form_id": "020069DC|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Have my companions made you feel welcome? (Quest)"
+  },
+  {
+    "form_id": "020069DB|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Are you prepared to read the Elder Scroll? (Quest)"
+  },
+  {
+    "form_id": "020069DA|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Are you alright? (Quest)"
+  },
+  {
+    "form_id": "020069D8|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "We're called the Dawnguard, and we need you to read an Elder Scroll. (Quest)"
+  },
+  {
+    "form_id": "020069D7|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "We're called the Dawnguard. We're fighting a vampire conspiracy. (Quest)"
+  },
+  {
+    "form_id": "020069D6|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You can find us at Fort Dawnguard, near Stendarr's Beacon. (Quest)"
+  },
+  {
+    "form_id": "020069D5|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Know anything about a Moth Priest visiting Dragon Bridge? (Quest)"
+  },
+  {
+    "form_id": "020069D4|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Know anything about a Moth Priest visiting Dragon Bridge? (Quest)"
+  },
+  {
+    "form_id": "020069D3|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Know anything about a Moth Priest visiting Dragon Bridge? (Quest)"
+  },
+  {
+    "form_id": "020069D2|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Know anything about a Moth Priest visiting Dragon Bridge? (Quest)"
+  },
+  {
+    "form_id": "020069D1|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Where is he now? (Quest)"
+  },
+  {
+    "form_id": "020069D0|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Heard anything about a Moth Priest passing through? (Quest)"
+  },
+  {
+    "form_id": "020069C7|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "It's important that I find him right away. (Persuade) (Quest)"
+  },
+  {
+    "form_id": "020069C3|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Does he have the Scroll? Is everything ready? (Quest)"
+  },
+  {
+    "form_id": "020069AB|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I need to find a Moth Priest. (Quest)"
+  },
+  {
+    "form_id": "020069A4|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How will vampires gain power over the sun? (Quest)"
+  },
+  {
+    "form_id": "020069A0|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "The College of Winterhold seems like a good place to start. (Quest)"
+  },
+  {
+    "form_id": "0200699F|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "My business is my own. Just tell me what I need to know. (Quest)"
+  },
+  {
+    "form_id": "0200699E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Heard anything about a moth priest passing through? (Quest)"
+  },
+  {
+    "form_id": "02006969|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I understand you know how to change someone's appearance. (Quest)"
+  },
+  {
+    "form_id": "02006967|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Yes, I'd like you to change my appearance. (<Global=DLC1SurgeryCost> gold) (Quest)"
+  },
+  {
+    "form_id": "02006966|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Are you sure you know what you're doing? (Quest)"
+  },
+  {
+    "form_id": "02006945|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What can I do to help? (Quest)"
+  },
+  {
+    "form_id": "02006944|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'm looking for a vampire. (Quest)"
+  },
+  {
+    "form_id": "02006943|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Make this easier for you, tell me what I want to know. (Persuade) (Quest)"
+  },
+  {
+    "form_id": "02006942|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Perhaps some coin will jog your memory? (<BribeCost> gold) (Quest)"
+  },
+  {
+    "form_id": "02006941|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'll get rough with you if I have to. (Quest)"
+  },
+  {
+    "form_id": "02006940|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Where'd you say this vampire was hiding? (Quest)"
+  },
+  {
+    "form_id": "0200693F|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Perhaps you care to explain this letter then? (Quest)"
+  },
+  {
+    "form_id": "0200693E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I've destroyed the <Alias=Vampire> at <Alias=Dungeon>. (Quest)"
+  },
+  {
+    "form_id": "020066C3|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I think I could use your help. (Quest)"
+  },
+  {
+    "form_id": "020066C2|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Goodbye (Quest)"
+  },
+  {
+    "form_id": "0200669D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Yes, I've been aiding Tolan. (Quest)"
+  },
+  {
+    "form_id": "0200669C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Are you going to help? (Quest)"
+  },
+  {
+    "form_id": "02006532|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You wanted to speak to me? (Quest)"
+  },
+  {
+    "form_id": "0200652B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "... (Quest)"
+  },
+  {
+    "form_id": "02005E40|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What can I do to help? (Quest)"
+  },
+  {
+    "form_id": "02005E3F|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I've killed the vampire masquerading as a <Alias=Target>. (Quest)"
+  },
+  {
+    "form_id": "02005E3E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What can I do to help? (Quest)"
+  },
+  {
+    "form_id": "02005E3D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "The <Alias=Boss> at <Alias=Dungeon> has been destroyed. (Quest)"
+  },
+  {
+    "form_id": "02005E3C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What can I do to help? (Quest)"
+  },
+  {
+    "form_id": "02005E3B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "... (Quest)"
+  },
+  {
+    "form_id": "02005E3A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "... (Quest)"
+  },
+  {
+    "form_id": "02005E39|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I've destroyed the <Alias=Vampire> at <Alias=Dungeon>. (Quest)"
+  },
+  {
+    "form_id": "02005E18|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "They tried to kill me! (Quest)"
+  },
+  {
+    "form_id": "02005E17|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I killed them both. (Quest)"
+  },
+  {
+    "form_id": "02005D8F|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I've brought the Elder Scrolls. (Quest)"
+  },
+  {
+    "form_id": "02005D8E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why? What's happened? (Quest)"
+  },
+  {
+    "form_id": "02005D8D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "That covering on your eyes. Are you- (Quest)"
+  },
+  {
+    "form_id": "02005D8C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Can anything be done to help you? (Quest)"
+  },
+  {
+    "form_id": "02005D8B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Then we're finished. (Quest)"
+  },
+  {
+    "form_id": "02005D8A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do I need to do? (Quest)"
+  },
+  {
+    "form_id": "02005D88|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Don't worry about that. Just tell me. (Quest)"
+  },
+  {
+    "form_id": "02005D87|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Explain this ritual. (Quest)"
+  },
+  {
+    "form_id": "02005D86|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I've brought the Elder Scrolls. (Quest)"
+  },
+  {
+    "form_id": "02005D85|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What are you talking about? (Quest)"
+  },
+  {
+    "form_id": "02005D84|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You're blind! (Quest)"
+  },
+  {
+    "form_id": "02005D83|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I don't suppose there's a cure. (Quest)"
+  },
+  {
+    "form_id": "02005D82|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Then we have no further need of you. (Quest)"
+  },
+  {
+    "form_id": "02005D81|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Go on. (Quest)"
+  },
+  {
+    "form_id": "02005D7E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Just get to it! (Quest)"
+  },
+  {
+    "form_id": "02005D7D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Explain this ritual. (Quest)"
+  },
+  {
+    "form_id": "0200593A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I have a message from Harkon. (Quest)"
+  },
+  {
+    "form_id": "020058BB|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What can I do to help? (Quest)"
+  },
+  {
+    "form_id": "020058BA|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "And that's any of your business because... ? (Quest)"
+  },
+  {
+    "form_id": "020058B9|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Yes. I am married. (Quest)"
+  },
+  {
+    "form_id": "020058B8|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "... (Quest)"
+  },
+  {
+    "form_id": "020058B7|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "... (Quest)"
+  },
+  {
+    "form_id": "020058B6|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You try my patience, <Alias=QuestGiver>. (Quest)"
+  },
+  {
+    "form_id": "020058B5|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I understand the concern. (Quest)"
+  },
+  {
+    "form_id": "020058B4|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "... (Quest)"
+  },
+  {
+    "form_id": "020058B3|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Hello. (Quest)"
+  },
+  {
+    "form_id": "020058B2|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You'll need to trust me. The family is safer this way. (Quest)"
+  },
+  {
+    "form_id": "020058B1|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "It is done. <Alias=Spouse> has been welcomed into the family. (Quest)"
+  },
+  {
+    "form_id": "02005852|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You wanted to speak with me? (Quest)"
+  },
+  {
+    "form_id": "02005848|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I've been keeping her safe. (Quest)"
+  },
+  {
+    "form_id": "02005847|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I would never allow that to happen. (Quest)"
+  },
+  {
+    "form_id": "02005846|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'll kill Harkon. (Quest)"
+  },
+  {
+    "form_id": "0200583C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What happened to the dragon? (Quest)"
+  },
+  {
+    "form_id": "0200583B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What makes you say that? (Quest)"
+  },
+  {
+    "form_id": "0200583A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Go on. (Quest)"
+  },
+  {
+    "form_id": "020056F7|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What can I do to help? (Quest)"
+  },
+  {
+    "form_id": "020056F6|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I have killed the <Alias=Vampire> at <Alias=Dungeon>. (Quest)"
+  },
+  {
+    "form_id": "020056F5|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What can I do to help? (Quest)"
+  },
+  {
+    "form_id": "020056F4|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I have returned from <Alias=Dungeon> with the <Alias=Remains>. (Quest)"
+  },
+  {
+    "form_id": "020050AD|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What can I do to help? (Quest)"
+  },
+  {
+    "form_id": "020050AC|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "The <Alias=Boss> at <Alias=Dungeon> has been dealt with. (Quest)"
+  },
+  {
+    "form_id": "020050AB|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I heard you might need help. (Quest)"
+  },
+  {
+    "form_id": "020050AA|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "It is done. I've slain someone on the streets of <Alias=City>. (Quest)"
+  },
+  {
+    "form_id": "020050A9|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "... (Quest)"
+  },
+  {
+    "form_id": "020050A8|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "... (Quest)"
+  },
+  {
+    "form_id": "02004CF1|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why did you come here? (Quest)"
+  },
+  {
+    "form_id": "02004CF1|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Sure, I'd like the help. (Quest)"
+  },
+  {
+    "form_id": "02004CF1|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How did you end up here? (Quest)"
+  },
+  {
+    "form_id": "02004CF1|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Get out of my way. (Quest)"
+  },
+  {
+    "form_id": "02004C2A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I've killed the Dawnguard masquerading as a <Alias=Target>. (Quest)"
+  },
+  {
+    "form_id": "02004C19|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What can I do to help? (Quest)"
+  },
+  {
+    "form_id": "02004A01|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Have you ever seen anything like this? (Quest)"
+  },
+  {
+    "form_id": "020049BB|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "That's actually a matter for debate. (Quest)"
+  },
+  {
+    "form_id": "020049BA|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Ulfric Stormcloak is the true High King. (Quest)"
+  },
+  {
+    "form_id": "020049B9|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Elisif of Solitude will be High Queen. (Quest)"
+  },
+  {
+    "form_id": "020049B8|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "The Empire supports Elisif, but there are many in Skyrim loyal to Ulfric. (Quest)"
+  },
+  {
+    "form_id": "020049B6|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "The... Empire. From Cyrodiil. (Quest)"
+  },
+  {
+    "form_id": "0200422D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Vyrthur was saying something about vampire blood and the bow... (Quest)"
+  },
+  {
+    "form_id": "0200422C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Can I use your blood, then? (Quest)"
+  },
+  {
+    "form_id": "0200422B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You're a Daughter of Coldharbour. (Quest)"
+  },
+  {
+    "form_id": "0200422A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'd like to treat some arrows with your blood. (Quest)"
+  },
+  {
+    "form_id": "02004229|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'm not going to take your blood right now. (Quest)"
+  },
+  {
+    "form_id": "02003FD6|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Can you give me Bloodcursed Arrows? (Quest)"
+  },
+  {
+    "form_id": "02003FD5|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What will you do now? (Quest)"
+  },
+  {
+    "form_id": "02003C10|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Are you trying to get my attention? (Quest)"
+  },
+  {
+    "form_id": "02003C0F|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why didn't you say something earlier? (Quest)"
+  },
+  {
+    "form_id": "02003C0E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Do you trust Harkon at all? (Quest)"
+  },
+  {
+    "form_id": "02003C0D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You said you didn't know where she went. (Quest)"
+  },
+  {
+    "form_id": "02003C0C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Sounds like she was being cautious. (Quest)"
+  },
+  {
+    "form_id": "02003C0A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Hiding with the Dawnguard? (Quest)"
+  },
+  {
+    "form_id": "02003C09|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How can we get in without your father noticing? (Quest)"
+  },
+  {
+    "form_id": "02003C09|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "They aren't going to let us use the front door. (Quest)"
+  },
+  {
+    "form_id": "02003BE4|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "DLC1VQ04Hellos (Quest)"
+  },
+  {
+    "form_id": "02003B9F|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'm <Alias=Player>. Who are you? (Quest)"
+  },
+  {
+    "form_id": "02003B9E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You're vampires. (Quest)"
+  },
+  {
+    "form_id": "02003B9C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "And if I refuse your gift? (Quest)"
+  },
+  {
+    "form_id": "02003B9B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I will accept your gift and become a vampire. (Quest)"
+  },
+  {
+    "form_id": "02003B9A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I don't want to become a vampire. I refuse your gift. (Quest)"
+  },
+  {
+    "form_id": "02003AB0|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Ideas? (Quest)"
+  },
+  {
+    "form_id": "02003AAD|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What exactly are we looking for? (Quest)"
+  },
+  {
+    "form_id": "0200393E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "That hurt. (Quest)"
+  },
+  {
+    "form_id": "0200393D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "It was. What happened? (Quest)"
+  },
+  {
+    "form_id": "02003932|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "So there's no way in, then. (Quest)"
+  },
+  {
+    "form_id": "02003931|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Are you saying that I need to become a vampire? (Quest)"
+  },
+  {
+    "form_id": "02003922|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "There has to be another way. (Quest)"
+  },
+  {
+    "form_id": "02003907|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Those are my only options? (Quest)"
+  },
+  {
+    "form_id": "020038FF|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I don't see another way. I'll become a vampire. (Quest)"
+  },
+  {
+    "form_id": "020038F5|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Forget me, who are you? (Quest)"
+  },
+  {
+    "form_id": "02003205|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do you mean... lost himself? (Quest)"
+  },
+  {
+    "form_id": "02003203|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You took a big risk coming here. (Quest)"
+  },
+  {
+    "form_id": "02002F5E|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "He was a vampire. He controlled them. (Quest)"
+  },
+  {
+    "form_id": "02002F5D|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Why? (Quest)"
+  },
+  {
+    "form_id": "02002B39|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I imagine you know why we're here. (Quest)"
+  },
+  {
+    "form_id": "02002B38|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What exactly did the Betrayed do? (Quest)"
+  },
+  {
+    "form_id": "02002B37|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Wayshrine? (Quest)"
+  },
+  {
+    "form_id": "02002B35|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Who are the spectral Prelates you mentioned? (Quest)"
+  },
+  {
+    "form_id": "02002B34|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Good, they should be able to help us. (Quest)"
+  },
+  {
+    "form_id": "02002B33|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Where do I begin? (Quest)"
+  },
+  {
+    "form_id": "02002B06|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Calm down. Who's Arvak? (Quest)"
+  },
+  {
+    "form_id": "02002B04|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How can I help him? (Quest)"
+  },
+  {
+    "form_id": "020029E6|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Where did the Dawnguard come from? (Quest)"
+  },
+  {
+    "form_id": "02015CD1|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do I do with the knife? (Quest)"
+  },
+  {
+    "form_id": "02015A50|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Can you make me some Sunhallowed Arrows? (Quest)"
+  },
+  {
+    "form_id": "020150D7|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "What do you mean by don't draw attention? (Quest)"
+  },
+  {
+    "form_id": "0200F817|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I don't have any gyros on me. (Quest)"
+  },
+  {
+    "form_id": "0200CDF1|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Will I be able to keep the ring? (Quest)"
+  },
+  {
+    "form_id": "0200CDEB|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Will I be able to keep this amulet? (Quest)"
+  },
+  {
+    "form_id": "0200C614|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "How about right here, in the castle? (Quest)"
+  },
+  {
+    "form_id": "0200B65A|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "This is your home? (Quest)"
+  },
+  {
+    "form_id": "0200846B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "So you'll help us? (Quest)"
+  },
+  {
+    "form_id": "0200846B|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Isran and I still need your help. (Quest)"
+  },
+  {
+    "form_id": "02007EC0|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "You are in danger. A vampire has infiltrated your court. (Give letter) (Quest)"
+  },
+  {
+    "form_id": "02006941|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'll get rough with you if I have to. (Intimidate) (Quest)"
+  },
+  {
+    "form_id": "02006941|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'll get rough with you if I have to. (Brawl) (Quest)"
+  },
+  {
+    "form_id": "02005848|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "This is no ruse. I want to keep her safe. (Quest)"
+  },
+  {
+    "form_id": "020049B8|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "The Empire supported Elisif, but Ulfric now controls Skyrim. (Quest)"
+  },
+  {
+    "form_id": "020049B8|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "The Empire supports Elisif, and killed Ulfric for his rebellion. (Quest)"
+  }
+]
