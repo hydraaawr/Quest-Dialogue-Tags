@@ -7,8 +7,8 @@ rm(list = ls())
 
 ## Loading
 
-source(".\\DIAL_treatment_main_functions.R")
-db_dial_skyrim.esm <- read.csv(".\\dbs\\db_DIAL_skyrim.esm.csv", sep = ";")
+source(".\\DIAL_treatment_main_functions_v1.R")
+db_dial_skyrim.esm <- read.csv(".\\dbs\\db_DIAL_skyrim.esm_v1.csv", sep = ";")
 
 
 db_dial_skyrim.esm_merged <- shaper(db_dial_skyrim.esm)
