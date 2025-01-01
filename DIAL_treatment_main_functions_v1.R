@@ -41,7 +41,7 @@ shaper <- function(db_dial){
 
 
 
-json_gen <- function(db_dial_json_ready,plugin){
+json_gen <- function(db_dial_json_ready,plugin,target_NA){
 
 
   json_obj_list <- vector("list", length(nrow(db_dial_json_ready)))
@@ -51,7 +51,7 @@ json_gen <- function(db_dial_json_ready,plugin){
 
   for(i in seq_len(nrow(db_dial_json_ready))){
 
-    if(!identical(db_dial_json_ready[i,"FULL_trans"],"NA (Quest)") && identical(db_dial_json_ready[i,"RNAM_trans"],"NA (Quest)")){ ## If FULL_trans is not empty and RNAM is, include FULL
+    if(!identical(db_dial_json_ready[i,"FULL_trans"],target_NA) && identical(db_dial_json_ready[i,"RNAM_trans"],target_NA)){ ## If FULL_trans is not empty and RNAM is, include FULL
 
       json_obj_list[[i]] <- { 
         list(
@@ -61,7 +61,7 @@ json_gen <- function(db_dial_json_ready,plugin){
         )
       }
 
-    } else if(identical(db_dial_json_ready[i,"FULL_trans"],"NA (Quest)") && !identical(db_dial_json_ready[i,"RNAM_trans"],"NA (Quest)")) { ## opposite of previous
+    } else if(identical(db_dial_json_ready[i,"FULL_trans"],target_NA) && !identical(db_dial_json_ready[i,"RNAM_trans"],target_NA)) { ## opposite of previous
       json_obj_list[[i]] <- { 
         list(
           form_id = paste0(db_dial_json_ready[i,"Formid_isolated"],"|",plugin), 
@@ -71,7 +71,7 @@ json_gen <- function(db_dial_json_ready,plugin){
 
       }
    
-    } else { ## both filled (no NA (Quest) on neither)
+    } else { ## both filled (no target_NA on neither)
 
       json_obj_list[[i]] <- { 
         list(

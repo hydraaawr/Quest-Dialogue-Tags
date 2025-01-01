@@ -67,7 +67,7 @@ db_dial_skyrim.esm_json_ready <- db_dial_skyrim.esm_massclass %>%
 ## Json generation:
 
 
-json_skyrim.esm <- json_gen(db_dial_skyrim.esm_json_ready,"Skyrim.esm")
+json_skyrim.esm <- json_gen(db_dial_skyrim.esm_json_ready,"Skyrim.esm", "NA (Quest)")
 
 write(json_skyrim.esm, ".\\SKSE\\Plugins\\DynamicStringDistributor\\Skyrim.esm\\QuestDialogueTagsSkyrim.esm.json")
 

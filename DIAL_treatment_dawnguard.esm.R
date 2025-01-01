@@ -64,7 +64,7 @@ db_dial_dawnguard.esm_json_ready <- db_dial_dawnguard.esm_massclass %>%
 ## Json generation:
 
 
-json_dawnguard.esm <- json_gen(db_dial_dawnguard.esm_json_ready,"Dawnguard.esm")
+json_dawnguard.esm <- json_gen(db_dial_dawnguard.esm_json_ready,"Dawnguard.esm","NA (Quest)")
 
 write(json_dawnguard.esm, ".\\SKSE\\Plugins\\DynamicStringDistributor\\Dawnguard.esm\\QuestDialogueTagsDawnguard.esm.json")
 
