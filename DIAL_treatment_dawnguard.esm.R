@@ -33,8 +33,9 @@ db_dial_dawnguard.esm_massclass <- db_dial_dawnguard.esm_merged %>%
 
 db_dial_dawnguard.esm_json_ready <- db_dial_dawnguard.esm_massclass %>%
    mutate(
-      Formid_isolated = as.character(str_extract_all(Formid, "(?<=DIAL:)[^\\]]*")) ## get only formid
-    ) %>%
+      Formid_DIAL_isolated = as.character(str_extract_all(Formid_DIAL, "(?<=DIAL:)[^\\]]*")),
+      Formid_INFO_isolated = as.character(str_extract_all(INFO, "(?<=INFO:)[^\\]]*"))
+    ) %>% 
   filter(
     ## No classified out
     !is.na(QNAM_type),

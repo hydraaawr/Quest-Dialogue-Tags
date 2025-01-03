@@ -37,7 +37,8 @@ db_dial_skyrim.esm_massclass <- db_dial_skyrim.esm_merged %>%
 
 db_dial_skyrim.esm_json_ready <- db_dial_skyrim.esm_massclass %>%
    mutate(
-      Formid_isolated = as.character(str_extract_all(Formid, "(?<=DIAL:)[^\\]]*")) ## get only formid
+      Formid_DIAL_isolated = as.character(str_extract_all(Formid_DIAL, "(?<=DIAL:)[^\\]]*")), ## get only Formid_DIAL
+      Formid_INFO_isolated = as.character(str_extract_all(INFO, "(?<=INFO:)[^\\]]*"))
     ) %>%
   filter(
     ## No classified out
