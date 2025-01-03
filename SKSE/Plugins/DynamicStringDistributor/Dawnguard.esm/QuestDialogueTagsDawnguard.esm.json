@@ -570,6 +570,11 @@
     "string": "... (Quest)"
   },
   {
+    "form_id": "02017F6B|Dawnguard.esm",
+    "type": "INFO RNAM",
+    "string": "What do I do with the knife? (Quest)"
+  },
+  {
     "form_id": "02015CD1|Dawnguard.esm",
     "type": "DIAL FULL",
     "string": "Got any ideas about the knife? (Quest)"
@@ -633,6 +638,21 @@
     "form_id": "02015A51|Dawnguard.esm",
     "type": "DIAL FULL",
     "string": "Vyrthur said something about using blood? (Quest)"
+  },
+  {
+    "form_id": "02015A66|Dawnguard.esm",
+    "type": "INFO RNAM",
+    "string": "Can you make me some Sunhallowed Arrows? (Quest)"
+  },
+  {
+    "form_id": "02015A65|Dawnguard.esm",
+    "type": "INFO RNAM",
+    "string": "Can you make me some Sunhallowed Arrows? (Quest)"
+  },
+  {
+    "form_id": "02015A64|Dawnguard.esm",
+    "type": "INFO RNAM",
+    "string": "Can you make me some Sunhallowed Arrows? (Quest)"
   },
   {
     "form_id": "02015A50|Dawnguard.esm",
@@ -753,6 +773,11 @@
     "form_id": "020150D7|Dawnguard.esm",
     "type": "DIAL FULL",
     "string": "What do you mean by discreet. (Quest)"
+  },
+  {
+    "form_id": "020150DF|Dawnguard.esm",
+    "type": "INFO RNAM",
+    "string": "What do you mean by don't draw attention? (Quest)"
   },
   {
     "form_id": "020150D6|Dawnguard.esm",
@@ -1990,6 +2015,11 @@
     "string": "You've been imprisoned here for all this time? (Quest)"
   },
   {
+    "form_id": "0200F819|Dawnguard.esm",
+    "type": "INFO RNAM",
+    "string": "I don't have any gyros on me. (Quest)"
+  },
+  {
     "form_id": "0200F817|Dawnguard.esm",
     "type": "DIAL FULL",
     "string": "Here, I've got a dwarven gyro. Take it. (Quest)"
@@ -2370,6 +2400,11 @@
     "string": "What do these rings do? (Quest)"
   },
   {
+    "form_id": "02003991|Dawnguard.esm",
+    "type": "INFO RNAM",
+    "string": "Will I be able to keep the ring? (Quest)"
+  },
+  {
     "form_id": "0200CDF1|Dawnguard.esm",
     "type": "DIAL FULL",
     "string": "Will I be able to keep these rings? (Quest)"
@@ -2398,6 +2433,11 @@
     "form_id": "0200CDEC|Dawnguard.esm",
     "type": "DIAL FULL",
     "string": "Where did these amulets come from? (Quest)"
+  },
+  {
+    "form_id": "0200399A|Dawnguard.esm",
+    "type": "INFO RNAM",
+    "string": "Will I be able to keep this amulet? (Quest)"
   },
   {
     "form_id": "0200CDEB|Dawnguard.esm",
@@ -2453,6 +2493,11 @@
     "form_id": "0200C615|Dawnguard.esm",
     "type": "DIAL FULL",
     "string": "Sealed away like you were? (Quest)"
+  },
+  {
+    "form_id": "02019519|Dawnguard.esm",
+    "type": "INFO RNAM",
+    "string": "How about right here, in the castle? (Quest)"
   },
   {
     "form_id": "0200C614|Dawnguard.esm",
@@ -2528,6 +2573,11 @@
     "form_id": "0200B65B|Dawnguard.esm",
     "type": "DIAL FULL",
     "string": "Why were you locked away? (Quest)"
+  },
+  {
+    "form_id": "0200B675|Dawnguard.esm",
+    "type": "INFO RNAM",
+    "string": "This is your home? (Quest)"
   },
   {
     "form_id": "0200B65A|Dawnguard.esm",
@@ -2750,6 +2800,16 @@
     "string": "Do you know where these other scrolls are? (Quest)"
   },
   {
+    "form_id": "02003D1B|Dawnguard.esm",
+    "type": "INFO RNAM",
+    "string": "So you'll help us? (Quest)"
+  },
+  {
+    "form_id": "020117DC|Dawnguard.esm",
+    "type": "INFO RNAM",
+    "string": "Isran and I still need your help. (Quest)"
+  },
+  {
     "form_id": "0200846B|Dawnguard.esm",
     "type": "DIAL FULL",
     "string": "Isran asked me to find you. (Quest)"
@@ -2818,6 +2878,11 @@
     "form_id": "02008383|Dawnguard.esm",
     "type": "DIAL FULL",
     "string": "Are you able to give us the scroll now? (Quest)"
+  },
+  {
+    "form_id": "02007EC4|Dawnguard.esm",
+    "type": "INFO RNAM",
+    "string": "You are in danger. A vampire has infiltrated your court. (Give letter) (Quest)"
   },
   {
     "form_id": "02007EC0|Dawnguard.esm",
@@ -3140,9 +3205,19 @@
     "string": "Perhaps some coin will jog your memory? (<BribeCost> gold) (Quest)"
   },
   {
-    "form_id": "02006941|Dawnguard.esm",
-    "type": "DIAL FULL",
-    "string": "I'll get rough with you if I have to. (Quest)"
+    "form_id": "0200694A|Dawnguard.esm",
+    "type": "INFO RNAM",
+    "string": "I'll get rough with you if I have to. (Intimidate) (Quest)"
+  },
+  {
+    "form_id": "02006949|Dawnguard.esm",
+    "type": "INFO RNAM",
+    "string": "I'll get rough with you if I have to. (Brawl) (Quest)"
+  },
+  {
+    "form_id": "02006948|Dawnguard.esm",
+    "type": "INFO RNAM",
+    "string": "I'll get rough with you if I have to. (Intimidate) (Quest)"
   },
   {
     "form_id": "02006940|Dawnguard.esm",
@@ -3385,9 +3460,19 @@
     "string": "You wanted to speak with me? (Quest)"
   },
   {
+    "form_id": "02014747|Dawnguard.esm",
+    "type": "INFO RNAM",
+    "string": "This is no ruse. I want to keep her safe. (Quest)"
+  },
+  {
     "form_id": "02005848|Dawnguard.esm",
     "type": "DIAL FULL",
     "string": "I've been keeping her safe. (Quest)"
+  },
+  {
+    "form_id": "02005855|Dawnguard.esm",
+    "type": "INFO RNAM",
+    "string": "I would never allow that to happen. (Quest)"
   },
   {
     "form_id": "02005847|Dawnguard.esm",
@@ -3513,6 +3598,16 @@
     "form_id": "020049B9|Dawnguard.esm",
     "type": "DIAL FULL",
     "string": "Elisif of Solitude will be High Queen. (Quest)"
+  },
+  {
+    "form_id": "02004B9A|Dawnguard.esm",
+    "type": "INFO RNAM",
+    "string": "The Empire supported Elisif, but Ulfric now controls Skyrim. (Quest)"
+  },
+  {
+    "form_id": "02004B99|Dawnguard.esm",
+    "type": "INFO RNAM",
+    "string": "The Empire supports Elisif, and killed Ulfric for his rebellion. (Quest)"
   },
   {
     "form_id": "020049B8|Dawnguard.esm",
@@ -3743,85 +3838,5 @@
     "form_id": "020029E6|Dawnguard.esm",
     "type": "DIAL FULL",
     "string": "Where did the Dawnguard come from? (Quest)"
-  },
-  {
-    "form_id": "02015CD1|Dawnguard.esm",
-    "type": "DIAL FULL",
-    "string": "What do I do with the knife? (Quest)"
-  },
-  {
-    "form_id": "02015A50|Dawnguard.esm",
-    "type": "DIAL FULL",
-    "string": "Can you make me some Sunhallowed Arrows? (Quest)"
-  },
-  {
-    "form_id": "020150D7|Dawnguard.esm",
-    "type": "DIAL FULL",
-    "string": "What do you mean by don't draw attention? (Quest)"
-  },
-  {
-    "form_id": "0200F817|Dawnguard.esm",
-    "type": "DIAL FULL",
-    "string": "I don't have any gyros on me. (Quest)"
-  },
-  {
-    "form_id": "0200CDF1|Dawnguard.esm",
-    "type": "DIAL FULL",
-    "string": "Will I be able to keep the ring? (Quest)"
-  },
-  {
-    "form_id": "0200CDEB|Dawnguard.esm",
-    "type": "DIAL FULL",
-    "string": "Will I be able to keep this amulet? (Quest)"
-  },
-  {
-    "form_id": "0200C614|Dawnguard.esm",
-    "type": "DIAL FULL",
-    "string": "How about right here, in the castle? (Quest)"
-  },
-  {
-    "form_id": "0200B65A|Dawnguard.esm",
-    "type": "DIAL FULL",
-    "string": "This is your home? (Quest)"
-  },
-  {
-    "form_id": "0200846B|Dawnguard.esm",
-    "type": "DIAL FULL",
-    "string": "So you'll help us? (Quest)"
-  },
-  {
-    "form_id": "0200846B|Dawnguard.esm",
-    "type": "DIAL FULL",
-    "string": "Isran and I still need your help. (Quest)"
-  },
-  {
-    "form_id": "02007EC0|Dawnguard.esm",
-    "type": "DIAL FULL",
-    "string": "You are in danger. A vampire has infiltrated your court. (Give letter) (Quest)"
-  },
-  {
-    "form_id": "02006941|Dawnguard.esm",
-    "type": "DIAL FULL",
-    "string": "I'll get rough with you if I have to. (Intimidate) (Quest)"
-  },
-  {
-    "form_id": "02006941|Dawnguard.esm",
-    "type": "DIAL FULL",
-    "string": "I'll get rough with you if I have to. (Brawl) (Quest)"
-  },
-  {
-    "form_id": "02005848|Dawnguard.esm",
-    "type": "DIAL FULL",
-    "string": "This is no ruse. I want to keep her safe. (Quest)"
-  },
-  {
-    "form_id": "020049B8|Dawnguard.esm",
-    "type": "DIAL FULL",
-    "string": "The Empire supported Elisif, but Ulfric now controls Skyrim. (Quest)"
-  },
-  {
-    "form_id": "020049B8|Dawnguard.esm",
-    "type": "DIAL FULL",
-    "string": "The Empire supports Elisif, and killed Ulfric for his rebellion. (Quest)"
   }
 ]
