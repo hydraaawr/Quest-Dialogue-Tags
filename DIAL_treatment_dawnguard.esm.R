@@ -7,7 +7,7 @@ rm(list = ls())
 
 ## Loading
 
-source(".\\DIAL_treatment_main_functions_v1.R")
+source(".\\DIAL_treatment_main_functions_v2.1.R")
 db_dial_dawnguard.esm <- read.csv(".\\dbs\\db_DIAL_dawnguard.esm_v1.csv", sep = ";")
 
 
@@ -32,30 +32,33 @@ db_dial_dawnguard.esm_massclass <- db_dial_dawnguard.esm_merged %>%
 ## ready for json db (filtering and adding tags)
 
 db_dial_dawnguard.esm_json_ready <- db_dial_dawnguard.esm_massclass %>%
+  isolate_ids() %>%
    mutate(
-      Formid_DIAL_isolated = as.character(str_extract_all(Formid_DIAL, "(?<=DIAL:)[^\\]]*")),
-      Formid_INFO_isolated = as.character(str_extract_all(INFO, "(?<=INFO:)[^\\]]*"))
+      FULL = case_when(
+        str_detect(Formid_DIAL, "Rumor") & is.na(RNAM) & is.na(FULL) ~ "Heard any rumors lately?", ## generate "Rumor"
+        TRUE ~ FULL
+      ) 
     ) %>% 
-  filter(
-    ## No classified out
-    !is.na(QNAM_type),
-    # Exclude "DLC1VQ01 Awakening"
-    !(str_detect(QNAM, "DLC1VQ01 Awakening"))
+      filter(
+        ## No classified out
+        !is.na(QNAM_type),
+        # Exclude "DLC1VQ01 Awakening"
+        !(str_detect(QNAM, "DLC1VQ01 Awakening"))
 
-  ) %>%
-  filter(
-    # Remove entries with rejection phrases because those might or might not contain scriptname
-     !str_detect(FULL, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather|think about it") |
-     !str_detect(RNAM, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|think about it")
-  ) %>%
-  filter(
-    # Ensure at least one of RNAM or FULL has a value
-    !is.na(RNAM) | !is.na(FULL)
-  ) %>% 
-            mutate(
-              FULL_trans = paste0(FULL, " (Quest)"), ## Add "(Quest)"
+      ) %>%
+        filter(
+          # Remove entries with rejection phrases because those might or might not contain scriptname
+          !str_detect(FULL, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather|think about it") |
+          !str_detect(RNAM, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|think about it")
+        ) %>%
+        filter(
+          # Ensure at least one of RNAM or FULL has a value
+          !is.na(RNAM) | !is.na(FULL)
+        ) %>% 
+          mutate(
+            FULL_trans = paste0(FULL, " (Quest)"), ## Add "(Quest)"
               RNAM_trans = paste0(RNAM, " (Quest)")
-            )
+          )
 
 
 ################################################################################

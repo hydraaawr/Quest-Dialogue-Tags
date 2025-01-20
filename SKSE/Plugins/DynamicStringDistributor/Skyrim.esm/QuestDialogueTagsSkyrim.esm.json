@@ -3180,6 +3180,21 @@
     "string": "Speaking of my pay... (Quest)"
   },
   {
+    "form_id": "000D788A|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "Heard any rumors lately? (Quest)"
+  },
+  {
+    "form_id": "000D7889|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "Heard any rumors lately? (Quest)"
+  },
+  {
+    "form_id": "000D7888|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "Heard any rumors lately? (Quest)"
+  },
+  {
     "form_id": "000D787E|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I want to pay that prisoner's fine. (Quest)"
@@ -7955,6 +7970,11 @@
     "string": "I desire to bend the will of those around me. (Quest)"
   },
   {
+    "form_id": "000AF083|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "Heard any rumors lately? (Quest)"
+  },
+  {
     "form_id": "000AE724|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Where is this Underforge? (Quest)"
@@ -8070,6 +8090,11 @@
     "string": "A mace? This is hardly a fitting prize. (Quest)"
   },
   {
+    "form_id": "000AC979|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "Heard any rumors lately? (Quest)"
+  },
+  {
     "form_id": "000ABDF6|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "What is this about? (Quest)"
@@ -8093,6 +8118,11 @@
     "form_id": "000AAA15|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Umm... Actually, I was hoping to get the ring back. (Quest)"
+  },
+  {
+    "form_id": "000AA9A7|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "Heard any rumors lately? (Quest)"
   },
   {
     "form_id": "000AA84B|Skyrim.esm",
@@ -12295,6 +12325,11 @@
     "string": "Yes. She wants you to leave her alone. (Quest)"
   },
   {
+    "form_id": "0006A3D3|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "Heard any rumors lately? (Quest)"
+  },
+  {
     "form_id": "0006A26C|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I'll take my pay. (Quest)"
@@ -13668,6 +13703,11 @@
     "form_id": "0005C9FB|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "How do I get a black soul gem? (Quest)"
+  },
+  {
+    "form_id": "0005C9FA|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "Heard any rumors lately? (Quest)"
   },
   {
     "form_id": "0005C81C|Skyrim.esm",
@@ -15968,6 +16008,11 @@
     "form_id": "0004D23C|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Perhaps we can come to an arrangement. (Quest)"
+  },
+  {
+    "form_id": "0004D1D9|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "Heard any rumors lately? (Quest)"
   },
   {
     "form_id": "0004CDB1|Skyrim.esm",
@@ -18503,6 +18548,11 @@
     "form_id": "0003825E|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I helped the young lovers in Ivarstead. (Quest)"
+  },
+  {
+    "form_id": "00038063|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "Heard any rumors lately? (Quest)"
   },
   {
     "form_id": "00037D66|Skyrim.esm",
@@ -21305,6 +21355,11 @@
     "string": "I received your letter. (Quest)"
   },
   {
+    "form_id": "00024390|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "Heard any rumors lately? (Quest)"
+  },
+  {
     "form_id": "0002438E|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Where did this shrine come from? (Quest)"
@@ -23488,6 +23543,11 @@
     "form_id": "000153B9|Skyrim.esm",
     "type": "INFO RNAM",
     "string": "Have you heard any rumors? (Quest)"
+  },
+  {
+    "form_id": "000153B3|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "Heard any rumors lately? (Quest)"
   },
   {
     "form_id": "00013625|Skyrim.esm",

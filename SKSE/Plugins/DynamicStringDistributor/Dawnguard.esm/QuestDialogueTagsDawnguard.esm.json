@@ -2995,6 +2995,11 @@
     "string": "Are you saying Harkon means to kill her? (Quest)"
   },
   {
+    "form_id": "0200701C|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "Heard any rumors lately? (Quest)"
+  },
+  {
     "form_id": "0200701A|Dawnguard.esm",
     "type": "DIAL FULL",
     "string": "What do you want? (Quest)"

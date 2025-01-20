@@ -7,7 +7,7 @@ rm(list = ls())
 
 ## Loading
 
-source(".\\DIAL_treatment_main_functions_v1.R")
+source(".\\DIAL_treatment_main_functions_v2.1.R")
 db_dial_skyrim.esm <- read.csv(".\\dbs\\db_DIAL_skyrim.esm_v1.csv", sep = ";")
 
 
@@ -27,34 +27,40 @@ db_dial_skyrim.esm_massclass <- db_dial_skyrim.esm_merged %>%
           str_detect(QNAM, "^TG") ~ "TG", ## Thieves guild
           str_detect(QNAM, "^DA\\d{2}") ~ "DA", ## Daedric
           str_detect(QNAM, "^MS\\d{2}|^VC\\d{2}|^dun|^NN\\d{2}|^[Tt]\\d{2}") ~ "MS", ## Side quests
-          str_detect(QNAM, "Favor|Freeform|Tutorial|BQ|Farm|City Dialogue") ~ "misc" ## Miscellaneous INCLUDE CITY DIALOGUE MANUALLY?
+          str_detect(QNAM, "Favor|Freeform|Tutorial|BQ|Farm|City Dialogue") ~ "misc", ## Miscellaneous
+          str_detect(Formid_DIAL,"Heard any rumors lately?") ~ "rumor" ## rumors
         )
-      ) 
+      )
       
 
 
 ## ready for json db (filtering and adding tags)
 
 db_dial_skyrim.esm_json_ready <- db_dial_skyrim.esm_massclass %>%
-   mutate(
-      Formid_DIAL_isolated = as.character(str_extract_all(Formid_DIAL, "(?<=DIAL:)[^\\]]*")), ## get only Formid_DIAL
-      Formid_INFO_isolated = as.character(str_extract_all(INFO, "(?<=INFO:)[^\\]]*"))
+  isolate_ids() %>%
+   mutate(   ## generate "rumor"
+      FULL = case_when(
+        str_detect(Formid_DIAL, "Rumor") & is.na(RNAM) & is.na(FULL) ~ "Heard any rumors lately?", ## generate "Rumor"
+        TRUE ~ FULL 
+        )
     ) %>%
-  filter(
-    ## No classified out
-    !is.na(QNAM_type),
-    # Exclude "City Dialogue" without Scriptname
-    !(str_detect(QNAM, "City Dialogue") & is.na(Scriptname))
-  ) %>%
-  filter(
-    # Remove entries with rejection phrases because those might or might not contain scriptname
-     !str_detect(FULL, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather") |
-     !str_detect(RNAM, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not")
-  ) %>%
-  filter(
-    # Ensure at least one of RNAM or FULL has a value
-    !is.na(RNAM) | !is.na(FULL)
-  ) %>% 
+      filter(
+        ## No classified out
+        !is.na(QNAM_type),
+        # Exclude "City Dialogue" without Scriptname
+        !(str_detect(QNAM, "City Dialogue") & is.na(Scriptname)),
+        ## Exclude rumors without Scriptname
+        !(str_detect(QNAM_type, "rumor") & is.na(Scriptname))
+      ) %>%
+        filter(
+          # Remove entries with rejection phrases because those might or might not contain scriptname
+          !str_detect(FULL, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather") |
+          !str_detect(RNAM, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not")
+        ) %>%
+          filter(
+            # Ensure at least one of RNAM or FULL has a value
+            !is.na(RNAM) | !is.na(FULL)
+          ) %>% 
             mutate(
               FULL_trans = paste0(FULL, " (Quest)"), ## Add "(Quest)"
               RNAM_trans = paste0(RNAM, " (Quest)")

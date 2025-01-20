@@ -40,6 +40,17 @@ shaper <- function(db_dial){
 
 
 
+isolate_ids <- function(db_dial_massclass){
+
+  db_dial_massclass <- db_dial_massclass %>%
+    mutate(
+      Formid_DIAL_isolated = as.character(str_extract_all(Formid_DIAL, "(?<=DIAL:)[^\\]]*")), ## get only Formid_DIAL
+      Formid_INFO_isolated = as.character(str_extract_all(INFO, "(?<=INFO:)[^\\]]*"))
+    )
+
+  return (db_dial_massclass)
+}
+
 
 json_gen <- function(db_dial_json_ready,plugin,target_NA){
 
