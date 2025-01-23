@@ -23,8 +23,7 @@ db_dial_dawnguard.esm_massclass <- db_dial_dawnguard.esm_merged %>%
           str_detect(QNAM, "DLC1RH") ~ "DG", ## dawnguard radiants
           str_detect(QNAM, "DLC1RV") ~ "VP", ## vampire radiants
           str_detect(QNAM, "DLC1VQSaint|DLC1LD") ~ "SQ", ## Side Quests
-          str_detect(QNAM, "DLC1VQDragon|DLC1VQFVBooks|DLC01SoulCairnHorseQuest2|DLC1Surgery") ~ "misc", ## Misc
-          str_detect(Formid_DIAL,"Heard any rumors lately?") ~ "rumor" ## rumors
+          str_detect(QNAM, "DLC1VQDragon|DLC1VQFVBooks|DLC01SoulCairnHorseQuest2|DLC1Surgery") ~ "misc" ## Misc
         )
       ) 
       
