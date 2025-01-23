@@ -1,0 +1,2927 @@
+[
+  {
+    "form_id": "0403A460|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why did you take over Thirsk? (Quest)"
+  },
+  {
+    "form_id": "0403A45F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Where did you live before you were here? (Quest)"
+  },
+  {
+    "form_id": "0403A43B|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "What are you doing here? (Quest)"
+  },
+  {
+    "form_id": "0403A2A6|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You can't be serious. (Quest)"
+  },
+  {
+    "form_id": "04039CF7|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Can I dig for ebony in Raven Rock Mine? (Quest)"
+  },
+  {
+    "form_id": "040398D1|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What happened? (Quest)"
+  },
+  {
+    "form_id": "0403921C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'd like to learn the Ash Guardian spell. (Quest)"
+  },
+  {
+    "form_id": "0403921B|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'll just take the staff. (Quest)"
+  },
+  {
+    "form_id": "04039218|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What's a heart stone? (Quest)"
+  },
+  {
+    "form_id": "04039217|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I've got it. Don't cast Ash Guardian without a heart stone. (Quest)"
+  },
+  {
+    "form_id": "04038FB6|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Are you getting back to work? (Quest)"
+  },
+  {
+    "form_id": "04038FB5|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I've brought the materials you wanted. (Give stalhrim and ebony.) (Quest)"
+  },
+  {
+    "form_id": "04038FB4|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How is the hunting going? (Quest)"
+  },
+  {
+    "form_id": "04038FB3|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I've got a lot of Riekling spears. I hope it's enough. (Give spears.) (Quest)"
+  },
+  {
+    "form_id": "04038EBA|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Is there anything that would make being down here more bearable? (Quest)"
+  },
+  {
+    "form_id": "04038EB9|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I found some Ashfire Mead. (Give mead.) (Quest)"
+  },
+  {
+    "form_id": "04038EB8|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How is the mead? (Quest)"
+  },
+  {
+    "form_id": "04038EB7|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I've got some juniper berries. (Give berries.) (Quest)"
+  },
+  {
+    "form_id": "0403853F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Isn't Miraak your ally? Why help me defeat him? (Quest)"
+  },
+  {
+    "form_id": "0403853E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You have a Black Book? (Quest)"
+  },
+  {
+    "form_id": "0403853D|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why won't the book you have here help me? (Quest)"
+  },
+  {
+    "form_id": "0403853C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "So you know where to find this Black Book? The one connected with Miraak? (Quest)"
+  },
+  {
+    "form_id": "0403852D|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I've seen Miraak. (Quest)"
+  },
+  {
+    "form_id": "0403852C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Miraak is behind what's happening to your people. (Quest)"
+  },
+  {
+    "form_id": "04037B91|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "That's right. (Quest)"
+  },
+  {
+    "form_id": "04037B90|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Yes. You may have noticed he's trying to return to Solstheim. (Quest)"
+  },
+  {
+    "form_id": "04037851|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Tell me of your people, the Skaal. (Quest)"
+  },
+  {
+    "form_id": "04037850|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What do you know about Miraak? (Quest)"
+  },
+  {
+    "form_id": "0403784C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Well, this is your lucky day. (Give formula) (Quest)"
+  },
+  {
+    "form_id": "040374DC|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Do you need help with your research? (Quest)"
+  },
+  {
+    "form_id": "04036896|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Maybe you should let him go. (Quest)"
+  },
+  {
+    "form_id": "04036895|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Nikulas has agreed to stay. (Quest)"
+  },
+  {
+    "form_id": "040365CF|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How do I know I can trust you, demon? (Quest)"
+  },
+  {
+    "form_id": "040362C3|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What do we do now? (Quest)"
+  },
+  {
+    "form_id": "04035BC7|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Who is Hermaeus Mora? (Quest)"
+  },
+  {
+    "form_id": "04035BCC|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "I've dealt with Hermaeus Mora before. I've read the Oghma Infinium. (Quest)"
+  },
+  {
+    "form_id": "04035BC6|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why would Hermaeus Mora want your secrets? (Quest)"
+  },
+  {
+    "form_id": "04035BC5|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Herma-Mora? Why do you call him that? (Quest)"
+  },
+  {
+    "form_id": "04035BC4|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I spoke to Hermaeus Mora. He asked for the secrets of the Skaal. (Quest)"
+  },
+  {
+    "form_id": "04035BD1|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Are you ready to trade your secrets to Hermaeus Mora? (Quest)"
+  },
+  {
+    "form_id": "0401DFB3|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Are you ready to trade your secrets to Hermaeus Mora? (Quest)"
+  },
+  {
+    "form_id": "04035BC3|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "He said it's the only way he'll teach me the final Word of Miraak's Shout. (Quest)"
+  },
+  {
+    "form_id": "04035BC2|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'll restore the remaining Stones if that will help. (Quest)"
+  },
+  {
+    "form_id": "04035BC1|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You mean you'll give him what he wants? (Quest)"
+  },
+  {
+    "form_id": "04035647|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Are you practicing a spell? (Quest)"
+  },
+  {
+    "form_id": "040355A1|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why do you think your brother became a werebear? (Quest)"
+  },
+  {
+    "form_id": "04035453|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Hello. (Quest)"
+  },
+  {
+    "form_id": "04035452|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Yes, I am Dragonborn. (Quest)"
+  },
+  {
+    "form_id": "04035451|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "The Greybeards seem to think so... (Quest)"
+  },
+  {
+    "form_id": "04035450|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Depends. Who's asking? (Quest)"
+  },
+  {
+    "form_id": "0403544F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "(Walk away) (Quest)"
+  },
+  {
+    "form_id": "0403544E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "... (Quest)"
+  },
+  {
+    "form_id": "04034F7F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How are things now that the mines are open again? (Quest)"
+  },
+  {
+    "form_id": "04034BFA|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How did the Ash Guardian get loose? (Quest)"
+  },
+  {
+    "form_id": "04034BF9|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why don't you destroy it? (Quest)"
+  },
+  {
+    "form_id": "04034BF8|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "It's your mess. You clean it up. (Quest)"
+  },
+  {
+    "form_id": "0403401D|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Are you all right? (Quest)"
+  },
+  {
+    "form_id": "0403401C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Torkild? Your brother is looking for you. (Quest)"
+  },
+  {
+    "form_id": "040337E8|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What have you learned about this place? (Quest)"
+  },
+  {
+    "form_id": "040337E7|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why all the traps and puzzles? (Quest)"
+  },
+  {
+    "form_id": "040337E6|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Do you think this place has any connection with the Skaal? (Quest)"
+  },
+  {
+    "form_id": "0403370C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I helped a man in need, that's all. (Quest)"
+  },
+  {
+    "form_id": "0403370B|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Let me guess, you need me to do something dangerous. (Quest)"
+  },
+  {
+    "form_id": "0403314A|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why would the Thalmor abduct you? (Quest)"
+  },
+  {
+    "form_id": "04033149|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I have business to discuss with your leader. (Quest)"
+  },
+  {
+    "form_id": "04033148|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You will pay for your crimes against the Skaal. Prepare to die! (Quest)"
+  },
+  {
+    "form_id": "04032C8F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Who's your son? (Quest)"
+  },
+  {
+    "form_id": "04032C8E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I could talk to him. (Quest)"
+  },
+  {
+    "form_id": "04032C8D|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Your mother tells me that you want to leave the village. (Quest)"
+  },
+  {
+    "form_id": "04032C8C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You'd abandon your mother when she needs you most? (Persuade) (Quest)"
+  },
+  {
+    "form_id": "04032C8B|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "The world is dangerous, and you're not ready for it. (Intimidate) (Quest)"
+  },
+  {
+    "form_id": "04032C8A|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I do understand. In fact, I'm willing to help you get started. (Quest)"
+  },
+  {
+    "form_id": "04032C89|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Take this. Just give your mother some more time. (<bribecost> gold) (Quest)"
+  },
+  {
+    "form_id": "04031DE1|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Crescius lost your Ancient Nordic Pickaxe. (Quest)"
+  },
+  {
+    "form_id": "04031D75|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What are you doing here? (Quest)"
+  },
+  {
+    "form_id": "04031D74|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You seem friendly. (Quest)"
+  },
+  {
+    "form_id": "04031D73|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You should follow me. (Quest)"
+  },
+  {
+    "form_id": "04031D72|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I don't need some bucket of scrap metal following me around... (Quest)"
+  },
+  {
+    "form_id": "04031C81|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why do the Dunmer hate the Empire? (Quest)"
+  },
+  {
+    "form_id": "04031C80|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How did the Dunmer survive this at all? (Quest)"
+  },
+  {
+    "form_id": "04031C7F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why do the Ulens have a tomb in Raven Rock? (Quest)"
+  },
+  {
+    "form_id": "04031C7E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "But you told me House Hlaalu was disliked. (Quest)"
+  },
+  {
+    "form_id": "0402C431|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What were you saying before? (Quest)"
+  },
+  {
+    "form_id": "0402C430|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "It has? What do you mean? (Quest)"
+  },
+  {
+    "form_id": "0402C428|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How long has the farm been abandoned? (Quest)"
+  },
+  {
+    "form_id": "0402C41A|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Who are you? (Quest)"
+  },
+  {
+    "form_id": "0402C419|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Who taught you to talk? (Quest)"
+  },
+  {
+    "form_id": "0402C418|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Where are you taking me? (Quest)"
+  },
+  {
+    "form_id": "0402C0DC|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Come on, boy, I've got something for you... (Quest)"
+  },
+  {
+    "form_id": "0402C0DB|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Come on, boy, I've got something for you... (Quest)"
+  },
+  {
+    "form_id": "0402BF07|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What are you doing here? (Quest)"
+  },
+  {
+    "form_id": "0402BABA|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You mentioned that you lost something? (Quest)"
+  },
+  {
+    "form_id": "0402BAB9|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Was it aboard a ship? (Quest)"
+  },
+  {
+    "form_id": "0402BAB8|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How do you know? (Quest)"
+  },
+  {
+    "form_id": "0402BAB7|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'll see if I can find the book for you. (Quest)"
+  },
+  {
+    "form_id": "0402BAB5|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Actually, I already have it. (Give Folio) (Quest)"
+  },
+  {
+    "form_id": "0402BAB4|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I've found your missing Folio. (Quest)"
+  },
+  {
+    "form_id": "0402AD1B|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I noticed the shadowmark by your door. (Quest)"
+  },
+  {
+    "form_id": "0402AD1A|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "He's well. (Quest)"
+  },
+  {
+    "form_id": "0402AD19|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Nothing at all? (Quest)"
+  },
+  {
+    "form_id": "0402AD18|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "The Thieves Guild has a problem out here? (Quest)"
+  },
+  {
+    "form_id": "0402AD17|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What did you do? (Quest)"
+  },
+  {
+    "form_id": "0402AD16|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "He stole something from you, right? (Quest)"
+  },
+  {
+    "form_id": "0402AD15|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Where's Esmond Tyne now? (Quest)"
+  },
+  {
+    "form_id": "0402AD14|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'll get that formula back for you. (Quest)"
+  },
+  {
+    "form_id": "0402AD13|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'm back. (Quest)"
+  },
+  {
+    "form_id": "0402AD12|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "He's dead, but I at least found the formula. (Quest)"
+  },
+  {
+    "form_id": "0402AAF7|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why aren't you affected like everyone else? (Quest)"
+  },
+  {
+    "form_id": "0402A700|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why were you arguing with Aphia? (Quest)"
+  },
+  {
+    "form_id": "0402A6FF|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What if she's right and I don't find anything? (Quest)"
+  },
+  {
+    "form_id": "0402A56F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why do I need to learn a Word of Power? (Quest)"
+  },
+  {
+    "form_id": "0402A56E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What do you mean, 'free your people from control?' (Quest)"
+  },
+  {
+    "form_id": "04029DA9|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What were you arguing with Crescius about? (Quest)"
+  },
+  {
+    "form_id": "04029DA8|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why is he exploring the mine? (Quest)"
+  },
+  {
+    "form_id": "04029DA7|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What did the letters say? (Quest)"
+  },
+  {
+    "form_id": "04029DA6|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Who was Crescius's great-grandfather? (Quest)"
+  },
+  {
+    "form_id": "04029DA5|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What happened to him? (Quest)"
+  },
+  {
+    "form_id": "04029DA4|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You don't agree with Crescius? (Quest)"
+  },
+  {
+    "form_id": "04029DA3|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Are you sure Gratian's death wasn't an accident? (Quest)"
+  },
+  {
+    "form_id": "04029A33|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Could you repeat that inscription? (Quest)"
+  },
+  {
+    "form_id": "04029A32|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Could you repeat that inscription? (Quest)"
+  },
+  {
+    "form_id": "04029A31|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Could you repeat that inscription? (Quest)"
+  },
+  {
+    "form_id": "04029A2E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Where can I find a heart stone? (Quest)"
+  },
+  {
+    "form_id": "040295D5|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Did you need something from me? (Quest)"
+  },
+  {
+    "form_id": "040295D4|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Did he say what it was about? (Quest)"
+  },
+  {
+    "form_id": "040295D3|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Captain Veleth sent me. (Quest)"
+  },
+  {
+    "form_id": "04029389|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Did I overhear that someone is missing? (Quest)"
+  },
+  {
+    "form_id": "04029262|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I found evidence proving the Severins's guilt. (Quest)"
+  },
+  {
+    "form_id": "04029261|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I don't think they'll give up willingly. (Quest)"
+  },
+  {
+    "form_id": "04029260|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'll head there immediately. (Quest)"
+  },
+  {
+    "form_id": "0402925F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Haven't I done enough? (Quest)"
+  },
+  {
+    "form_id": "0402925E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Slain by the Morag Tong. (Quest)"
+  },
+  {
+    "form_id": "0402925D|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'm back! (Quest)"
+  },
+  {
+    "form_id": "04029254|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You wanted to speak to me, councilor? (Quest)"
+  },
+  {
+    "form_id": "04029253|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Thank you, councilor. (Quest)"
+  },
+  {
+    "form_id": "04029252|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Oh? (Quest)"
+  },
+  {
+    "form_id": "0402859A|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I suppose I could lend a hand. (Quest)"
+  },
+  {
+    "form_id": "04027F8E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Shall we do some business? (Quest)"
+  },
+  {
+    "form_id": "04027F8D|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Is this the map you're referring to? (Quest)"
+  },
+  {
+    "form_id": "04027E38|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Ildari? What can you tell me about her? (Quest)"
+  },
+  {
+    "form_id": "04027E37|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What did she do with the prisoners? (Quest)"
+  },
+  {
+    "form_id": "04027E36|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Where will you go now? (Quest)"
+  },
+  {
+    "form_id": "04027DF4|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why would someone want to kidnap Baldor? (Quest)"
+  },
+  {
+    "form_id": "040279FF|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Hello. (Quest)"
+  },
+  {
+    "form_id": "040279FE|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Slow down there. What are you going on about? (Quest)"
+  },
+  {
+    "form_id": "040279FD|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Ummm... Are you alright? (Quest)"
+  },
+  {
+    "form_id": "040279FC|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Whoa. Not so close. (Quest)"
+  },
+  {
+    "form_id": "040279FB|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What's in your head? (Quest)"
+  },
+  {
+    "form_id": "040279FA|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Secrets? What kind of secrets? (Quest)"
+  },
+  {
+    "form_id": "040279F9|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I can see this is going nowhere. Good luck with all that. (Quest)"
+  },
+  {
+    "form_id": "040279F8|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Alright then. Where did you learn these secrets? (Quest)"
+  },
+  {
+    "form_id": "040279F7|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Where did you find this Black Book? (Quest)"
+  },
+  {
+    "form_id": "040279F6|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Bye. (Quest)"
+  },
+  {
+    "form_id": "040279DE|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Would I be able to collect a bounty? (Quest)"
+  },
+  {
+    "form_id": "040279DD|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Where is Ildari? (Quest)"
+  },
+  {
+    "form_id": "040279DC|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Is there a bounty on her then? (Quest)"
+  },
+  {
+    "form_id": "040277DA|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I can't let you go unpunished. (Quest)"
+  },
+  {
+    "form_id": "04027579|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I heard you were starting an expedition? (Quest)"
+  },
+  {
+    "form_id": "04027579|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What's the matter with you? (Quest)"
+  },
+  {
+    "form_id": "04027578|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You want... 5000 septims? (Quest)"
+  },
+  {
+    "form_id": "04027575|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What happened? (Quest)"
+  },
+  {
+    "form_id": "04027573|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Spare me the walk. Just tell me. (Persuade) (Quest)"
+  },
+  {
+    "form_id": "04027573|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You can tell me. Come on, what's the harm? (Persuade) (Quest)"
+  },
+  {
+    "form_id": "04027572|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Here's a little gold for your tale. (<BribeCost> gold) (Quest)"
+  },
+  {
+    "form_id": "04027572|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You're short on gold? Maybe this will help a bit. Now talk. (<BribeCost> gold) (Quest)"
+  },
+  {
+    "form_id": "04027571|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You're Ralis? I found your camp outside Kolbjorn Barrow. (Quest)"
+  },
+  {
+    "form_id": "04027570|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "So what's this treasure you were after? (Quest)"
+  },
+  {
+    "form_id": "0402756F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why not hire some of the miners out of Raven Rock? (Quest)"
+  },
+  {
+    "form_id": "0402756E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I've got some money. Are you looking for a partner? (Quest)"
+  },
+  {
+    "form_id": "0402756C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Of course. (1000 gold) (Quest)"
+  },
+  {
+    "form_id": "0402756B|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Not yet... (Quest)"
+  },
+  {
+    "form_id": "04027567|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What's going on? (Quest)"
+  },
+  {
+    "form_id": "04027565|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What now? (Quest)"
+  },
+  {
+    "form_id": "04027564|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I've dealt with the Draugr and found a way past the dead end. (Quest)"
+  },
+  {
+    "form_id": "04027564|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I found a way past the dead end. (Quest)"
+  },
+  {
+    "form_id": "04027564|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I've dealt with the Draugr. (Quest)"
+  },
+  {
+    "form_id": "04027564|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "No, not yet. (Quest)"
+  },
+  {
+    "form_id": "04027562|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Here. (2000 gold) (Quest)"
+  },
+  {
+    "form_id": "04027561|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I can't afford it right now. (Quest)"
+  },
+  {
+    "form_id": "0402755D|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What is it this time? (Quest)"
+  },
+  {
+    "form_id": "0402755C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I've defeated the Draugr and located the missing miners. They're dead. (Quest)"
+  },
+  {
+    "form_id": "0402755C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I found the missing miners. Both dead. (Quest)"
+  },
+  {
+    "form_id": "0402755C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I've dealt with the Draugr. (Quest)"
+  },
+  {
+    "form_id": "0402755C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "No, not yet. (Quest)"
+  },
+  {
+    "form_id": "0402755B|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Here. This had better be worth it. (3000 gold) (Quest)"
+  },
+  {
+    "form_id": "0402755A|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "No, I don't. (Quest)"
+  },
+  {
+    "form_id": "04027558|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "It looks like at least some of the miners survived this time. (Quest)"
+  },
+  {
+    "form_id": "04027556|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "All the Draugr are dead. (Quest)"
+  },
+  {
+    "form_id": "04027556|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'm still working on it. (Quest)"
+  },
+  {
+    "form_id": "04027555|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How much? (Quest)"
+  },
+  {
+    "form_id": "04027554|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You want... 5000 septims? (Quest)"
+  },
+  {
+    "form_id": "04027552|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "As a matter of fact, I do. (5000 gold) (Quest)"
+  },
+  {
+    "form_id": "04027551|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "No, no I don't. (Quest)"
+  },
+  {
+    "form_id": "0402754F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What's going on here? (Quest)"
+  },
+  {
+    "form_id": "0402754D|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Did you... kill the miners? (Quest)"
+  },
+  {
+    "form_id": "0402754C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I believe you. Just... don't come back here. (Quest)"
+  },
+  {
+    "form_id": "040271EF|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What's in it for me? (Quest)"
+  },
+  {
+    "form_id": "040271EE|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How about you take half? (Intimidate) (Quest)"
+  },
+  {
+    "form_id": "040271ED|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You should pay me what you can. (Persuade) (Quest)"
+  },
+  {
+    "form_id": "0403A29B|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Heard any rumors lately? (Quest)"
+  },
+  {
+    "form_id": "0402BAC3|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Heard any rumors lately? (Quest)"
+  },
+  {
+    "form_id": "0402BBB9|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Heard any rumors lately? (Quest)"
+  },
+  {
+    "form_id": "0402BAC2|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Heard any rumors lately? (Quest)"
+  },
+  {
+    "form_id": "040271D3|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You're here by yourself? (Quest)"
+  },
+  {
+    "form_id": "040271D2|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What is the Tree Stone? (Quest)"
+  },
+  {
+    "form_id": "04026AF2|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Do you have any insights to share about this puzzle? (Quest)"
+  },
+  {
+    "form_id": "04026AF1|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Do you have any insights to share about this puzzle? (Quest)"
+  },
+  {
+    "form_id": "04026AF0|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Do you have any insights to share about this puzzle? (Quest)"
+  },
+  {
+    "form_id": "04026AE0|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I have some information about Fort Frostmoth. (Quest)"
+  },
+  {
+    "form_id": "04026ADF|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I killed General Carius. (Quest)"
+  },
+  {
+    "form_id": "04026ADE|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "He'll no longer send ash spawn to Raven Rock. (Quest)"
+  },
+  {
+    "form_id": "04026ADD|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I think I've solved your ash spawn problems. (Quest)"
+  },
+  {
+    "form_id": "04026ADC|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I found this letter. (Quest)"
+  },
+  {
+    "form_id": "04026ADB|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "He's no longer commanding the ash spawn. (Quest)"
+  },
+  {
+    "form_id": "04026597|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I need the secrets of the Skaal in order to defeat Miraak. (Quest)"
+  },
+  {
+    "form_id": "04026596|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Aren't you his apprentice? He must have taught you his secrets... (Quest)"
+  },
+  {
+    "form_id": "04026595|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I understand. I'll talk to Storn. (Quest)"
+  },
+  {
+    "form_id": "04026541|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How long have you been First Hunter? (Quest)"
+  },
+  {
+    "form_id": "0402653F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What happened to your brother? (Quest)"
+  },
+  {
+    "form_id": "04026550|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "I know that name... I found this near an old shrine. (Give journal.) (Quest)"
+  },
+  {
+    "form_id": "0402653E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What's a werebear? (Quest)"
+  },
+  {
+    "form_id": "0402653D|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Do you have any idea where he might have gone? (Quest)"
+  },
+  {
+    "form_id": "0402653C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I have a letter from your brother. (Give letter) (Quest)"
+  },
+  {
+    "form_id": "0402653A|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "He had become a werebear. (Quest)"
+  },
+  {
+    "form_id": "0403A3DB|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "He appeared mad. I had to kill him to defend myself. (Quest)"
+  },
+  {
+    "form_id": "04026539|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What was left of him. (Quest)"
+  },
+  {
+    "form_id": "04026538|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Hard to be sure. He put up a strong fight. (Quest)"
+  },
+  {
+    "form_id": "04026537|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I just got out of there as fast as I could. (Quest)"
+  },
+  {
+    "form_id": "0402623D|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why do I need this Word of Power to defeat Miraak? (Quest)"
+  },
+  {
+    "form_id": "0402575C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What is this place? (Quest)"
+  },
+  {
+    "form_id": "0402575B|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What's going to happen in there? (Quest)"
+  },
+  {
+    "form_id": "0402575A|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "We're going to fight his ghost? (Quest)"
+  },
+  {
+    "form_id": "04025759|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'm ready. (Quest)"
+  },
+  {
+    "form_id": "04025758|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'm back. (Quest)"
+  },
+  {
+    "form_id": "04025757|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "It's not that simple. Bujold was rejected by Hrothmund. (Quest)"
+  },
+  {
+    "form_id": "04025756|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I don't know what happened to her. (Lie) (Quest)"
+  },
+  {
+    "form_id": "04025755|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "She attacked me and I had to defend myself. (Quest)"
+  },
+  {
+    "form_id": "04025754|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Hrothmund said the next Thirsk chief is a long way off. (Quest)"
+  },
+  {
+    "form_id": "04025753|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'll keep out of your way. (Quest)"
+  },
+  {
+    "form_id": "04025752|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "It was an honor to stand with her. (Quest)"
+  },
+  {
+    "form_id": "04025751|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You need to know the truth. She was rejected by Hrothmund. (Quest)"
+  },
+  {
+    "form_id": "04025212|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why do we need these cubes? (Quest)"
+  },
+  {
+    "form_id": "04025072|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "What do the Black Books have to do with Hermaeus Mora? (Quest)"
+  },
+  {
+    "form_id": "0402506B|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "The Black Books have something to do with Hermaeus Mora? (Quest)"
+  },
+  {
+    "form_id": "04025069|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Just tell me where the book is and I'll go get it. (Quest)"
+  },
+  {
+    "form_id": "04024F91|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Do you sell any special mining gear? (Quest)"
+  },
+  {
+    "form_id": "04024F90|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What's an East Empire Pendant? (Quest)"
+  },
+  {
+    "form_id": "04024F8F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Where can you find them? (Quest)"
+  },
+  {
+    "form_id": "04024F96|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "I'll sell you some of mine. (Give East Empire Pendants) (Quest)"
+  },
+  {
+    "form_id": "04024F8E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Still buying East Empire Pendants? (Quest)"
+  },
+  {
+    "form_id": "04024F8D|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why should I pity you? (Quest)"
+  },
+  {
+    "form_id": "04024F8C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Used to? What happened? (Quest)"
+  },
+  {
+    "form_id": "04024F8B|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I could talk to him for you. (Quest)"
+  },
+  {
+    "form_id": "04024F89|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why did you ban Bralsa Drel from your inn? (Quest)"
+  },
+  {
+    "form_id": "04024F88|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "She has a right to do what she pleases. (Persuade) (Quest)"
+  },
+  {
+    "form_id": "04024F87|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Let her back in, or you answer to me! (Intimidate) (Quest)"
+  },
+  {
+    "form_id": "04024F86|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Maybe this will change your mind. (<BribeCost> gold) (Quest)"
+  },
+  {
+    "form_id": "04024F85|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Let me think about this. (Quest)"
+  },
+  {
+    "form_id": "04024F84|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You're welcome at the Retching Netch anytime. (Quest)"
+  },
+  {
+    "form_id": "04024DB3|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Is it difficult commanding the Redoran Guard? (Quest)"
+  },
+  {
+    "form_id": "04024DB2|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Petty distractions? (Quest)"
+  },
+  {
+    "form_id": "04024DB1|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I could track the stash down for you. (Quest)"
+  },
+  {
+    "form_id": "04024DB0|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "It'll turn up sooner or later. (Quest)"
+  },
+  {
+    "form_id": "04024DAF|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Any idea where I can begin? (Quest)"
+  },
+  {
+    "form_id": "04024DAE|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I found the Emberbrand Wine stash. (Quest)"
+  },
+  {
+    "form_id": "04024DAD|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You're selling quite a few exotic ingredients. (Quest)"
+  },
+  {
+    "form_id": "04024DAC|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I could gather some for you. (Quest)"
+  },
+  {
+    "form_id": "04024DAB|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Sounds risky. (Quest)"
+  },
+  {
+    "form_id": "04024DAA|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I have some netch jelly right here. (Give 5 netch jelly) (Quest)"
+  },
+  {
+    "form_id": "04024DA9|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I have that netch jelly for you. (Quest)"
+  },
+  {
+    "form_id": "04024DA8|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What are the Ancestral Tombs? (Quest)"
+  },
+  {
+    "form_id": "04024DA7|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why can't you use the tomb? (Quest)"
+  },
+  {
+    "form_id": "04024DA6|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'll cleanse the tomb for you. (Quest)"
+  },
+  {
+    "form_id": "04024DA4|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "The Temple's tomb has been cleansed. (Quest)"
+  },
+  {
+    "form_id": "04024DA3|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "So what's the specialty of the house? (Quest)"
+  },
+  {
+    "form_id": "04024DA2|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I could help spread the word. (Quest)"
+  },
+  {
+    "form_id": "04024DA0|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Geldis Sadri wants you to try his new drink. (Quest)"
+  },
+  {
+    "form_id": "04024D9F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'm all out of Sadri's Sujamma. (Quest)"
+  },
+  {
+    "form_id": "04024D9E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I've given out the Sadri's Sujamma as requested. (Quest)"
+  },
+  {
+    "form_id": "04024C33|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What are these people doing? (Quest)"
+  },
+  {
+    "form_id": "04024C32|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Have you tried to stop this? (Quest)"
+  },
+  {
+    "form_id": "0402455C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Leave this island now, or your life is forfeit. (Intimidate) (Quest)"
+  },
+  {
+    "form_id": "0402455B|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "The blacksmith won't talk. You're wasting your time (Persuade) (Quest)"
+  },
+  {
+    "form_id": "0402455A|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You want Stalhrim weapons, and I think I can help you get them. (Quest)"
+  },
+  {
+    "form_id": "04024559|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "The smith said he'd teach me how to make Stalhrim weapons. (Quest)"
+  },
+  {
+    "form_id": "04024558|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Yes, otherwise he'll teach me nothing. You can trust me. (Persuade) (Quest)"
+  },
+  {
+    "form_id": "040240D0|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Do you know someone called Miraak? (Quest)"
+  },
+  {
+    "form_id": "040240E8|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "You know who Miraak is? (Quest)"
+  },
+  {
+    "form_id": "04026ACB|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Can you tell me anything about him? (Quest)"
+  },
+  {
+    "form_id": "04026ACA|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Can you tell me anything about him? (Quest)"
+  },
+  {
+    "form_id": "04026AC9|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Where did you hear the name? (Quest)"
+  },
+  {
+    "form_id": "04026AC8|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Just tell me if you know him. (Quest)"
+  },
+  {
+    "form_id": "040248DF|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "What sort of dream? (Quest)"
+  },
+  {
+    "form_id": "040248DE|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Is he someone you know, or not? (Quest)"
+  },
+  {
+    "form_id": "040248DD|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Tell me whatever you can. (Quest)"
+  },
+  {
+    "form_id": "040248DC|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "What did he want? (Quest)"
+  },
+  {
+    "form_id": "040248DB|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Tell me about your dream. (Quest)"
+  },
+  {
+    "form_id": "040240F5|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Is there anything you can tell me? (Quest)"
+  },
+  {
+    "form_id": "040240F4|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Which is it? Yes or no? (Quest)"
+  },
+  {
+    "form_id": "040240F3|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Tell me anything you can. (Quest)"
+  },
+  {
+    "form_id": "040240F2|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Try to remember. (Quest)"
+  },
+  {
+    "form_id": "040240F1|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Is he someone here in Raven Rock? (Quest)"
+  },
+  {
+    "form_id": "040240F0|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Where have you heard his name? Please try and think. (Quest)"
+  },
+  {
+    "form_id": "040240EF|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Is he somewhere else on Solstheim? (Quest)"
+  },
+  {
+    "form_id": "040240EE|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Do you know him or not? (Quest)"
+  },
+  {
+    "form_id": "040240ED|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Can you tell me anything about him? (Quest)"
+  },
+  {
+    "form_id": "040240EC|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Can you tell me anything about him? (Quest)"
+  },
+  {
+    "form_id": "040240CF|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What does that mean? (Quest)"
+  },
+  {
+    "form_id": "04024031|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'm here about the Stalhrim map. (Quest)"
+  },
+  {
+    "form_id": "04023F5E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Yes. (Quest)"
+  },
+  {
+    "form_id": "04023F5D|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "No. (Quest)"
+  },
+  {
+    "form_id": "04020EA5|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'm guessing you don't agree with Crescius's story. (Quest)"
+  },
+  {
+    "form_id": "04020EA4|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Then where's his great-grandfather? (Quest)"
+  },
+  {
+    "form_id": "040209F0|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What's the matter? (Quest)"
+  },
+  {
+    "form_id": "040209EF|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why all the fuss over a simple pickaxe? (Quest)"
+  },
+  {
+    "form_id": "040209EE|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Can't you just get the guard to find Crescius? (Quest)"
+  },
+  {
+    "form_id": "040209ED|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What's an Ancient Nordic Pickaxe? (Quest)"
+  },
+  {
+    "form_id": "040209EC|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Is stalhrim a type of ore? (Quest)"
+  },
+  {
+    "form_id": "040209EB|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I assume it's rare. (Quest)"
+  },
+  {
+    "form_id": "040209EA|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Glover wants his Ancient Nordic Pickaxe back. (Quest)"
+  },
+  {
+    "form_id": "040209E9|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "It doesn't belong to you. (Quest)"
+  },
+  {
+    "form_id": "040209E8|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Fine, you keep it. (Quest)"
+  },
+  {
+    "form_id": "040209E7|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Let me think about this. (Quest)"
+  },
+  {
+    "form_id": "040209E6|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I have your Ancient Nordic Pickaxe. (Quest)"
+  },
+  {
+    "form_id": "040209E5|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "After all that, why? (Quest)"
+  },
+  {
+    "form_id": "040209DE|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Hello. (Quest)"
+  },
+  {
+    "form_id": "040209DD|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Busy doing what? (Quest)"
+  },
+  {
+    "form_id": "040209DC|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Perhaps I could help. (Quest)"
+  },
+  {
+    "form_id": "040209DB|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'm just exploring. (Quest)"
+  },
+  {
+    "form_id": "040209DA|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "It's dangerous here for an old man. (Quest)"
+  },
+  {
+    "form_id": "040209D9|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What sort of a secret would be hidden here? (Quest)"
+  },
+  {
+    "form_id": "040209D7|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Who was your great-grandfather? (Quest)"
+  },
+  {
+    "form_id": "040209D6|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "East Empire Company? (Quest)"
+  },
+  {
+    "form_id": "040209D5|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How did he die? (Quest)"
+  },
+  {
+    "form_id": "040209D4|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What's your proof? (Quest)"
+  },
+  {
+    "form_id": "040209D3|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What did the letter say? (Quest)"
+  },
+  {
+    "form_id": "040209D2|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "The key is to the locked section? (Quest)"
+  },
+  {
+    "form_id": "040209D1|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "This is hardly proof of anything. (Quest)"
+  },
+  {
+    "form_id": "040209CF|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I admit, this does sound suspicious. (Quest)"
+  },
+  {
+    "form_id": "040209CE|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I still think you're crazy. (Quest)"
+  },
+  {
+    "form_id": "040209CD|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why are you telling me all of this? (Quest)"
+  },
+  {
+    "form_id": "040209CC|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "So you do need my help. (Quest)"
+  },
+  {
+    "form_id": "040209CB|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Any idea of where to start? (Quest)"
+  },
+  {
+    "form_id": "040209CA|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I've returned. (Quest)"
+  },
+  {
+    "form_id": "040209C9|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You were right all along. (Give journal) (Quest)"
+  },
+  {
+    "form_id": "040207B0|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "That's not enough. I need to stop Miraak now. (Quest)"
+  },
+  {
+    "form_id": "040207AF|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Tell me more about this book, then. (Quest)"
+  },
+  {
+    "form_id": "0402066E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Your people are free. (Quest)"
+  },
+  {
+    "form_id": "040200A0|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Varona is dead. I found her body on the road. (Quest)"
+  },
+  {
+    "form_id": "0402009F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "It looks like an ash spawn attack. (Quest)"
+  },
+  {
+    "form_id": "0402009C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What can you tell me about Ildari Sarothril? (Quest)"
+  },
+  {
+    "form_id": "0401FF47|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I read a book in Miraak's temple, and went somewhere. Miraak was there. (Quest)"
+  },
+  {
+    "form_id": "0401FF46|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What does this all mean? (Quest)"
+  },
+  {
+    "form_id": "0401FF45|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I am indeed Dragonborn. (Quest)"
+  },
+  {
+    "form_id": "0401FF44|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Miraak did claim to be Dragonborn. (Quest)"
+  },
+  {
+    "form_id": "0401FF43|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What does it mean if we're both Dragonborn? (Quest)"
+  },
+  {
+    "form_id": "0401FF42|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What does that mean? (Quest)"
+  },
+  {
+    "form_id": "0401FE06|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I brought back your animal. (Quest)"
+  },
+  {
+    "form_id": "0401FE05|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You want me to do something else? (Quest)"
+  },
+  {
+    "form_id": "0401FE04|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What is this redgrass? (Quest)"
+  },
+  {
+    "form_id": "0401FE03|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I brought your Scathecraw. (Quest)"
+  },
+  {
+    "form_id": "0401FE02|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What do we need to do now? (Quest)"
+  },
+  {
+    "form_id": "0401FE01|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You want me to kill people? (Quest)"
+  },
+  {
+    "form_id": "0401FE00|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I don't know about this... (Quest)"
+  },
+  {
+    "form_id": "0401FDFF|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Let's go! (Quest)"
+  },
+  {
+    "form_id": "0401FDFE|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "The Nords are dead. (Quest)"
+  },
+  {
+    "form_id": "0401FDFD|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Slow down here. I don't want to hurt you. (Quest)"
+  },
+  {
+    "form_id": "0401FDFC|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You're right. I want to be the new chief. (Quest)"
+  },
+  {
+    "form_id": "0401F2BC|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "He's in danger of being killed? How? (Quest)"
+  },
+  {
+    "form_id": "0401F2BA|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why would the Ulens want him dead? (Quest)"
+  },
+  {
+    "form_id": "0401F2B9|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Your concern seems justified. (Quest)"
+  },
+  {
+    "form_id": "0401F2B8|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You sound paranoid. (Quest)"
+  },
+  {
+    "form_id": "0401F2B7|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You feel an attack on the councilor is imminent. (Quest)"
+  },
+  {
+    "form_id": "0401F2B6|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "He ordered the execution. It's on his head... not yours. (Quest)"
+  },
+  {
+    "form_id": "0401F2B4|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why haven't you acted on the information? (Quest)"
+  },
+  {
+    "form_id": "0401F2B3|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How can I help? (Quest)"
+  },
+  {
+    "form_id": "0401F2B2|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What will you do? (Quest)"
+  },
+  {
+    "form_id": "0401F2B0|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You mentioned your sources? (Quest)"
+  },
+  {
+    "form_id": "0401F2AF|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why don't you ask them to investigate? (Quest)"
+  },
+  {
+    "form_id": "0401F2AE|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What can you tell me about House Hlaalu? (Quest)"
+  },
+  {
+    "form_id": "0401F2AD|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I presume that was their downfall. (Quest)"
+  },
+  {
+    "form_id": "0401F2A8|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What happened to House Hlaalu as a result? (Quest)"
+  },
+  {
+    "form_id": "0401F2A7|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'd prefer not to get involved. (Quest)"
+  },
+  {
+    "form_id": "0401F2A6|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I've decided to help you protect Councilor Morvayn. (Quest)"
+  },
+  {
+    "form_id": "0401F2A5|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Where do I begin? (Quest)"
+  },
+  {
+    "form_id": "0401F2A4|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Adril Arano said you might be able to help me. (Quest)"
+  },
+  {
+    "form_id": "0401F2A3|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You think he's mistaken? (Quest)"
+  },
+  {
+    "form_id": "0401F2A2|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You have a better idea? (Quest)"
+  },
+  {
+    "form_id": "0401F2A1|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How do I get them to do that? (Quest)"
+  },
+  {
+    "form_id": "0401F2A0|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why haven't you told Adril about this? (Quest)"
+  },
+  {
+    "form_id": "0401F29F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Thanks for the tip. (Quest)"
+  },
+  {
+    "form_id": "0401F29E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why do Dunmer leave ash yams in their tombs? (Quest)"
+  },
+  {
+    "form_id": "0401F29D|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why did Councilor Morvayn execute an Ulen? (Quest)"
+  },
+  {
+    "form_id": "0401F29C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Vilur did this alone? (Quest)"
+  },
+  {
+    "form_id": "0401F29B|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How did Vilur get caught? (Quest)"
+  },
+  {
+    "form_id": "0401F299|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Hello. (Quest)"
+  },
+  {
+    "form_id": "0401F298|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What are you doing here? (Quest)"
+  },
+  {
+    "form_id": "0401F297|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You aren't an Ulen. (Quest)"
+  },
+  {
+    "form_id": "0401F296|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You're lying. You're from House Hlaalu! (Quest)"
+  },
+  {
+    "form_id": "0401F295|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Tell me why you're really here. (Quest)"
+  },
+  {
+    "form_id": "0401F294|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'll let you get to it then. (Quest)"
+  },
+  {
+    "form_id": "0401F292|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I suspect Tilisu Severin is the culprit. (Quest)"
+  },
+  {
+    "form_id": "0401F291|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I saw her in the Ulen tomb. (Quest)"
+  },
+  {
+    "form_id": "0401F290|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "So go search their house. (Quest)"
+  },
+  {
+    "form_id": "0401F28F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Can you tell me more about the Severin family? (Quest)"
+  },
+  {
+    "form_id": "0401F28E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "A benefit? How? (Quest)"
+  },
+  {
+    "form_id": "0401F28D|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Nothing unusual about them at all? (Quest)"
+  },
+  {
+    "form_id": "0401F28C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What if they try to stop me? (Quest)"
+  },
+  {
+    "form_id": "0401F28B|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "He's no longer a threat. (Quest)"
+  },
+  {
+    "form_id": "0401F289|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I did what had to be done. (Quest)"
+  },
+  {
+    "form_id": "0401F180|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What is going on here? (Quest)"
+  },
+  {
+    "form_id": "0401F17F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How did you learn to talk? (Quest)"
+  },
+  {
+    "form_id": "0401F17E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Are you saying you want my help? (Quest)"
+  },
+  {
+    "form_id": "0401F17D|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'm sorry, this is all just too strange for me. (Quest)"
+  },
+  {
+    "form_id": "0401F17C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Bilgemuck is an animal of some kind? And you want it back? (Quest)"
+  },
+  {
+    "form_id": "0401F12B|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Do you need any help? (Quest)"
+  },
+  {
+    "form_id": "0401F131|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "I have some void salts. (Quest)"
+  },
+  {
+    "form_id": "0401F130|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "I have a briarheart. (Quest)"
+  },
+  {
+    "form_id": "0401F12F|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "I've have some vampire dust. (Quest)"
+  },
+  {
+    "form_id": "0401F12E|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "I've found a hagraven claw. (Quest)"
+  },
+  {
+    "form_id": "0401F12D|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "I've got a giant's toe. (Quest)"
+  },
+  {
+    "form_id": "0401F12C|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "I've got a daedra heart. (Quest)"
+  },
+  {
+    "form_id": "0401EEA0|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why don't you just make your own tea? (Quest)"
+  },
+  {
+    "form_id": "0401EE9F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Hey, I'm not your servant. (Quest)"
+  },
+  {
+    "form_id": "0401EE9E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Of course, Master Neloth. As you command. (Quest)"
+  },
+  {
+    "form_id": "0401EE9D|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You can't just order me around. (Quest)"
+  },
+  {
+    "form_id": "0401EE9C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What kind of a person should I look for? (Quest)"
+  },
+  {
+    "form_id": "0401E8BF|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Yes, and I've brought you the map to the Stalhrim source. (Quest)"
+  },
+  {
+    "form_id": "0401E15D|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Are you hurt badly? Do you need healing? (Quest)"
+  },
+  {
+    "form_id": "0401E15C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Stalhrim? What's that? (Quest)"
+  },
+  {
+    "form_id": "0401E15B|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Where can I find this Ancarion? (Quest)"
+  },
+  {
+    "form_id": "0401DFB0|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What are the secrets of the Skaal? (Quest)"
+  },
+  {
+    "form_id": "0401DFAF|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What do you need? (Quest)"
+  },
+  {
+    "form_id": "0401DFAE|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I hope you know what you're doing. (Give book) (Quest)"
+  },
+  {
+    "form_id": "0401D9A3|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I talked to Hermaeus Mora. (Quest)"
+  },
+  {
+    "form_id": "0401D9A2|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I talked to Hermaeus Mora. (Quest)"
+  },
+  {
+    "form_id": "0401D9A1|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I found myself in another place. (Quest)"
+  },
+  {
+    "form_id": "0401D9A0|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I learned the second Word of the Bend Will Shout. (Quest)"
+  },
+  {
+    "form_id": "0401D99F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "He wants the secrets of the Skaal in exchange for teaching me the third Word. (Quest)"
+  },
+  {
+    "form_id": "0401D99E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I don't know yet what he wanted. I left Apocrypha before I found out. (Quest)"
+  },
+  {
+    "form_id": "0401D94F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "That was a little more than I expected. (Quest)"
+  },
+  {
+    "form_id": "0401D94E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'd be honored. (Quest)"
+  },
+  {
+    "form_id": "0401D94D|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why don't you go on ahead. (Quest)"
+  },
+  {
+    "form_id": "0401D94C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "That was easy. (Quest)"
+  },
+  {
+    "form_id": "0401D94B|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How are you feeling about that? (Quest)"
+  },
+  {
+    "form_id": "0401D949|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What are you going to do now? (Quest)"
+  },
+  {
+    "form_id": "0401D947|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What's next? (Quest)"
+  },
+  {
+    "form_id": "0401D946|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How were Rieklings able to overpower you? (Quest)"
+  },
+  {
+    "form_id": "0401D945|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Your what? (Quest)"
+  },
+  {
+    "form_id": "0401D944|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What if you had one extra warrior? (Quest)"
+  },
+  {
+    "form_id": "0401D942|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You'll go against Hrothmund's wishes? (Quest)"
+  },
+  {
+    "form_id": "0401D941|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Where are you going? (Quest)"
+  },
+  {
+    "form_id": "0401D940|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I can't let you lead Thirsk. (Quest)"
+  },
+  {
+    "form_id": "0401D93E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'll keep this quiet. (Quest)"
+  },
+  {
+    "form_id": "0401D925|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Who's missing? (Quest)"
+  },
+  {
+    "form_id": "0401D924|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Did anything unusual happen around the time of his disappearance? (Quest)"
+  },
+  {
+    "form_id": "0401D923|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Where were they headed? (Quest)"
+  },
+  {
+    "form_id": "0401D8CB|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Can I help with your research? (Quest)"
+  },
+  {
+    "form_id": "0401D8CA|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "The book was right where you said it would be. (Quest)"
+  },
+  {
+    "form_id": "0401CDC7|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Can I help with your research? (Quest)"
+  },
+  {
+    "form_id": "0401CDC6|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I suppose so. (Quest)"
+  },
+  {
+    "form_id": "0401CDC5|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "That sounds a little too risky. (Quest)"
+  },
+  {
+    "form_id": "0401CDC1|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I think you owe me for that spell. (Quest)"
+  },
+  {
+    "form_id": "0401CDBD|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Can I help with your research? (Quest)"
+  },
+  {
+    "form_id": "0401CDBB|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I have the ash sample. (Quest)"
+  },
+  {
+    "form_id": "0401CB59|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Who are you? (Quest)"
+  },
+  {
+    "form_id": "0401CB58|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Save them from what? (Quest)"
+  },
+  {
+    "form_id": "0401CB57|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "This Miraak tried to have me killed. (Quest)"
+  },
+  {
+    "form_id": "0401CB55|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'm not really sure. I saw Miraak on a dragon. (Quest)"
+  },
+  {
+    "form_id": "0401CB54|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Somehow, reading this book took me to where he was. (Quest)"
+  },
+  {
+    "form_id": "0401CAEB|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "He must have been someone important. (Quest)"
+  },
+  {
+    "form_id": "0401C090|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Who are you? (Quest)"
+  },
+  {
+    "form_id": "0401C0A8|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "What do you want of me this time? (Quest)"
+  },
+  {
+    "form_id": "0401C08F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What do you want of me? (Quest)"
+  },
+  {
+    "form_id": "0401C08E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Don't worry, I was just leaving. (Quest)"
+  },
+  {
+    "form_id": "0401C08C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What do you want of me, my lord? (Quest)"
+  },
+  {
+    "form_id": "0401C08A|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Yes, I came here to learn Miraak's secrets. (Quest)"
+  },
+  {
+    "form_id": "0401C089|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I won't serve you, monster. I just want to defeat Miraak. (Quest)"
+  },
+  {
+    "form_id": "0401C088|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I don't need your help. I'll learn Miraak's secrets on my own. (Quest)"
+  },
+  {
+    "form_id": "0401C087|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Tell me what you want, my lord, and I will bring it to you. (Quest)"
+  },
+  {
+    "form_id": "0401C086|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "So what's your price for the final Word of Power? (Quest)"
+  },
+  {
+    "form_id": "0401C084|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I will talk to the Skaal and bring you their secrets. (Quest)"
+  },
+  {
+    "form_id": "0401C083|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What if the Skaal refuse to give up their secrets? (Quest)"
+  },
+  {
+    "form_id": "0401C082|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I will do as you command, my lord. (Quest)"
+  },
+  {
+    "form_id": "0401C05A|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "You were saying something about heart stones? (Quest)"
+  },
+  {
+    "form_id": "0401C04A|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Is there a problem? (Quest)"
+  },
+  {
+    "form_id": "0401C049|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What about them? (Quest)"
+  },
+  {
+    "form_id": "0401C048|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Where can I find a Briarheart warrior? (Quest)"
+  },
+  {
+    "form_id": "0401C047|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What do Briarhearts have to do with Heart Stones? (Quest)"
+  },
+  {
+    "form_id": "0401C044|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I examined the Briarheart warrior. (Quest)"
+  },
+  {
+    "form_id": "0401C041|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I've got Azra's staff. (Quest)"
+  },
+  {
+    "form_id": "0401C040|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Can I help with your research? (Quest)"
+  },
+  {
+    "form_id": "0401C03F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I have a heart stone. (Quest)"
+  },
+  {
+    "form_id": "0401BFC4|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How did that bring you to this old farm? (Quest)"
+  },
+  {
+    "form_id": "0401BFC3|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'd be glad to lend you a hand. (Quest)"
+  },
+  {
+    "form_id": "0401BFC1|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Very well. Where do I begin? (Quest)"
+  },
+  {
+    "form_id": "0401BFC0|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I could lend you a hand... for a price. (Quest)"
+  },
+  {
+    "form_id": "0401BFBF|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Seems like a waste of time to me. (Quest)"
+  },
+  {
+    "form_id": "0401BFBD|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Are you still having issues with the ash spawn? (Quest)"
+  },
+  {
+    "form_id": "0401BFBC|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Yes, I'll lend a hand. (Quest)"
+  },
+  {
+    "form_id": "0401BFBB|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I think I'll pass for now. (Quest)"
+  },
+  {
+    "form_id": "0401BFBA|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What are these ash spawn? (Quest)"
+  },
+  {
+    "form_id": "0401BFB9|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How often do they attack? (Quest)"
+  },
+  {
+    "form_id": "0401BFB8|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You suspect there's a motivation to their attacks? (Quest)"
+  },
+  {
+    "form_id": "0401BFB7|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why do you think the attacks are from the Attius Farm? (Quest)"
+  },
+  {
+    "form_id": "0401BFB6|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "It's done. (Quest)"
+  },
+  {
+    "form_id": "0401BFB5|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I discovered this note on one of the ash spawn. (Quest)"
+  },
+  {
+    "form_id": "0401BFB4|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Impossible? Why? (Quest)"
+  },
+  {
+    "form_id": "0401BFB3|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What do you want me to do? (Quest)"
+  },
+  {
+    "form_id": "0401BCEB|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Your spell made me weaker once I got wet! (Quest)"
+  },
+  {
+    "form_id": "0401BCDC|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Can I help with your research? (Quest)"
+  },
+  {
+    "form_id": "0401BCDB|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Who was Azra Nightwielder? (Quest)"
+  },
+  {
+    "form_id": "0401BB94|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How do we get the book out of its case? (Quest)"
+  },
+  {
+    "form_id": "0401B908|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What were those things? (Quest)"
+  },
+  {
+    "form_id": "0401B62D|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Have you found any other black books? (Quest)"
+  },
+  {
+    "form_id": "0401B62A|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I have the black book. (Quest)"
+  },
+  {
+    "form_id": "0401B629|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What kind of experiment do you want to do on me? (Quest)"
+  },
+  {
+    "form_id": "0401B627|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'd be glad to help. (Quest)"
+  },
+  {
+    "form_id": "0401B626|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "No thanks. That sounds like a bad idea. (Quest)"
+  },
+  {
+    "form_id": "0401AE1A|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Storn sent me to find you. (Quest)"
+  },
+  {
+    "form_id": "0401AE19|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Relax, everyone is safe. (Quest)"
+  },
+  {
+    "form_id": "0401AAED|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What's going on here? (Quest)"
+  },
+  {
+    "form_id": "0401AAEC|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'm looking for someone named Miraak. (Quest)"
+  },
+  {
+    "form_id": "0401AAEA|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You said you can show me my true power. (Quest)"
+  },
+  {
+    "form_id": "0401AA90|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What's the problem? (Quest)"
+  },
+  {
+    "form_id": "0401AA8E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I can destroy it for you. (Quest)"
+  },
+  {
+    "form_id": "0401AA8B|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I've destroyed the Ash Guardian. (Quest)"
+  },
+  {
+    "form_id": "04039220|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "No, not yet. (Quest)"
+  },
+  {
+    "form_id": "0401AA89|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Talvas summoned an Ash Guardian outside. (Quest)"
+  },
+  {
+    "form_id": "0401AA87|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Did you know about the Ash Guardian outside? (Quest)"
+  },
+  {
+    "form_id": "0401AA85|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Master Neloth? What did he do? (Quest)"
+  },
+  {
+    "form_id": "0401AA84|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What do you need to fix the tower? (Quest)"
+  },
+  {
+    "form_id": "0401AA83|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Where can I get taproot? (Quest)"
+  },
+  {
+    "form_id": "0401AA82|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What can you tell me about the Harstrad headwaters? (Quest)"
+  },
+  {
+    "form_id": "0401AA81|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I have the three soaked taproots. (Quest)"
+  },
+  {
+    "form_id": "0401AA80|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Elynea said you needed these taproots. (Quest)"
+  },
+  {
+    "form_id": "0401AA7F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "The soaked taproot is planted. (Quest)"
+  },
+  {
+    "form_id": "0401AA77|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "A new passage to what? (Quest)"
+  },
+  {
+    "form_id": "0401A4DB|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Who are you? (Quest)"
+  },
+  {
+    "form_id": "0401D97A|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Do you still need my help? (Quest)"
+  },
+  {
+    "form_id": "0401A4DA|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What's going on here? (Quest)"
+  },
+  {
+    "form_id": "0401A4D9|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "That sounds like fun. (Quest)"
+  },
+  {
+    "form_id": "0401A4D8|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I don't think I can help you right now. (Quest)"
+  },
+  {
+    "form_id": "04019CAF|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Where are we headed? (Quest)"
+  },
+  {
+    "form_id": "04019B69|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Aren't you coming to Highpoint Tower? (Quest)"
+  },
+  {
+    "form_id": "04019B68|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Experiment? What did you do to her? (Quest)"
+  },
+  {
+    "form_id": "04019B67|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Ildari is dead. (Quest)"
+  },
+  {
+    "form_id": "0403854A|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Do you know where I can find another Black Book? (Quest)"
+  },
+  {
+    "form_id": "04019AC3|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I hear you know where to find Black Books. (Quest)"
+  },
+  {
+    "form_id": "04019AC2|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I found a Black Book. I need to find more. (Quest)"
+  },
+  {
+    "form_id": "04019AC1|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I have to know what Miraak knows if I want to stop him. (Quest)"
+  },
+  {
+    "form_id": "04019ABF|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "The Dwemer? What do they have to do with this? (Quest)"
+  },
+  {
+    "form_id": "04019585|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "About that money Drovas owes you... (Quest)"
+  },
+  {
+    "form_id": "04019569|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Situation? What kind of situation? (Quest)"
+  },
+  {
+    "form_id": "04019568|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'm so sorry! Here, take the money. (Quest)"
+  },
+  {
+    "form_id": "04019567|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "And if I don't pay you? (Quest)"
+  },
+  {
+    "form_id": "04019566|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Or I could just kill you now. (Quest)"
+  },
+  {
+    "form_id": "04019565|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Do you owe Mogrul money? (Quest)"
+  },
+  {
+    "form_id": "04019564|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Except now he expects me to pay him. (Quest)"
+  },
+  {
+    "form_id": "04019563|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Please be patient. I'll get you your money. (Quest)"
+  },
+  {
+    "form_id": "04019562|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I have some right here. Take it. (Quest)"
+  },
+  {
+    "form_id": "04019561|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Sorry, I don't have any. (Quest)"
+  },
+  {
+    "form_id": "04019560|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why don't you just pay him? (Quest)"
+  },
+  {
+    "form_id": "04019575|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Someone is attacking you? (Quest)"
+  },
+  {
+    "form_id": "0401955C|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I suppose you want me to kill them. (Quest)"
+  },
+  {
+    "form_id": "0401955B|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How does the ring work? (Quest)"
+  },
+  {
+    "form_id": "0401955A|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How do you know you are under attack? (Quest)"
+  },
+  {
+    "form_id": "04020EFA|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "I saw a dragon once. (Quest)"
+  },
+  {
+    "form_id": "04019559|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I'm not sure the dragons are about you. (Quest)"
+  },
+  {
+    "form_id": "04019558|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "How close do I have to be? (Quest)"
+  },
+  {
+    "form_id": "04019557|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why don't you do this? Why me? (Quest)"
+  },
+  {
+    "form_id": "0403A308|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "I found this heart stone with the ring. (Quest)"
+  },
+  {
+    "form_id": "04019556|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "This heart stone is the source of the attacks. (Quest)"
+  },
+  {
+    "form_id": "04019555|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "It was in Ildari Sarothril's grave. (Quest)"
+  },
+  {
+    "form_id": "04019554|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "There wasn't a body in the grave. Just the heart stone. (Quest)"
+  },
+  {
+    "form_id": "0401842D|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Varona is dead. (Quest)"
+  },
+  {
+    "form_id": "0401842B|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Do you want to be the new steward of Tel Mithryn? (Quest)"
+  },
+  {
+    "form_id": "0401957B|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Does the guild know anyone here that might? (Quest)"
+  },
+  {
+    "form_id": "0401842A|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Know anyone that might take the job? (Quest)"
+  },
+  {
+    "form_id": "04018429|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "You seem awfully eager. (Quest)"
+  },
+  {
+    "form_id": "04018428|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "I've found you a new steward. (Quest)"
+  },
+  {
+    "form_id": "04017E68|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "No, I haven't seen Varona. (Quest)"
+  },
+  {
+    "form_id": "04017E6C|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "I found Varona dead on the road to Raven Rock. (Quest)"
+  },
+  {
+    "form_id": "04018438|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Varona went to Raven Rock on an errand. (Quest)"
+  },
+  {
+    "form_id": "04017E66|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Have you seen Varona? (Quest)"
+  }
+]
