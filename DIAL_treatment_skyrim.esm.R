@@ -79,3 +79,6 @@ json_skyrim.esm <- json_gen(db_dial_skyrim.esm_json_ready,"Skyrim.esm", "NA (Que
 write(json_skyrim.esm, ".\\SKSE\\Plugins\\DynamicStringDistributor\\Skyrim.esm\\QuestDialogueTagsSkyrim.esm.json")
 
 
+## Export env
+
+save.image(".\\Resources\\DIAL_treatment_skyrim.esm.RData")

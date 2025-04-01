@@ -86,3 +86,6 @@ json_dragonborn.esm <- json_gen(db_dial_dragonborn.esm_json_ready,"Dragonborn.es
 write(json_dragonborn.esm, ".\\SKSE\\Plugins\\DynamicStringDistributor\\Dragonborn.esm\\QuestDialogueTagsDragonborn.esm.json")
 
 
+## Export env
+
+save.image(".\\Resources\\DIAL_treatment_dragonborn.esm.RData")

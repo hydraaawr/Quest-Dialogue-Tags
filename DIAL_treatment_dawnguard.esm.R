@@ -73,3 +73,6 @@ json_dawnguard.esm <- json_gen(db_dial_dawnguard.esm_json_ready,"Dawnguard.esm",
 write(json_dawnguard.esm, ".\\SKSE\\Plugins\\DynamicStringDistributor\\Dawnguard.esm\\QuestDialogueTagsDawnguard.esm.json")
 
 
+## Export env
+
+save.image(".\\Resources\\DIAL_treatment_dawnguard.esm.RData")
