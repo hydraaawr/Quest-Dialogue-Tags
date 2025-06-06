@@ -1240,9 +1240,9 @@
     "string": "It's been returned to the Sepulcher. (Quest)"
   },
   {
-    "form_id": "000E363F|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "TIF__000E363F (Quest)"
+    "form_id": "000E363B|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "So, where will you be now? (Quest)"
   },
   {
     "form_id": "000E3521|Skyrim.esm",
@@ -6335,11 +6335,6 @@
     "string": "It's in everyone's best interest if you return the amulet. (Persuade) (Quest)"
   },
   {
-    "form_id": "000C1E58|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "TIF__000C1E58 (Quest)"
-  },
-  {
     "form_id": "000C1E3F|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "What if I were to pay you for the amulet? (Quest)"
@@ -9205,9 +9200,9 @@
     "string": "What do you mean, return? You've been there? (Quest)"
   },
   {
-    "form_id": "00099D5A|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "TIF__00099D5A (Quest)"
+    "form_id": "00099D56|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "Why is it dangerous if they're asleep? (Quest)"
   },
   {
     "form_id": "00099D55|Skyrim.esm",
@@ -12985,11 +12980,6 @@
     "string": "Regarding what, my lady? (Quest)"
   },
   {
-    "form_id": "00065AEC|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "TIF__00065AEC (Quest)"
-  },
-  {
     "form_id": "00065AE7|Skyrim.esm",
     "type": "INFO RNAM",
     "string": "I've purchased Honeyside. (Quest)"
@@ -13875,9 +13865,9 @@
     "string": "Good luck with that. (Quest)"
   },
   {
-    "form_id": "0005B212|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "TIF__0005B212 (Quest)"
+    "form_id": "0005AF7E|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "I'm here for Elgrim's ore sample. (Quest)"
   },
   {
     "form_id": "0005AF7D|Skyrim.esm",
@@ -13890,9 +13880,9 @@
     "string": "I've brought the ore sample from Filnjar. (Quest)"
   },
   {
-    "form_id": "0005AFE3|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "USKP_TIF_FFRiften18_0005AFE3 (Quest)"
+    "form_id": "0005AF35|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "Do you make your own jewelry? (Quest)"
   },
   {
     "form_id": "0005AF34|Skyrim.esm",
@@ -13920,9 +13910,9 @@
     "string": "Did you need anything else? (Quest)"
   },
   {
-    "form_id": "0005AE9C|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "TIF__0005AE9E (Quest)"
+    "form_id": "0005AE9E|Skyrim.esm",
+    "type": "INFO RNAM",
+    "string": "NA (Quest)"
   },
   {
     "form_id": "0005AE99|Skyrim.esm",
@@ -19520,9 +19510,9 @@
     "string": "So Karliah took on both of you alone? (Quest)"
   },
   {
-    "form_id": "0002C34E|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "TIF__0002C34E (Quest)"
+    "form_id": "0002C341|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "And Gallus? (Quest)"
   },
   {
     "form_id": "0002C340|Skyrim.esm",
@@ -20390,9 +20380,9 @@
     "string": "I'm not really interested in anything dangerous. (Quest)"
   },
   {
-    "form_id": "00028707|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "TIF__00028707 (Quest)"
+    "form_id": "00028706|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "I've taken care of Potema. (Quest)"
   },
   {
     "form_id": "000284D1|Skyrim.esm",
@@ -22898,11 +22888,6 @@
     "form_id": "0001CDA1|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "The power to crush all before me! (Quest)"
-  },
-  {
-    "form_id": "0001C4DE|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "TIF__0001C4DE (Quest)"
   },
   {
     "form_id": "000209C1|Skyrim.esm",
@@ -26681,11 +26666,6 @@
     "string": "What can I do to help? (Quest)"
   },
   {
-    "form_id": "02002F1B|Dawnguard.esm",
-    "type": "INFO RNAM",
-    "string": "DLC1_TIF__01002F1B (Quest)"
-  },
-  {
     "form_id": "02006BA6|Dawnguard.esm",
     "type": "DIAL FULL",
     "string": "I'm back from <Alias=Dungeon> with the <Alias=Item>. (Quest)"
@@ -29082,9 +29062,9 @@
     "string": "I have your Ancient Nordic Pickaxe. (Quest)"
   },
   {
-    "form_id": "04020A1A|Dragonborn.esm",
-    "type": "INFO RNAM",
-    "string": "DLC2_TIF__02020A1A (Quest)"
+    "form_id": "040209E5|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "After all that, why? (Quest)"
   },
   {
     "form_id": "040209DE|Dragonborn.esm",

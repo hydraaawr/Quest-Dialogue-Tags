@@ -104,6 +104,8 @@ db_dial_ussep.esp_json_ready <- db_dial_ussep.esp_massclass %>%
                   !is.na(RNAM) | !is.na(FULL)
                 ) %>% 
                   mutate(
+                    # Replace any RNAM containing "TIF_" with "NA (Quest)"
+                    RNAM = if_else(str_detect(RNAM, "TIF_"), "NA", RNAM),
                     FULL_trans = paste0(FULL, " (Quest)"), ## Add "(Quest)"
                     RNAM_trans = paste0(RNAM, " (Quest)")
                   )
