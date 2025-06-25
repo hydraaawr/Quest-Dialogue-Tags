@@ -1,0 +1,202 @@
+[
+  {
+    "form_id": "051223E3|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "The swarms of mudcrabs should no longer threaten the people of Dawnstar. (Quest)"
+  },
+  {
+    "form_id": "050C6E10|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "An Argonian fishing rod? Thank you. I will be sure to put it to good use. (Quest)"
+  },
+  {
+    "form_id": "0502E93C|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "This Alik'ri rod is fit for a master fisherman. Thank you, Viriya. (Quest)"
+  },
+  {
+    "form_id": "0502E937|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "Thanks for the Argonian fishing rod, and the coin. I'll put them to good use. (Quest)"
+  },
+  {
+    "form_id": "05000EC2|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "Here's everything you'll need to build a stall in the plaza. (Quest)"
+  },
+  {
+    "form_id": "05000EA3|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "It wasn't easy, but here are the fish you asked for. (Quest)"
+  },
+  {
+    "form_id": "05000E9B|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "Here are the fish you asked for. (Quest)"
+  },
+  {
+    "form_id": "05000E97|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "Here are the fish you asked for. (Quest)"
+  },
+  {
+    "form_id": "05000E7A|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "What's wrong? (Quest)"
+  },
+  {
+    "form_id": "05000E6C|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "Sure, here you go. (Quest)"
+  },
+  {
+    "form_id": "05000C8F|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "I've cleaned up the water around <Alias=Town>. (Quest)"
+  },
+  {
+    "form_id": "05000C87|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "Here is the spadefish for your next experiment. (Quest)"
+  },
+  {
+    "form_id": "05000C87|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "Here is the pearlfish for your next experiment. (Quest)"
+  },
+  {
+    "form_id": "05000C87|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "Here is the angler larvae for your next experiment. (Quest)"
+  },
+  {
+    "form_id": "05000C87|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "Here is the pigmy sunfish for your next experiment. (Quest)"
+  },
+  {
+    "form_id": "05000C6F|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "As much as I enjoy fishing, I have other things to do. Pay up. (Quest)"
+  },
+  {
+    "form_id": "05000C74|ccBGSSSE001-Fish.esm",
+    "type": "INFO RNAM",
+    "string": "Here are the arctic graylings you requested. (Quest)"
+  },
+  {
+    "form_id": "05000C73|ccBGSSSE001-Fish.esm",
+    "type": "INFO RNAM",
+    "string": "Here are the catfish you requested. (Quest)"
+  },
+  {
+    "form_id": "05000C72|ccBGSSSE001-Fish.esm",
+    "type": "INFO RNAM",
+    "string": "Here are the salmon you requested. (Quest)"
+  },
+  {
+    "form_id": "05000C71|ccBGSSSE001-Fish.esm",
+    "type": "INFO RNAM",
+    "string": "Here are the brook bass you requested. (Quest)"
+  },
+  {
+    "form_id": "05000C5B|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "I've forgotten my fishing rod. Can I borrow yours? (Quest)"
+  },
+  {
+    "form_id": "05000C5A|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "No, let's begin. (Quest)"
+  },
+  {
+    "form_id": "05000C48|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "Here's all of the bottles of aged flin you lost in the river. (Quest)"
+  },
+  {
+    "form_id": "05000C27|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "Alright, I've held up my end of the bargain. Time to pay up. (Quest)"
+  },
+  {
+    "form_id": "05000C26|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "Travelers should be safe now. At least, safe from giant vampire horkers. (Quest)"
+  },
+  {
+    "form_id": "05000BDB|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "I'll deliver the disguised potion in exchange for the Jarl's ring. (Quest)"
+  },
+  {
+    "form_id": "05000BD9|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "Here, take this. My way of saying thanks. (Quest)"
+  },
+  {
+    "form_id": "05000BD0|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "I don't think that guard will be using skooma any longer. (Quest)"
+  },
+  {
+    "form_id": "05000BBA|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "Here's a bottle of skooma I found laying about. I trust you'll lock it away? (Quest)"
+  },
+  {
+    "form_id": "05000B63|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "Did you enjoy the lesson? (Quest)"
+  },
+  {
+    "form_id": "05000B5F|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "I know just the spot. We can fish off the docks near the Warrens. (Quest)"
+  },
+  {
+    "form_id": "05000B5B|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "Where shall we hold the contest? (Quest)"
+  },
+  {
+    "form_id": "05000B1D|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "They believed using a Dwarven fishing rod might help. Here are the schematics. (Quest)"
+  },
+  {
+    "form_id": "05000AEE|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "I've returned. Is the Dwarven fishing rod complete? (Quest)"
+  },
+  {
+    "form_id": "05000A67|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "Here are the fish you were after. I also found your lucky fishing hat. (Quest)"
+  },
+  {
+    "form_id": "05000A62|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "I'm ready for the next fishing challenge. (Quest)"
+  },
+  {
+    "form_id": "050009D0|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "Here's the glassfish you requested in your bounty. (Quest)"
+  },
+  {
+    "form_id": "050009BF|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "I got your letter. And I have a new companion for your golden friend right here. (Quest)"
+  },
+  {
+    "form_id": "050009A6|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "Here are the fish you asked for. (Quest)"
+  },
+  {
+    "form_id": "0500099C|ccBGSSSE001-Fish.esm",
+    "type": "DIAL FULL",
+    "string": "I'd like to improve my fishing skills. Could you teach me a few things? (Quest)"
+  }
+]
