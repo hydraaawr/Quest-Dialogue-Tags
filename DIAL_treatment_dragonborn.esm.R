@@ -23,7 +23,7 @@ db_dial_dragonborn.esm_massclass <- db_dial_dragonborn.esm_merged %>%
           str_detect(QNAM, "DLC2BlackBook04Quest|DLC2RR03|DLC2RR01|DLC2TT1b|DLC2RR02") ~ "RRSD", ## Raven Rock Side Quests
           str_detect(QNAM, "DLC2RR03Intro|DLC2RRFavor03|DLC2RRFavor06|DLC2RRFavor02|DLC2RRFavor07|DLC2RRFavor04|DLC2TGQuest|DLC2RRFavor05|DLC2RRFavor01") ~ "RRmisc", ## Raven Rock miscellaneous
           str_detect(QNAM, "DLC2SV01|DLC2SV02|DLC2SV02Misc|DLC2WB01") ~ "RRSV", ## Skaal Village Side Quests
-          str_detect(QNAM, "DLC2SkaalVillageFreeform2|Favor104DLC2SkaalVillageFreeform1") ~ "SVmisc", ## Skaal Village miscellaneous
+          str_detect(QNAM, "DLC2SkaalVillageFreeform2|Favor104|DLC2SkaalVillageFreeform1") ~ "SVmisc", ## Skaal Village miscellaneous
           str_detect(QNAM, "DLC2TTR7|DLC2BlackBook07Quest|DLC2TTR5|DLC2TTR4a|DLC2TTF1|DLC2TTF2|DLC2TTR2|DLC2TTR1|DLC2TT2|DLC2TT1|DLC2TTR3a|DLC2TTR3b") ~ "TMSD", ## Tel Mithryn Side quests
           str_detect(QNAM, "DLC2TTR4b|DLC2TTR8") ~ "TMmisc", ## Tel Mithryn miscellaneous
           str_detect(QNAM, "DLC2MH02|DLC2MH01") ~ "TMHSD", ## Thirsk Mead Hall Side quests

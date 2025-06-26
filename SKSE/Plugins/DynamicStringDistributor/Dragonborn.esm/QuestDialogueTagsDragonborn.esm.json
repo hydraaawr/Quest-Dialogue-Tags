@@ -15,6 +15,11 @@
     "string": "What are you doing here? (Quest)"
   },
   {
+    "form_id": "0403A2D7|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Did she ever return here? (Quest)"
+  },
+  {
     "form_id": "0403A2A6|Dragonborn.esm",
     "type": "DIAL FULL",
     "string": "You can't be serious. (Quest)"
@@ -408,6 +413,36 @@
     "form_id": "04031C7E|Dragonborn.esm",
     "type": "DIAL FULL",
     "string": "But you told me House Hlaalu was disliked. (Quest)"
+  },
+  {
+    "form_id": "0402C8A3|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Why did your mother leave the village? (Quest)"
+  },
+  {
+    "form_id": "0402C8A2|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What do you need? (Quest)"
+  },
+  {
+    "form_id": "0402C8A1|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Morwen of Skaal Village sent me to ask a favor of you. (Quest)"
+  },
+  {
+    "form_id": "0402C8A0|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "She wants this placed at her mother's grave. (Quest)"
+  },
+  {
+    "form_id": "0402C89F|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "She's not exactly young anymore. (Quest)"
+  },
+  {
+    "form_id": "0402C89E|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Runil agreed to your request. (Quest)"
   },
   {
     "form_id": "0402C431|Dragonborn.esm",
@@ -2923,5 +2958,45 @@
     "form_id": "04017E66|Dragonborn.esm",
     "type": "DIAL FULL",
     "string": "Have you seen Varona? (Quest)"
+  },
+  {
+    "form_id": "0006F3E5|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "What can I do to help the Skaal? (Quest)"
+  },
+  {
+    "form_id": "0006F3E5|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "Ulfric doesn't care about outsiders? (Quest)"
+  },
+  {
+    "form_id": "04020948|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "Consider it done. (Quest)"
+  },
+  {
+    "form_id": "000AB822|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "What if I took care of these bandits? (Quest)"
+  },
+  {
+    "form_id": "0402094B|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "It's not my problem. (Quest)"
+  },
+  {
+    "form_id": "000AB841|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "That's too bad. (Quest)"
+  },
+  {
+    "form_id": "0402094D|Dragonborn.esm",
+    "type": "INFO RNAM",
+    "string": "The bandits won't be a problem anymore. (Quest)"
+  },
+  {
+    "form_id": "0006F3DA|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "string": "<Alias=Dungeon> is free of bandits. (Quest)"
   }
 ]
