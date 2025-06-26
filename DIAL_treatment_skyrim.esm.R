@@ -27,7 +27,7 @@ db_dial_skyrim.esm_massclass <- db_dial_skyrim.esm_merged %>%
           str_detect(QNAM, "^TG") ~ "TG", ## Thieves guild
           str_detect(QNAM, "^DA\\d{2}") ~ "DA", ## Daedric
           str_detect(QNAM, "^MS\\d{2}|^VC\\d{2}|^dun|^NN\\d{2}|^[Tt]\\d{2}") ~ "MS", ## Side quests
-          str_detect(QNAM, "Favor|Freeform|Tutorial|BQ|Farm|City Dialogue") ~ "misc", ## Miscellaneous
+          str_detect(QNAM, "Favor|Freeform|^Tutorial|BQ|Farm|City Dialogue") ~ "misc", ## Miscellaneous
           str_detect(Formid_DIAL,"Heard any rumors lately?") ~ "rumor" ## rumors
         )
       )
