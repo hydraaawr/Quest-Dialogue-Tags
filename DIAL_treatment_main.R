@@ -33,8 +33,8 @@ db_dial_ussep.esp_massclass <- db_dial_ussep.esp_merged %>%
           str_detect(QNAM, "^TG") ~ "TG", ## Thieves guild
           str_detect(QNAM, "^DA\\d{2}") ~ "DA", ## Daedric
           str_detect(QNAM, "^MS\\d{2}|^VC\\d{2}|^dun|^NN\\d{2}|^[Tt]\\d{2}") ~ "MS", ## Side quests
-          str_detect(QNAM, "Favor|Freeform|Tutorial|BQ|Farm|City Dialogue") ~ "misc", ## Miscellaneous
-          str_detect(Formid_DIAL,"Heard any rumors lately?") ~ "rumor", ## rumors
+          str_detect(QNAM, "Favor|Freeform|^Tutorial|BQ|Farm|City Dialogue") ~ "misc", ## Miscellaneous
+          str_detect(Formid_DIAL,"Heard any rumors lately?|What's the word around town?") ~ "rumor", ## rumors
         ## dawnguard.esm
           str_detect(QNAM, "DLC1VQ01MiscObjective|DLC1VQ01|DLC1VQ02|DLC1HunterBaseIntro|DLC1VQ03Hunter|DLC1VampireBaseIntro|DLC1VQ03Vampire|DLC1VQElder|DLC1VQElderHandler|DLC1VQ04|DLC1VQ05|DLC1VQ06|DLC1VQ07|DLC1VQ08") ~ "MQ", ## Main Quest
           str_detect(QNAM, "DLC1RH") ~ "DG", ## dawnguard radiants
@@ -46,7 +46,7 @@ db_dial_ussep.esp_massclass <- db_dial_ussep.esp_merged %>%
           str_detect(QNAM, "DLC2BlackBook04Quest|DLC2RR03|DLC2RR01|DLC2TT1b|DLC2RR02") ~ "RRSD", ## Raven Rock Side Quests
           str_detect(QNAM, "DLC2RR03Intro|DLC2RRFavor03|DLC2RRFavor06|DLC2RRFavor02|DLC2RRFavor07|DLC2RRFavor04|DLC2TGQuest|DLC2RRFavor05|DLC2RRFavor01") ~ "RRmisc", ## Raven Rock miscellaneous
           str_detect(QNAM, "DLC2SV01|DLC2SV02|DLC2SV02Misc|DLC2WB01") ~ "RRSV", ## Skaal Village Side Quests
-          str_detect(QNAM, "DLC2SkaalVillageFreeform2|Favor104DLC2SkaalVillageFreeform1") ~ "SVmisc", ## Skaal Village miscellaneous
+          str_detect(QNAM, "DLC2SkaalVillageFreeform2|Favor104|DLC2SkaalVillageFreeform1") ~ "SVmisc", ## Skaal Village miscellaneous
           str_detect(QNAM, "DLC2TTR7|DLC2BlackBook07Quest|DLC2TTR5|DLC2TTR4a|DLC2TTF1|DLC2TTF2|DLC2TTR2|DLC2TTR1|DLC2TT2|DLC2TT1|DLC2TTR3a|DLC2TTR3b") ~ "TMSD", ## Tel Mithryn Side quests
           str_detect(QNAM, "DLC2TTR4b|DLC2TTR8") ~ "TMmisc", ## Tel Mithryn miscellaneous
           str_detect(QNAM, "DLC2MH02|DLC2MH01") ~ "TMHSD", ## Thirsk Mead Hall Side quests
@@ -129,8 +129,20 @@ db_dial_dawnguard.esm_ussep_json_ready <- rows_update(db_dial_dawnguard.esm_json
 
 db_dial_dragonborn.esm_ussep_json_ready <- rows_update(db_dial_dragonborn.esm_json_ready,db_dial_ussep.esp_json_ready, by = c("Formid_DIAL_isolated","Formid_INFO_isolated"), unmatched = "ignore")
 
+####
 
+## generate the extra ones added by ussep
 
+db_dial_vanilla_ussep_json_ready <- bind_rows(db_dial_skyrim.esm_ussep_json_ready, db_dial_dawnguard.esm_ussep_json_ready, db_dial_dragonborn.esm_ussep_json_ready) ## join the three that have all records + ussep modifications
+db_dial_ussep.esp_new_json_ready <- anti_join(db_dial_ussep.esp_json_ready,db_dial_vanilla_ussep_json_ready)
+
+## Failsafe for some special cases that had same fomid dial but different info (and generate repeated entries)
+Formid_DIAL_isolated_vanilla_ussep <- db_dial_vanilla_ussep_json_ready$Formid_DIAL_isolated
+
+db_dial_ussep.esp_new_json_ready <- db_dial_ussep.esp_new_json_ready %>%
+  filter(!Formid_DIAL_isolated %in% Formid_DIAL_isolated_vanilla_ussep)
+
+#############################################################################################
 
 ## Json generation:
 
@@ -141,6 +153,7 @@ json_dawnguard.esm_ussep <- json_gen(db_dial_dawnguard.esm_ussep_json_ready,"Daw
 
 json_dragonborn.esm_ussep <- json_gen(db_dial_dragonborn.esm_ussep_json_ready,"Dragonborn.esm", "NA (Quest)")
 
+json_ussep.esp_new <- json_gen(db_dial_ussep.esp_new_json_ready, "unofficial skyrim special edition patch.esp", "NA (Quest)")
 
 
 ## bind them
@@ -152,6 +165,8 @@ json_main <- paste0(
   gsub('\\[|\\]', '', json_dawnguard.esm_ussep), 
   ',', 
   gsub('\\[|\\]', '', json_dragonborn.esm_ussep), 
+  ',',
+  gsub('\\[|\\]', '', json_ussep.esp_new), 
   ']'
 )
 
