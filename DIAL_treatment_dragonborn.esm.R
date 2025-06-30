@@ -30,7 +30,7 @@ db_dial_dragonborn.esm_massclass <- db_dial_dragonborn.esm_merged %>%
           str_detect(QNAM, "DLC2ThirskFFElmusBack|DLC2ThirskFFElmus|DLC2ThirskFFHalbarn|DLC2ThirskFFHilund") ~ "TMHmisc", ## Thirsk Mead Hall miscellaneous
           str_detect(QNAM, "DLC2BlackBook06Quest|DLC2BlackBook05Quest|DLC2BlackBook03Quest|DLC2dunHaknirTreasureQST|DLC2dunHaknirTreasureQSTMisc|DLC2EbonyWarriorQuest|DLC2dunKolbjornQST|DLC2dunKolbjornMiscQST") ~ "OS", ## Other Side
           str_detect(QNAM, "DLC2WE06|DLC2dunHrodulf|DLC2KagrumezQST|DLC2SV02AncarionMerchant|DLC2dunKolbjornMiscQST|DLC2dunKarstaagQST|DLC2dunFrostmoonQSTMisc") ~ "misc", ## other miscellaneous quests
-          str_detect(Formid_DIAL,"Rumor") ~ "rumor" ## rumors
+          str_detect(Formid_DIAL,"Rumor") ~ "rumor_dragonborn" ## rumors
         )
       ) 
       
