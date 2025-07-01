@@ -40,7 +40,7 @@ db_dial_skyrim.esm_json_ready <- db_dial_skyrim.esm_massclass %>%
   isolate_ids() %>%
    mutate(   ## generate "rumor"
       FULL = case_when(
-        str_detect(Formid_DIAL, "Rumor") & is.na(RNAM) & is.na(FULL) ~ "Heard any rumors lately?", ## generate "Rumor"
+        str_detect(Formid_DIAL, "Rumor|T01Innkeeper") & is.na(RNAM) & is.na(FULL) ~ "Heard any rumors lately?", ## generate "Rumor"
         TRUE ~ FULL 
         ),
       RNAM = case_when(

@@ -5890,6 +5890,11 @@
     "string": "I'm looking for work. (Quest)"
   },
   {
+    "form_id": "000C593D|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "Heard any rumors lately? (Quest)"
+  },
+  {
     "form_id": "000C5843|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Who runs the show at Honningbrew Meadery? (Quest)"

@@ -67,7 +67,7 @@ db_dial_ussep.esp_json_ready <- db_dial_ussep.esp_massclass %>%
   ## skyrim.esm + dawnguard.esm
    mutate(   ## generate "rumor"
       FULL = case_when(
-        str_detect(Formid_DIAL, "Rumor") & is.na(RNAM) & is.na(FULL) & QNAM_type == "rumor_skyrim" ~ "Heard any rumors lately?", ## generate "Rumor"
+        str_detect(Formid_DIAL, "Rumor|T01Innkeeper") & is.na(RNAM) & is.na(FULL) & QNAM_type == "rumor_skyrim|MS" ~ "Heard any rumors lately?", ## generate "Rumor"
         TRUE ~ FULL 
         ),
       RNAM = case_when(
