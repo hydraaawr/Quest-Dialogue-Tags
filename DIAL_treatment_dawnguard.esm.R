@@ -23,7 +23,8 @@ db_dial_dawnguard.esm_massclass <- db_dial_dawnguard.esm_merged %>%
           str_detect(QNAM, "DLC1RH") ~ "DG", ## dawnguard radiants
           str_detect(QNAM, "DLC1RV") ~ "VP", ## vampire radiants
           str_detect(QNAM, "DLC1VQSaint|DLC1LD") ~ "SQ", ## Side Quests
-          str_detect(QNAM, "DLC1VQDragon|DLC1VQFVBooks|DLC01SoulCairnHorseQuest2|DLC1Surgery") ~ "misc_dawnguard" ## Misc
+          str_detect(QNAM, "DLC1VQDragon|DLC1VQFVBooks|DLC01SoulCairnHorseQuest2|DLC1Surgery") ~ "misc_dawnguard", ## Misc
+          str_detect(QNAM, "DLC1VampireTutorial") ~ "VT"
         )
       ) 
       
@@ -43,7 +44,9 @@ db_dial_dawnguard.esm_json_ready <- db_dial_dawnguard.esm_massclass %>%
         ## No classified out
         !is.na(QNAM_type),
         # Exclude "DLC1VQ01 Awakening"
-        !(str_detect(QNAM, "DLC1VQ01 Awakening"))
+        !(str_detect(QNAM, "DLC1VQ01 Awakening")),
+        # Exclude vampire tutorials without scriptname
+        !(str_detect(QNAM_type, "VT") & is.na(Scriptname))
 
       ) %>%
         filter(

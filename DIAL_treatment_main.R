@@ -41,6 +41,7 @@ db_dial_ussep.esp_massclass <- db_dial_ussep.esp_merged %>%
           str_detect(QNAM, "DLC1RV") ~ "VP", ## vampire radiants
           str_detect(QNAM, "DLC1VQSaint|DLC1LD") ~ "SQ", ## Side Quests
           str_detect(QNAM, "DLC1VQDragon|DLC1VQFVBooks|DLC01SoulCairnHorseQuest2|DLC1Surgery") ~ "misc", ## Misc
+          str_detect(QNAM, "DLC1VampireTutorial") ~ "VT",
         ## dragonborn.esm
           str_detect(QNAM, "DLC2MQ01|DLC2WE09|DLC2MQ02|DLC2MQ03|DLC2MQ03B|DLC2MQ04|DLC2MQ05|DLC2MQ06") ~ "MQ", ## Main Quest
           str_detect(QNAM, "DLC2BlackBook04Quest|DLC2RR03|DLC2RR01|DLC2TT1b|DLC2RR02") ~ "RRSD", ## Raven Rock Side Quests
@@ -96,7 +97,9 @@ db_dial_ussep.esp_json_ready <- db_dial_ussep.esp_massclass %>%
               !(str_detect(QNAM_type, "rumor") & is.na(Scriptname)),
               ## dawnguard.esm
               # Exclude "DLC1VQ01 Awakening"
-              !(str_detect(QNAM, "DLC1VQ01 Awakening"))
+              !(str_detect(QNAM, "DLC1VQ01 Awakening")),
+              # Exclude vampire tutorials without scriptname
+              !(str_detect(QNAM_type, "VT") & is.na(Scriptname))
             ) %>%
               filter(
                 # Remove entries with rejection phrases because those might or might not contain scriptname

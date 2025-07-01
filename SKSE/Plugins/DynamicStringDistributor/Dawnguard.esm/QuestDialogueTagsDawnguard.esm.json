@@ -290,6 +290,11 @@
     "string": "Maybe your mother didn't trust you, either. (Quest)"
   },
   {
+    "form_id": "02019070|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'm ready to learn about my new powers. (Quest)"
+  },
+  {
     "form_id": "02018CD9|Dawnguard.esm",
     "type": "DIAL FULL",
     "string": "The woman was a vampire, and they wanted her back. (Quest)"
@@ -1748,6 +1753,11 @@
     "form_id": "02011559|Dawnguard.esm",
     "type": "DIAL FULL",
     "string": "We may never return. (Quest)"
+  },
+  {
+    "form_id": "02010F80|Dawnguard.esm",
+    "type": "DIAL FULL",
+    "string": "I'm ready to carry out this task. (Quest)"
   },
   {
     "form_id": "02010F17|Dawnguard.esm",
