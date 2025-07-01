@@ -34,7 +34,7 @@ db_dial_ussep.esp_massclass <- db_dial_ussep.esp_merged %>%
           str_detect(QNAM, "^DA\\d{2}") ~ "DA", ## Daedric
           str_detect(QNAM, "^MS\\d{2}|^VC\\d{2}|^dun|^NN\\d{2}|^[Tt]\\d{2}") ~ "MS", ## Side quests
           str_detect(QNAM, "Favor|Freeform|^Tutorial|BQ|Farm|City Dialogue") ~ "misc", ## Miscellaneous
-          str_detect(Formid_DIAL,"Heard any rumors lately?|What's the word around town?") ~ "rumor", ## rumors
+          str_detect(Formid_DIAL,"Heard any rumors lately?|What's the word around town?") ~ "rumor_skyrim", ## rumors
         ## dawnguard.esm
           str_detect(QNAM, "DLC1VQ01MiscObjective|DLC1VQ01|DLC1VQ02|DLC1HunterBaseIntro|DLC1VQ03Hunter|DLC1VampireBaseIntro|DLC1VQ03Vampire|DLC1VQElder|DLC1VQElderHandler|DLC1VQ04|DLC1VQ05|DLC1VQ06|DLC1VQ07|DLC1VQ08") ~ "MQ", ## Main Quest
           str_detect(QNAM, "DLC1RH") ~ "DG", ## dawnguard radiants
@@ -53,7 +53,7 @@ db_dial_ussep.esp_massclass <- db_dial_ussep.esp_merged %>%
           str_detect(QNAM, "DLC2ThirskFFElmusBack|DLC2ThirskFFElmus|DLC2ThirskFFHalbarn|DLC2ThirskFFHilund") ~ "TMHmisc", ## Thirsk Mead Hall miscellaneous
           str_detect(QNAM, "DLC2BlackBook06Quest|DLC2BlackBook05Quest|DLC2BlackBook03Quest|DLC2dunHaknirTreasureQST|DLC2dunHaknirTreasureQSTMisc|DLC2EbonyWarriorQuest|DLC2dunKolbjornQST|DLC2dunKolbjornMiscQST") ~ "OS", ## Other Side
           str_detect(QNAM, "DLC2WE06|DLC2dunHrodulf|DLC2KagrumezQST|DLC2SV02AncarionMerchant|DLC2dunKolbjornMiscQST|DLC2dunKarstaagQST|DLC2dunFrostmoonQSTMisc") ~ "misc", ## other miscellaneous quests
-          str_detect(Formid_DIAL,"Rumor") ~ "rumor" ## rumors
+          str_detect(Formid_DIAL,"Rumor") ~ "rumor_dragonborn" ## rumors
 
         )
       )
@@ -67,18 +67,22 @@ db_dial_ussep.esp_json_ready <- db_dial_ussep.esp_massclass %>%
   ## skyrim.esm + dawnguard.esm
    mutate(   ## generate "rumor"
       FULL = case_when(
-        str_detect(Formid_DIAL, "Rumor") & is.na(RNAM) & is.na(FULL) ~ "Heard any rumors lately?", ## generate "Rumor"
+        str_detect(Formid_DIAL, "Rumor") & is.na(RNAM) & is.na(FULL) & QNAM_type == "rumor_skyrim" ~ "Heard any rumors lately?", ## generate "Rumor"
         TRUE ~ FULL 
-        )) %>%
+        ),
+      RNAM = case_when(
+        str_detect(FULL, "What's the word around town?") & is.na(RNAM) ~ "What's the word around town?", ## special case where we have to generate RNAM to trigger json generation INFO generation
+        TRUE ~ RNAM
+      )) %>%
     ## dragonborn.esm
     ## Here rumors work differently: You have to force generating multiple INFO RNAMS by filling both
       mutate(
         FULL = case_when(
-          str_detect(Formid_DIAL, "Rumors") & is.na(RNAM) & is.na(FULL) & !is.na(Scriptname) ~ "Heard any rumors lately?", ## generate "Rumor"
+          str_detect(Formid_DIAL, "Rumors") & is.na(RNAM) & is.na(FULL) & !is.na(Scriptname) & QNAM_type == "rumor_dragonborn" ~ "Heard any rumors lately?", ## generate "Rumor"
           TRUE ~ FULL
         ),
         RNAM = case_when(
-          str_detect(Formid_DIAL, "Rumors") & is.na(RNAM) & !is.na(Scriptname) ~ "Heard any rumors lately?", ## generate "Rumor"
+          str_detect(Formid_DIAL, "Rumors") & is.na(RNAM) & !is.na(Scriptname) & QNAM_type == "rumor_dragonborn" ~ "Heard any rumors lately?", ## generate "Rumor"
           TRUE ~ RNAM
         )
           ) %>%
