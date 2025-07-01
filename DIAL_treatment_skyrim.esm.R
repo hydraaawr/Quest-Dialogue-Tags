@@ -42,7 +42,11 @@ db_dial_skyrim.esm_json_ready <- db_dial_skyrim.esm_massclass %>%
       FULL = case_when(
         str_detect(Formid_DIAL, "Rumor") & is.na(RNAM) & is.na(FULL) ~ "Heard any rumors lately?", ## generate "Rumor"
         TRUE ~ FULL 
-        )
+        ),
+      RNAM = case_when(
+        str_detect(FULL, "What's the word around town?") & is.na(RNAM) ~ "What's the word around town?", ## special case where we have to generate RNAM to trigger json generation INFO generation
+        TRUE ~ RNAM
+      )
     ) %>%
       filter(
         ## No classified out

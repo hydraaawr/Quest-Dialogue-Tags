@@ -10115,8 +10115,8 @@
     "string": "What can you tell me about the Sleeping Tree? (Quest)"
   },
   {
-    "form_id": "0009028B|Skyrim.esm",
-    "type": "DIAL FULL",
+    "form_id": "00083A96|Skyrim.esm",
+    "type": "INFO RNAM",
     "string": "What's the word around town? (Quest)"
   },
   {
