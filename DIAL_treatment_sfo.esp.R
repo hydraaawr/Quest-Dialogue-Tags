@@ -89,7 +89,7 @@ db_dial_sfo.esp_new_json_ready <- db_dial_sfo.esp_new_json_ready %>%
 ## Json generation:
 
 
-json_ccBGSSSE001_Fish.esm_sfo <- json_gen(db_dial_ccBGSSSE001_Fish.esm_sfo_json_ready,"ccBGSSSE001_Fish.esm", "NA (Quest)")
+json_ccBGSSSE001_Fish.esm_sfo <- json_gen(db_dial_ccBGSSSE001_Fish.esm_sfo_json_ready,"ccBGSSSE001-Fish.esm", "NA (Quest)")
 
 json_sfo.esp_new <- json_gen(db_dial_sfo.esp_new_json_ready, "Simple Fishing Overhaul.esp", "NA (Quest)")
 
