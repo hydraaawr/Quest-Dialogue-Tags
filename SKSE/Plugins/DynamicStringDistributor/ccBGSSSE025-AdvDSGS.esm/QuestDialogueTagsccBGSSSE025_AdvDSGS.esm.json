@@ -1,0 +1,227 @@
+[
+  {
+    "form_id": "0619D387|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "I suppose this is goodbye. (Quest)"
+  },
+  {
+    "form_id": "0619D383|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "I have the artifact you seek, but I think I'll be keeping it. So long. (Quest)"
+  },
+  {
+    "form_id": "0619D382|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "I believe I have what you're looking for. (Give Sword of Jyggalag) (Quest)"
+  },
+  {
+    "form_id": "0619D381|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "I believe I have what you're looking for. (Give Sheogorath-Shaped Amber) (Quest)"
+  },
+  {
+    "form_id": "061A2502|ccBGSSSE025-AdvDSGS.esm",
+    "type": "INFO RNAM",
+    "string": "You're clearly far from home. Are you looking for something? (Quest)"
+  },
+  {
+    "form_id": "0619D37F|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "You must be the one who sent that note. (Quest)"
+  },
+  {
+    "form_id": "060010BC|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "A giant bug crab? I really need to stop drinking skooma. (Quest)"
+  },
+  {
+    "form_id": "060010BA|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "A giant bug crab? I really need to stop drinking skooma. (Quest)"
+  },
+  {
+    "form_id": "060010B9|ccBGSSSE025-AdvDSGS.esm",
+    "type": "INFO RNAM",
+    "string": "On second thought, never mind. (Quest)"
+  },
+  {
+    "form_id": "060010B6|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "All right, let's go. (Quest)"
+  },
+  {
+    "form_id": "060010B4|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "Well, you're free. Good luck out there. (Quest)"
+  },
+  {
+    "form_id": "060010B2|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "I think you're kind of cute. Do you want to be my pet? (Quest)"
+  },
+  {
+    "form_id": "060010B0|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "Still, I wouldn't mind keeping you as a pet. What do you say? (Quest)"
+  },
+  {
+    "form_id": "060010AE|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "I can't just leave you here. Maybe you could follow me? (Quest)"
+  },
+  {
+    "form_id": "060010AC|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "Do you want to come with me? (Quest)"
+  },
+  {
+    "form_id": "060010A6|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "Another bug! The bandits must have caged you too. (Quest)"
+  },
+  {
+    "form_id": "060010A4|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "Hey there little guy, you aren't hurt, are you? (Quest)"
+  },
+  {
+    "form_id": "060010A2|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "You're the second bug of your kind I've come across recently. (Quest)"
+  },
+  {
+    "form_id": "060010A0|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "You look like another creature I found caged. It was equally repulsive. (Quest)"
+  },
+  {
+    "form_id": "0600109E|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "Easy now, bug. I've killed weirder things than you, so don't bite me. (Quest)"
+  },
+  {
+    "form_id": "0600109C|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "Another strange bug? If I wasn't having nightmares before I will now. (Quest)"
+  },
+  {
+    "form_id": "0600109A|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "You're a weird one. But still only the third strangest thing I've met this week. (Quest)"
+  },
+  {
+    "form_id": "06001098|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "Aren't you an adorable little bug! I wonder why they kept you caged. (Quest)"
+  },
+  {
+    "form_id": "06001096|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "Are you okay? Did they hurt you? (Quest)"
+  },
+  {
+    "form_id": "06001094|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "A bug? Did the bandits lock you up? (Quest)"
+  },
+  {
+    "form_id": "0600108F|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "Are you okay? Those bandits must have caged you. (Quest)"
+  },
+  {
+    "form_id": "0600108D|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "Hey there little guy, you aren't hurt, are you? (Quest)"
+  },
+  {
+    "form_id": "0600108B|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "You're the second bug of your kind I've come across recently. (Quest)"
+  },
+  {
+    "form_id": "06001089|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "You look like another creature I found caged. It was equally repulsive. (Quest)"
+  },
+  {
+    "form_id": "06001087|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "Easy now, bug. I've killed weirder things than you, so don't bite me. (Quest)"
+  },
+  {
+    "form_id": "06001085|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "Well, you're free. Good luck out there. (Quest)"
+  },
+  {
+    "form_id": "06001083|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "I think you're kind of cute. Do you want to be my pet? (Quest)"
+  },
+  {
+    "form_id": "06001081|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "This is probably a bad idea, but if you want, you can follow me. (Quest)"
+  },
+  {
+    "form_id": "0600107F|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "On second thought, never mind. (Quest)"
+  },
+  {
+    "form_id": "0600107D|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "All right, let's go. (Quest)"
+  },
+  {
+    "form_id": "0600107B|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "It'd be cruel to leave you here. Would you like to follow me? (Quest)"
+  },
+  {
+    "form_id": "06001075|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "Do you want to come with me? (Quest)"
+  },
+  {
+    "form_id": "06001073|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "Another strange bug? If I wasn't having nightmares before I will now. (Quest)"
+  },
+  {
+    "form_id": "06001071|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "You're a weird one. But still only the third strangest thing I've met this week. (Quest)"
+  },
+  {
+    "form_id": "0600106F|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "Aren't you an adorable little bug! I wonder why they kept you caged. (Quest)"
+  },
+  {
+    "form_id": "0600106D|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "Are you okay? Did they hurt you? (Quest)"
+  },
+  {
+    "form_id": "0600106B|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "A bug? Did the bandits lock you up? (Quest)"
+  },
+  {
+    "form_id": "061E9358|ccBGSSSE025-AdvDSGS.esm",
+    "type": "INFO RNAM",
+    "string": "I've dealt with the Saints and Seducers I heard you've been having trouble with. (Quest)"
+  },
+  {
+    "form_id": "06000983|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "I've taken care of the Saints and Seducers. (Quest)"
+  },
+  {
+    "form_id": "06000980|ccBGSSSE025-AdvDSGS.esm",
+    "type": "DIAL FULL",
+    "string": "I've heard you've been running into trouble along the road. (Quest)"
+  }
+]
