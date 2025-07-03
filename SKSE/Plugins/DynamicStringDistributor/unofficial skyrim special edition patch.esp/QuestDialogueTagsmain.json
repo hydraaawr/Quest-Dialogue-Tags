@@ -4380,21 +4380,6 @@
     "string": "How does one join the Imperial Legion? (Quest)"
   },
   {
-    "form_id": "000D3C53|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "How do you feel about this war? (Quest)"
-  },
-  {
-    "form_id": "000D3C56|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "Why are you called Stormcloaks? (Quest)"
-  },
-  {
-    "form_id": "000D3C55|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "What's the Imperial Legion doing in Skyrim? (Quest)"
-  },
-  {
     "form_id": "000D3C51|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "... (Quest)"
@@ -6108,31 +6093,6 @@
     "form_id": "000C3505|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "General Tullius never mentioned you... (Quest)"
-  },
-  {
-    "form_id": "000C3470|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What's the Imperial Legion doing in Skyrim? (Quest)"
-  },
-  {
-    "form_id": "000C346F|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Have you always lived in Skyrim? (Quest)"
-  },
-  {
-    "form_id": "000C348F|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "Why are you fighting this war? (Quest)"
-  },
-  {
-    "form_id": "000C348E|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "What is the aim of this war? (Quest)"
-  },
-  {
-    "form_id": "000C346E|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What will it take to end the war? (Quest)"
   },
   {
     "form_id": "000C346D|Skyrim.esm",
