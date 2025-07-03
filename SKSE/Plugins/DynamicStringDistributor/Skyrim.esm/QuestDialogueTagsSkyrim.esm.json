@@ -13650,6 +13650,11 @@
     "string": "I'll come along with you. (Quest)"
   },
   {
+    "form_id": "0005D2FB|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "I'd rather scout ahead. (Quest)"
+  },
+  {
     "form_id": "0005D2E1|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "You look like you could use some help. (Quest)"
