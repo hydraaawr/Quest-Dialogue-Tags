@@ -13,15 +13,15 @@ rm(list = ls())
 ## Loading
 
 source(".\\DIAL_treatment_main_functions_v2.1.R")
-db_dial_sfo.esp <- read.csv(".\\dbs\\db_DIAL_sfo.esp_v1.csv", sep = ";")
+db_dial_sfo <- read.csv(".\\dbs\\db_DIAL_sfo_v1.csv", sep = ";")
 
 ## Procedure
 
-db_dial_sfo.esp_merged <- shaper(db_dial_sfo.esp)
+db_dial_sfo_merged <- shaper(db_dial_sfo)
 
 ## db with massively classified QNAM
 
-db_dial_sfo.esp_massclass <- db_dial_sfo.esp_merged %>%
+db_dial_sfo_massclass <- db_dial_sfo_merged %>%
     mutate( ## clasify type of quest
         QNAM_type = case_when(
         str_detect(QNAM, "MQ") ~ "MQ", ## Main Quest
@@ -35,7 +35,7 @@ db_dial_sfo.esp_massclass <- db_dial_sfo.esp_merged %>%
 
 ## ready for json db (filtering and adding tags)
 
-db_dial_sfo.esp_json_ready <- db_dial_sfo.esp_massclass %>%
+db_dial_sfo_json_ready <- db_dial_sfo_massclass %>%
   isolate_ids() %>%
       filter(
         ## No classified out
@@ -69,19 +69,19 @@ load(".\\Resources\\DIAL_treatment_ccBGSSSE001_Fish.esm.RData")
 ## Matching #############################################################################
 ## These include untouched plugin records + sfoezied ones
 
-db_dial_ccBGSSSE001_Fish.esm_sfo_json_ready <- rows_update(db_dial_ccBGSSSE001_Fish.esm_json_ready,db_dial_sfo.esp_json_ready, by = c("Formid_DIAL_isolated","Formid_INFO_isolated"), unmatched = "ignore")
+db_dial_ccBGSSSE001_Fish.esm_sfo_json_ready <- rows_update(db_dial_ccBGSSSE001_Fish.esm_json_ready,db_dial_sfo_json_ready, by = c("Formid_DIAL_isolated","Formid_INFO_isolated"), unmatched = "ignore")
 
 
 ####
 
 ## generate the extra ones added by sfo
 
-db_dial_sfo.esp_new_json_ready <- anti_join(db_dial_sfo.esp_json_ready,db_dial_ccBGSSSE001_Fish.esm_sfo_json_ready)
+db_dial_sfo_new_json_ready <- anti_join(db_dial_sfo_json_ready,db_dial_ccBGSSSE001_Fish.esm_sfo_json_ready)
 
 ## Failsafe for some special cases that had same fomid dial but different info (and generate repeated entries)
 Formid_DIAL_isolated_ccBGSSSE001_Fish.esm_sfo <- db_dial_ccBGSSSE001_Fish.esm_sfo_json_ready$Formid_DIAL_isolated
 
-db_dial_sfo.esp_new_json_ready <- db_dial_sfo.esp_new_json_ready %>%
+db_dial_sfo_new_json_ready <- db_dial_sfo_new_json_ready %>%
   filter(!Formid_DIAL_isolated %in% Formid_DIAL_isolated_ccBGSSSE001_Fish.esm_sfo)
 
 #############################################################################################
@@ -91,7 +91,7 @@ db_dial_sfo.esp_new_json_ready <- db_dial_sfo.esp_new_json_ready %>%
 
 json_ccBGSSSE001_Fish.esm_sfo <- json_gen(db_dial_ccBGSSSE001_Fish.esm_sfo_json_ready,"ccBGSSSE001-Fish.esm", "NA (Quest)")
 
-json_sfo.esp_new <- json_gen(db_dial_sfo.esp_new_json_ready, "Simple Fishing Overhaul.esp", "NA (Quest)")
+json_sfo_new <- json_gen(db_dial_sfo_new_json_ready, "Simple Fishing Overhaul.esp", "NA (Quest)")
 
 
 ## bind them (NOT NECESSARY BECAUSE THERE'S NO NEW DIALOGUES IN THIS CASE)
@@ -100,7 +100,7 @@ json_sfo.esp_new <- json_gen(db_dial_sfo.esp_new_json_ready, "Simple Fishing Ove
 #   '[', 
 #   gsub('\\[|\\]', '', json_ccBGSSSE001_Fish.esm_sfo),
 #   ',',
-#   gsub('\\[|\\]', '', json_sfo.esp_new), 
+#   gsub('\\[|\\]', '', json_sfo_new), 
 #   ']'
 # )
 

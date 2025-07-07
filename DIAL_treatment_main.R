@@ -13,15 +13,15 @@ rm(list = ls())
 ## Loading
 
 source(".\\DIAL_treatment_main_functions_v2.1.R")
-db_dial_ussep.esp <- read.csv(".\\dbs\\db_DIAL_ussep.esp_v1.csv", sep = ";")
+db_dial_ussep <- read.csv(".\\dbs\\db_DIAL_USSEP_v1.csv", sep = ";")
 
 ## Procedure
 
-db_dial_ussep.esp_merged <- shaper(db_dial_ussep.esp)
+db_dial_ussep_merged <- shaper(db_dial_ussep)
 
 ## db with massively classified QNAM
 
-db_dial_ussep.esp_massclass <- db_dial_ussep.esp_merged %>%
+db_dial_ussep_massclass <- db_dial_ussep_merged %>%
     mutate( ## clasify type of quest
         QNAM_type = case_when(
         ## skyrim.esm
@@ -63,7 +63,7 @@ db_dial_ussep.esp_massclass <- db_dial_ussep.esp_merged %>%
 
 ## ready for json db (filtering and adding tags)
 
-db_dial_ussep.esp_json_ready <- db_dial_ussep.esp_massclass %>%
+db_dial_ussep_json_ready <- db_dial_ussep_massclass %>%
   isolate_ids() %>%
   ## skyrim.esm + dawnguard.esm
    mutate(   ## generate "rumor"
@@ -132,23 +132,23 @@ load(".\\Resources\\DIAL_treatment_dragonborn.esm.RData")
 ## Matching #############################################################################
 ## These include untouched plugin records + ussepezied ones
 
-db_dial_skyrim.esm_ussep_json_ready <- rows_update(db_dial_skyrim.esm_json_ready,db_dial_ussep.esp_json_ready, by = c("Formid_DIAL_isolated","Formid_INFO_isolated"), unmatched = "ignore")
+db_dial_skyrim.esm_ussep_json_ready <- rows_update(db_dial_skyrim.esm_json_ready,db_dial_ussep_json_ready, by = c("Formid_DIAL_isolated","Formid_INFO_isolated"), unmatched = "ignore")
 
-db_dial_dawnguard.esm_ussep_json_ready <- rows_update(db_dial_dawnguard.esm_json_ready,db_dial_ussep.esp_json_ready, by = c("Formid_DIAL_isolated","Formid_INFO_isolated"), unmatched = "ignore")
+db_dial_dawnguard.esm_ussep_json_ready <- rows_update(db_dial_dawnguard.esm_json_ready,db_dial_ussep_json_ready, by = c("Formid_DIAL_isolated","Formid_INFO_isolated"), unmatched = "ignore")
 
-db_dial_dragonborn.esm_ussep_json_ready <- rows_update(db_dial_dragonborn.esm_json_ready,db_dial_ussep.esp_json_ready, by = c("Formid_DIAL_isolated","Formid_INFO_isolated"), unmatched = "ignore")
+db_dial_dragonborn.esm_ussep_json_ready <- rows_update(db_dial_dragonborn.esm_json_ready,db_dial_ussep_json_ready, by = c("Formid_DIAL_isolated","Formid_INFO_isolated"), unmatched = "ignore")
 
 ####
 
 ## generate the extra ones added by ussep
 
 db_dial_vanilla_ussep_json_ready <- bind_rows(db_dial_skyrim.esm_ussep_json_ready, db_dial_dawnguard.esm_ussep_json_ready, db_dial_dragonborn.esm_ussep_json_ready) ## join the three that have all records + ussep modifications
-db_dial_ussep.esp_new_json_ready <- anti_join(db_dial_ussep.esp_json_ready,db_dial_vanilla_ussep_json_ready)
+db_dial_ussep_new_json_ready <- anti_join(db_dial_ussep_json_ready,db_dial_vanilla_ussep_json_ready)
 
 ## Failsafe for some special cases that had same fomid dial but different info (and generate repeated entries)
 Formid_DIAL_isolated_vanilla_ussep <- db_dial_vanilla_ussep_json_ready$Formid_DIAL_isolated
 
-db_dial_ussep.esp_new_json_ready <- db_dial_ussep.esp_new_json_ready %>%
+db_dial_ussep_new_json_ready <- db_dial_ussep_new_json_ready %>%
   filter(!Formid_DIAL_isolated %in% Formid_DIAL_isolated_vanilla_ussep)
 
 #############################################################################################
@@ -162,7 +162,7 @@ json_dawnguard.esm_ussep <- json_gen(db_dial_dawnguard.esm_ussep_json_ready,"Daw
 
 json_dragonborn.esm_ussep <- json_gen(db_dial_dragonborn.esm_ussep_json_ready,"Dragonborn.esm", "NA (Quest)")
 
-json_ussep.esp_new <- json_gen(db_dial_ussep.esp_new_json_ready, "unofficial skyrim special edition patch.esp", "NA (Quest)")
+json_ussep_new <- json_gen(db_dial_ussep_new_json_ready, "unofficial skyrim special edition patch.esp", "NA (Quest)")
 
 
 ## bind them
@@ -175,7 +175,7 @@ json_main <- paste0(
   ',', 
   gsub('\\[|\\]', '', json_dragonborn.esm_ussep), 
   ',',
-  gsub('\\[|\\]', '', json_ussep.esp_new), 
+  gsub('\\[|\\]', '', json_ussep_new), 
   ']'
 )
 
