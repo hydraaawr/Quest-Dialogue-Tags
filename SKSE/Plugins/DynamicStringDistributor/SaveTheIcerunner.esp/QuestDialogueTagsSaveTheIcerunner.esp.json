@@ -1,0 +1,43 @@
+[
+  {
+    "form_id": "00025F50|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "I put out the Lighthouse fire. (Quest)"
+  }
+,
+  {
+    "form_id": "1100083A|SaveTheIcerunner.esp",
+    "type": "DIAL FULL",
+    "string": "Hello, Jaree-Ra. (Quest)"
+  },
+  {
+    "form_id": "11000816|SaveTheIcerunner.esp",
+    "type": "DIAL FULL",
+    "string": "Jaree-Ra is conspiring with the Blackblood Marauders. (Show journal) (Quest)"
+  },
+  {
+    "form_id": "11000813|SaveTheIcerunner.esp",
+    "type": "DIAL FULL",
+    "string": "Actually, yes, I found this journal in a bandit hideout. (Show journal) (Quest)"
+  },
+  {
+    "form_id": "11000811|SaveTheIcerunner.esp",
+    "type": "DIAL FULL",
+    "string": "No, I can't prove it. (Quest)"
+  },
+  {
+    "form_id": "1100080D|SaveTheIcerunner.esp",
+    "type": "DIAL FULL",
+    "string": "Give it up, or I'll report you to the guards. (Quest)"
+  },
+  {
+    "form_id": "11000808|SaveTheIcerunner.esp",
+    "type": "DIAL FULL",
+    "string": "I want to be your partner, not your scapegoat. (Persuade) (Quest)"
+  },
+  {
+    "form_id": "11000804|SaveTheIcerunner.esp",
+    "type": "DIAL FULL",
+    "string": "So you were looking for a scapegoat, were you? (Show journal) (Quest)"
+  }
+]

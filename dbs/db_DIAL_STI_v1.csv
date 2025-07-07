@@ -1,0 +1,107 @@
+Record;[0];[0]\[3];[1]\[3];FULL;QNAM;[2]\[2]\[0]\[0];RNAM
+33556546;STIJareeRaJailQuestHello [DIAL:11000841];;[INFO:11000842] ('Well, this is a nice mess you've gotten me into.' in GRUP Topic Children of STIJareeRaJailQuestHello [DIAL:11000841]);;;;
+33556545;;STIJareeRaJailQuestHello [DIAL:11000841];;;STIJareeRaJailQuest "Jaree-Ra goes to jail" [QUST:1100082C];;
+33556541;STIJareeRaRevengeQuestWalkAway [DIAL:1100083C];;[INFO:1100083D] ([G]'Don't you walk away from me!' in GRUP Topic Children of STIJareeRaRevengeQuestWalkAway [DIAL:1100083C]);;;STI_TIF__JRRevengeWalk;
+33556540;;STIJareeRaRevengeQuestWalkAway [DIAL:1100083C];;;STIJareeRaRevengeQuest "Jaree-Ra seeks revenge" [QUST:11000836];;
+33556539;STIJareeRaRevengeQuestReply "Hello, Jaree-Ra." [DIAL:1100083A];;[INFO:1100083B] ([G]'You've betrayed me, murdered my sister and massacred my men!' in GRUP Topic Children of STIJareeRaRevengeQuestReply "Hello, Jaree-Ra." [DIAL:1100083A]);;;STI_TIF__JRRevengeTalk;
+33556538;;STIJareeRaRevengeQuestReply "Hello, Jaree-Ra." [DIAL:1100083A];;Hello, Jaree-Ra.;STIJareeRaRevengeQuest "Jaree-Ra seeks revenge" [QUST:11000836];;
+33556537;STIJareeRaRevengeQuestForceGreetTopic [DIAL:11000838];;[INFO:11000839] ('You, of all people!' in GRUP Topic Children of STIJareeRaRevengeQuestForceGreetTopic [DIAL:11000838]);;;;
+33556536;;STIJareeRaRevengeQuestForceGreetTopic [DIAL:11000838];;;STIJareeRaRevengeQuest "Jaree-Ra seeks revenge" [QUST:11000836];;
+33556516;[DIAL:11000825];;[INFO:11000824] ('All right, all right. No need to get rough.' in GRUP Topic Children of [DIAL:11000825]);;;;
+33556517;;[DIAL:11000825];;;MS07 "Lights Out!" [QUST:00023A64];;
+33556514;[DIAL:11000823];;[INFO:11000822] ('We can do this one of two ways. You can walk up with me to the keep, or I can drag your lifeless body. Your choice.' in GRUP Topic Children of [DIAL:11000823]);;;;
+33556515;;[DIAL:11000823];;;MS07 "Lights Out!" [QUST:00023A64];;
+33556512;[DIAL:11000821];;[INFO:11000820] ('Hssss. This can't be happening.' in GRUP Topic Children of [DIAL:11000821]);;;;
+33556513;;[DIAL:11000821];;;MS07 "Lights Out!" [QUST:00023A64];;
+33556510;[DIAL:1100081F];;[INFO:1100081E] ('Don't play stupid. I'm placing you under arrest.' in GRUP Topic Children of [DIAL:1100081F]);;;;
+33556511;;[DIAL:1100081F];;;MS07 "Lights Out!" [QUST:00023A64];;
+33556508;[DIAL:1100081D];;[INFO:1100081C] ('What? What crime's been committed?' in GRUP Topic Children of [DIAL:1100081D]);;;;
+33556509;;[DIAL:1100081D];;;MS07 "Lights Out!" [QUST:00023A64];;
+33556506;[DIAL:1100081B];;[INFO:1100081A] ('You have committed crimes against Skyrim and her people. What say you in your defense?' in GRUP Topic Children of [DIAL:1100081B]);;;;
+33556507;;[DIAL:1100081B];;;MS07 "Lights Out!" [QUST:00023A64];;
+33556503;MS07AldisReportProofTopic "Jaree-Ra is conspiring with the Blackblood Marauders. (Show journal)" [DIAL:11000816];;[INFO:11000817] ([G]'All right. Let's take a look...' in GRUP Topic Children of MS07AldisReportProofTopic "Jaree-Ra is conspiring with the Blackblood Marauders. (Show journal)" [DIAL:11000816]);;;STI_TIF__AldisReportProof;
+33556502;;MS07AldisReportProofTopic "Jaree-Ra is conspiring with the Blackblood Marauders. (Show journal)" [DIAL:11000816];;Jaree-Ra is conspiring with the Blackblood Marauders. (Show journal);MS07 "Lights Out!" [QUST:00023A64];;
+33556500;MS07AldisCanProve "Actually, yes, I found this journal in a bandit hideout. (Show journal)" [DIAL:11000813];;[INFO:11000814] ([G]'Very good... Let's see what you have here.' in GRUP Topic Children of MS07AldisCanProve "Actually, yes, I found this journal in a bandit hideout. (Show journal)" [DIAL:11000813]);;;STI_TIF__AldisHaveProof;
+33556499;;MS07AldisCanProve "Actually, yes, I found this journal in a bandit hideout. (Show journal)" [DIAL:11000813];;Actually, yes, I found this journal in a bandit hideout. (Show journal);MS07 "Lights Out!" [QUST:00023A64];;
+33556498;MS07AldisCantProve "No, I can't prove it." [DIAL:11000811];;[INFO:11000812] ([G]'Well, come back when you have some more evidence.' in GRUP Topic Children of MS07AldisCantProve "No, I can't prove it." [DIAL:11000811]);;;STI_TIF__AldisNeedProof;
+33556497;;MS07AldisCantProve "No, I can't prove it." [DIAL:11000811];;No, I can't prove it.;MS07 "Lights Out!" [QUST:00023A64];;
+33556496;MS07AldisInitialReportTopic "Jaree-Ra is up to something. He wants me to help set up a shipwreck." [DIAL:1100080F];;[INFO:11000810] ('That's quite an accusation. I assume you have proof?' in GRUP Topic Children of MS07AldisInitialReportTopic "Jaree-Ra is up to something. He wants me to help set up a shipwreck." [DIAL:1100080F]);;;;
+33556495;;MS07AldisInitialReportTopic "Jaree-Ra is up to something. He wants me to help set up a shipwreck." [DIAL:1100080F];;Jaree-Ra is up to something. He wants me to help set up a shipwreck.;MS07 "Lights Out!" [QUST:00023A64];;
+33556487;MS07JareeRaGiveUpTopic "Give it up, or I'll report you to the guards." [DIAL:1100080D];;[INFO:11000807] ([G]'Well... all right.' in GRUP Topic Children of MS07JareeRaGiveUpTopic "Give it up, or I'll report you to the guards." [DIAL:1100080D]);;;STI_TIF__JRGiveUp;
+33556493;;MS07JareeRaGiveUpTopic "Give it up, or I'll report you to the guards." [DIAL:1100080D];;Give it up, or I'll report you to the guards.;MS07 "Lights Out!" [QUST:00023A64];;
+33556490;MS07JareeRaWantInTopic "I want to be your partner, not your scapegoat. (Persuade)" [DIAL:11000808];;[INFO:1100080A] ([G]'Are you kidding me? Go away.' in GRUP Topic Children of MS07JareeRaWantInTopic "I want to be your partner, not your scapegoat. (Persuade)" [DIAL:11000808]);;;;
+33556489;MS07JareeRaWantInTopic "I want to be your partner, not your scapegoat. (Persuade)" [DIAL:11000808];;[INFO:11000809] (in GRUP Topic Children of MS07JareeRaWantInTopic "I want to be your partner, not your scapegoat. (Persuade)" [DIAL:11000808]);;;STI_TIF__JRWantIn;
+33556488;;MS07JareeRaWantInTopic "I want to be your partner, not your scapegoat. (Persuade)" [DIAL:11000808];;I want to be your partner, not your scapegoat. (Persuade);MS07 "Lights Out!" [QUST:00023A64];;
+33556485;MS07JareeRaShowJournalTopic "So you were looking for a ""scapegoat"", were you? (Show journal)" [DIAL:11000804];;[INFO:11000805] ('Hmm... I can't believe I got caught. What do you want?' in GRUP Topic Children of MS07JareeRaShowJournalTopic "So you were looking for a ""scapegoat"", were you? (Show journal)" [DIAL:11000804]);;;STI_TIF__JRShowJournal;
+33556484;;MS07JareeRaShowJournalTopic "So you were looking for a ""scapegoat"", were you? (Show journal)" [DIAL:11000804];;So you were looking for a "scapegoat", were you? (Show journal);MS07 "Lights Out!" [QUST:00023A64];;
+948074;[DIAL:000E727F];;[INFO:000E776A] ('It would be best if we spoke little until you've completed your task.' in GRUP Topic Children of [DIAL:000E727F]);;;;
+946815;;[DIAL:000E727F];;;MS07 "Lights Out!" [QUST:00023A64];;
+879710;[DIAL:000D6C50];;[INFO:000D6C5E] ([R]'You should see me when you get bored, stranger.' in GRUP Topic Children of [DIAL:000D6C50]);;;;
+879709;[DIAL:000D6C50];;[INFO:000D6C5D] ([R]'I've got a little work if you're interested, traveler.' in GRUP Topic Children of [DIAL:000D6C50]);;;;
+879696;;[DIAL:000D6C50];;;MS07 "Lights Out!" [QUST:00023A64];;
+879707;MS07AfterLamp2Topic "Why didn't your men put out the fire?" [DIAL:000D6C4F];;[INFO:000D6C5B] ('The Blackblood Marauders are... very identifiable. I didn't want anyone thinking the Blackbloods were getting too bold.' in GRUP Topic Children of MS07AfterLamp2Topic "Why didn't your men put out the fire?" [DIAL:000D6C4F]);;;;
+879695;;MS07AfterLamp2Topic "Why didn't your men put out the fire?" [DIAL:000D6C4F];;Why didn't your men put out the fire?;MS07 "Lights Out!" [QUST:00023A64];;
+879706;MS07AfterLamp3Topic "You're with the Blackblood Marauders?" [DIAL:000D6C4E];;[INFO:000D6C5A] ('Deeja and I are more like their representatives here in Solitude. None of the Blackbloods can show themselves without being arrested.' in GRUP Topic Children of MS07AfterLamp3Topic "You're with the Blackblood Marauders?" [DIAL:000D6C4E]);;;;
+879694;;MS07AfterLamp3Topic "You're with the Blackblood Marauders?" [DIAL:000D6C4E];;You're with the Blackblood Marauders?;MS07 "Lights Out!" [QUST:00023A64];;
+818376;[DIAL:000C7ABA];;[INFO:000C7CC8] ('Your selection looks very delicious. I'll take an apple.' in GRUP Topic Children of [DIAL:000C7ABA]);;;;
+818367;[DIAL:000C7ABA];;[INFO:000C7CBF] ('Your fruit are looking a little less ripe today.' in GRUP Topic Children of [DIAL:000C7ABA]);;;;
+817850;;[DIAL:000C7ABA];;;DialogueSolitudeMarketplaceJawananJalaScene "Kids Playing in Well" [QUST:000C7CF5];;
+818095;[DIAL:000C7AB9];;[INFO:000C7BAF] ('One apple. Since the Blackbloods were dispatched I've had good luck getting shipments.' in GRUP Topic Children of [DIAL:000C7AB9]);;;;
+818093;[DIAL:000C7AB9];;[INFO:000C7BAD] ('It's those damned Blackblood Marauders. They're scaring off shipping.' in GRUP Topic Children of [DIAL:000C7AB9]);;;;
+817849;;[DIAL:000C7AB9];;;DialogueSolitudeMarketplaceJawananJalaScene "Kids Playing in Well" [QUST:000C7CF5];;
+33556531;DialogueSolitudeAhtar02Topic02 "I took care of him and the Blackblood Marauders." [DIAL:000C1A33];;[INFO:11000833] ('Good lass.' in GRUP Topic Children of DialogueSolitudeAhtar02Topic02 "I took care of him and the Blackblood Marauders." [DIAL:000C1A33]);;;;He's in jail now, thanks to me.
+33556529;DialogueSolitudeAhtar02Topic02 "I took care of him and the Blackblood Marauders." [DIAL:000C1A33];;[INFO:11000831] ('Good lass.' in GRUP Topic Children of DialogueSolitudeAhtar02Topic02 "I took care of him and the Blackblood Marauders." [DIAL:000C1A33]);;;;I already took care of him.
+906765;DialogueSolitudeAhtar02Topic02 "I took care of him and the Blackblood Marauders." [DIAL:000C1A33];;[INFO:000DD60D] ('Good lass.' in GRUP Topic Children of DialogueSolitudeAhtar02Topic02 "I took care of him and the Blackblood Marauders." [DIAL:000C1A33]);;;;
+33556530;DialogueSolitudeAhtar02Topic02 "I took care of him and the Blackblood Marauders." [DIAL:000C1A33];;[INFO:11000832] ('Good man.' in GRUP Topic Children of DialogueSolitudeAhtar02Topic02 "I took care of him and the Blackblood Marauders." [DIAL:000C1A33]);;;;He's in jail now, thanks to me.
+33556528;DialogueSolitudeAhtar02Topic02 "I took care of him and the Blackblood Marauders." [DIAL:000C1A33];;[INFO:11000830] ('Good man.' in GRUP Topic Children of DialogueSolitudeAhtar02Topic02 "I took care of him and the Blackblood Marauders." [DIAL:000C1A33]);;;;I already took care of him.
+793156;DialogueSolitudeAhtar02Topic02 "I took care of him and the Blackblood Marauders." [DIAL:000C1A33];;[INFO:000C1A44] ('Good man.' in GRUP Topic Children of DialogueSolitudeAhtar02Topic02 "I took care of him and the Blackblood Marauders." [DIAL:000C1A33]);;;;
+793139;;DialogueSolitudeAhtar02Topic02 "I took care of him and the Blackblood Marauders." [DIAL:000C1A33];;I took care of him and the Blackblood Marauders.;DialogueSolitude "Solitude Dialogue" [QUST:0002E1AD];;
+785125;DialogueSolitudeHeimvar02Topic02 "What's your problem with Jaree-Ra?" [DIAL:000BFADE];;[INFO:000BFAE5] ('Really? I knew he was mixed up in something dangerous, but I hadn't heard he was dead.' in GRUP Topic Children of DialogueSolitudeHeimvar02Topic02 "What's your problem with Jaree-Ra?" [DIAL:000BFADE]);;;;Jaree-Ra is dead.
+785124;DialogueSolitudeHeimvar02Topic02 "What's your problem with Jaree-Ra?" [DIAL:000BFADE];;[INFO:000BFAE4] ('Captain Aldis can't prove it, but that Argonian is up to no good.' in GRUP Topic Children of DialogueSolitudeHeimvar02Topic02 "What's your problem with Jaree-Ra?" [DIAL:000BFADE]);;;;
+785118;;DialogueSolitudeHeimvar02Topic02 "What's your problem with Jaree-Ra?" [DIAL:000BFADE];;What's your problem with Jaree-Ra?;DialogueSolitude "Solitude Dialogue" [QUST:0002E1AD];;
+645618;MS07JareeRaWalkawayTopic [DIAL:0009D9B6];;[INFO:0009D9F2] ([G][SO]'Just remember I'm here if you rethink your decision.' in GRUP Topic Children of MS07JareeRaWalkawayTopic [DIAL:0009D9B6]);;;TIF__0009D9F2;
+645558;;MS07JareeRaWalkawayTopic [DIAL:0009D9B6];;;MS07 "Lights Out!" [QUST:00023A64];;
+790019;DialogueSolitudeEndarieBranchTopic "Do you get a lot of business like that?" [DIAL:00084977];;[INFO:000C0E03] ([SO]'Oh, we do all right. Rumor is, you had a hand in the Blackblood Marauders' demise...' in GRUP Topic Children of DialogueSolitudeEndarieBranchTopic "Do you get a lot of business like that?" [DIAL:00084977]);;;;
+790018;DialogueSolitudeEndarieBranchTopic "Do you get a lot of business like that?" [DIAL:00084977];;[INFO:000C0E02] ([SO]'It's never been an issue. People say you helped with the problems at Wolfskull Cave.' in GRUP Topic Children of DialogueSolitudeEndarieBranchTopic "Do you get a lot of business like that?" [DIAL:00084977]);;;;
+790017;DialogueSolitudeEndarieBranchTopic "Do you get a lot of business like that?" [DIAL:00084977];;[INFO:000C0E01] ('I suppose I would, but you're the only one who gets that greeting.' in GRUP Topic Children of DialogueSolitudeEndarieBranchTopic "Do you get a lot of business like that?" [DIAL:00084977]);;;;
+543095;;DialogueSolitudeEndarieBranchTopic "Do you get a lot of business like that?" [DIAL:00084977];;Do you get a lot of business like that?;DialogueSolitude "Solitude Dialogue" [QUST:0002E1AD];;
+793245;DialogueSolitudeJalaBranchTopic "Don't you have trouble getting ripe goods here?" [DIAL:00084972];;[INFO:000C1A9D] ('It's been easier lately.' in GRUP Topic Children of DialogueSolitudeJalaBranchTopic "Don't you have trouble getting ripe goods here?" [DIAL:00084972]);;;;
+543100;DialogueSolitudeJalaBranchTopic "Don't you have trouble getting ripe goods here?" [DIAL:00084972];;[INFO:0008497C] ('I have my ways, but it's not easy these days.' in GRUP Topic Children of DialogueSolitudeJalaBranchTopic "Don't you have trouble getting ripe goods here?" [DIAL:00084972]);;;;
+543090;;DialogueSolitudeJalaBranchTopic "Don't you have trouble getting ripe goods here?" [DIAL:00084972];;Don't you have trouble getting ripe goods here?;DialogueSolitude "Solitude Dialogue" [QUST:0002E1AD];;
+518885;MS07JareeRaConfrontationGreetTopic [DIAL:0007EACF];;[INFO:0007EAE5] ([SO]'First you murder my sister, then you massacre my men!' in GRUP Topic Children of MS07JareeRaConfrontationGreetTopic [DIAL:0007EACF]);;;;
+518863;;MS07JareeRaConfrontationGreetTopic [DIAL:0007EACF];;;MS07 "Lights Out!" [QUST:00023A64];;
+401637;MS07JareeRaInitialOfferGreetTopic [DIAL:00061E63];;[INFO:000620E5] ('You're passing through Solitude? Maybe you're looking to make some easy gold, yes?' in GRUP Topic Children of MS07JareeRaInitialOfferGreetTopic [DIAL:00061E63]);;;;
+400995;;MS07JareeRaInitialOfferGreetTopic [DIAL:00061E63];;;MS07 "Lights Out!" [QUST:00023A64];;
+155491;MS07JareeRaOfferTopic "Okay, so what's your offer?" [DIAL:00061E61];;[INFO:00025F63] ('With the war, many more ships come through these docks. Loaded with weapons and pay, but few people. And they pass through dangerous waters.' in GRUP Topic Children of MS07JareeRaOfferTopic "Okay, so what's your offer?" [DIAL:00061E61]);;;TIF__00025F63;
+400993;;MS07JareeRaOfferTopic "Okay, so what's your offer?" [DIAL:00061E61];;Okay, so what's your offer?;MS07 "Lights Out!" [QUST:00023A64];;
+400782;;MS07JareeRaOfferTopic2 "I get it. So I have to put out the Lighthouse fire." [DIAL:00061D8E];;I get it. So I have to put out the Lighthouse fire.;MS07 "Lights Out!" [QUST:00023A64];;
+33556532;MS07DeejaIcerunnerBranchTopic "So we're splitting the loot, then?" [DIAL:00061D84];;[INFO:11000834] ([G] in GRUP Topic Children of MS07DeejaIcerunnerBranchTopic "So we're splitting the loot, then?" [DIAL:00061D84]);;;STI_TIF__DeejaSplitLoot;
+518876;MS07DeejaIcerunnerBranchTopic "So we're splitting the loot, then?" [DIAL:00061D84];;[INFO:0007EADC] ('Ha! I'm afraid the loot's already been moved. You've been useful to the Blackbloods, though. You've earned a quick death.' in GRUP Topic Children of MS07DeejaIcerunnerBranchTopic "So we're splitting the loot, then?" [DIAL:00061D84]);;;TIF__0007EADC;
+400772;;MS07DeejaIcerunnerBranchTopic "So we're splitting the loot, then?" [DIAL:00061D84];;So we're splitting the loot, then?;MS07 "Lights Out!" [QUST:00023A64];;
+194529;[DIAL:0002E13B];;[INFO:0002F7E1] ('You want knives? You want them in your belly? No? Then you stop talking to Deeja.' in GRUP Topic Children of [DIAL:0002E13B]);;;;
+194528;[DIAL:0002E13B];;[INFO:0002F7E0] ('You have no knowledge of who you speak to. Go away.' in GRUP Topic Children of [DIAL:0002E13B]);;;;
+188825;[DIAL:0002E13B];;[INFO:0002E199] ('You, talk to egg-brothers. Deeja has no words for you.' in GRUP Topic Children of [DIAL:0002E13B]);;;;
+188731;;[DIAL:0002E13B];;;DialogueSolitude "Solitude Dialogue" [QUST:0002E1AD];;
+698900;MS07JRGreet0 "What did you have in mind?" [DIAL:00025F57];;[INFO:000AAA14] ('As I said, it's easy to find things nobody will miss. My sister Deeja and I are treasure hunters. You could be too.' in GRUP Topic Children of MS07JRGreet0 "What did you have in mind?" [DIAL:00025F57]);;;TIF__000AAA14;So what was your suggestion again?
+682985;MS07JRGreet0 "What did you have in mind?" [DIAL:00025F57];;[INFO:000A6BE9] ([SO]'It's easy to find things to sell. Things nobody will miss. Things from underground, or just left lying around in someone's house.' in GRUP Topic Children of MS07JRGreet0 "What did you have in mind?" [DIAL:00025F57]);;;TIF__000A6BE9;
+155479;;MS07JRGreet0 "What did you have in mind?" [DIAL:00025F57];;What did you have in mind?;MS07 "Lights Out!" [QUST:00023A64];;
+33556482;[DIAL:00025F56];;[INFO:11000802] ('Ah, you're back.' in GRUP Topic Children of [DIAL:00025F56]);;;;
+157656;[DIAL:00025F56];;[INFO:000267D8] ('Get moving. I'll see if I can't delay any patrols out there.' in GRUP Topic Children of [DIAL:00025F56]);;;;
+879703;[DIAL:00025F56];;[INFO:000D6C57] ('Looks like you had no trouble.' in GRUP Topic Children of [DIAL:00025F56]);;;;
+947853;[DIAL:00025F56];;[INFO:000E768D] ('I believe you know what needs to be done. Something about putting out a fire?' in GRUP Topic Children of [DIAL:00025F56]);;;;
+879702;[DIAL:00025F56];;[INFO:000D6C56] ('Everyone needs work, right? I have good work for you.' in GRUP Topic Children of [DIAL:00025F56]);;;;
+879701;[DIAL:00025F56];;[INFO:000D6C55] ('If you're looking for opportunities to make some coin, well... I'm your man.' in GRUP Topic Children of [DIAL:00025F56]);;;;
+155504;[DIAL:00025F56];;[INFO:00025F70] ([SO]'You look new. I'm new, too. I think we could be friends.' in GRUP Topic Children of [DIAL:00025F56]);;;;
+155478;;[DIAL:00025F56];;;MS07 "Lights Out!" [QUST:00023A64];;
+155485;MS07JRGreet1A "I'm no thief." [DIAL:00025F55];;[INFO:00025F5D] ('Of course not! Thieves take what is precious. Thieves steal.' in GRUP Topic Children of MS07JRGreet1A "I'm no thief." [DIAL:00025F55]);;;;
+155477;;MS07JRGreet1A "I'm no thief." [DIAL:00025F55];;I'm no thief.;MS07 "Lights Out!" [QUST:00023A64];;
+155483;MS07JRGreet1B "I'm listening..." [DIAL:00025F54];;[INFO:00025F5B] ('I knew you looked like a clever one...' in GRUP Topic Children of MS07JRGreet1B "I'm listening..." [DIAL:00025F54]);;;TIF__00025F5B;
+155476;;MS07JRGreet1B "I'm listening..." [DIAL:00025F54];;I'm listening...;MS07 "Lights Out!" [QUST:00023A64];;
+155488;MS07JRWhatIf0 "Setting up a wreck? I should turn you in to the guards." [DIAL:00025F53];;[INFO:00025F60] ([G]'Turn me in? For what? What crime's been committed? I'm just making idle talk about what would most undoubtedly be a tragic event...' in GRUP Topic Children of MS07JRWhatIf0 "Setting up a wreck? I should turn you in to the guards." [DIAL:00025F53]);;;;
+155475;;MS07JRWhatIf0 "Setting up a wreck? I should turn you in to the guards." [DIAL:00025F53];;Setting up a wreck? I should turn you in to the guards.;MS07 "Lights Out!" [QUST:00023A64];;
+33556481;Ms07AfterLamp0 "I put out the Lighthouse fire." [DIAL:00025F50];;[INFO:11000801] ([G]'Yeah... that's not gonna happen.' in GRUP Topic Children of Ms07AfterLamp0 "I put out the Lighthouse fire." [DIAL:00025F50]);;;STI_TIF__JRDeejaDied;I put out the Lighthouse fire. Let's go over there and collect the loot.
+33556480;Ms07AfterLamp0 "I put out the Lighthouse fire." [DIAL:00025F50];;[INFO:11000800] ([G]'Yeah... that's not gonna happen.' in GRUP Topic Children of Ms07AfterLamp0 "I put out the Lighthouse fire." [DIAL:00025F50]);;;STI_TIF__JRKilledDeeja;I put out the Lighthouse fire. Let's go over there and collect the loot.
+155499;Ms07AfterLamp0 "I put out the Lighthouse fire." [DIAL:00025F50];;[INFO:00025F6B] ('The effects have already been felt. The Icerunner has failed to dock on time.' in GRUP Topic Children of Ms07AfterLamp0 "I put out the Lighthouse fire." [DIAL:00025F50]);;;TIF__00025F6B;
+155472;;Ms07AfterLamp0 "I put out the Lighthouse fire." [DIAL:00025F50];;I put out the Lighthouse fire.;MS07 "Lights Out!" [QUST:00023A64];;
+155486;MS07Victims0 "What would happen to sailors on the boat?" [DIAL:00025F46];;[INFO:00025F5E] ('Don't worry about them. We'll make sure they wash up safe. Maybe they'll even pay us for the heroic rescue from their sad crash.' in GRUP Topic Children of MS07Victims0 "What would happen to sailors on the boat?" [DIAL:00025F46]);;;;
+155462;;MS07Victims0 "What would happen to sailors on the boat?" [DIAL:00025F46];;What would happen to sailors on the boat?;MS07 "Lights Out!" [QUST:00023A64];;
