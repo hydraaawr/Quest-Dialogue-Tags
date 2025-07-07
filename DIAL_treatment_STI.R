@@ -21,7 +21,13 @@ db_dial_sti_merged <- shaper(db_dial_sti)
 
 ## db with massively classified QNAM
 
-db_dial_sti_massclass <- db_dial_sti_merged
+db_dial_sti_massclass <- db_dial_sti_merged %>%
+  mutate( ## clasify type of quest
+        QNAM_type = case_when(
+          str_detect(QNAM, "^MS") ~ "MS", ## Side quests
+          str_detect(QNAM, "STI") ~ "STI" ## STI added Quest
+        )
+      )
       
 
 
@@ -31,7 +37,7 @@ db_dial_sti_json_ready <- db_dial_sti_massclass %>%
   isolate_ids() %>%
       filter(
         ## No classified out
-        # !is.na(QNAM_type),
+        !is.na(QNAM_type),
         ## Exclude without scripts
         !is.na(Scriptname)
       ) %>%
