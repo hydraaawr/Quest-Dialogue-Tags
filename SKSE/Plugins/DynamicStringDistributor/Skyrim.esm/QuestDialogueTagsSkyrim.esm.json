@@ -3485,16 +3485,6 @@
     "string": "Your brother talked me into it. (Quest)"
   },
   {
-    "form_id": "000D6C4F|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Why didn't your men put out the fire? (Quest)"
-  },
-  {
-    "form_id": "000D6C4E|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "You're the leader of the Blackblood Marauders? (Quest)"
-  },
-  {
     "form_id": "000D6C46|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I interrupted their ritual. It's done. (Quest)"
@@ -10200,11 +10190,6 @@
     "string": "And now it's your turn.  (Quest)"
   },
   {
-    "form_id": "0008897E|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Yes, I put out the fire. (Quest)"
-  },
-  {
     "form_id": "00087B51|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "It doesn't matter. You're safe. (Quest)"
@@ -10965,21 +10950,6 @@
     "string": "What makes you think I won't? (Persuade) (Quest)"
   },
   {
-    "form_id": "0007EAD3|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Who are you? (Quest)"
-  },
-  {
-    "form_id": "0007EAD2|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Who are you? (Quest)"
-  },
-  {
-    "form_id": "0007EAD1|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Just you? (Quest)"
-  },
-  {
     "form_id": "0007EAD0|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Let's take them out. (Quest)"
@@ -10988,16 +10958,6 @@
     "form_id": "0007EACD|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I dealt with the rest of the bandits. (Quest)"
-  },
-  {
-    "form_id": "0007EAE2|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "Deeja will need to be locked up. (Quest)"
-  },
-  {
-    "form_id": "0007EACC|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Looks like Deeja won't be bothering us again. (Quest)"
   },
   {
     "form_id": "0007E973|Skyrim.esm",
@@ -20965,29 +20925,14 @@
     "string": "What did you have in mind? (Quest)"
   },
   {
-    "form_id": "00025F55|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'm no thief. (Quest)"
-  },
-  {
     "form_id": "00025F54|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I'm listening... (Quest)"
   },
   {
-    "form_id": "00025F53|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Setting up a wreck? I should turn you in to the guards. (Quest)"
-  },
-  {
     "form_id": "00025F50|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I put out the Lighthouse fire. (Quest)"
-  },
-  {
-    "form_id": "00025F46|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What would happen to sailors on the boat? (Quest)"
   },
   {
     "form_id": "00025F39|Skyrim.esm",
