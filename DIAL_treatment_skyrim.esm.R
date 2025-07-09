@@ -57,8 +57,8 @@ db_dial_skyrim.esm_json_ready <- db_dial_skyrim.esm_massclass %>%
         !(str_detect(QNAM_type, "rumor") & is.na(Scriptname)),
         ## Exclude some CW dials without scriptname
         !(str_detect(Formid_DIAL, "CW00JoinAboutFactionTopic|CW00AboutTopic|CWAbout|CWWhatsEmpireDoingTopic|CWWhatWillItTakeTopic") & is.na(Scriptname)),
-        ## Exclude MS07 dials without scriptname
-        !(str_detect(Formid_DIAL, "^MS07") & is.na(Scriptname))
+        ## Exclude MS dials without scriptname
+        !(str_detect(Formid_DIAL, "^MS") & is.na(Scriptname))
       ) %>% 
         filter(
           # Remove entries with rejection phrases because those might or might not contain scriptname

@@ -5,16 +5,6 @@
     "string": "He ended up being a lot more trouble than he was worth. (Quest)"
   },
   {
-    "form_id": "0010EC97|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Do you know anything about these robes? (Quest)"
-  },
-  {
-    "form_id": "0010EC95|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Do you know about draugr embalming blades? (Quest)"
-  },
-  {
     "form_id": "0010EBB4|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "What could the boy not do? (Quest)"
@@ -1720,16 +1710,6 @@
     "string": "All I've got. (Quest)"
   },
   {
-    "form_id": "000E178E|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "You think your story justifies the murders the Forsworn have committed? (Quest)"
-  },
-  {
-    "form_id": "000E178D|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I talked to Braig. (Quest)"
-  },
-  {
     "form_id": "000E178C|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "You'll help me escape then? (Quest)"
@@ -1738,11 +1718,6 @@
     "form_id": "000E178B|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Madanach says hello. (Quest)"
-  },
-  {
-    "form_id": "000E1789|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Spare me from your speeches. (Quest)"
   },
   {
     "form_id": "000E1788|Skyrim.esm",
@@ -1835,16 +1810,6 @@
     "string": "Yes, I have. (Quest)"
   },
   {
-    "form_id": "000E1620|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "You have a lot to answer for. (Quest)"
-  },
-  {
-    "form_id": "000E161F|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "(Invisible Continue) (Quest)"
-  },
-  {
     "form_id": "000E161E|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Let's start with revenge! (Quest)"
@@ -1858,41 +1823,6 @@
     "form_id": "000E161C|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I don't need, or want, your help. (Quest)"
-  },
-  {
-    "form_id": "000E161B|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I had questions about the Forsworn. (Quest)"
-  },
-  {
-    "form_id": "000E161A|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I want to know about Thonar. (Quest)"
-  },
-  {
-    "form_id": "000E1619|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Madanach asked me to hear your story. (Quest)"
-  },
-  {
-    "form_id": "000E1618|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "It was in Helgen. I was being sent to the executioner. (Quest)"
-  },
-  {
-    "form_id": "000E1617|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Young. I've always been known to get into trouble. (Quest)"
-  },
-  {
-    "form_id": "000E1616|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "None of your business. (Quest)"
-  },
-  {
-    "form_id": "000E1615|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "(Invisible Continue) (Quest)"
   },
   {
     "form_id": "000E1614|Skyrim.esm",
@@ -1943,16 +1873,6 @@
     "form_id": "000E0E01|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "What do you mean, I'm not skilled enough? (Quest)"
-  },
-  {
-    "form_id": "000E0D93|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "(Invisible Continue) (Quest)"
-  },
-  {
-    "form_id": "000E0D92|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I want my freedom. (Quest)"
   },
   {
     "form_id": "000E0D43|Skyrim.esm",
@@ -2095,26 +2015,6 @@
     "string": "What about my reward? (Quest)"
   },
   {
-    "form_id": "000DF1C3|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "You're corrupt. Thonar is paying you. (Quest)"
-  },
-  {
-    "form_id": "000DF1C2|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Madanach is behind these killings! (Quest)"
-  },
-  {
-    "form_id": "000DF1C1|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What did you do to Eltrys? (Quest)"
-  },
-  {
-    "form_id": "000DF1C0|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I need to see Madanach. (Quest)"
-  },
-  {
     "form_id": "000DF1BF|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Madanach is expecting me. (Persuade) (Quest)"
@@ -2138,11 +2038,6 @@
     "form_id": "000DF1BD|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Let me through, pig-face. (Intimidate) (Quest)"
-  },
-  {
-    "form_id": "000DF1BC|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'll pay the toll later. (Quest)"
   },
   {
     "form_id": "000DF044|Skyrim.esm",
@@ -2503,11 +2398,6 @@
     "form_id": "000DC289|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Where's Madanach? (Quest)"
-  },
-  {
-    "form_id": "000DC288|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Borkul the Beast? (Quest)"
   },
   {
     "form_id": "000DC238|Skyrim.esm",
@@ -3015,16 +2905,6 @@
     "string": "I've reconsidered your offer. I'll do it. (Quest)"
   },
   {
-    "form_id": "000D8E93|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Who is Styrr? (Quest)"
-  },
-  {
-    "form_id": "000D8E92|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Why me? (Quest)"
-  },
-  {
     "form_id": "000D8E90|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Do you need someone to check out Wolfskull Cave? (Quest)"
@@ -3123,11 +3003,6 @@
     "form_id": "000D8785|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I've found this expedition journal. (Quest)"
-  },
-  {
-    "form_id": "000D871A|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Put that down before you get hurt. (Quest)"
   },
   {
     "form_id": "000D8408|Skyrim.esm",
@@ -3430,16 +3305,6 @@
     "string": "Showing respect to the Greybeards will increase your prestige. (Quest)"
   },
   {
-    "form_id": "000D761D|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What do the Thalmor want with you? (Quest)"
-  },
-  {
-    "form_id": "000D761C|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "How long have you been chained up? (Quest)"
-  },
-  {
     "form_id": "000D74BC|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Who are the Companions? (Quest)"
@@ -3455,24 +3320,9 @@
     "string": "What will you do now? (Quest)"
   },
   {
-    "form_id": "000D6CBD|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What was that argument all about? (Quest)"
-  },
-  {
-    "form_id": "000D6CBB|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I need to know what happened to Thorald. (Quest)"
-  },
-  {
     "form_id": "000D6CBA|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "So... (Quest)"
-  },
-  {
-    "form_id": "000D6CB6|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Your brother talked me into it. (Quest)"
   },
   {
     "form_id": "000D6C46|Skyrim.esm",
@@ -3550,21 +3400,6 @@
     "string": "Is there some kind of problem? (Quest)"
   },
   {
-    "form_id": "000D666F|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Any idea why Weylin attacked you? (Quest)"
-  },
-  {
-    "form_id": "000D666E|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What are you doing in Markarth? (Quest)"
-  },
-  {
-    "form_id": "000D666D|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Do you remember anything about the attack? (Quest)"
-  },
-  {
     "form_id": "000D666C|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "You're hiding something. (Persuade) (Quest)"
@@ -3573,21 +3408,6 @@
     "form_id": "000D666B|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "(Invisible Continue) (Quest)"
-  },
-  {
-    "form_id": "000D6669|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Will some coin loosen those lips? (<BribeCost> gold) (Quest)"
-  },
-  {
-    "form_id": "000D6668|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I want the truth, or else. (Intimidate) (Quest)"
-  },
-  {
-    "form_id": "000D6667|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Good luck, then. (Quest)"
   },
   {
     "form_id": "000D6666|Skyrim.esm",
@@ -3625,11 +3445,6 @@
     "string": "Nothing. Looking around. (Quest)"
   },
   {
-    "form_id": "000D665C|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I had questions about Weylin. (Quest)"
-  },
-  {
     "form_id": "000D665B|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "You must know something. (Persuade) (Quest)"
@@ -3645,64 +3460,14 @@
     "string": "You better start caring. (Intimidate) (Quest)"
   },
   {
-    "form_id": "000D6658|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Fine, forget it. (Quest)"
-  },
-  {
-    "form_id": "000553C5|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "Tell me about the Forsworn. (Quest)"
-  },
-  {
-    "form_id": "0005538E|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "Do you know anything about the Forsworn? (Quest)"
-  },
-  {
-    "form_id": "000D6657|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What do you know about the Forsworn? (Quest)"
-  },
-  {
-    "form_id": "0005536A|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "Who's in charge of the smelter? (Quest)"
-  },
-  {
-    "form_id": "00055369|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "Who else works here? (Quest)"
-  },
-  {
-    "form_id": "000D6656|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Do you own this smelter? (Quest)"
-  },
-  {
-    "form_id": "000D6655|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Did you know Weylin? (Quest)"
-  },
-  {
     "form_id": "000D6654|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Do you have the key to Weylin's room? (Quest)"
   },
   {
-    "form_id": "000D6653|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What are the Warrens? (Quest)"
-  },
-  {
     "form_id": "000D6652|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Did you know Weylin? (Quest)"
-  },
-  {
-    "form_id": "000D6651|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I need the key to Weylin's room. (Quest)"
   },
   {
     "form_id": "000D6650|Skyrim.esm",
@@ -3718,11 +3483,6 @@
     "form_id": "000D664E|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I wasn't asking. (Intimidate) (Quest)"
-  },
-  {
-    "form_id": "000D664D|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Never mind, then. (Quest)"
   },
   {
     "form_id": "000D664B|Skyrim.esm",
@@ -3760,21 +3520,6 @@
     "string": "Sorry. Wrong house. (Quest)"
   },
   {
-    "form_id": "000D663F|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I know about Weylin. (Quest)"
-  },
-  {
-    "form_id": "000D663E|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "You're a Forsworn. (Quest)"
-  },
-  {
-    "form_id": "000D663D|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "You sent that thug after me. (Quest)"
-  },
-  {
     "form_id": "000D663C|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Why? (Quest)"
@@ -3790,49 +3535,9 @@
     "string": "You're a monster. (Quest)"
   },
   {
-    "form_id": "000D6639|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Why are you telling me all this? (Quest)"
-  },
-  {
-    "form_id": "000D6638|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "(Invisible Continue) (Quest)"
-  },
-  {
-    "form_id": "000D6637|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Who's Madanach? (Quest)"
-  },
-  {
-    "form_id": "000D6636|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "You mentioned an uprising. (Quest)"
-  },
-  {
     "form_id": "000D6635|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Weylin got his orders from Nepos. (Quest)"
-  },
-  {
-    "form_id": "000D6634|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I want to know about the Silver-Bloods. (Quest)"
-  },
-  {
-    "form_id": "000D6633|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Who's in charge here? (Quest)"
-  },
-  {
-    "form_id": "000D6632|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What kind of patrons do you have? (Quest)"
-  },
-  {
-    "form_id": "000D6631|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I need to see Thonar. (Quest)"
   },
   {
     "form_id": "000D6630|Skyrim.esm",
@@ -3850,11 +3555,6 @@
     "string": "I wasn't asking. (Intimidate) (Quest)"
   },
   {
-    "form_id": "000D662D|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'll try later, then. (Quest)"
-  },
-  {
     "form_id": "000D662B|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I'm here to talk about Margret. (Quest)"
@@ -3870,21 +3570,6 @@
     "string": "Did you send that guard to threaten me? (Quest)"
   },
   {
-    "form_id": "000D6625|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'm sorry. (Quest)"
-  },
-  {
-    "form_id": "000D6624|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "You deserved this. (Quest)"
-  },
-  {
-    "form_id": "000D6623|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Will you talk now? (Quest)"
-  },
-  {
     "form_id": "000D6622|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "(Invisible Continue) (Quest)"
@@ -3898,16 +3583,6 @@
     "form_id": "000D6620|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Want me to take care of Madanach? (Quest)"
-  },
-  {
-    "form_id": "000D661E|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "The Forsworn have a king? (Quest)"
-  },
-  {
-    "form_id": "000D661D|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Cidhna Mine? (Quest)"
   },
   {
     "form_id": "000D660A|Skyrim.esm",
@@ -3948,31 +3623,6 @@
     "form_id": "000D55E6|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Are the murders being investigated? (Quest)"
-  },
-  {
-    "form_id": "000D55E4|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Have you noticed anything strange about the body? (Quest)"
-  },
-  {
-    "form_id": "000D55E3|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "So, the body? (Quest)"
-  },
-  {
-    "form_id": "000D55E2|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "It's all right. But have you found anything? (Quest)"
-  },
-  {
-    "form_id": "000D55E0|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Did you have anything to do with this? (Quest)"
-  },
-  {
-    "form_id": "000D55DE|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Let me know if you find anything else. (Quest)"
   },
   {
     "form_id": "000D5530|Skyrim.esm",
@@ -4255,36 +3905,6 @@
     "string": "I don't have time for this nonsense. (Quest)"
   },
   {
-    "form_id": "000D3E4D|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What do you know about Margret? (Quest)"
-  },
-  {
-    "form_id": "000D3E4C|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Who was Weylin? Where did he live? (Quest)"
-  },
-  {
-    "form_id": "000D3E4B|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Who are the Forsworn? (Quest)"
-  },
-  {
-    "form_id": "000D3E4A|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "You've looked into these murders? (Quest)"
-  },
-  {
-    "form_id": "000D3E49|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I have some questions about Margret. (Quest)"
-  },
-  {
-    "form_id": "000D3E48|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I have some questions about Margret. (Quest)"
-  },
-  {
     "form_id": "000D3E47|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Did a woman named Margret stay here? (Quest)"
@@ -4305,11 +3925,6 @@
     "string": "Does a woman named Margret stay here? (Quest)"
   },
   {
-    "form_id": "000D3E46|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Do you have the key to Margret's room? (Quest)"
-  },
-  {
     "form_id": "000D3E45|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I won't tell anyone. Promise. (Persuade) (Quest)"
@@ -4323,11 +3938,6 @@
     "form_id": "000D3E43|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Hand the key over. Now. (Intimidate) (Quest)"
-  },
-  {
-    "form_id": "000D3E42|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Never mind, then. (Quest)"
   },
   {
     "form_id": "000D3DDE|Skyrim.esm",
@@ -4660,11 +4270,6 @@
     "string": "Is there something else? (Quest)"
   },
   {
-    "form_id": "000D2318|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'm not doing anything yet. (Quest)"
-  },
-  {
     "form_id": "000D1DEF|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I've had my fair share of killing today. (Quest)"
@@ -4705,24 +4310,9 @@
     "string": "I'll have to think about it. (Quest)"
   },
   {
-    "form_id": "000D194C|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I must have missed it. Sorry. (Quest)"
-  },
-  {
     "form_id": "000D194B|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "(Invisible Continue) (Quest)"
-  },
-  {
-    "form_id": "000D194A|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Where's the Shrine of Talos? (Quest)"
-  },
-  {
-    "form_id": "000D1949|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Do you know anything about the attack? (Quest)"
   },
   {
     "form_id": "000D17FD|Skyrim.esm",
@@ -5665,11 +5255,6 @@
     "string": "I don't have the gold for that. (Quest)"
   },
   {
-    "form_id": "000C99F0|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Why are you looking for this person? (Quest)"
-  },
-  {
     "form_id": "000C9807|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "An axe? (Quest)"
@@ -5688,16 +5273,6 @@
     "form_id": "000C9801|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Yes, sir! (Quest)"
-  },
-  {
-    "form_id": "000C97CC|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I was happy to help. (Quest)"
-  },
-  {
-    "form_id": "000C97CB|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Nurelion only gave me five septims. (Quest)"
   },
   {
     "form_id": "000C82E1|Skyrim.esm",
@@ -5925,16 +5500,6 @@
     "string": "Let's go. (Quest)"
   },
   {
-    "form_id": "000C43E4|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Not just yet. (Quest)"
-  },
-  {
-    "form_id": "000C435E|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "You're going to assault Northwatch Keep? (Quest)"
-  },
-  {
     "form_id": "000C41FA|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I'm sorry, I don't even remember how I got here. (Persuade) (Quest)"
@@ -6158,21 +5723,6 @@
     "form_id": "000C345B|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "... (Quest)"
-  },
-  {
-    "form_id": "000C33B7|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Viarmo said you could tell me about the Poetic Edda. (Quest)"
-  },
-  {
-    "form_id": "000C33B6|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "So King Olaf's Verse is a lost part of the Edda? (Quest)"
-  },
-  {
-    "form_id": "000C33B5|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "So what is the Poetic Edda? (Quest)"
   },
   {
     "form_id": "000C2D00|Skyrim.esm",
@@ -6705,11 +6255,6 @@
     "string": "It's okay. I'll take the Lexicon. (Quest)"
   },
   {
-    "form_id": "000BD6F8|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I don't want the Lexicon. (Quest)"
-  },
-  {
     "form_id": "000BD690|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I'm looking for work. Got any leads? (Quest)"
@@ -7218,16 +6763,6 @@
     "form_id": "000B8646|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I can't get soul gems for you. I have other things to do. (Quest)"
-  },
-  {
-    "form_id": "000B862A|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Someone's paying me to steal Maven Black-Briar's horse. (Quest)"
-  },
-  {
-    "form_id": "000B8629|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Sibbi Black-Briar. (Quest)"
   },
   {
     "form_id": "000B8616|Skyrim.esm",
@@ -8035,16 +7570,6 @@
     "string": "What is this about? (Quest)"
   },
   {
-    "form_id": "000AB6E7|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Do you know why he was after you? (Quest)"
-  },
-  {
-    "form_id": "000AB6E6|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "That man said something about the Forsworn. (Quest)"
-  },
-  {
     "form_id": "000AB1F7|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Why should I help you? (Quest)"
@@ -8058,11 +7583,6 @@
     "form_id": "000AA9A7|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Heard any rumors lately? (Quest)"
-  },
-  {
-    "form_id": "000AA84B|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Where's the golden claw? (Quest)"
   },
   {
     "form_id": "000AA84A|Skyrim.esm",
@@ -8088,11 +7608,6 @@
     "form_id": "000AA05C|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Lead on then. (Quest)"
-  },
-  {
-    "form_id": "000AA05B|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I don't need a guide. (Quest)"
   },
   {
     "form_id": "000A95DB|Skyrim.esm",
@@ -8800,11 +8315,6 @@
     "string": "I can do that. (Quest)"
   },
   {
-    "form_id": "0009DFFB|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Falk sent me to talk to you about Potema. (Quest)"
-  },
-  {
     "form_id": "0009DFF9|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I have Potema's remains. (Quest)"
@@ -8988,41 +8498,6 @@
     "form_id": "0009CAC6|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "dunMiddenShared (Quest)"
-  },
-  {
-    "form_id": "0009C88B|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "That man shouted something about the Forsworn. (Quest)"
-  },
-  {
-    "form_id": "0009C88A|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "None of my business, anyway. (Quest)"
-  },
-  {
-    "form_id": "000AB6F3|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "Do you know why he was after her? (Quest)"
-  },
-  {
-    "form_id": "0009C888|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Did you know her? Who was she? (Quest)"
-  },
-  {
-    "form_id": "0009C887|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I was actually looking to buy something. (Quest)"
-  },
-  {
-    "form_id": "0009C885|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Who was he? Who are the Forsworn? (Quest)"
-  },
-  {
-    "form_id": "0009C884|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I was actually looking to buy something. (Quest)"
   },
   {
     "form_id": "0009C206|Skyrim.esm",
@@ -10105,11 +9580,6 @@
     "string": "It was quite a trip. Where are we? (Quest)"
   },
   {
-    "form_id": "0008AD7A|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I bring news of Thorald. (Quest)"
-  },
-  {
     "form_id": "00089BA3|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "This should help translate Gallus's Journal. (Quest)"
@@ -10118,11 +9588,6 @@
     "form_id": "00089BA2|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "It's quite the tale. (Quest)"
-  },
-  {
-    "form_id": "000899B2|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "There was an attack in the marketplace. (Quest)"
   },
   {
     "form_id": "00089981|Skyrim.esm",
@@ -10138,26 +9603,6 @@
     "form_id": "0008997E|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Tell me about this incense. (Quest)"
-  },
-  {
-    "form_id": "00089945|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Your family was concerned for you. (Quest)"
-  },
-  {
-    "form_id": "0008994E|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "He... didn't make it. (Quest)"
-  },
-  {
-    "form_id": "0008994D|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "He came in with me, but I'm not sure what happened to him. (Quest)"
-  },
-  {
-    "form_id": "00089944|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I told him to wait in Whiterun. (Quest)"
   },
   {
     "form_id": "0008941C|Skyrim.esm",
@@ -10268,11 +9713,6 @@
     "form_id": "000875AD|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "How can I help? (Quest)"
-  },
-  {
-    "form_id": "00087193|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "You killed Eltrys! (Quest)"
   },
   {
     "form_id": "00087192|Skyrim.esm",
@@ -11465,11 +10905,6 @@
     "string": "What happens now? (Quest)"
   },
   {
-    "form_id": "000771A5|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Alva is a vampire! (Quest)"
-  },
-  {
     "form_id": "000769C7|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Not exactly. The Night Mother has spoken to me again. (Quest)"
@@ -11585,11 +11020,6 @@
     "string": "You're looking to cure yourself? (Quest)"
   },
   {
-    "form_id": "00074A4A|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Why don't you go tell Sibbi yourself? (Quest)"
-  },
-  {
     "form_id": "00074A3E|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Actually, Letrush wants me to steal the horse... (Quest)"
@@ -11700,21 +11130,6 @@
     "string": "The Companions are werewolves? (Quest)"
   },
   {
-    "form_id": "00071A6F|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Why are you after Saadia? (Quest)"
-  },
-  {
-    "form_id": "00071A69|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I've seen the woman you're looking for. (Quest)"
-  },
-  {
-    "form_id": "00071A68|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What do I get for telling you? (Quest)"
-  },
-  {
     "form_id": "00071A67|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "She's in the Bannered Mare. She knows you're out here. (Quest)"
@@ -11763,11 +11178,6 @@
     "form_id": "00070393|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I have the statue. (Quest)"
-  },
-  {
-    "form_id": "0007034F|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Who are the Alik'r? (Quest)"
   },
   {
     "form_id": "0006F997|Skyrim.esm",
@@ -11958,11 +11368,6 @@
     "form_id": "0006F3D1|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I have your ring. (Quest)"
-  },
-  {
-    "form_id": "000C4DFD|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "Let's do the fire festival tonight. (Quest)"
   },
   {
     "form_id": "0006F167|Skyrim.esm",
@@ -12165,11 +11570,6 @@
     "string": "Let's go. (Quest)"
   },
   {
-    "form_id": "0006BC12|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Not just yet. (Quest)"
-  },
-  {
     "form_id": "0006B93F|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Where was my room again? (Quest)"
@@ -12183,16 +11583,6 @@
     "form_id": "0006B54D|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I've killed the leader of <Alias=BanditCamp>. (Quest)"
-  },
-  {
-    "form_id": "0006B520|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Letrush already agreed to pay me. (Quest)"
-  },
-  {
-    "form_id": "0006B51F|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "If Maven already threw you in jail, why steal her horse? (Quest)"
   },
   {
     "form_id": "0006AF39|Skyrim.esm",
@@ -12690,16 +12080,6 @@
     "string": "I promise. Just a joke I want to play on someone. (Persuade) (Quest)"
   },
   {
-    "form_id": "00067CC4|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Why is Sibbi in jail? (Quest)"
-  },
-  {
-    "form_id": "00067CC2|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I was sent by Louis Letrush. (Quest)"
-  },
-  {
     "form_id": "00067CC1|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "You don't own the horse you already sold to Letrush? (Quest)"
@@ -13060,19 +12440,9 @@
     "string": "Why did you summon me here? (Quest)"
   },
   {
-    "form_id": "000649A7|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "There, now you're safe. (Quest)"
-  },
-  {
     "form_id": "000649A6|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Relax. Kematu's dead, and now you're safe. (Quest)"
-  },
-  {
-    "form_id": "000649A5|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I didn't want to risk you not coming. (Quest)"
   },
   {
     "form_id": "0006494E|Skyrim.esm",
@@ -13203,16 +12573,6 @@
     "form_id": "00062D7B|Skyrim.esm",
     "type": "INFO RNAM",
     "string": "Do you know how to open the Whispering Door? (Quest)"
-  },
-  {
-    "form_id": "00062166|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I need your coat. (Quest)"
-  },
-  {
-    "form_id": "00062165|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'm going to put it on Olaf's Effigy. (Quest)"
   },
   {
     "form_id": "00062164|Skyrim.esm",
@@ -13970,11 +13330,6 @@
     "string": "Religion and thieves make odd bedfellows. (Quest)"
   },
   {
-    "form_id": "00058B36|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What will you do now? (Quest)"
-  },
-  {
     "form_id": "00058B35|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "She won't be harmed? (Quest)"
@@ -14105,11 +13460,6 @@
     "string": "It seems like I shouldn't be here. (Quest)"
   },
   {
-    "form_id": "00057F9B|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "They've found a way in. We need to get you out of here. (Lie) (Quest)"
-  },
-  {
     "form_id": "00057F9A|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "There's a horse waiting at the stables. I'll make sure you're safe. (Lie) (Quest)"
@@ -14170,11 +13520,6 @@
     "string": "Why is the worship of Talos banned? (Quest)"
   },
   {
-    "form_id": "00056AEC|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Have we reached Japhet's Folly? (Quest)"
-  },
-  {
     "form_id": "00056AEB|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I've killed Haldyn. (Quest)"
@@ -14223,16 +13568,6 @@
     "form_id": "00056550|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Have you heard of Avanchnzel? (Quest)"
-  },
-  {
-    "form_id": "000562E4|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Why haven't you gone to the guards for help? (Quest)"
-  },
-  {
-    "form_id": "000562E3|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Why are the Alik'r after you? (Quest)"
   },
   {
     "form_id": "000562DF|Skyrim.esm",
@@ -14325,11 +13660,6 @@
     "string": "Arch-Mage Aren is dead? (Quest)"
   },
   {
-    "form_id": "00055B10|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "How can you be sure Thorald is still alive? (Quest)"
-  },
-  {
     "form_id": "00055A9C|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I'm ready. Let's go. (Quest)"
@@ -14343,11 +13673,6 @@
     "form_id": "00055A9A|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "No, I'm not. (Quest)"
-  },
-  {
-    "form_id": "00055A13|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Why do you think the Battle-Borns are involved? (Quest)"
   },
   {
     "form_id": "000556F2|Skyrim.esm",
@@ -14745,31 +14070,6 @@
     "string": "What do you do around here? (Quest)"
   },
   {
-    "form_id": "000C7B5D|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "So you're a member of the Bards College? (Quest)"
-  },
-  {
-    "form_id": "000C7B5C|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "So you're a member of the Bards College? (Quest)"
-  },
-  {
-    "form_id": "000C7B3F|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "So this is the Bards College? (Quest)"
-  },
-  {
-    "form_id": "000534E2|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'm looking to apply to the college. (Quest)"
-  },
-  {
-    "form_id": "000534E1|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Why did Elisif forbid the festival? (Quest)"
-  },
-  {
     "form_id": "000534E0|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "What do you need me to do? (Quest)"
@@ -14795,29 +14095,14 @@
     "string": "I found King Olaf's Verse. (Quest)"
   },
   {
-    "form_id": "000534DE|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What does that mean? (Quest)"
-  },
-  {
     "form_id": "000534DD|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Can't we just make up missing parts of the verse? (Quest)"
   },
   {
-    "form_id": "000534DC|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "We can do this. What's the first verse? (Quest)"
-  },
-  {
     "form_id": "000534DB|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Olaf found him asleep. (Quest)"
-  },
-  {
-    "form_id": "000534DA|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Okay, what's next? (Quest)"
   },
   {
     "form_id": "000534D9|Skyrim.esm",
@@ -15145,11 +14430,6 @@
     "string": "How long has Yamarz been cursed? (Quest)"
   },
   {
-    "form_id": "000524CC|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'm here for Thorald Gray-Mane. (Quest)"
-  },
-  {
     "form_id": "000524CB|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I need a prisoner released from Northwatch Keep. (Quest)"
@@ -15178,11 +14458,6 @@
     "form_id": "000525EC|Skyrim.esm",
     "type": "INFO RNAM",
     "string": "Let's go. (Quest)"
-  },
-  {
-    "form_id": "00052253|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Lots of gold to be had plundering ships. (Quest)"
   },
   {
     "form_id": "00052252|Skyrim.esm",
@@ -15558,11 +14833,6 @@
     "form_id": "0004FA0D|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Can you please help me find this Augur? (Persuade) (Quest)"
-  },
-  {
-    "form_id": "0004F8C5|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Is this your note? What does this mean? (Quest)"
   },
   {
     "form_id": "0004F74D|Skyrim.esm",
@@ -16523,11 +15793,6 @@
     "form_id": "0004B082|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "What are you doing? (Quest)"
-  },
-  {
-    "form_id": "0004A682|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "You're still stuck. (Quest)"
   },
   {
     "form_id": "0004A60A|Skyrim.esm",
@@ -17585,26 +16850,6 @@
     "string": "Where are we now? (Quest)"
   },
   {
-    "form_id": "0003D167|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "How much farther do I have to walk? (Quest)"
-  },
-  {
-    "form_id": "0003D150|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Thorald is safe. (Quest)"
-  },
-  {
-    "form_id": "0003D14F|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'm afraid he's not here. He didn't think it was safe to return. (Quest)"
-  },
-  {
-    "form_id": "0003D14E|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "He said to tell you to suffer the winter's cold wind. (Quest)"
-  },
-  {
     "form_id": "0003CCE6|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "What's happening? (Quest)"
@@ -18035,19 +17280,9 @@
     "string": "I'm not sure I want to get involved in this. (Quest)"
   },
   {
-    "form_id": "0003AF39|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What sort of proof do you need? (Quest)"
-  },
-  {
     "form_id": "0003AF38|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I have proof that Thorald lives. (Quest)"
-  },
-  {
-    "form_id": "0003AF36|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "You stay hidden. I'll take care of this. (Quest)"
   },
   {
     "form_id": "0003AF35|Skyrim.esm",
@@ -18058,11 +17293,6 @@
     "form_id": "0003AF34|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "You're right. We should work together. (Quest)"
-  },
-  {
-    "form_id": "0003AF33|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Let me see if I can bring him back on my own. Without bloodshed. (Quest)"
   },
   {
     "form_id": "0003AF32|Skyrim.esm",
@@ -18235,11 +17465,6 @@
     "string": "Hold on. You may know something important. (Quest)"
   },
   {
-    "form_id": "0003A16D|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "MS13AlrvelHelp03BranchTopic (Quest)"
-  },
-  {
     "form_id": "0003A05C|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "TG08BKarliahOutroBranchTopic (Quest)"
@@ -18268,16 +17493,6 @@
     "form_id": "00039F55|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "How can you be sure your son is alive? (Quest)"
-  },
-  {
-    "form_id": "000524D1|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "Can you tell me anything else about what's going on? (Quest)"
-  },
-  {
-    "form_id": "00039F54|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Can you tell me more about your missing son? (Quest)"
   },
   {
     "form_id": "00039E32|Skyrim.esm",
@@ -18328,16 +17543,6 @@
     "form_id": "0003982A|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "How did you know I'd be able to defeat Ancano? (Quest)"
-  },
-  {
-    "form_id": "00039621|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What were you arguing about with Lucan? (Quest)"
-  },
-  {
-    "form_id": "00039621|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Did something happen? (Quest)"
   },
   {
     "form_id": "0003961A|Skyrim.esm",
@@ -18535,29 +17740,9 @@
     "string": "Can you tell me about the wedding ring? (Quest)"
   },
   {
-    "form_id": "000368DE|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I heard your home burned down. (Quest)"
-  },
-  {
-    "form_id": "000368DD|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What about your wife and child? (Quest)"
-  },
-  {
-    "form_id": "000368DC|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Thonnir says Alva was the last person to see Laelette... alive. (Quest)"
-  },
-  {
     "form_id": "000368DB|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "She said goodbye to Alva, but not to her own husband? (Quest)"
-  },
-  {
-    "form_id": "000368DA|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I saw Helgi's ghost in the ruins of your house. (Quest)"
   },
   {
     "form_id": "000368D9|Skyrim.esm",
@@ -19200,29 +18385,9 @@
     "string": "Are you sure about this? (Quest)"
   },
   {
-    "form_id": "0002DD25|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Alva set the fire. She's the murderer. (Quest)"
-  },
-  {
-    "form_id": "0002DD24|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Actually, she's a vampire. She planned to enslave the town. (Quest)"
-  },
-  {
     "form_id": "0002DC9D|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "If you tell me where it is, I can get it for you. (Quest)"
-  },
-  {
-    "form_id": "0002DC9C|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What is the White Phial? (Quest)"
-  },
-  {
-    "form_id": "0002DC9B|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Why is the Phial so important to you? (Quest)"
   },
   {
     "form_id": "0002D894|Skyrim.esm",
@@ -19263,11 +18428,6 @@
     "form_id": "0002D74A|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "How do I get to Whiterun from here? (Quest)"
-  },
-  {
-    "form_id": "0002D4E1|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "MS12Hellos (Quest)"
   },
   {
     "form_id": "0002CC80|Skyrim.esm",
@@ -19363,11 +18523,6 @@
     "form_id": "0002C8B8|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "So you're the Augur of Dunlain? (Quest)"
-  },
-  {
-    "form_id": "0002C49B|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What happened to Nurelion? (Quest)"
   },
   {
     "form_id": "0002C34A|Skyrim.esm",
@@ -19770,11 +18925,6 @@
     "string": "Why are these mages in Fellglow Keep? (Quest)"
   },
   {
-    "form_id": "0002B018|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I've heard you dabble in necromancy. (Quest)"
-  },
-  {
     "form_id": "0002ACFA|Skyrim.esm",
     "type": "INFO RNAM",
     "string": "Yes, I'm fine. (Quest)"
@@ -20030,24 +19180,9 @@
     "string": "I think they may have met after all. (Quest)"
   },
   {
-    "form_id": "00029A90|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "MS10Hellos (Quest)"
-  },
-  {
-    "form_id": "00029A8E|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Who are the Shatter-Shields? (Quest)"
-  },
-  {
     "form_id": "00029A8D|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Do you have any proof of that? (Quest)"
-  },
-  {
-    "form_id": "00029A8A|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What do you know about Haldyn? (Quest)"
   },
   {
     "form_id": "00029A80|Skyrim.esm",
@@ -20098,21 +19233,6 @@
     "form_id": "00029539|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "What can you tell me about Laelette? (Quest)"
-  },
-  {
-    "form_id": "000365F4|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "Tell me again about your wife? (Quest)"
-  },
-  {
-    "form_id": "00029535|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What can you tell me about your wife? (Quest)"
-  },
-  {
-    "form_id": "00029534|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Did you notice anything strange before she left? (Quest)"
   },
   {
     "form_id": "000934E0|Skyrim.esm",
@@ -20275,59 +19395,9 @@
     "string": "I'm not really interested in anything dangerous. (Quest)"
   },
   {
-    "form_id": "00028706|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I've taken care of Potema. (Quest)"
-  },
-  {
     "form_id": "000284D1|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Some Necromancers were attempting to summon and bind Potema. (Quest)"
-  },
-  {
-    "form_id": "000284CE|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What do I need to know about Potema? (Quest)"
-  },
-  {
-    "form_id": "00027F46|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I don't know what you're talking about. (Quest)"
-  },
-  {
-    "form_id": "00027F45|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Calm down. I'm not working for anyone. (Quest)"
-  },
-  {
-    "form_id": "00027F44|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I don't know your brother. (Quest)"
-  },
-  {
-    "form_id": "00027F43|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I didn't mean to alarm you. Why are you so tense? (Quest)"
-  },
-  {
-    "form_id": "00027F42|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Sounds like you need some help. (Quest)"
-  },
-  {
-    "form_id": "00027F65|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "Is there anything you can tell me about Thorald? (Quest)"
-  },
-  {
-    "form_id": "00027F41|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What do you know about Thorald Gray-Mane? (Quest)"
-  },
-  {
-    "form_id": "00027F63|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "I think you know what really happened to Thorald Gray-Mane. (Persuade) (Quest)"
   },
   {
     "form_id": "00027F62|Skyrim.esm",
@@ -20335,34 +19405,14 @@
     "string": "I think you know what really happened to Thorald Gray-Mane. (Persuade) (Quest)"
   },
   {
-    "form_id": "00027F40|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "How do you know this? (Quest)"
-  },
-  {
     "form_id": "00027F3E|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "If Thorald is alive, where is he? (Quest)"
   },
   {
-    "form_id": "00027F3D|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I found your letter to Olfina. (Quest)"
-  },
-  {
-    "form_id": "00027F3C|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I want to know about Thorald Gray-Mane. (Quest)"
-  },
-  {
     "form_id": "00027F3B|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Shall we see what your father thinks of this letter? (Quest)"
-  },
-  {
-    "form_id": "00027F3A|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What is this place? (Quest)"
   },
   {
     "form_id": "00027F16|Skyrim.esm",
@@ -20420,41 +19470,6 @@
     "string": "You mean me, don't you? (Quest)"
   },
   {
-    "form_id": "0002748C|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Who are you? (Quest)"
-  },
-  {
-    "form_id": "000365EE|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "What happened to your house? (Quest)"
-  },
-  {
-    "form_id": "0002748B|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "No. I'm a friend. Do you know what happened to your house? (Quest)"
-  },
-  {
-    "form_id": "0002748A|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Is Hroggar your father? (Quest)"
-  },
-  {
-    "form_id": "000365EF|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "Where did you say I can find you? (Quest)"
-  },
-  {
-    "form_id": "00027489|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "If I do, will you tell me who set the fire? (Quest)"
-  },
-  {
-    "form_id": "00027488|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "MS14ShesMine (Quest)"
-  },
-  {
     "form_id": "00027485|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "What else can you tell me about these pirates? (Quest)"
@@ -20468,21 +19483,6 @@
     "form_id": "00027234|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Where did he go? (Quest)"
-  },
-  {
-    "form_id": "00026F53|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Tell me about the Unmelting Snow. (Quest)"
-  },
-  {
-    "form_id": "00026F52|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Tell me about the Mammoth Tusk Powder. (Quest)"
-  },
-  {
-    "form_id": "00026F51|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Tell me about the Briar Heart. (Quest)"
   },
   {
     "form_id": "00026F50|Skyrim.esm",
@@ -20628,16 +19628,6 @@
     "form_id": "00026E79|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I helped the long-dead lovers find each other. (Quest)"
-  },
-  {
-    "form_id": "00026C48|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Why is it called Wolfskull Cave? (Quest)"
-  },
-  {
-    "form_id": "00026C48|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I hear you're looking for some help with Wolfskull Cave. (Quest)"
   },
   {
     "form_id": "00026C27|Skyrim.esm",
@@ -20920,61 +19910,6 @@
     "string": "Is there a story behind that burned down house? (Quest)"
   },
   {
-    "form_id": "00064964|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "I hear you want someone to look into that house fire. (Quest)"
-  },
-  {
-    "form_id": "000771A9|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "What happened to that burned down house? (Quest)"
-  },
-  {
-    "form_id": "00064963|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "I hear you want someone to look into that house fire. (Quest)"
-  },
-  {
-    "form_id": "00070E7B|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "What happened to that burned down house? (Quest)"
-  },
-  {
-    "form_id": "0007749A|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "They say Hroggar burned down his house for you. (Quest)"
-  },
-  {
-    "form_id": "000771A7|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "What does Hroggar say happened? (Quest)"
-  },
-  {
-    "form_id": "00070E75|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "What does Hroggar say happened? (Quest)"
-  },
-  {
-    "form_id": "00025F38|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "How did the fire start? (Quest)"
-  },
-  {
-    "form_id": "00064966|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "Why would he do that to his own family? (Quest)"
-  },
-  {
-    "form_id": "00025F37|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "With his own wife and child inside? (Quest)"
-  },
-  {
-    "form_id": "00064965|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "Why would he do that to his own family? (Quest)"
-  },
-  {
     "form_id": "000771A8|Skyrim.esm",
     "type": "INFO RNAM",
     "string": "So why haven't you arrested him? (Quest)"
@@ -20988,16 +19923,6 @@
     "form_id": "00025F36|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "And of course they can't prove he murdered them. (Quest)"
-  },
-  {
-    "form_id": "00025E45|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Another? This has happened before? (Quest)"
-  },
-  {
-    "form_id": "00025E44|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "How was she killed? (Quest)"
   },
   {
     "form_id": "00025E43|Skyrim.esm",
@@ -21015,39 +19940,9 @@
     "string": "There might be more to this, if you'll let me help. (Quest)"
   },
   {
-    "form_id": "00025E63|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "I have some questions about your daughter. (Quest)"
-  },
-  {
-    "form_id": "00025E3F|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I have authority in this matter, and need your cooperation. (Quest)"
-  },
-  {
-    "form_id": "00025E3E|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'm trying to find out who did this. I was hoping you'd help. (Quest)"
-  },
-  {
-    "form_id": "00025E3D|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Do you want to find your daughter's killer or not? (Quest)"
-  },
-  {
     "form_id": "00025E3B|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I'd like to investigate her house, but I'll need the key. (Quest)"
-  },
-  {
-    "form_id": "00025E3A|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Why can't the guards help? (Quest)"
-  },
-  {
-    "form_id": "00025E39|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "How can the rest of the people not care? (Quest)"
   },
   {
     "form_id": "0010F185|Skyrim.esm",
@@ -21055,19 +19950,9 @@
     "string": "I found this journal in the killer's lair. (Quest)"
   },
   {
-    "form_id": "00025E38|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I found this poster in Hjerim. (Quest)"
-  },
-  {
     "form_id": "00025E37|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Do you know what this amulet is? (Quest)"
-  },
-  {
-    "form_id": "00025E66|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "About that amulet... (Quest)"
   },
   {
     "form_id": "00025E36|Skyrim.esm",
@@ -21108,41 +19993,6 @@
     "form_id": "00025E2F|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "We have evidence of necromancy, and found his amulet. (Quest)"
-  },
-  {
-    "form_id": "00025E2E|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "You can be resentful or you can help me. Your choice. (Quest)"
-  },
-  {
-    "form_id": "00025E2D|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'm sorry. Please help me to find the real killer. (Quest)"
-  },
-  {
-    "form_id": "00025E2C|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "MS11 (Quest)"
-  },
-  {
-    "form_id": "00025E2B|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I found one of your journals, all about necromancy. (Quest)"
-  },
-  {
-    "form_id": "00025E2A|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I found your journal and amulet where the Butcher worked. (Quest)"
-  },
-  {
-    "form_id": "00025E29|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Eight-sided. Jade, ringed with ebony. A worn carving. (Quest)"
-  },
-  {
-    "form_id": "00025E28|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I guess Calixto was wrong. (Quest)"
   },
   {
     "form_id": "00025E27|Skyrim.esm",
@@ -21233,16 +20083,6 @@
     "form_id": "000249C1|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I am not your champion, monster. (Quest)"
-  },
-  {
-    "form_id": "0002460D|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "MS12SharedInfo (Quest)"
-  },
-  {
-    "form_id": "00024445|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I received your letter. (Quest)"
   },
   {
     "form_id": "00024390|Skyrim.esm",
@@ -21350,29 +20190,9 @@
     "string": "White-Gold Concordat? What's that? (Quest)"
   },
   {
-    "form_id": "0002420B|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What happened here? Another killing? (Quest)"
-  },
-  {
     "form_id": "0002420A|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "The killer must still be out there. (Quest)"
-  },
-  {
-    "form_id": "00024209|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "The killer has struck again. (Quest)"
-  },
-  {
-    "form_id": "000D55EE|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "Calixto Corrium was the Butcher. (Quest)"
-  },
-  {
-    "form_id": "00024208|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Calixto Corrium was the real killer. (Quest)"
   },
   {
     "form_id": "000241F8|Skyrim.esm",
@@ -21403,11 +20223,6 @@
     "form_id": "000240A0|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "What do I need? (Quest)"
-  },
-  {
-    "form_id": "00023B69|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I believe the killer is Wuunferth the Unliving. (Quest)"
   },
   {
     "form_id": "00023857|Skyrim.esm",
@@ -21555,34 +20370,9 @@
     "string": "I'm ready. Let's go. (Quest)"
   },
   {
-    "form_id": "00022E76|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I know where the Alik'r are, and I have a way in. (Quest)"
-  },
-  {
-    "form_id": "00022E75|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I was unable to defeat them all, and they're coming for you. (Lie) (Quest)"
-  },
-  {
     "form_id": "00022E74|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "The Alik'r won't trouble you anymore. (Quest)"
-  },
-  {
-    "form_id": "00022E73|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I need information about the Alik'r. (Quest)"
-  },
-  {
-    "form_id": "00022E72|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Saadia told me - you're assassins. (Quest)"
-  },
-  {
-    "form_id": "00022E70|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What was her crime? (Quest)"
   },
   {
     "form_id": "00022E6F|Skyrim.esm",
@@ -21855,11 +20645,6 @@
     "string": "I'll keep quiet about your scam, but you owe me. (Quest)"
   },
   {
-    "form_id": "0002169F|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Find anything? (Quest)"
-  },
-  {
     "form_id": "0002166A|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I've heard about these murders. (Quest)"
@@ -21890,49 +20675,14 @@
     "string": "Who are you looking for? (Quest)"
   },
   {
-    "form_id": "000215AC|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Who are the Alik'r? (Quest)"
-  },
-  {
-    "form_id": "000215AB|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Why have the Alik'r been banned from the market? (Quest)"
-  },
-  {
     "form_id": "000215AA|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Did you know some Alik'r warriors are looking for a Redguard woman? (Quest)"
   },
   {
-    "form_id": "000215A7|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Who are you looking for again? (Quest)"
-  },
-  {
     "form_id": "000215A6|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Tell me what's going on. (Quest)"
-  },
-  {
-    "form_id": "000215BF|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "Let's talk about how we can help each other. (Quest)"
-  },
-  {
-    "form_id": "0002159F|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I need to find Kematu. Where is he hiding? (Quest)"
-  },
-  {
-    "form_id": "0002159E|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What is it that you need? (Quest)"
-  },
-  {
-    "form_id": "000215C3|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "I don't have that much gold. (Quest)"
   },
   {
     "form_id": "000215C2|Skyrim.esm",
@@ -21945,39 +20695,9 @@
     "string": "How much to pay your fine? (Quest)"
   },
   {
-    "form_id": "0002159B|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Why did they leave you here? (Quest)"
-  },
-  {
-    "form_id": "00021599|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Relax, I'm not going to hurt you. (Quest)"
-  },
-  {
-    "form_id": "00021598|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "They just asked me to find you. (Quest)"
-  },
-  {
     "form_id": "00021597|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Maybe. What do you want? (Quest)"
-  },
-  {
-    "form_id": "00021596|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Perhaps. If there's money in it. (Quest)"
-  },
-  {
-    "form_id": "00021595|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I've been sent here to kill you. (Quest)"
-  },
-  {
-    "form_id": "00021578|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I've spoken to the witnesses. (Quest)"
   },
   {
     "form_id": "00021577|Skyrim.esm",
@@ -21993,11 +20713,6 @@
     "form_id": "00021575|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Did you see what happened here? (Quest)"
-  },
-  {
-    "form_id": "00021574|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "What happened here? (Quest)"
   },
   {
     "form_id": "00021572|Skyrim.esm",
@@ -22390,11 +21105,6 @@
     "string": "There, I cast the spell. (Quest)"
   },
   {
-    "form_id": "0001F79C|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Why not fight back? (Quest)"
-  },
-  {
     "form_id": "00052262|Skyrim.esm",
     "type": "INFO RNAM",
     "string": "So where are the Blood Horkers? (Quest)"
@@ -22570,11 +21280,6 @@
     "string": "Here's the ring. (Quest)"
   },
   {
-    "form_id": "0001EB68|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "So what's the plan? (Quest)"
-  },
-  {
     "form_id": "0001E660|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Get to the bottom of what? (Quest)"
@@ -22660,16 +21365,6 @@
     "string": "I've got the logbook. (Quest)"
   },
   {
-    "form_id": "00052266|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "I hear you're a man who might know something about pirates. (Quest)"
-  },
-  {
-    "form_id": "00027486|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "I hear you're a man who might know something about pirates. (Quest)"
-  },
-  {
     "form_id": "0001E1A8|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Have you heard of a pirate crew called the Blood Horkers? (Quest)"
@@ -22685,11 +21380,6 @@
     "string": "The pirate haven has been destroyed. (Quest)"
   },
   {
-    "form_id": "0001DDF5|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Why is it so run down? (Quest)"
-  },
-  {
     "form_id": "0001DA2E|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "What sort of message? (Quest)"
@@ -22698,11 +21388,6 @@
     "form_id": "0001DA2D|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Sounds easy enough. (Quest)"
-  },
-  {
-    "form_id": "00067CCB|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "Are you aware that Letrush stole Frost? (Quest)"
   },
   {
     "form_id": "0001DA27|Skyrim.esm",
@@ -23210,11 +21895,6 @@
     "string": "Actually, I'm not sure. I need to think about it. (Quest)"
   },
   {
-    "form_id": "00018A30|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I'll do? What are you talking about? (Quest)"
-  },
-  {
     "form_id": "00018977|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I'm here about Goldenglow Estate. (Quest)"
@@ -23313,11 +21993,6 @@
     "form_id": "00016EE8|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I'll ask Arngeir if he knows what Shout they used. (Quest)"
-  },
-  {
-    "form_id": "00016AD1|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I've avenged you and your mother. (Quest)"
   },
   {
     "form_id": "00015C71|Skyrim.esm",
@@ -30322,5 +28997,9 @@
     "string": "<Alias=Dungeon> is free of bandits. (Quest)"
   }
 ,
-  {}
+  {
+    "form_id": "00025E29|unofficial skyrim special edition patch.esp",
+    "type": "DIAL FULL",
+    "string": "Eight-sided. Jade, ringed with ebony. A worn carving. (Quest)"
+  }
 ]

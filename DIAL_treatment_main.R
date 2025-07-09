@@ -97,6 +97,8 @@ db_dial_ussep_json_ready <- db_dial_ussep_massclass %>%
               !(str_detect(QNAM_type, "rumor") & is.na(Scriptname)),
               ## Exclude some CW dials without scriptname
               !(str_detect(Formid_DIAL, "CW00JoinAboutFactionTopic|CW00AboutTopic|CWAbout|CWWhatsEmpireDoingTopic|CWWhatWillItTakeTopic") & is.na(Scriptname)),
+              ## Exclude MS dials without scriptname
+              !(str_detect(Formid_DIAL, "^MS") & is.na(Scriptname)),
               ## dawnguard.esm
               # Exclude "DLC1VQ01 Awakening"
               !(str_detect(QNAM, "DLC1VQ01 Awakening")),
