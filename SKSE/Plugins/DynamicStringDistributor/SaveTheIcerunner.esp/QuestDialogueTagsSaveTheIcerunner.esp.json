@@ -26,6 +26,11 @@
     "string": "No, I can't prove it. (Quest)"
   },
   {
+    "form_id": "1100080F|SaveTheIcerunner.esp",
+    "type": "DIAL FULL",
+    "string": "Jaree-Ra is up to something. He wants me to help set up a shipwreck. (Quest)"
+  },
+  {
     "form_id": "1100080D|SaveTheIcerunner.esp",
     "type": "DIAL FULL",
     "string": "Give it up, or I'll report you to the guards. (Quest)"

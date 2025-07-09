@@ -39,13 +39,8 @@ db_dial_sti_json_ready <- db_dial_sti_massclass %>%
         ## No classified out
         !is.na(QNAM_type),
         ## Exclude without scripts
-        !is.na(Scriptname)
+        !is.na(Scriptname) | str_detect(FULL,"is up to something") 
       ) %>%
-        # filter(
-        #   # Remove entries with rejection phrases because those might or might not contain scriptname
-        #   !str_detect(FULL, "(?i)I haven't found|I don't have time") |
-        #   !str_detect(RNAM, "(?i)I haven't found|I don't have time")
-        # ) %>%
           filter(
             # Ensure at least one of RNAM or FULL has a value
             !is.na(RNAM) | !is.na(FULL)
