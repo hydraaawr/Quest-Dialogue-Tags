@@ -105,8 +105,8 @@ db_dial_ussep_json_ready <- db_dial_ussep_massclass %>%
             ) %>%
               filter(
                 # Remove entries with rejection phrases because those might or might not contain scriptname
-                !str_detect(FULL, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|think about it|good luck with that|show up eventually") |
-                !str_detect(RNAM, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|think about it|good luck with that|show up eventually")
+                !str_detect(FULL, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|think about it|good luck with that|show up eventually|not right now|Good luck with that") |
+                !str_detect(RNAM, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|think about it|good luck with that|show up eventually|not right now|Good luck with that")
               ) %>%
                 filter(
                   # Ensure at least one of RNAM or FULL has a value

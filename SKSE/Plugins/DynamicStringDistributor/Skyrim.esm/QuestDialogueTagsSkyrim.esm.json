@@ -1120,11 +1120,6 @@
     "string": "Does your sister cause you a lot of trouble? (Quest)"
   },
   {
-    "form_id": "000E3E02|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Sounds terrible. Good luck with that. (Quest)"
-  },
-  {
     "form_id": "000E3E01|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I've brought you 20 jazbay grapes. (Quest)"
@@ -1208,11 +1203,6 @@
     "form_id": "000E38BE|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Maybe I can help you find new recruits. (Quest)"
-  },
-  {
-    "form_id": "000E38BD|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Good luck with that. (Quest)"
   },
   {
     "form_id": "000E36B8|Skyrim.esm",
@@ -4863,11 +4853,6 @@
     "form_id": "000D0547|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I can deliver that for you. (Quest)"
-  },
-  {
-    "form_id": "000D0546|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Good luck with that. (Quest)"
   },
   {
     "form_id": "000D0545|Skyrim.esm",
@@ -10635,11 +10620,6 @@
     "string": "I could convince Ainethach to sell. (Quest)"
   },
   {
-    "form_id": "0008306A|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Good luck with that. (Quest)"
-  },
-  {
     "form_id": "00083069|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "They won't stop until you do. (Persuade) (Quest)"
@@ -13790,11 +13770,6 @@
     "string": "I could get it for you. (Quest)"
   },
   {
-    "form_id": "0005AF95|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Good luck with that. (Quest)"
-  },
-  {
     "form_id": "0005AF7E|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I'm here for Elgrim's ore sample. (Quest)"
@@ -16855,11 +16830,6 @@
     "string": "I can bring it for you. (Quest)"
   },
   {
-    "form_id": "00043D17|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "Good luck with that. (Quest)"
-  },
-  {
     "form_id": "00043D16|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I gave the dagger to Andurs. (Quest)"
@@ -17708,11 +17678,6 @@
     "form_id": "0003C418|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Any clues where I can find these ingredients? (Quest)"
-  },
-  {
-    "form_id": "0003C338|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "No, not right now. (Quest)"
   },
   {
     "form_id": "0003C31E|Skyrim.esm",

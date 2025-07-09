@@ -62,8 +62,8 @@ db_dial_skyrim.esm_json_ready <- db_dial_skyrim.esm_massclass %>%
       ) %>% 
         filter(
           # Remove entries with rejection phrases because those might or might not contain scriptname
-          !str_detect(FULL, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be") |
-          !str_detect(RNAM, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be")
+          !str_detect(FULL, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|not right now|Good luck with that") |
+          !str_detect(RNAM, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|not right now|Good luck with that")
         ) %>%
           filter(
             # Ensure at least one of RNAM or FULL has a value
