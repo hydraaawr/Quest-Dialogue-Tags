@@ -134,7 +134,7 @@ load(".\\Resources\\DIAL_treatment_dragonborn.esm.RData")
 ## Matching #############################################################################
 ## These include untouched plugin records + ussepezied ones
 
-db_dial_skyrim.esm_ussep_json_ready <- rows_update(db_dial_skyrim.esm_json_ready,db_dial_ussep_json_ready, by = c("Formid_DIAL_isolated","Formid_INFO_isolated"), unmatched = "ignore")
+db_dial_skyrim.esm_ussep_json_ready <- rows_update(db_dial_skyrim.esm_update.esm_json_ready,db_dial_ussep_json_ready, by = c("Formid_DIAL_isolated","Formid_INFO_isolated"), unmatched = "ignore")
 
 db_dial_dawnguard.esm_ussep_json_ready <- rows_update(db_dial_dawnguard.esm_json_ready,db_dial_ussep_json_ready, by = c("Formid_DIAL_isolated","Formid_INFO_isolated"), unmatched = "ignore")
 
