@@ -37,7 +37,12 @@ db_dial_hearthfires.esm_json_ready <- db_dial_hearthfires.esm_massclass %>%
           filter(
             # Ensure at least one of RNAM or FULL has a value
             !is.na(RNAM) | !is.na(FULL)
-          ) %>% 
+          ) %>%
+            filter(
+                # Remove entries with rejection phrases because those might or might not contain scriptname
+                !str_detect(FULL, "(?i)never mind") |
+                !str_detect(RNAM, "(?i)never mind")
+            ) %>% 
             mutate(
               # Replace any RNAM containing "TIF_" with "NA (Quest)"
               RNAM = if_else(str_detect(RNAM, "TIF_"), "NA", RNAM),

@@ -5,11 +5,6 @@
     "string": "I've changed my mind. I'd like you to stay. (Quest)"
   },
   {
-    "form_id": "030195BF|Hearthfires.esm",
-    "type": "DIAL FULL",
-    "string": "No, never mind. (Quest)"
-  },
-  {
     "form_id": "03018DC7|Hearthfires.esm",
     "type": "DIAL FULL",
     "string": "I'd like to make a request. (Quest)"
@@ -98,11 +93,6 @@
     "form_id": "03010A2D|Hearthfires.esm",
     "type": "DIAL FULL",
     "string": "What is it? (Quest)"
-  },
-  {
-    "form_id": "0300D562|Hearthfires.esm",
-    "type": "DIAL FULL",
-    "string": "Never mind. (Quest)"
   },
   {
     "form_id": "0300CD29|Hearthfires.esm",
@@ -273,11 +263,6 @@
     "form_id": "03002FF4|Hearthfires.esm",
     "type": "DIAL FULL",
     "string": "Can I just cut the lumber myself? (Quest)"
-  },
-  {
-    "form_id": "03002FF3|Hearthfires.esm",
-    "type": "DIAL FULL",
-    "string": "Never mind. (Quest)"
   },
   {
     "form_id": "03003009|Hearthfires.esm",
