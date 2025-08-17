@@ -8,15 +8,15 @@ rm(list = ls())
 ## Loading
 
 source(".\\DIAL_treatment_main_functions_v2.1.R")
-db_dial_skyrim.esm <- read.csv(".\\dbs\\db_DIAL_skyrim.esm_v1.csv", sep = ";")
+db_dial_update.esm <- read.csv(".\\dbs\\db_DIAL_Update.esm_v1.csv", sep = ";")
 
 
-db_dial_skyrim.esm_merged <- shaper(db_dial_skyrim.esm)
+db_dial_update.esm_merged <- shaper(db_dial_update.esm)
 
 
 ## db with massively classified QNAM
 
-db_dial_skyrim.esm_massclass <- db_dial_skyrim.esm_merged %>%
+db_dial_update.esm_massclass <- db_dial_update.esm_merged %>%
       mutate( ## clasify type of quest
         QNAM_type = case_when(
           str_detect(QNAM, "^MQ") ~ "MQ", ## Main Quest
@@ -36,7 +36,7 @@ db_dial_skyrim.esm_massclass <- db_dial_skyrim.esm_merged %>%
 
 ## ready for json db (filtering and adding tags)
 
-db_dial_skyrim.esm_json_ready <- db_dial_skyrim.esm_massclass %>%
+db_dial_update.esm_json_ready <- db_dial_update.esm_massclass %>%
   isolate_ids() %>%
    mutate(   ## generate "rumor"
       FULL = case_when(
@@ -77,37 +77,18 @@ db_dial_skyrim.esm_json_ready <- db_dial_skyrim.esm_massclass %>%
             )
 
 
-## Apply Update.esm ##########################################################################
-## Loading
+################################################################################
 
-load(".\\Resources\\DIAL_treatment_update.esm.RData")
-## Matching #############################################################################
-## These include untouched plugin records + ussepezied ones
-
-db_dial_skyrim.esm_update.esm_json_ready <- rows_update(db_dial_skyrim.esm_json_ready,db_dial_update.esm_json_ready, by = c("Formid_DIAL_isolated","Formid_INFO_isolated"), unmatched = "ignore")
-####
-
-## generate the extra ones added by Update.esm
-
-db_dial_update.esm_new_json_ready <- anti_join(db_dial_update.esm_json_ready,db_dial_skyrim.esm_update.esm_json_ready)
-
-## Failsafe for some special cases that had same fomid dial but different info (and generate repeated entries)
-Formid_DIAL_isolated_skyrim.esm_update.esm <- db_dial_skyrim.esm_update.esm_json_ready$Formid_DIAL_isolated
-
-db_dial_update.esm_new_json_ready <- db_dial_update.esm_new_json_ready %>%
-  filter(!Formid_DIAL_isolated %in% Formid_DIAL_isolated_skyrim.esm_update.esm) ## no new update.esm records
-
-#############################################################################################
 
 
 ## Json generation:
 
 
-json_skyrim.esm_update.esm <- json_gen(db_dial_skyrim.esm_update.esm_json_ready,"Skyrim.esm", "NA (Quest)")
+json_update.esm <- json_gen(db_dial_update.esm_json_ready,"Update.esm", "NA (Quest)")
 
-write(json_skyrim.esm_update.esm, ".\\SKSE\\Plugins\\DynamicStringDistributor\\Skyrim.esm\\QuestDialogueTagsSkyrim.esm.json")
+# write(json_update.esm, ".\\SKSE\\Plugins\\DynamicStringDistributor\\Update.esm\\QuestDialogueTagsUpdate.esm.json")
 
 
 ## Export env
 
-save.image(".\\Resources\\DIAL_treatment_skyrim.esm.RData")
+save.image(".\\Resources\\DIAL_treatment_update.esm.RData")
