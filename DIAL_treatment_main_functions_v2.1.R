@@ -74,8 +74,8 @@ json_gen <- function(db_dial_json_ready,plugin,target_NA){
     } else if(identical(db_dial_json_ready[i,"FULL_trans"],target_NA) && !identical(db_dial_json_ready[i,"RNAM_trans"],target_NA)) { ## opposite of previous
       json_obj_list[[i]] <- { 
         list(
-          form_id = paste0(db_dial_json_ready[i,"Formid_DIAL_isolated"],"|",plugin), 
-          type = "DIAL FULL",     
+          form_id = paste0(db_dial_json_ready[i,"Formid_INFO_isolated"],"|",plugin), 
+          type = "INFO RNAM",     
           string = db_dial_json_ready[i,"RNAM_trans"]    
         )
 
