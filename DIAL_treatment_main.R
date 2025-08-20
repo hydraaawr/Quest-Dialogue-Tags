@@ -86,7 +86,7 @@ db_dial_ussep_json_ready <- db_dial_ussep_massclass %>%
           str_detect(Formid_DIAL, "Rumors") & is.na(RNAM) & !is.na(Scriptname) & QNAM_type == "rumor_dragonborn" ~ "Heard any rumors lately?", ## generate "Rumor"
           TRUE ~ RNAM
         )
-          ) %>%
+          ) %>% ## these are combined of vanilla + dlcs
             filter(
               ## No classified out
               !is.na(QNAM_type),
@@ -107,8 +107,8 @@ db_dial_ussep_json_ready <- db_dial_ussep_massclass %>%
             ) %>%
               filter(
                 # Remove entries with rejection phrases because those might or might not contain scriptname
-                !str_detect(FULL, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|think about it|good luck with that|show up eventually|not right now|Good luck with that") |
-                !str_detect(RNAM, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|think about it|good luck with that|show up eventually|not right now|Good luck with that")
+                !str_detect(FULL, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|think about it|good luck with that|show up eventually|not right now|Good luck with that|i don't have time for that") |
+                !str_detect(RNAM, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|think about it|good luck with that|show up eventually|not right now|Good luck with that|i don't have time for that")
               ) %>%
                 filter(
                   # Ensure at least one of RNAM or FULL has a value

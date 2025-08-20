@@ -9085,11 +9085,6 @@
     "string": "I'll recover the helm. (Quest)"
   },
   {
-    "form_id": "00094039|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I don't have time for that. (Quest)"
-  },
-  {
     "form_id": "00094037|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I have the Helm of Winterhold. (Quest)"
@@ -9098,11 +9093,6 @@
     "form_id": "00094036|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "It would be an honor. (Quest)"
-  },
-  {
-    "form_id": "00094035|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I don't have time for that now. (Quest)"
   },
   {
     "form_id": "00094034|Skyrim.esm",
@@ -9598,11 +9588,6 @@
     "form_id": "00090DDF|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "It will be done. (Quest)"
-  },
-  {
-    "form_id": "00090DDE|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I don't have time for that. (Quest)"
   },
   {
     "form_id": "00090DDD|Skyrim.esm",
@@ -10713,11 +10698,6 @@
     "form_id": "00079AD5|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "It would be an honor. (Quest)"
-  },
-  {
-    "form_id": "00079AD4|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I don't have time for that. (Quest)"
   },
   {
     "form_id": "000799D2|Skyrim.esm",
