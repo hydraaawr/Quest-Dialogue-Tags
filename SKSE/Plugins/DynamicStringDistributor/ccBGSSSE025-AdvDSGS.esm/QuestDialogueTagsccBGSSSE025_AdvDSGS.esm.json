@@ -45,8 +45,8 @@
     "string": "On second thought, never mind. (Quest)"
   },
   {
-    "form_id": "060010B6|ccBGSSSE025-AdvDSGS.esm",
-    "type": "DIAL FULL",
+    "form_id": "060010B7|ccBGSSSE025-AdvDSGS.esm",
+    "type": "INFO RNAM",
     "string": "All right, let's go. (Quest)"
   },
   {

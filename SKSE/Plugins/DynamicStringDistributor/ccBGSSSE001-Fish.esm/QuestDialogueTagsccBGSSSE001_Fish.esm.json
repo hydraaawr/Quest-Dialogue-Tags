@@ -55,23 +55,23 @@
     "string": "I've cleaned up the water around <Alias=Town>. (Quest)"
   },
   {
-    "form_id": "05000C87|ccBGSSSE001-Fish.esm",
-    "type": "DIAL FULL",
+    "form_id": "05000C8B|ccBGSSSE001-Fish.esm",
+    "type": "INFO RNAM",
     "string": "Here is the spadefish for your next experiment. (Quest)"
   },
   {
-    "form_id": "05000C87|ccBGSSSE001-Fish.esm",
-    "type": "DIAL FULL",
+    "form_id": "05000C8A|ccBGSSSE001-Fish.esm",
+    "type": "INFO RNAM",
     "string": "Here is the pearlfish for your next experiment. (Quest)"
   },
   {
-    "form_id": "05000C87|ccBGSSSE001-Fish.esm",
-    "type": "DIAL FULL",
+    "form_id": "05000C89|ccBGSSSE001-Fish.esm",
+    "type": "INFO RNAM",
     "string": "Here is the angler larvae for your next experiment. (Quest)"
   },
   {
-    "form_id": "05000C87|ccBGSSSE001-Fish.esm",
-    "type": "DIAL FULL",
+    "form_id": "05000C88|ccBGSSSE001-Fish.esm",
+    "type": "INFO RNAM",
     "string": "Here is the pigmy sunfish for your next experiment. (Quest)"
   },
   {
