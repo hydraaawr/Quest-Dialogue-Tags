@@ -60,13 +60,13 @@
     "string": "Carefully gather the bark? How? (Quest)"
   },
   {
-    "form_id": "0201A42A|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "0201A42F|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "Is there any more Aetherium? (Quest)"
   },
   {
-    "form_id": "0201A429|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "0201A42D|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "What now? (Quest)"
   },
   {
@@ -155,13 +155,13 @@
     "string": "What now, Isran? (Quest)"
   },
   {
-    "form_id": "02019F52|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "02019FAB|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "You're an insult to our kind. (Quest)"
   },
   {
-    "form_id": "02019F52|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "02019FAA|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "Your kind is a blight on this world. (Quest)"
   },
   {
@@ -455,13 +455,13 @@
     "string": "It sounds like they were both being selfish. (Quest)"
   },
   {
-    "form_id": "02017677|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "02017679|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "Are all of those ingredients here? (Quest)"
   },
   {
-    "form_id": "02017677|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "02017678|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "I already found all of the ingredients. (Quest)"
   },
   {
@@ -500,23 +500,23 @@
     "string": "What is this place? (Quest)"
   },
   {
-    "form_id": "020163E5|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "02016402|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "How did you die? (Quest)"
   },
   {
-    "form_id": "020163E4|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "020163FE|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "What do you think of this place? (Quest)"
   },
   {
-    "form_id": "020163E3|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "020163F8|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "Forge something? With what? (Quest)"
   },
   {
-    "form_id": "020163E2|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "020163F5|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "Do you think there's more Aetherium somewhere? (Quest)"
   },
   {
@@ -950,23 +950,23 @@
     "string": "Yes. (Quest)"
   },
   {
-    "form_id": "02014EED|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "02014EFE|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "I already have the other three shards. (Quest)"
   },
   {
-    "form_id": "02014EED|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "02014EFD|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "I have two of the other shards already. (Quest)"
   },
   {
-    "form_id": "02014EED|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "02014EFC|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "I already have another shard. (Quest)"
   },
   {
-    "form_id": "02014EE7|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "0201A433|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "Do you think there's more Aetherium somewhere? (Quest)"
   },
   {
@@ -995,13 +995,13 @@
     "string": "I made it. (Quest)"
   },
   {
-    "form_id": "02014BA2|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "02014BB6|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "I've heard of you. From Katria. (Quest)"
   },
   {
-    "form_id": "02014BA2|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "02014BB5|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "I had some help. From Katria. (Quest)"
   },
   {
@@ -1060,23 +1060,23 @@
     "string": "If I leave the Soul Cairn, can I safely return? (Quest)"
   },
   {
-    "form_id": "0201432D|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "0200CF48|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "Your name sounds familiar... (Quest)"
   },
   {
-    "form_id": "0201432C|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "0200CF49|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "What were you looking for? (Quest)"
   },
   {
-    "form_id": "0201432B|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "02014334|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "You mentioned a treasure? (Quest)"
   },
   {
-    "form_id": "0201432B|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "02014333|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "What treasure? (Quest)"
   },
   {
@@ -1085,8 +1085,8 @@
     "string": "And that story led you here? (Quest)"
   },
   {
-    "form_id": "02014327|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "02014330|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "Congratulations. And... thanks, Katria. (Quest)"
   },
   {
@@ -2070,13 +2070,13 @@
     "string": "Is it fragile? Do we need to be careful with it? (Quest)"
   },
   {
-    "form_id": "0200F34F|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "02019FA2|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "Loyalty? You never intended to let me live. (Quest)"
   },
   {
-    "form_id": "0200F34F|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "0200F35A|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "Hatred born of your neglect. (Quest)"
   },
   {
@@ -2300,8 +2300,8 @@
     "string": "I'm ready to be turned. (Quest)"
   },
   {
-    "form_id": "0200CF3E|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "0200CF42|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "Who are you? (Quest)"
   },
   {
@@ -2310,38 +2310,38 @@
     "string": "I can handle myself. (Persuade) (Quest)"
   },
   {
-    "form_id": "0200CF3C|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "0200CF66|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "Get out of my way. (Quest)"
   },
   {
-    "form_id": "0200CF3B|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "0200CF61|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "I won't give up that easily. (Quest)"
   },
   {
-    "form_id": "0200CF3A|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "02004CFD|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "Sure. (Quest)"
   },
   {
-    "form_id": "0200CF39|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "02005747|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "No thanks. (Quest)"
   },
   {
-    "form_id": "0200CF36|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "0200CF8A|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "What happened to this place? (Quest)"
   },
   {
-    "form_id": "0200CF35|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "0200CF7C|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "Any dangers I should be aware of? (Quest)"
   },
   {
-    "form_id": "0200CF34|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "0200574D|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "You mean... the earthquake? (Quest)"
   },
   {
@@ -2350,43 +2350,43 @@
     "string": "Any advice? (Quest)"
   },
   {
-    "form_id": "0200CF2B|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "0200CF5F|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "Are you going to help? (Quest)"
   },
   {
-    "form_id": "0200CF23|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "0200CF64|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "What? What is this? (Quest)"
   },
   {
-    "form_id": "0200CF22|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "0200CF5E|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "What are you talking about? (Quest)"
   },
   {
-    "form_id": "0200CF20|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "0200CF4F|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "So... what now? (Quest)"
   },
   {
-    "form_id": "0200CF1E|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "0200CF9C|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "Then what? (Quest)"
   },
   {
-    "form_id": "0200CF1C|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "0200CF78|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "Yes, I have them. What now? (Quest)"
   },
   {
-    "form_id": "0200CF18|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "0200CF58|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "What do you make of all this? (Quest)"
   },
   {
-    "form_id": "0200CF16|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "0200CF44|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "How do we do that? (Quest)"
   },
   {
@@ -3250,13 +3250,13 @@
     "string": "I've destroyed the <Alias=Vampire> at <Alias=Dungeon>. (Quest)"
   },
   {
-    "form_id": "020066C3|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "020066F4|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "I think I could use your help. (Quest)"
   },
   {
-    "form_id": "020066C2|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "020066EC|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "Goodbye (Quest)"
   },
   {
@@ -3565,23 +3565,23 @@
     "string": "... (Quest)"
   },
   {
-    "form_id": "02004CF1|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "0200CF7B|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "Why did you come here? (Quest)"
   },
   {
-    "form_id": "02004CF1|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "02004CFB|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "Sure, I'd like the help. (Quest)"
   },
   {
-    "form_id": "02004CF1|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "02014336|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "How did you end up here? (Quest)"
   },
   {
-    "form_id": "02004CF1|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "02004D00|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "Get out of my way. (Quest)"
   },
   {
@@ -3700,13 +3700,18 @@
     "string": "Hiding with the Dawnguard? (Quest)"
   },
   {
-    "form_id": "02003C09|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "02012185|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "How can we get in without your father noticing? (Quest)"
   },
   {
-    "form_id": "02003C09|Dawnguard.esm",
-    "type": "DIAL FULL",
+    "form_id": "0200C61A|Dawnguard.esm",
+    "type": "INFO RNAM",
+    "string": "How can we get in without your father noticing? (Quest)"
+  },
+  {
+    "form_id": "02003C3E|Dawnguard.esm",
+    "type": "INFO RNAM",
     "string": "They aren't going to let us use the front door. (Quest)"
   },
   {

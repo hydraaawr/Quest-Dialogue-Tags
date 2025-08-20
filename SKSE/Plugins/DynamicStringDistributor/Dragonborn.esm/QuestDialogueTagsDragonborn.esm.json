@@ -20,8 +20,8 @@
     "string": "Did she ever return here? (Quest)"
   },
   {
-    "form_id": "0403A2A6|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "0403A2A7|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "You can't be serious. (Quest)"
   },
   {
@@ -805,8 +805,8 @@
     "string": "Would I be able to collect a bounty? (Quest)"
   },
   {
-    "form_id": "040279DD|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "040279DF|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "Where is Ildari? (Quest)"
   },
   {
@@ -815,203 +815,203 @@
     "string": "Is there a bounty on her then? (Quest)"
   },
   {
-    "form_id": "040277DA|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "040275B3|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "I can't let you go unpunished. (Quest)"
   },
   {
-    "form_id": "04027579|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "04027588|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "I heard you were starting an expedition? (Quest)"
   },
   {
-    "form_id": "04027579|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "04027587|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "What's the matter with you? (Quest)"
   },
   {
-    "form_id": "04027578|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "0403A2A8|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "You want... 5000 septims? (Quest)"
   },
   {
-    "form_id": "04027575|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "040275B4|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "What happened? (Quest)"
   },
   {
-    "form_id": "04027573|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "040275A4|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "Spare me the walk. Just tell me. (Persuade) (Quest)"
   },
   {
-    "form_id": "04027573|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "040275A3|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "You can tell me. Come on, what's the harm? (Persuade) (Quest)"
   },
   {
-    "form_id": "04027572|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "04027596|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "Here's a little gold for your tale. (<BribeCost> gold) (Quest)"
   },
   {
-    "form_id": "04027572|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "04027595|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "You're short on gold? Maybe this will help a bit. Now talk. (<BribeCost> gold) (Quest)"
   },
   {
-    "form_id": "04027571|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "04027585|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "You're Ralis? I found your camp outside Kolbjorn Barrow. (Quest)"
   },
   {
-    "form_id": "04027570|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "04027580|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "So what's this treasure you were after? (Quest)"
   },
   {
-    "form_id": "0402756F|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "0402757C|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "Why not hire some of the miners out of Raven Rock? (Quest)"
   },
   {
-    "form_id": "0402756E|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "040275B1|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "I've got some money. Are you looking for a partner? (Quest)"
   },
   {
-    "form_id": "0402756C|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "040275A1|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "Of course. (1000 gold) (Quest)"
   },
   {
-    "form_id": "0402756B|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "04027594|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "Not yet... (Quest)"
   },
   {
-    "form_id": "04027567|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "0402757B|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "What's going on? (Quest)"
   },
   {
-    "form_id": "04027565|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "040275A8|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "What now? (Quest)"
   },
   {
-    "form_id": "04027564|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "040275A0|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "I've dealt with the Draugr and found a way past the dead end. (Quest)"
   },
   {
-    "form_id": "04027564|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "0402759F|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "I found a way past the dead end. (Quest)"
   },
   {
-    "form_id": "04027564|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "0402759E|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "I've dealt with the Draugr. (Quest)"
   },
   {
-    "form_id": "04027564|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "0402759D|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "No, not yet. (Quest)"
   },
   {
-    "form_id": "04027562|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "0402757E|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "Here. (2000 gold) (Quest)"
   },
   {
-    "form_id": "04027561|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "0402757A|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "I can't afford it right now. (Quest)"
   },
   {
-    "form_id": "0402755D|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "04027599|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "What is it this time? (Quest)"
   },
   {
-    "form_id": "0402755C|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "04027593|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "I've defeated the Draugr and located the missing miners. They're dead. (Quest)"
   },
   {
-    "form_id": "0402755C|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "04027592|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "I found the missing miners. Both dead. (Quest)"
   },
   {
-    "form_id": "0402755C|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "04027591|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "I've dealt with the Draugr. (Quest)"
   },
   {
-    "form_id": "0402755C|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "04027590|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "No, not yet. (Quest)"
   },
   {
-    "form_id": "0402755B|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "040275AE|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "Here. This had better be worth it. (3000 gold) (Quest)"
   },
   {
-    "form_id": "0402755A|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "040275A6|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "No, I don't. (Quest)"
   },
   {
-    "form_id": "04027558|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "04027598|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "It looks like at least some of the miners survived this time. (Quest)"
   },
   {
-    "form_id": "04027556|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "0402758A|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "All the Draugr are dead. (Quest)"
   },
   {
-    "form_id": "04027556|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "04027589|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "I'm still working on it. (Quest)"
   },
   {
-    "form_id": "04027555|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "040275AD|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "How much? (Quest)"
   },
   {
-    "form_id": "04027554|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "04027582|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "You want... 5000 septims? (Quest)"
   },
   {
-    "form_id": "04027552|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "04027597|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "As a matter of fact, I do. (5000 gold) (Quest)"
   },
   {
-    "form_id": "04027551|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "0402758E|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "No, no I don't. (Quest)"
   },
   {
-    "form_id": "0402754F|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "04027586|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "What's going on here? (Quest)"
   },
   {
-    "form_id": "0402754D|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "04027581|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "Did you... kill the miners? (Quest)"
   },
   {
-    "form_id": "0402754C|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "040275B2|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "I believe you. Just... don't come back here. (Quest)"
   },
   {
@@ -2960,13 +2960,13 @@
     "string": "Have you seen Varona? (Quest)"
   },
   {
-    "form_id": "0006F3E5|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "04020947|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "What can I do to help the Skaal? (Quest)"
   },
   {
-    "form_id": "0006F3E5|Dragonborn.esm",
-    "type": "DIAL FULL",
+    "form_id": "000AB81D|Dragonborn.esm",
+    "type": "INFO RNAM",
     "string": "Ulfric doesn't care about outsiders? (Quest)"
   },
   {

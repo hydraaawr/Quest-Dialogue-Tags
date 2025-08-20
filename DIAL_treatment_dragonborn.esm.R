@@ -8,7 +8,7 @@ rm(list = ls())
 ## Loading
 
 source(".\\DIAL_treatment_main_functions_v2.1.R")
-db_dial_dragonborn.esm <- read.csv(".\\dbs\\db_DIAL_dragonborn.esm_v1.csv", sep = ";")
+db_dial_dragonborn.esm <- read.csv(".\\dbs\\db_DIAL_dragonborn.esm.csv", sep = ";")
 
 
 db_dial_dragonborn.esm_merged <- shaper(db_dial_dragonborn.esm)
