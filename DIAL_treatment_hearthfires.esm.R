@@ -55,9 +55,9 @@ db_dial_hearthfires.esm_json_ready <- db_dial_hearthfires.esm_massclass %>%
 ## Json generation:
 
 
-json_hearthfires.esm <- json_gen(db_dial_hearthfires.esm_json_ready,"Hearthfires.esm", "NA (Quest)")
+json_hearthfires.esm <- json_gen(db_dial_hearthfires.esm_json_ready,"HearthFires.esm", "NA (Quest)")
 
-write(json_hearthfires.esm, ".\\SKSE\\Plugins\\DynamicStringDistributor\\Hearthfires.esm\\QuestDialogueTagsHearthfires.esm.json")
+write(json_hearthfires.esm, ".\\SKSE\\Plugins\\DynamicStringDistributor\\HearthFires.esm\\QuestDialogueTagsHearthFires.esm.json")
 
 
 ## Export env

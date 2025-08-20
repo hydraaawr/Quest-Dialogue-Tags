@@ -29168,407 +29168,407 @@
   }
 ,
   {
-    "form_id": "030195C0|Hearthfires.esm",
+    "form_id": "030195C0|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I've changed my mind. I'd like you to stay. (Quest)"
   },
   {
-    "form_id": "03018DC7|Hearthfires.esm",
+    "form_id": "03018DC7|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'd like to make a request. (Quest)"
   },
   {
-    "form_id": "03018DC6|Hearthfires.esm",
+    "form_id": "03018DC6|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "How about some instrumental music? (Quest)"
   },
   {
-    "form_id": "03018DC5|Hearthfires.esm",
+    "form_id": "03018DC5|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Can you take a break? (Quest)"
   },
   {
-    "form_id": "03018DC4|Hearthfires.esm",
+    "form_id": "03018DC4|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I don't need your services any more. (Quest)"
   },
   {
-    "form_id": "03018DC3|Hearthfires.esm",
+    "form_id": "03018DC3|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'd like you to play a different instrument. (Quest)"
   },
   {
-    "form_id": "03018DC2|Hearthfires.esm",
+    "form_id": "03018DC2|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Lute. (Quest)"
   },
   {
-    "form_id": "03018DC1|Hearthfires.esm",
+    "form_id": "03018DC1|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Drum. (Quest)"
   },
   {
-    "form_id": "03018DC0|Hearthfires.esm",
+    "form_id": "03018DC0|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Flute. (Quest)"
   },
   {
-    "form_id": "03018DBF|Hearthfires.esm",
+    "form_id": "03018DBF|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Bard. (<Global=BYOHHPCostBard> gold) (Quest)"
   },
   {
-    "form_id": "03000C30|Hearthfires.esm",
+    "form_id": "03000C30|HearthFires.esm",
     "type": "INFO RNAM",
     "string": "I got your letter about the land for sale. Is it still available? (Quest)"
   },
   {
-    "form_id": "0301770E|Hearthfires.esm",
+    "form_id": "0301770E|HearthFires.esm",
     "type": "INFO RNAM",
     "string": "Is that land you mentioned still available? (Quest)"
   },
   {
-    "form_id": "03017709|Hearthfires.esm",
+    "form_id": "03017709|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'd like to purchase a house. (Quest)"
   },
   {
-    "form_id": "0301770C|Hearthfires.esm",
+    "form_id": "0301770C|HearthFires.esm",
     "type": "INFO RNAM",
     "string": "I got your letter about the land for sale. Is it still available? (Quest)"
   },
   {
-    "form_id": "03000C32|Hearthfires.esm",
+    "form_id": "03000C32|HearthFires.esm",
     "type": "INFO RNAM",
     "string": "Is that land you mentioned still available? (Quest)"
   },
   {
-    "form_id": "03017708|Hearthfires.esm",
+    "form_id": "03017708|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'll take it. (<Global=BYOHHPCost> gold) (Quest)"
   },
   {
-    "form_id": "03017707|Hearthfires.esm",
+    "form_id": "03017707|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'm a bit short of money right now. (<Global=BYOHHPCost> gold) (Quest)"
   },
   {
-    "form_id": "03017706|Hearthfires.esm",
+    "form_id": "03017706|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'll have to think about it. (Quest)"
   },
   {
-    "form_id": "03010A2D|Hearthfires.esm",
+    "form_id": "03010A2D|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "What is it? (Quest)"
   },
   {
-    "form_id": "0300CD29|Hearthfires.esm",
+    "form_id": "0300CD29|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Do you know where I can buy materials like glass or straw? (Quest)"
   },
   {
-    "form_id": "0300BE08|Hearthfires.esm",
+    "form_id": "0300BE08|HearthFires.esm",
     "type": "INFO RNAM",
     "string": "Is that land you mentioned still available? (Quest)"
   },
   {
-    "form_id": "0300BE01|Hearthfires.esm",
+    "form_id": "0300BE01|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'd like to purchase a house. (Quest)"
   },
   {
-    "form_id": "0300BE06|Hearthfires.esm",
+    "form_id": "0300BE06|HearthFires.esm",
     "type": "INFO RNAM",
     "string": "I got your letter about the land for sale. Is it still available? (Quest)"
   },
   {
-    "form_id": "03000C54|Hearthfires.esm",
+    "form_id": "03000C54|HearthFires.esm",
     "type": "INFO RNAM",
     "string": "Is that land you mentioned still available? (Quest)"
   },
   {
-    "form_id": "03000C52|Hearthfires.esm",
+    "form_id": "03000C52|HearthFires.esm",
     "type": "INFO RNAM",
     "string": "I got your letter about the land for sale. Is it still available? (Quest)"
   },
   {
-    "form_id": "0300BE00|Hearthfires.esm",
+    "form_id": "0300BE00|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'll take it. (<Global=BYOHHPCost> gold) (Quest)"
   },
   {
-    "form_id": "0300BDFF|Hearthfires.esm",
+    "form_id": "0300BDFF|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'm a bit short of money right now. (<Global=BYOHHPCost> gold) (Quest)"
   },
   {
-    "form_id": "0300BDFE|Hearthfires.esm",
+    "form_id": "0300BDFE|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'll have to think about it. (Quest)"
   },
   {
-    "form_id": "0300B4C9|Hearthfires.esm",
+    "form_id": "0300B4C9|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Entry Room. (<Global=BYOHHPCostEntryRoom> gold) (Quest)"
   },
   {
-    "form_id": "03015D4C|Hearthfires.esm",
+    "form_id": "03015D4C|HearthFires.esm",
     "type": "INFO RNAM",
     "string": "Small House (<Global=BYOHHPCostEntryRoom> gold) (Quest)"
   },
   {
-    "form_id": "03015D49|Hearthfires.esm",
+    "form_id": "03015D49|HearthFires.esm",
     "type": "INFO RNAM",
     "string": "Small House (<Global=BYOHHPCostEntryRoom> gold) (Quest)"
   },
   {
-    "form_id": "0300B4CB|Hearthfires.esm",
+    "form_id": "0300B4CB|HearthFires.esm",
     "type": "INFO RNAM",
     "string": "Small House (<Global=BYOHHPCostEntryRoom> gold) (Quest)"
   },
   {
-    "form_id": "0300B0A2|Hearthfires.esm",
+    "form_id": "0300B0A2|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'd like you to buy furnishings for the house. (Quest)"
   },
   {
-    "form_id": "0300B0A1|Hearthfires.esm",
+    "form_id": "0300B0A1|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Main Hall. (<Global=BYOHHPCostMainHall> gold) (Quest)"
   },
   {
-    "form_id": "0300B0A0|Hearthfires.esm",
+    "form_id": "0300B0A0|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Bedroom. (<Global=BYOHHPCostBedroom> gold) (Quest)"
   },
   {
-    "form_id": "0300B09F|Hearthfires.esm",
+    "form_id": "0300B09F|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Alchemy. (<Global=BYOHHPCostAlchemy> gold) (Quest)"
   },
   {
-    "form_id": "0300B09E|Hearthfires.esm",
+    "form_id": "0300B09E|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Armory. (<Global=BYOHHPCostArmory> gold) (Quest)"
   },
   {
-    "form_id": "0300B09D|Hearthfires.esm",
+    "form_id": "0300B09D|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Enchanter's Tower. (<Global=BYOHHPCostEnchanting> gold) (Quest)"
   },
   {
-    "form_id": "0300B09C|Hearthfires.esm",
+    "form_id": "0300B09C|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Greenhouse. (<Global=BYOHHPCostGreenhouse> gold) (Quest)"
   },
   {
-    "form_id": "0300B09B|Hearthfires.esm",
+    "form_id": "0300B09B|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Kitchen. (<Global=BYOHHPCostKitchen> gold) (Quest)"
   },
   {
-    "form_id": "0300B09A|Hearthfires.esm",
+    "form_id": "0300B09A|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Library. (<Global=BYOHHPCostLibrary> gold) (Quest)"
   },
   {
-    "form_id": "0300B099|Hearthfires.esm",
+    "form_id": "0300B099|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Storage Room. (<Global=BYOHHPCostStorageRm> gold) (Quest)"
   },
   {
-    "form_id": "0300B098|Hearthfires.esm",
+    "form_id": "0300B098|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Trophy Room. (<Global=BYOHHPCostTrophyRm> gold) (Quest)"
   },
   {
-    "form_id": "030094F3|Hearthfires.esm",
+    "form_id": "030094F3|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'd like you to buy some building materials for me. (Quest)"
   },
   {
-    "form_id": "030094F2|Hearthfires.esm",
+    "form_id": "030094F2|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Lumber. (<Global=BYOHHPAmountLogs> for <Global=BYOHHPCostLogs> gold) (Quest)"
   },
   {
-    "form_id": "030094F1|Hearthfires.esm",
+    "form_id": "030094F1|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Stone. (<Global=BYOHHPAmountStone> for <Global=BYOHHPCostStone> gold) (Quest)"
   },
   {
-    "form_id": "030094F0|Hearthfires.esm",
+    "form_id": "030094F0|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Clay. (<Global=BYOHHPAmountClay> for <Global=BYOHHPCostClay> gold) (Quest)"
   },
   {
-    "form_id": "030094EE|Hearthfires.esm",
+    "form_id": "030094EE|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I don't need anything else. (Quest)"
   },
   {
-    "form_id": "03007A6E|Hearthfires.esm",
+    "form_id": "03007A6E|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Chicken. (<Global=BYOHHPCostChicken> gold) (Quest)"
   },
   {
-    "form_id": "03007A6D|Hearthfires.esm",
+    "form_id": "03007A6D|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Horse. (<Global=HorseCost> gold) (Quest)"
   },
   {
-    "form_id": "03002FF6|Hearthfires.esm",
+    "form_id": "03002FF6|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'd like to buy some lumber. (Quest)"
   },
   {
-    "form_id": "03002FF5|Hearthfires.esm",
+    "form_id": "03002FF5|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'll take <Global=BYOHHPAmountLogs> logs (<Global=BYOHHPCostLogs> gold). (Quest)"
   },
   {
-    "form_id": "03002FF4|Hearthfires.esm",
+    "form_id": "03002FF4|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Can I just cut the lumber myself? (Quest)"
   },
   {
-    "form_id": "03003009|Hearthfires.esm",
+    "form_id": "03003009|HearthFires.esm",
     "type": "INFO RNAM",
     "string": "Is that land you mentioned still available? (Quest)"
   },
   {
-    "form_id": "03002FF2|Hearthfires.esm",
+    "form_id": "03002FF2|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'd like to purchase a house. (Quest)"
   },
   {
-    "form_id": "03003007|Hearthfires.esm",
+    "form_id": "03003007|HearthFires.esm",
     "type": "INFO RNAM",
     "string": "I got your letter about the land for sale. Is it still available? (Quest)"
   },
   {
-    "form_id": "03002FF1|Hearthfires.esm",
+    "form_id": "03002FF1|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'll take it. (<Global=BYOHHPCost> gold) (Quest)"
   },
   {
-    "form_id": "03002FF0|Hearthfires.esm",
+    "form_id": "03002FF0|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'm a bit short of money right now. (<Global=BYOHHPCost> gold) (Quest)"
   },
   {
-    "form_id": "03002FEF|Hearthfires.esm",
+    "form_id": "03002FEF|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'll have to think about it. (Quest)"
   },
   {
-    "form_id": "03002FEE|Hearthfires.esm",
+    "form_id": "03002FEE|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "What did you need? (Quest)"
   },
   {
-    "form_id": "03002FED|Hearthfires.esm",
+    "form_id": "03002FED|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'd be honored to have you as my steward. (Quest)"
   },
   {
-    "form_id": "03002FEB|Hearthfires.esm",
+    "form_id": "03002FEB|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'll have to think about it. (Quest)"
   },
   {
-    "form_id": "03002FE9|Hearthfires.esm",
+    "form_id": "03002FE9|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I need a steward for my house. Are you interested? (Quest)"
   },
   {
-    "form_id": "03002FE8|Hearthfires.esm",
+    "form_id": "03002FE8|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'd like you to make some improvements to the house. (Quest)"
   },
   {
-    "form_id": "03002FE6|Hearthfires.esm",
+    "form_id": "03002FE6|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Cow. (<Global=BYOHHPCostCow> gold) (Quest)"
   },
   {
-    "form_id": "03002FE5|Hearthfires.esm",
+    "form_id": "03002FE5|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Carriage. (<Global=BYOHHPCostCarriage> gold) (Quest)"
   },
   {
-    "form_id": "030008C7|Hearthfires.esm",
+    "form_id": "030008C7|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "You're dead. (Quest)"
   },
   {
-    "form_id": "03000884|Hearthfires.esm",
+    "form_id": "03000884|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Let's get out of here. (Quest)"
   },
   {
-    "form_id": "03000883|Hearthfires.esm",
+    "form_id": "03000883|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Come on. Let's go. (Quest)"
   },
   {
-    "form_id": "03000882|Hearthfires.esm",
+    "form_id": "03000882|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Not yet. I'll be back for you. (Quest)"
   },
   {
-    "form_id": "03000881|Hearthfires.esm",
+    "form_id": "03000881|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "What do you want? (Quest)"
   },
   {
-    "form_id": "0300088E|Hearthfires.esm",
+    "form_id": "0300088E|HearthFires.esm",
     "type": "INFO RNAM",
     "string": "What did you do to my husband? (Quest)"
   },
   {
-    "form_id": "03000880|Hearthfires.esm",
+    "form_id": "03000880|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "What did you do to my wife? (Quest)"
   },
   {
-    "form_id": "0300087F|Hearthfires.esm",
+    "form_id": "0300087F|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I've heard enough. You're dead. (Quest)"
   },
   {
-    "form_id": "0300089B|Hearthfires.esm",
+    "form_id": "0300089B|HearthFires.esm",
     "type": "INFO RNAM",
     "string": "Here's your money. He'd better be safe. (Give <Global=BYOHHBA2Ransom> gold) (Quest)"
   },
   {
-    "form_id": "0300087E|Hearthfires.esm",
+    "form_id": "0300087E|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Here's your money. She'd better be safe. (Give <Global=BYOHHBA2Ransom> gold) (Quest)"
   },
   {
-    "form_id": "03000899|Hearthfires.esm",
+    "form_id": "03000899|HearthFires.esm",
     "type": "INFO RNAM",
     "string": "How about you just let him go and nobody has to get hurt? (Persuade) (Quest)"
   },
   {
-    "form_id": "0300087D|Hearthfires.esm",
+    "form_id": "0300087D|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "How about you just let her go and nobody has to get hurt? (Persuade) (Quest)"
   },
   {
-    "form_id": "03000896|Hearthfires.esm",
+    "form_id": "03000896|HearthFires.esm",
     "type": "INFO RNAM",
     "string": "I don't have the money. Can't you just let him go? (Quest)"
   },
   {
-    "form_id": "0300087C|Hearthfires.esm",
+    "form_id": "0300087C|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I don't have the money. Can't you just let her go? (Quest)"
   },
   {
-    "form_id": "0300087A|Hearthfires.esm",
+    "form_id": "0300087A|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "Money's not going to do you much good after I've killed you. (Quest)"
   }

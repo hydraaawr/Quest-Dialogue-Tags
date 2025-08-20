@@ -166,7 +166,7 @@ json_dawnguard.esm_ussep <- json_gen(db_dial_dawnguard.esm_ussep_json_ready,"Daw
 
 json_dragonborn.esm_ussep <- json_gen(db_dial_dragonborn.esm_ussep_json_ready,"Dragonborn.esm", "NA (Quest)")
 
-json_hearthfires.esm_ussep <- json_gen(db_dial_hearthfires.esm_ussep_json_ready, "Hearthfires.esm", "NA (Quest)")
+json_hearthfires.esm_ussep <- json_gen(db_dial_hearthfires.esm_ussep_json_ready, "HearthFires.esm", "NA (Quest)")
 
 json_ussep_new <- json_gen(db_dial_ussep_new_json_ready, "unofficial skyrim special edition patch.esp", "NA (Quest)")
 
