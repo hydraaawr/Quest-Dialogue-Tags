@@ -128,7 +128,7 @@ db_dial_ussep_json_ready <- db_dial_ussep_massclass %>%
 load(".\\Resources\\DIAL_treatment_skyrim.esm.RData")
 load(".\\Resources\\DIAL_treatment_dawnguard.esm.RData")
 load(".\\Resources\\DIAL_treatment_dragonborn.esm.RData")
-
+load(".\\Resources\\DIAL_treatment_hearthfires.esm.RData")
 
 
 ## Matching #############################################################################
@@ -140,11 +140,13 @@ db_dial_dawnguard.esm_ussep_json_ready <- rows_update(db_dial_dawnguard.esm_json
 
 db_dial_dragonborn.esm_ussep_json_ready <- rows_update(db_dial_dragonborn.esm_json_ready,db_dial_ussep_json_ready, by = c("Formid_DIAL_isolated","Formid_INFO_isolated"), unmatched = "ignore")
 
+db_dial_hearthfires.esm_ussep_json_ready <- rows_update(db_dial_hearthfires.esm_json_ready,db_dial_ussep_json_ready, by = c("Formid_DIAL_isolated","Formid_INFO_isolated"), unmatched = "ignore")
+
 ####
 
 ## generate the extra ones added by ussep
 
-db_dial_vanilla_ussep_json_ready <- bind_rows(db_dial_skyrim.esm_ussep_json_ready, db_dial_dawnguard.esm_ussep_json_ready, db_dial_dragonborn.esm_ussep_json_ready) ## join the three that have all records + ussep modifications
+db_dial_vanilla_ussep_json_ready <- bind_rows(db_dial_skyrim.esm_ussep_json_ready, db_dial_dawnguard.esm_ussep_json_ready, db_dial_dragonborn.esm_ussep_json_ready, db_dial_hearthfires.esm_ussep_json_ready) ## join the three that have all records + ussep modifications
 db_dial_ussep_new_json_ready <- anti_join(db_dial_ussep_json_ready,db_dial_vanilla_ussep_json_ready)
 
 ## Failsafe for some special cases that had same fomid dial but different info (and generate repeated entries)
@@ -164,6 +166,8 @@ json_dawnguard.esm_ussep <- json_gen(db_dial_dawnguard.esm_ussep_json_ready,"Daw
 
 json_dragonborn.esm_ussep <- json_gen(db_dial_dragonborn.esm_ussep_json_ready,"Dragonborn.esm", "NA (Quest)")
 
+json_hearthfires.esm_ussep <- json_gen(db_dial_hearthfires.esm_ussep_json_ready, "Hearthfires.esm", "NA (Quest)")
+
 json_ussep_new <- json_gen(db_dial_ussep_new_json_ready, "unofficial skyrim special edition patch.esp", "NA (Quest)")
 
 
@@ -175,7 +179,9 @@ json_main <- paste0(
   ',', 
   gsub('\\[|\\]', '', json_dawnguard.esm_ussep), 
   ',', 
-  gsub('\\[|\\]', '', json_dragonborn.esm_ussep), 
+  gsub('\\[|\\]', '', json_dragonborn.esm_ussep),
+  ',', 
+  gsub('\\[|\\]', '', json_hearthfires.esm_ussep),  
   ',',
   gsub('\\[|\\]', '', json_ussep_new), 
   ']'
