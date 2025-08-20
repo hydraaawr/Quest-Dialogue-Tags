@@ -13,7 +13,7 @@ rm(list = ls())
 ## Loading
 
 source(".\\DIAL_treatment_main_functions_v2.1.R")
-db_dial_sti <- read.csv(".\\dbs\\db_DIAL_STI_v1.csv", sep = ";")
+db_dial_sti <- read.csv(".\\dbs\\db_DIAL_STI.csv", sep = ";")
 
 ## Procedure
 
