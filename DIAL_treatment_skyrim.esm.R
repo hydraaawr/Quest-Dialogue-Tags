@@ -61,10 +61,14 @@ db_dial_skyrim.esm_json_ready <- db_dial_skyrim.esm_massclass %>%
         !(str_detect(Formid_DIAL, "^MS") & is.na(Scriptname))
       ) %>% 
         filter(
-          # Remove entries with rejection phrases because those might or might not contain scriptname
-          !str_detect(FULL, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|not right now|Good luck with that|i don't have time for that") |
-          !str_detect(RNAM, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|not right now|Good luck with that|i don't have time for that")
-        ) %>%
+          !(
+            # Check FULL (managing NA)
+            if_else(is.na(FULL), FALSE, 
+                  str_detect(FULL, regex("another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|not right now|Good luck with that|i don't have time (for this.|right now.)?$|i don't have time for that(\\.| now\\.)?$", ignore_case = TRUE))) |
+            # Check RNAM (managing NA)  
+            if_else(is.na(RNAM), FALSE,
+                  str_detect(RNAM, regex("another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|not right now|Good luck with that|i don't have time (for this.|right now.)?$|i don't have time for that(\\.| now\\.)?$", ignore_case = TRUE)))
+              )) %>%
           filter(
             # Ensure at least one of RNAM or FULL has a value
             !is.na(RNAM) | !is.na(FULL)

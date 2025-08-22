@@ -3100,11 +3100,6 @@
     "string": "Tell me everything or end up like Fjotli! (Intimidate) (Quest)"
   },
   {
-    "form_id": "000D7702|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I don't have time for this! (Quest)"
-  },
-  {
     "form_id": "000D7701|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "My mistake. (Quest)"
@@ -4998,21 +4993,6 @@
     "form_id": "00094094|Skyrim.esm",
     "type": "INFO RNAM",
     "string": "I don't have time for book-hunting. (Quest)"
-  },
-  {
-    "form_id": "00079AE1|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "Good luck with that. (Quest)"
-  },
-  {
-    "form_id": "00090E04|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "I don't have time for that. (Quest)"
-  },
-  {
-    "form_id": "000CA437|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "I don't have time for that. (Quest)"
   },
   {
     "form_id": "000AB81A|Skyrim.esm",
@@ -7783,11 +7763,6 @@
     "form_id": "000A84FB|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Who's in the tomb? (Quest)"
-  },
-  {
-    "form_id": "000A84F9|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I don't have time right now. (Quest)"
   },
   {
     "form_id": "000A84F8|Skyrim.esm",
@@ -10770,11 +10745,6 @@
     "string": "I'll make sure he gets it. (Quest)"
   },
   {
-    "form_id": "00078AAB|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I don't have time right now. (Quest)"
-  },
-  {
     "form_id": "00078AA9|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I have a delivery from Bothela. (Quest)"
@@ -11343,11 +11313,6 @@
     "form_id": "000AB841|Skyrim.esm",
     "type": "INFO RNAM",
     "string": "That's too bad. (Quest)"
-  },
-  {
-    "form_id": "00068F69|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "I don't have time right now. (Quest)"
   },
   {
     "form_id": "0006F3DB|Skyrim.esm",
@@ -15545,11 +15510,6 @@
     "string": "I accept your offer. I'd like to join the Stormcloaks. (Quest)"
   },
   {
-    "form_id": "0004BD95|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I don't have time for this. (Quest)"
-  },
-  {
     "form_id": "0004BD94|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I'll do it. (Quest)"
@@ -15923,11 +15883,6 @@
     "form_id": "0004B21E|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I'll help you. (Quest)"
-  },
-  {
-    "form_id": "0004B21D|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I don't have time for this. (Quest)"
   },
   {
     "form_id": "0004B082|Skyrim.esm",
@@ -16758,16 +16713,6 @@
     "form_id": "000402F7|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "That's a shame. (Quest)"
-  },
-  {
-    "form_id": "00070448|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "I don't have time right now. (Quest)"
-  },
-  {
-    "form_id": "00044447|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "Good luck with that. (Quest)"
   },
   {
     "form_id": "00040358|Skyrim.esm",
@@ -18298,11 +18243,6 @@
     "form_id": "000328EF|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "You'd better start explaining. Fast. (Quest)"
-  },
-  {
-    "form_id": "000328EE|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I don't have time for this. (Quest)"
   },
   {
     "form_id": "000328EC|Skyrim.esm",
