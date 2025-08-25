@@ -7,7 +7,7 @@ rm(list = ls())
 
 ## Loading
 
-source(".\\DIAL_treatment_main_functions_v2.1.R")
+source(".\\DIAL_treatment_main_functions_v3.0.R")
 db_dial_skyrim.esm <- read.csv(".\\dbs\\db_DIAL_skyrim.esm.csv", sep = ";")
 
 
@@ -38,48 +38,7 @@ db_dial_skyrim.esm_massclass <- db_dial_skyrim.esm_merged %>%
 
 db_dial_skyrim.esm_json_ready <- db_dial_skyrim.esm_massclass %>%
   isolate_ids() %>%
-   mutate(   ## generate "rumor"
-      FULL = case_when(
-        str_detect(Formid_DIAL, "Rumor|T01Innkeeper") & is.na(RNAM) & is.na(FULL) ~ "Heard any rumors lately?", ## generate "Rumor"
-        TRUE ~ FULL 
-        ),
-      RNAM = case_when(
-        str_detect(FULL, "What's the word around town?") & is.na(RNAM) ~ "What's the word around town?", ## special case where we have to generate RNAM to trigger json generation INFO generation
-        TRUE ~ RNAM
-      )
-    ) %>%
-      filter(
-        ## No classified out
-        !is.na(QNAM_type),
-        # Exclude "City Dialogue" without Scriptname
-        !(str_detect(QNAM, "City Dialogue") & is.na(Scriptname)),
-        ## Exclude rumors without Scriptname
-        !(str_detect(QNAM_type, "rumor") & is.na(Scriptname)),
-        ## Exclude some CW dials without scriptname
-        !(str_detect(Formid_DIAL, "CW00JoinAboutFactionTopic|CW00AboutTopic|CWAbout|CWWhatsEmpireDoingTopic|CWWhatWillItTakeTopic") & is.na(Scriptname)),
-        ## Exclude MS dials without scriptname
-        !(str_detect(Formid_DIAL, "^MS") & is.na(Scriptname))
-      ) %>% 
-        filter(
-          !(
-            # Check FULL (managing NA)
-            if_else(is.na(FULL), FALSE, 
-                  str_detect(FULL, regex("another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|not right now|Good luck with that|i don't have time (for this.|right now.)?$|i don't have time for that(\\.| now\\.)?$", ignore_case = TRUE))) |
-            # Check RNAM (managing NA)  
-            if_else(is.na(RNAM), FALSE,
-                  str_detect(RNAM, regex("another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|not right now|Good luck with that|i don't have time (for this.|right now.)?$|i don't have time for that(\\.| now\\.)?$", ignore_case = TRUE)))
-              )) %>%
-          filter(
-            # Ensure at least one of RNAM or FULL has a value
-            !is.na(RNAM) | !is.na(FULL)
-          ) %>% 
-            mutate(
-              # Replace any RNAM containing "TIF_" with "NA (Quest)"
-              RNAM = if_else(str_detect(RNAM, "TIF_"), "NA", RNAM),
-              FULL_trans = paste0(FULL, " (Quest)"), ## Add "(Quest)"
-              RNAM_trans = paste0(RNAM, " (Quest)")
-            )
-
+   jsonreadier_skyrim.esm()
 
 ## Apply Update.esm ##########################################################################
 ## Loading
