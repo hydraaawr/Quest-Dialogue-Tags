@@ -78,6 +78,7 @@ jsonreadier_skyrim.esm <- function(db_dial_massclass_isolated){
             !(str_detect(Formid_DIAL, "^MS") & is.na(Scriptname))
           ) %>% 
             filter(
+              # Remove entries with rejection phrases because those might or might not contain scriptname
               !(
                 # Check FULL (managing NA)
                 if_else(is.na(FULL), FALSE, 
