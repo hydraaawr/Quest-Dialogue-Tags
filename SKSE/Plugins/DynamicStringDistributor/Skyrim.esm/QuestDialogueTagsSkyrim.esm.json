@@ -10665,11 +10665,6 @@
     "string": "Who are you? Where are you from? (Quest)"
   },
   {
-    "form_id": "00079AD6|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I can't do that right now. (Quest)"
-  },
-  {
     "form_id": "00079AD5|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "It would be an honor. (Quest)"
@@ -11385,16 +11380,6 @@
     "string": "That's a terrible story. (Quest)"
   },
   {
-    "form_id": "00090E09|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "I can't do that right now. (Quest)"
-  },
-  {
-    "form_id": "0006F82C|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "I can't do that right now. (Quest)"
-  },
-  {
     "form_id": "000AB81C|Skyrim.esm",
     "type": "INFO RNAM",
     "string": "I found Queen Freydis's sword. (Quest)"
@@ -11603,11 +11588,6 @@
     "form_id": "0006C803|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "It will be done. (Quest)"
-  },
-  {
-    "form_id": "0006C802|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I can't do that right now. (Quest)"
   },
   {
     "form_id": "0006C801|Skyrim.esm",

@@ -81,10 +81,10 @@ jsonreadier_skyrim.esm <- function(db_dial_massclass_isolated){
               !(
                 # Check FULL (managing NA)
                 if_else(is.na(FULL), FALSE, 
-                      str_detect(FULL, regex("another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|not right now|Good luck with that|i don't have time (for this.|right now.)?$|i don't have time for that(\\.| now\\.)?$", ignore_case = TRUE))) |
+                      str_detect(FULL, regex("another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|not right now|Good luck with that|i don't have time (for this.|right now.)?$|i don't have time for that(\\.| now\\.)?$|i can't do that right now", ignore_case = TRUE))) |
                 # Check RNAM (managing NA)  
                 if_else(is.na(RNAM), FALSE,
-                      str_detect(RNAM, regex("another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|not right now|Good luck with that|i don't have time (for this.|right now.)?$|i don't have time for that(\\.| now\\.)?$", ignore_case = TRUE)))
+                      str_detect(RNAM, regex("another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|not right now|Good luck with that|i don't have time (for this.|right now.)?$|i don't have time for that(\\.| now\\.)?$|i can't do that right now", ignore_case = TRUE)))
                   )) %>%
               filter(
                 # Ensure at least one of RNAM or FULL has a value
