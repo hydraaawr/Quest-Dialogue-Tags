@@ -85,11 +85,6 @@
     "string": "I'm a bit short of money right now. (<Global=BYOHHPCost> gold) (Quest)"
   },
   {
-    "form_id": "03017706|HearthFires.esm",
-    "type": "DIAL FULL",
-    "string": "I'll have to think about it. (Quest)"
-  },
-  {
     "form_id": "03010A2D|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "What is it? (Quest)"
@@ -133,11 +128,6 @@
     "form_id": "0300BDFF|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'm a bit short of money right now. (<Global=BYOHHPCost> gold) (Quest)"
-  },
-  {
-    "form_id": "0300BDFE|HearthFires.esm",
-    "type": "DIAL FULL",
-    "string": "I'll have to think about it. (Quest)"
   },
   {
     "form_id": "0300B4C9|HearthFires.esm",
@@ -290,11 +280,6 @@
     "string": "I'm a bit short of money right now. (<Global=BYOHHPCost> gold) (Quest)"
   },
   {
-    "form_id": "03002FEF|HearthFires.esm",
-    "type": "DIAL FULL",
-    "string": "I'll have to think about it. (Quest)"
-  },
-  {
     "form_id": "03002FEE|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "What did you need? (Quest)"
@@ -303,11 +288,6 @@
     "form_id": "03002FED|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'd be honored to have you as my steward. (Quest)"
-  },
-  {
-    "form_id": "03002FEB|HearthFires.esm",
-    "type": "DIAL FULL",
-    "string": "I'll have to think about it. (Quest)"
   },
   {
     "form_id": "03002FE9|HearthFires.esm",

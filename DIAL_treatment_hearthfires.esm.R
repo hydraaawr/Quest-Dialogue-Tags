@@ -43,10 +43,10 @@ db_dial_hearthfires.esm_json_ready <- db_dial_hearthfires.esm_massclass %>%
               !(
                 # Check FULL (managing NA)
                 if_else(is.na(FULL), FALSE, 
-                      str_detect(FULL, regex("(?i)never mind", ignore_case = TRUE))) |
+                      str_detect(FULL, regex("(?i)never mind|i'll have to think about it", ignore_case = TRUE))) |
                 # Check RNAM (managing NA)  
                 if_else(is.na(RNAM), FALSE,
-                      str_detect(RNAM, regex("(?i)never mind", ignore_case = TRUE)))
+                      str_detect(RNAM, regex("(?i)never mind|i'll have to think about it", ignore_case = TRUE)))
                   )) %>% 
             mutate(
               # Replace any RNAM containing "TIF_" with "NA (Quest)"
