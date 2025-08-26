@@ -7,7 +7,7 @@ rm(list = ls())
 
 ## Loading
 
-source(".\\DIAL_treatment_main_functions_v2.1.R")
+source(".\\DIAL_treatment_functions_v3.0.R")
 db_dial_hearthfires.esm <- read.csv(".\\dbs\\db_DIAL_hearthfires.esm.csv", sep = ";")
 
 
@@ -40,9 +40,14 @@ db_dial_hearthfires.esm_json_ready <- db_dial_hearthfires.esm_massclass %>%
           ) %>%
             filter(
                 # Remove entries with rejection phrases because those might or might not contain scriptname
-                !str_detect(FULL, "(?i)never mind") |
-                !str_detect(RNAM, "(?i)never mind")
-            ) %>% 
+              !(
+                # Check FULL (managing NA)
+                if_else(is.na(FULL), FALSE, 
+                      str_detect(FULL, regex("(?i)never mind", ignore_case = TRUE))) |
+                # Check RNAM (managing NA)  
+                if_else(is.na(RNAM), FALSE,
+                      str_detect(RNAM, regex("(?i)never mind", ignore_case = TRUE)))
+                  )) %>% 
             mutate(
               # Replace any RNAM containing "TIF_" with "NA (Quest)"
               RNAM = if_else(str_detect(RNAM, "TIF_"), "NA", RNAM),
