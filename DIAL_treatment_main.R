@@ -12,7 +12,7 @@ rm(list = ls())
 
 ## Loading
 
-source(".\\DIAL_treatment_main_functions_v2.1.R")
+source(".\\DIAL_treatment_functions_v3.0.R")
 db_dial_ussep <- read.csv(".\\dbs\\db_DIAL_USSEP.csv", sep = ";")
 
 ## Procedure
@@ -54,8 +54,9 @@ db_dial_ussep_massclass <- db_dial_ussep_merged %>%
           str_detect(QNAM, "DLC2ThirskFFElmusBack|DLC2ThirskFFElmus|DLC2ThirskFFHalbarn|DLC2ThirskFFHilund") ~ "TMHmisc", ## Thirsk Mead Hall miscellaneous
           str_detect(QNAM, "DLC2BlackBook06Quest|DLC2BlackBook05Quest|DLC2BlackBook03Quest|DLC2dunHaknirTreasureQST|DLC2dunHaknirTreasureQSTMisc|DLC2EbonyWarriorQuest|DLC2dunKolbjornQST|DLC2dunKolbjornMiscQST") ~ "OS", ## Other Side
           str_detect(QNAM, "DLC2WE06|DLC2dunHrodulf|DLC2KagrumezQST|DLC2SV02AncarionMerchant|DLC2dunKolbjornMiscQST|DLC2dunKarstaagQST|DLC2dunFrostmoonQSTMisc") ~ "misc", ## other miscellaneous quests
-          str_detect(Formid_DIAL,"Rumor") ~ "rumor_dragonborn" ## rumors
-
+          str_detect(Formid_DIAL,"Rumor") ~ "rumor_dragonborn", ## rumors
+        ## hearthfires.esm
+          str_detect(QNAM, "^BYOHHouse") ~ "house_hearthfires" ## Main Quest
         )
       )
       
@@ -107,19 +108,24 @@ db_dial_ussep_json_ready <- db_dial_ussep_massclass %>%
             ) %>%
               filter(
                 # Remove entries with rejection phrases because those might or might not contain scriptname
-                !str_detect(FULL, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|think about it|good luck with that|show up eventually|not right now|Good luck with that|i don't have time for that") |
-                !str_detect(RNAM, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|think about it|good luck with that|show up eventually|not right now|Good luck with that|i don't have time for that")
-              ) %>%
-                filter(
-                  # Ensure at least one of RNAM or FULL has a value
-                  !is.na(RNAM) | !is.na(FULL)
-                ) %>% 
-                  mutate(
-                    # Replace any RNAM containing "TIF_" with "NA (Quest)"
-                    RNAM = if_else(str_detect(RNAM, "TIF_"), "NA", RNAM),
-                    FULL_trans = paste0(FULL, " (Quest)"), ## Add "(Quest)"
-                    RNAM_trans = paste0(RNAM, " (Quest)")
-                  )
+              !(
+                # Check FULL (managing NA)
+                if_else(is.na(FULL), FALSE, 
+                      str_detect(FULL, regex("another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|not right now|Good luck with that|i don't have time (for this.|right now.)?$|i don't have time for that(\\.| now\\.)?$|i can't do that right now|(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather|think about it|(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather|think about it|good luck with that|show up eventually|(?i)never mind|i'll have to think about it", ignore_case = TRUE))) |
+                # Check RNAM (managing NA)  
+                if_else(is.na(RNAM), FALSE,
+                      str_detect(RNAM, regex("another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|not right now|Good luck with that|i don't have time (for this.|right now.)?$|i don't have time for that(\\.| now\\.)?$|i can't do that right now|(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather|think about it|(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather|think about it|good luck with that|show up eventually|(?i)never mind|i'll have to think about it", ignore_case = TRUE)))
+                  )) %>%
+                    filter(
+                      # Ensure at least one of RNAM or FULL has a value
+                      !is.na(RNAM) | !is.na(FULL)
+                    ) %>% 
+                      mutate(
+                        # Replace any RNAM containing "TIF_" with "NA (Quest)"
+                        RNAM = if_else(str_detect(RNAM, "TIF_"), "NA", RNAM),
+                        FULL_trans = paste0(FULL, " (Quest)"), ## Add "(Quest)"
+                        RNAM_trans = paste0(RNAM, " (Quest)")
+                      )
 
 
 #### Vanilla + dlcs dbs #####################################################

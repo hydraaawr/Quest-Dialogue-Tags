@@ -3100,11 +3100,6 @@
     "string": "Tell me everything or end up like Fjotli! (Intimidate) (Quest)"
   },
   {
-    "form_id": "000D7702|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I don't have time for this! (Quest)"
-  },
-  {
     "form_id": "000D7701|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "My mistake. (Quest)"
@@ -4998,21 +4993,6 @@
     "form_id": "00094094|Skyrim.esm",
     "type": "INFO RNAM",
     "string": "I don't have time for book hunting. (Quest)"
-  },
-  {
-    "form_id": "00079AE1|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "Good luck with that. (Quest)"
-  },
-  {
-    "form_id": "00090E04|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "I don't have time for that. (Quest)"
-  },
-  {
-    "form_id": "000CA437|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "I don't have time for that. (Quest)"
   },
   {
     "form_id": "000AB81A|Skyrim.esm",
@@ -7783,11 +7763,6 @@
     "form_id": "000A84FB|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Who's in the tomb? (Quest)"
-  },
-  {
-    "form_id": "000A84F9|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I don't have time right now. (Quest)"
   },
   {
     "form_id": "000A84F8|Skyrim.esm",
@@ -10690,11 +10665,6 @@
     "string": "Who are you? Where are you from? (Quest)"
   },
   {
-    "form_id": "00079AD6|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I can't do that right now. (Quest)"
-  },
-  {
     "form_id": "00079AD5|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "It would be an honor. (Quest)"
@@ -10768,11 +10738,6 @@
     "form_id": "00078AAF|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I'll make sure he gets it. (Quest)"
-  },
-  {
-    "form_id": "00078AAB|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I don't have time right now. (Quest)"
   },
   {
     "form_id": "00078AA9|Skyrim.esm",
@@ -11345,11 +11310,6 @@
     "string": "That's too bad. (Quest)"
   },
   {
-    "form_id": "00068F69|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "I don't have time right now. (Quest)"
-  },
-  {
     "form_id": "0006F3DB|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "Forget it. (Quest)"
@@ -11418,16 +11378,6 @@
     "form_id": "00068F21|Skyrim.esm",
     "type": "INFO RNAM",
     "string": "That's a terrible story. (Quest)"
-  },
-  {
-    "form_id": "00090E09|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "I can't do that right now. (Quest)"
-  },
-  {
-    "form_id": "0006F82C|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "I can't do that right now. (Quest)"
   },
   {
     "form_id": "000AB81C|Skyrim.esm",
@@ -11638,11 +11588,6 @@
     "form_id": "0006C803|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "It will be done. (Quest)"
-  },
-  {
-    "form_id": "0006C802|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I can't do that right now. (Quest)"
   },
   {
     "form_id": "0006C801|Skyrim.esm",
@@ -15555,11 +15500,6 @@
     "string": "I accept your offer. I'd like to join the Stormcloaks. (Quest)"
   },
   {
-    "form_id": "0004BD95|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I don't have time for this. (Quest)"
-  },
-  {
     "form_id": "0004BD94|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I'll do it. (Quest)"
@@ -15933,11 +15873,6 @@
     "form_id": "0004B21E|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "I'll help you. (Quest)"
-  },
-  {
-    "form_id": "0004B21D|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I don't have time for this. (Quest)"
   },
   {
     "form_id": "0004B082|Skyrim.esm",
@@ -16768,16 +16703,6 @@
     "form_id": "000402F7|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "That's a shame. (Quest)"
-  },
-  {
-    "form_id": "00070448|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "I don't have time right now. (Quest)"
-  },
-  {
-    "form_id": "00044447|Skyrim.esm",
-    "type": "INFO RNAM",
-    "string": "Good luck with that. (Quest)"
   },
   {
     "form_id": "00040358|Skyrim.esm",
@@ -18308,11 +18233,6 @@
     "form_id": "000328EF|Skyrim.esm",
     "type": "DIAL FULL",
     "string": "You'd better start explaining. Fast. (Quest)"
-  },
-  {
-    "form_id": "000328EE|Skyrim.esm",
-    "type": "DIAL FULL",
-    "string": "I don't have time for this. (Quest)"
   },
   {
     "form_id": "000328EC|Skyrim.esm",
@@ -29190,7 +29110,7 @@
   {
     "form_id": "03018DC4|HearthFires.esm",
     "type": "DIAL FULL",
-    "string": "I don't need your services any more. (Quest)"
+    "string": "I don't need your services anymore. (Quest)"
   },
   {
     "form_id": "03018DC3|HearthFires.esm",
@@ -29253,11 +29173,6 @@
     "string": "I'm a bit short of money right now. (<Global=BYOHHPCost> gold) (Quest)"
   },
   {
-    "form_id": "03017706|HearthFires.esm",
-    "type": "DIAL FULL",
-    "string": "I'll have to think about it. (Quest)"
-  },
-  {
     "form_id": "03010A2D|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "What is it? (Quest)"
@@ -29301,11 +29216,6 @@
     "form_id": "0300BDFF|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "I'm a bit short of money right now. (<Global=BYOHHPCost> gold) (Quest)"
-  },
-  {
-    "form_id": "0300BDFE|HearthFires.esm",
-    "type": "DIAL FULL",
-    "string": "I'll have to think about it. (Quest)"
   },
   {
     "form_id": "0300B4C9|HearthFires.esm",
@@ -29458,11 +29368,6 @@
     "string": "I'm a bit short of money right now. (<Global=BYOHHPCost> gold) (Quest)"
   },
   {
-    "form_id": "03002FEF|HearthFires.esm",
-    "type": "DIAL FULL",
-    "string": "I'll have to think about it. (Quest)"
-  },
-  {
     "form_id": "03002FEE|HearthFires.esm",
     "type": "DIAL FULL",
     "string": "What did you need? (Quest)"
@@ -29473,14 +29378,9 @@
     "string": "I'd be honored to have you as my steward. (Quest)"
   },
   {
-    "form_id": "03002FEB|HearthFires.esm",
-    "type": "DIAL FULL",
-    "string": "I'll have to think about it. (Quest)"
-  },
-  {
     "form_id": "03002FE9|HearthFires.esm",
     "type": "DIAL FULL",
-    "string": "I need a steward for my house. Are you interested? (Quest)"
+    "string": "I need a Steward for my house. Are you interested? (Quest)"
   },
   {
     "form_id": "03002FE8|HearthFires.esm",
@@ -29573,6 +29473,11 @@
     "string": "Money's not going to do you much good after I've killed you. (Quest)"
   }
 ,
+  {
+    "form_id": "03002FEB|unofficial skyrim special edition patch.esp",
+    "type": "DIAL FULL",
+    "string": "No, sorry, I don't think you're suitable for the job. (Quest)"
+  },
   {
     "form_id": "00025E29|unofficial skyrim special edition patch.esp",
     "type": "DIAL FULL",
