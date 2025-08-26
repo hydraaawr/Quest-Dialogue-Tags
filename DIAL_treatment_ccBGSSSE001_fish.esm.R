@@ -7,7 +7,7 @@ rm(list = ls())
 
 ## Loading
 
-source(".\\DIAL_treatment_main_functions_v2.1.R")
+source(".\\DIAL_treatment_functions_v3.0.R")
 db_dial_ccBGSSSE001_Fish.esm <- read.csv(".\\dbs\\db_DIAL_ccBGSSSE001_Fish.esm.csv", sep = ";")
 
 
@@ -39,17 +39,22 @@ db_dial_ccBGSSSE001_Fish.esm_json_ready <- db_dial_ccBGSSSE001_Fish.esm_massclas
       ) %>%
         filter(
           # Remove entries with rejection phrases because those might or might not contain scriptname
-          !str_detect(FULL, "(?i)I haven't found|I don't have time") |
-          !str_detect(RNAM, "(?i)I haven't found|I don't have time")
-        ) %>%
-          filter(
-            # Ensure at least one of RNAM or FULL has a value
-            !is.na(RNAM) | !is.na(FULL)
-          ) %>% 
-            mutate(
-              FULL_trans = paste0(FULL, " (Quest)"), ## Add "(Quest)"
-              RNAM_trans = paste0(RNAM, " (Quest)")
-            )
+              !(
+                # Check FULL (managing NA)
+                if_else(is.na(FULL), FALSE, 
+                      str_detect(FULL, regex("(?i)I haven't found|I don't have time", ignore_case = TRUE))) |
+                # Check RNAM (managing NA)  
+                if_else(is.na(RNAM), FALSE,
+                      str_detect(RNAM, regex("(?i)I haven't found|I don't have time", ignore_case = TRUE)))
+                  )) %>%
+                    filter(
+                      # Ensure at least one of RNAM or FULL has a value
+                      !is.na(RNAM) | !is.na(FULL)
+                    ) %>% 
+                      mutate(
+                        FULL_trans = paste0(FULL, " (Quest)"), ## Add "(Quest)"
+                        RNAM_trans = paste0(RNAM, " (Quest)")
+                      )
 
 
 ################################################################################
