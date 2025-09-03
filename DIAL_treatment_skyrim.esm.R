@@ -7,7 +7,7 @@ rm(list = ls())
 
 ## Loading
 
-source(".\\DIAL_treatment_main_functions_v3.0.R")
+source(".\\DIAL_treatment_functions_v4.0.R")
 db_dial_skyrim.esm <- read.csv(".\\dbs\\db_DIAL_skyrim.esm.csv", sep = ";")
 
 

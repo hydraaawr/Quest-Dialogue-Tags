@@ -51,7 +51,61 @@ isolate_ids <- function(db_dial_massclass){
   return (db_dial_massclass)
 }
 
+filter_rejection_phrases <- function(db_dial_mass_class_isolated,rejection_vector) {
+   # Removes entries with rejection phrases because those might or might not contain scriptname 
+  rejection_regex <- regex(
+    rejection_vector,
+    ignore_case = TRUE
+  )
+  db_dial_massclass_isolated <- db_dial_mass_class_isolated %>%
+    filter(
+      !(
+        if_else(is.na(FULL), FALSE, str_detect(FULL, rejection_regex)) |
+        if_else(is.na(RNAM), FALSE, str_detect(RNAM, rejection_regex))
+      )
+    )
+  return(db_dial_massclass_isolated)
+}
 
+
+rm_na_renamer_full_rnam <- function(db_dial_mass_class_isolated){
+
+  db_dial_massclass_isolated <- db_dial_mass_class_isolated %>%
+    filter(
+      # Ensure at least one of RNAM or FULL has a value
+      !is.na(RNAM) | !is.na(FULL)
+    ) %>% 
+      mutate(
+        # Replace any RNAM containing "TIF_" with "NA (Quest)"
+        RNAM = if_else(str_detect(RNAM, "TIF_"), "NA", RNAM),
+        FULL_trans = paste0(FULL, " (Quest)"), ## Add "(Quest)"
+        RNAM_trans = paste0(RNAM, " (Quest)")
+      )
+
+  return(db_dial_massclass_isolated)
+
+
+}
+
+## this is for skyrim.esm and derivates ##############################################################
+
+rejection_vector_skyrim.esm <- c(
+  paste(
+    "another time",
+    "sorry, i can't",
+    "sorry to",
+    "can't help",
+    "not interested",
+    "I'd rather not",
+    "I'd rather be",
+    "not right now",
+    "Good luck with that",
+    "i don't have time (for this.|right now.)?$",
+    "i don't have time for that(\\.| now\\.)?$",
+    "i can't do that right now",
+    sep = "|"
+  )
+)
 
 jsonreadier_skyrim.esm <- function(db_dial_massclass_isolated){
   db_dial_json_ready <- db_dial_massclass_isolated %>%
@@ -76,27 +130,12 @@ jsonreadier_skyrim.esm <- function(db_dial_massclass_isolated){
             !(str_detect(Formid_DIAL, "CW00JoinAboutFactionTopic|CW00AboutTopic|CWAbout|CWWhatsEmpireDoingTopic|CWWhatWillItTakeTopic") & is.na(Scriptname)),
             ## Exclude MS dials without scriptname
             !(str_detect(Formid_DIAL, "^MS") & is.na(Scriptname))
-          ) %>% 
-            filter(
-              # Remove entries with rejection phrases because those might or might not contain scriptname
-              !(
-                # Check FULL (managing NA)
-                if_else(is.na(FULL), FALSE, 
-                      str_detect(FULL, regex("another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|not right now|Good luck with that|i don't have time (for this.|right now.)?$|i don't have time for that(\\.| now\\.)?$|i can't do that right now", ignore_case = TRUE))) |
-                # Check RNAM (managing NA)  
-                if_else(is.na(RNAM), FALSE,
-                      str_detect(RNAM, regex("another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|not right now|Good luck with that|i don't have time (for this.|right now.)?$|i don't have time for that(\\.| now\\.)?$|i can't do that right now", ignore_case = TRUE)))
-                  )) %>%
-              filter(
-                # Ensure at least one of RNAM or FULL has a value
-                !is.na(RNAM) | !is.na(FULL)
-              ) %>% 
-                mutate(
-                  # Replace any RNAM containing "TIF_" with "NA (Quest)"
-                  RNAM = if_else(str_detect(RNAM, "TIF_"), "NA", RNAM),
-                  FULL_trans = paste0(FULL, " (Quest)"), ## Add "(Quest)"
-                  RNAM_trans = paste0(RNAM, " (Quest)")
-                )
+          ) %>%
+            filter_rejection_phrases(rejection_vector_skyrim.esm) %>%
+              rm_na_renamer_full_rnam()
+
+
+            
 
   return(db_dial_json_ready)
 
