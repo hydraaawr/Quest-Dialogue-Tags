@@ -12,7 +12,14 @@ rm(list = ls())
 
 ## Loading
 
-source(".\\DIAL_treatment_functions_v3.0.R")
+load(".\\Resources\\DIAL_treatment_skyrim.esm.RData")
+load(".\\Resources\\DIAL_treatment_dawnguard.esm.RData")
+load(".\\Resources\\DIAL_treatment_dragonborn.esm.RData")
+load(".\\Resources\\DIAL_treatment_hearthfires.esm.RData")
+
+
+source(".\\DIAL_treatment_functions_v4.0.R")
+
 db_dial_ussep <- read.csv(".\\dbs\\db_DIAL_USSEP.csv", sep = ";")
 
 ## Procedure
@@ -128,39 +135,27 @@ db_dial_ussep_json_ready <- db_dial_ussep_massclass %>%
                       )
 
 
-#### Vanilla + dlcs dbs #####################################################
-## Loading
-
-load(".\\Resources\\DIAL_treatment_skyrim.esm.RData")
-load(".\\Resources\\DIAL_treatment_dawnguard.esm.RData")
-load(".\\Resources\\DIAL_treatment_dragonborn.esm.RData")
-load(".\\Resources\\DIAL_treatment_hearthfires.esm.RData")
 
 
-## Matching #############################################################################
-## These include untouched plugin records + ussepezied ones
 
-db_dial_skyrim.esm_ussep_json_ready <- rows_update(db_dial_skyrim.esm_update.esm_json_ready,db_dial_ussep_json_ready, by = c("Formid_DIAL_isolated","Formid_INFO_isolated"), unmatched = "ignore")
+## Patching #############################################################################
 
-db_dial_dawnguard.esm_ussep_json_ready <- rows_update(db_dial_dawnguard.esm_json_ready,db_dial_ussep_json_ready, by = c("Formid_DIAL_isolated","Formid_INFO_isolated"), unmatched = "ignore")
 
-db_dial_dragonborn.esm_ussep_json_ready <- rows_update(db_dial_dragonborn.esm_json_ready,db_dial_ussep_json_ready, by = c("Formid_DIAL_isolated","Formid_INFO_isolated"), unmatched = "ignore")
+db_dial_vanilla_json_ready <- list(
+  db_dial_skyrim.esm_update.esm_json_ready,
+  db_dial_dawnguard.esm_json_ready,
+  db_dial_dragonborn.esm_json_ready,
+  db_dial_hearthfires.esm_json_ready
+)
 
-db_dial_hearthfires.esm_ussep_json_ready <- rows_update(db_dial_hearthfires.esm_json_ready,db_dial_ussep_json_ready, by = c("Formid_DIAL_isolated","Formid_INFO_isolated"), unmatched = "ignore")
+db_dial_vanilla_ussep_json_ready <- patcher_include(db_dial_vanilla_json_ready,db_dial_ussep_json_ready)
 
-####
-
-## generate the extra ones added by ussep
-
-db_dial_vanilla_ussep_json_ready <- bind_rows(db_dial_skyrim.esm_ussep_json_ready, db_dial_dawnguard.esm_ussep_json_ready, db_dial_dragonborn.esm_ussep_json_ready, db_dial_hearthfires.esm_ussep_json_ready) ## join the three that have all records + ussep modifications
-db_dial_ussep_new_json_ready <- anti_join(db_dial_ussep_json_ready,db_dial_vanilla_ussep_json_ready)
-
-## Failsafe for some special cases that had same fomid dial but different info (and generate repeated entries)
-Formid_DIAL_isolated_vanilla_ussep <- db_dial_vanilla_ussep_json_ready$Formid_DIAL_isolated
-
-db_dial_ussep_new_json_ready <- db_dial_ussep_new_json_ready %>%
-  filter(!Formid_DIAL_isolated %in% Formid_DIAL_isolated_vanilla_ussep)
-
+## Extracting the individual dbs
+db_dial_skyrim.esm_ussep_json_ready <- db_dial_vanilla_ussep_json_ready[[1]][[1]]
+db_dial_dawnguard.esm_ussep_json_ready <- db_dial_vanilla_ussep_json_ready[[1]][[2]]
+db_dial_dragonborn.esm_ussep_json_ready <- db_dial_vanilla_ussep_json_ready[[1]][[3]]
+db_dial_hearthfires.esm_ussep_json_ready <- db_dial_vanilla_ussep_json_ready[[1]][[4]]
+db_dial_ussep_new_json_ready <- db_dial_vanilla_ussep_json_ready[[2]]
 #############################################################################################
 
 ## Json generation:
