@@ -7,7 +7,9 @@ rm(list = ls())
 
 ## Loading
 
+load(".\\Resources\\DIAL_treatment_update.esm.RData")
 source(".\\DIAL_treatment_functions_v4.0.R")
+
 db_dial_skyrim.esm <- read.csv(".\\dbs\\db_DIAL_skyrim.esm.csv", sep = ";")
 
 
@@ -40,25 +42,11 @@ db_dial_skyrim.esm_json_ready <- db_dial_skyrim.esm_massclass %>%
   isolate_ids() %>%
    jsonreadier_skyrim.esm()
 
-## Apply Update.esm ##########################################################################
-## Loading
 
-load(".\\Resources\\DIAL_treatment_update.esm.RData")
-## Matching #############################################################################
-## These include untouched plugin records + ussepezied ones
 
-db_dial_skyrim.esm_update.esm_json_ready <- rows_update(db_dial_skyrim.esm_json_ready,db_dial_update.esm_json_ready, by = c("Formid_DIAL_isolated","Formid_INFO_isolated"), unmatched = "ignore")
-####
+## Patching #############################################################################
 
-## generate the extra ones added by Update.esm
-
-db_dial_update.esm_new_json_ready <- anti_join(db_dial_update.esm_json_ready,db_dial_skyrim.esm_update.esm_json_ready)
-
-## Failsafe for some special cases that had same fomid dial but different info (and generate repeated entries)
-Formid_DIAL_isolated_skyrim.esm_update.esm <- db_dial_skyrim.esm_update.esm_json_ready$Formid_DIAL_isolated
-
-db_dial_update.esm_new_json_ready <- db_dial_update.esm_new_json_ready %>%
-  filter(!Formid_DIAL_isolated %in% Formid_DIAL_isolated_skyrim.esm_update.esm) ## no new update.esm records
+db_dial_skyrim.esm_update.esm_json_ready <- patcher_include(db_dial_skyrim.esm_json_ready, db_dial_update.esm_json_ready)[[1]]
 
 #############################################################################################
 
@@ -67,6 +55,8 @@ db_dial_update.esm_new_json_ready <- db_dial_update.esm_new_json_ready %>%
 
 
 json_skyrim.esm_update.esm <- json_gen(db_dial_skyrim.esm_update.esm_json_ready,"Skyrim.esm", "NA (Quest)")
+
+## No need to include new update.esm entries; there are none
 
 write(json_skyrim.esm_update.esm, ".\\SKSE\\Plugins\\DynamicStringDistributor\\Skyrim.esm\\QuestDialogueTagsSkyrim.esm.json")
 
