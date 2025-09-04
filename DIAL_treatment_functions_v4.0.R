@@ -7,7 +7,7 @@ library(purrr)
 library(jsonlite)
 
 
-rm(list = ls())
+
 
 shaper <- function(db_dial){
 
@@ -190,7 +190,8 @@ patcher_include <- function(db_dial_topatch_json_ready, db_dial_patching_json_re
     }
 
   )
-    
+    message(sprintf("NEW ENTRIES ADDED BY PATCHING PLUGIN: %d",
+      nrow(db_dial_patching_new_json_ready)))
 
     return(list(
       patched = db_dial_patched_json_ready,
