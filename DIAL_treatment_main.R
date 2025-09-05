@@ -71,6 +71,19 @@ db_dial_ussep_massclass <- db_dial_ussep_merged %>%
 
 ## ready for json db (filtering and adding tags)
 
+rejection_vector_ussep <- c(
+  paste(
+  rejection_vector_skyrim.esm,
+  rejection_vector_dawnguard.esm,
+  rejection_vector_dragonborn.esm,
+  rejection_vector_hearthfires.esm,
+  sep = "|"
+  )
+)
+
+
+
+
 db_dial_ussep_json_ready <- db_dial_ussep_massclass %>%
   isolate_ids() %>%
   ## skyrim.esm + dawnguard.esm
@@ -113,26 +126,8 @@ db_dial_ussep_json_ready <- db_dial_ussep_massclass %>%
               # Exclude vampire tutorials without scriptname
               !(str_detect(QNAM_type, "VT") & is.na(Scriptname))
             ) %>%
-              filter(
-                # Remove entries with rejection phrases because those might or might not contain scriptname
-              !(
-                # Check FULL (managing NA)
-                if_else(is.na(FULL), FALSE, 
-                      str_detect(FULL, regex("another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|not right now|Good luck with that|i don't have time (for this.|right now.)?$|i don't have time for that(\\.| now\\.)?$|i can't do that right now|(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather|think about it|(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather|think about it|good luck with that|show up eventually|(?i)never mind|i'll have to think about it", ignore_case = TRUE))) |
-                # Check RNAM (managing NA)  
-                if_else(is.na(RNAM), FALSE,
-                      str_detect(RNAM, regex("another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not|I'd rather be|not right now|Good luck with that|i don't have time (for this.|right now.)?$|i don't have time for that(\\.| now\\.)?$|i can't do that right now|(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather|think about it|(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather|think about it|good luck with that|show up eventually|(?i)never mind|i'll have to think about it", ignore_case = TRUE)))
-                  )) %>%
-                    filter(
-                      # Ensure at least one of RNAM or FULL has a value
-                      !is.na(RNAM) | !is.na(FULL)
-                    ) %>% 
-                      mutate(
-                        # Replace any RNAM containing "TIF_" with "NA (Quest)"
-                        RNAM = if_else(str_detect(RNAM, "TIF_"), "NA", RNAM),
-                        FULL_trans = paste0(FULL, " (Quest)"), ## Add "(Quest)"
-                        RNAM_trans = paste0(RNAM, " (Quest)")
-                      )
+              filter_rejection_phrases(rejection_vector_ussep) %>%
+                rm_na_renamer_full_rnam()
 
 
 
