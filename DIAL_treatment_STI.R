@@ -12,7 +12,7 @@ rm(list = ls())
 
 ## Loading
 
-source(".\\DIAL_treatment_functions_v3.0.R")
+source(".\\DIAL_treatment_functions_v4.0.R")
 db_dial_sti <- read.csv(".\\dbs\\db_DIAL_STI.csv", sep = ";")
 
 ## Procedure
@@ -20,14 +20,23 @@ db_dial_sti <- read.csv(".\\dbs\\db_DIAL_STI.csv", sep = ";")
 db_dial_sti_merged <- shaper(db_dial_sti)
 
 ## db with massively classified QNAM
+massclasser_STI <- function(db_dial_merged){
 
-db_dial_sti_massclass <- db_dial_sti_merged %>%
-  mutate( ## clasify type of quest
-        QNAM_type = case_when(
+  db_dial_massclass <- db_dial_merged %>%
+        mutate( ## clasify type of quest
+          QNAM_type = case_when(
           str_detect(QNAM, "^MS") ~ "MS", ## Side quests
           str_detect(QNAM, "STI") ~ "STI" ## STI added Quest
-        )
-      )
+          )
+        ) 
+
+  return(db_dial_massclass)
+
+}
+
+
+db_dial_sti_massclass <- db_dial_sti_merged %>%
+  massclasser_STI()
       
 
 
@@ -41,14 +50,7 @@ db_dial_sti_json_ready <- db_dial_sti_massclass %>%
         ## Exclude without scripts
         !is.na(Scriptname) | str_detect(FULL,"is up to something") 
       ) %>%
-          filter(
-            # Ensure at least one of RNAM or FULL has a value
-            !is.na(RNAM) | !is.na(FULL)
-          ) %>% 
-            mutate(
-              FULL_trans = paste0(FULL, " (Quest)"), ## Add "(Quest)"
-              RNAM_trans = paste0(RNAM, " (Quest)")
-            )
+          rm_na_renamer_full_rnam()
 
 
 #### base db #####################################################
@@ -59,33 +61,16 @@ load(".\\Resources\\DIAL_treatment_skyrim.esm.RData")
 
 
 
-## Matching #############################################################################
-## These include untouched base plugin records + patched ones
-
-db_dial_skyrim.esm_sti_json_ready <- rows_update(db_dial_skyrim.esm_json_ready,db_dial_sti_json_ready, by = c("Formid_DIAL_isolated","Formid_INFO_isolated"), unmatched = "ignore")
-db_dial_skyrim.esm_sti_crop_json_ready <- anti_join(db_dial_skyrim.esm_sti_json_ready, db_dial_skyrim.esm_json_ready) ## base patched only
-
-####
-
-## generate extra ones added by patch
-
-db_dial_sti_new_json_ready <- anti_join(db_dial_sti_json_ready,db_dial_skyrim.esm_sti_json_ready)
-
-## Failsafe for some special cases that had same fomid dial but different info (and generate repeated entries)
-Formid_DIAL_isolated_skyrim.esm_sti <- db_dial_skyrim.esm_sti_json_ready$Formid_DIAL_isolated
-
-db_dial_sti_new_json_ready <- db_dial_sti_new_json_ready %>%
-  filter(!Formid_DIAL_isolated %in% Formid_DIAL_isolated_skyrim.esm_sti)
+## Patching #############################################################################
 
 
-## And now only leave
-
-#############################################################################################
+db_dial_skyrim.esm_sti_json_ready <- patcher_exclude(db_dial_skyrim.esm_json_ready, db_dial_sti_json_ready)[[1]]
+db_dial_sti_new_json_ready <- patcher_exclude(db_dial_skyrim.esm_json_ready, db_dial_sti_json_ready)[[2]]
 
 ## Json generation:
 
 
-json_skyrim.esm_sti <- json_gen(db_dial_skyrim.esm_sti_crop_json_ready,"Skyrim.esm", "NA (Quest)")
+json_skyrim.esm_sti <- json_gen(db_dial_skyrim.esm_sti_json_ready,"Skyrim.esm", "NA (Quest)")
 
 json_sti_new <- json_gen(db_dial_sti_new_json_ready, "SaveTheIcerunner.esp", "NA (Quest)")
 

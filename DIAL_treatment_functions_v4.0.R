@@ -188,7 +188,7 @@ patcher_include <- function(db_dial_topatch_json_ready, db_dial_patching_json_re
       ## 2. Extracts the new records that were added by the patching db
       db_dial_patching_new_json_ready <- anti_join(db_dial_patching_json_ready,db_dial_patched_json_ready)
     
-      ## 3. Failsafe for some special cases that had same fomid dial but different info (and generate repeated entries)
+      ## Failsafe for some special cases that had same fomid dial but different info (and generate repeated entries)
       Formid_DIAL_isolated_patched <- db_dial_patched_json_ready$Formid_DIAL_isolated
       db_dial_patching_new_json_ready <- db_dial_patching_new_json_ready %>%
         filter(!Formid_DIAL_isolated %in% Formid_DIAL_isolated_patched) ## exclude them, we don't need their INFO
@@ -210,7 +210,7 @@ patcher_include <- function(db_dial_topatch_json_ready, db_dial_patching_json_re
       ## 2. Extracts the new records that were added by the patching db
       db_dial_patching_new_json_ready <- anti_join(db_dial_patching_json_ready,db_dial_patched_merged_json_ready)
   
-      ## 3. Failsafe for some special cases that had same fomid dial but different info (and generate repeated entries)
+      ## Failsafe for some special cases that had same fomid dial but different info (and generate repeated entries)
       Formid_DIAL_isolated_patched <- db_dial_patched_merged_json_ready$Formid_DIAL_isolated
       db_dial_patching_new_json_ready <- db_dial_patching_new_json_ready %>%
         filter(!Formid_DIAL_isolated %in% Formid_DIAL_isolated_patched) ## exclude them, we don't need their INFO
@@ -231,6 +231,46 @@ patcher_include <- function(db_dial_topatch_json_ready, db_dial_patching_json_re
 }
 
 
+
+
+
+patcher_exclude <- function(db_dial_topatch_json_ready, db_dial_patching_json_ready){ ## a patcher that merges the changes, EXCLUDING the og db records
+
+  switch(
+    class(db_dial_topatch_json_ready),
+    "data.frame" = { ## sometimes we only need to patch a single db
+      ## 1. Integrates the patching db into the topatch db
+      db_dial_patched_json_ready <- rows_update(db_dial_topatch_json_ready,db_dial_patching_json_ready, by = c("Formid_DIAL_isolated","Formid_INFO_isolated"), unmatched = "ignore")
+      
+      db_dial_patched_crop_json_ready <- anti_join(db_dial_patched_json_ready, db_dial_topatch_json_ready) ## exclude the original records
+      
+      ## 2. Extracts the new records that were added by the patching db
+      db_dial_patching_new_json_ready <- anti_join(db_dial_patching_json_ready,db_dial_patched_json_ready)
+    
+      ## Failsafe for some special cases that had same fomid dial but different info (and generate repeated entries)
+      Formid_DIAL_isolated_patched <- db_dial_patched_json_ready$Formid_DIAL_isolated
+      db_dial_patching_new_json_ready <- db_dial_patching_new_json_ready %>%
+        filter(!Formid_DIAL_isolated %in% Formid_DIAL_isolated_patched) ## exclude them, we don't need their INFO
+      
+      ## 3. Crop is the final patched db
+      db_dial_patched_json_ready <- db_dial_patched_crop_json_ready
+    },
+    "list" = { 
+      Message("PATCHER EXCLUDE FOR LISTS NOT IMPLEMENTED")
+    }
+
+  )
+    message(sprintf("NEW ENTRIES ADDED BY PATCHING PLUGIN: %d",
+      nrow(db_dial_patching_new_json_ready)))
+
+    return(list(
+      patched = db_dial_patched_json_ready,
+      new = db_dial_patching_new_json_ready
+    ))
+
+
+
+}
 
 
 
