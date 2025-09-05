@@ -11,7 +11,7 @@ rm(list = ls())
 ## sfo treatment #######################################################
 
 ## Loading
-
+load(".\\Resources\\DIAL_treatment_ccBGSSSE001_Fish.esm.RData")
 source(".\\DIAL_treatment_functions_v4.0.R")
 db_dial_sfo <- read.csv(".\\dbs\\db_DIAL_sfo.csv", sep = ";")
 
@@ -43,30 +43,8 @@ db_dial_sfo_json_ready <- db_dial_sfo_massclass %>%
         ## Exclude without scripts
         !is.na(Scriptname)
       ) %>%
-        filter(
-          # Remove entries with rejection phrases because those might or might not contain scriptname
-              !(
-                # Check FULL (managing NA)
-                if_else(is.na(FULL), FALSE, 
-                      str_detect(FULL, regex("(?i)I haven't found|I don't have time", ignore_case = TRUE))) |
-                # Check RNAM (managing NA)  
-                if_else(is.na(RNAM), FALSE,
-                      str_detect(RNAM, regex("(?i)I haven't found|I don't have time", ignore_case = TRUE)))
-                  )) %>%
-                    filter(
-                      # Ensure at least one of RNAM or FULL has a value
-                      !is.na(RNAM) | !is.na(FULL)
-                    ) %>% 
-                      mutate(
-                        FULL_trans = paste0(FULL, " (Quest)"), ## Add "(Quest)"
-                        RNAM_trans = paste0(RNAM, " (Quest)")
-                      )
-
-
-#### cc fishing base db #####################################################
-## Loading
-
-load(".\\Resources\\DIAL_treatment_ccBGSSSE001_Fish.esm.RData")
+        filter_rejection_phrases(rejection_vector_ccBGSSSE001_Fish.esm) %>%
+          rm_na_renamer_full_rnam()
 
 
 
