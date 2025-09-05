@@ -7,7 +7,7 @@ rm(list = ls())
 
 ## Loading
 
-source(".\\DIAL_treatment_functions_v3.0.R")
+source(".\\DIAL_treatment_functions_v4.0.R")
 db_dial_dragonborn.esm <- read.csv(".\\dbs\\db_DIAL_dragonborn.esm.csv", sep = ";")
 
 
@@ -38,6 +38,21 @@ db_dial_dragonborn.esm_massclass <- db_dial_dragonborn.esm_merged %>%
 
 ## ready for json db (filtering and adding tags)
 
+## Rejection phrases vector (for filtering out unwanted dialogue)
+rejection_vector_dragonborn.esm <- c(
+  paste("another time",
+  "sorry, i can't",
+  "sorry to",
+  "can't help",
+  "not interested",
+  "I'd rather",
+  "think about it",
+  "good luck with that",
+  "show up eventually",
+  sep = "|")
+)
+
+
 db_dial_dragonborn.esm_json_ready <- db_dial_dragonborn.esm_massclass %>%
   isolate_ids() %>%
    mutate(
@@ -59,24 +74,8 @@ db_dial_dragonborn.esm_json_ready <- db_dial_dragonborn.esm_massclass %>%
         # !(str_detect(QNAM, ""))
 
       ) %>%
-        filter(
-          # Remove entries with rejection phrases because those might or might not contain scriptname
-              !(
-                # Check FULL (managing NA)
-                if_else(is.na(FULL), FALSE, 
-                      str_detect(FULL, regex("(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather|think about it|good luck with that|show up eventually", ignore_case = TRUE))) |
-                # Check RNAM (managing NA)  
-                if_else(is.na(RNAM), FALSE,
-                      str_detect(RNAM, regex("(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather|think about it|good luck with that|show up eventually", ignore_case = TRUE)))
-                  )) %>%
-                    filter(
-                      # Ensure at least one of RNAM or FULL has a value
-                      !is.na(RNAM) | !is.na(FULL)
-                    ) %>% 
-                      mutate(
-                        FULL_trans = paste0(FULL, " (Quest)"), ## Add "(Quest)"
-                          RNAM_trans = paste0(RNAM, " (Quest)")
-                      )
+        filter_rejection_phrases(rejection_vector_dragonborn.esm) %>%
+          rm_na_renamer_full_rnam()
 
 
 ################################################################################
