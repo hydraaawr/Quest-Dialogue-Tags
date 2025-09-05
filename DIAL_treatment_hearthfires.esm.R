@@ -28,13 +28,12 @@ db_dial_hearthfires.esm_massclass <- db_dial_hearthfires.esm_merged %>%
 
 ## ready for json db (filtering and adding tags)
 
-rejection_vector_hearthfires.esm <- c(
-  paste(
-    "never mind",
-    "i'll have to think about it",
-    sep = "|"
-  )
+rejection_vector_hearthfires.esm <- paste(
+  "never mind",
+  "i'll have to think about it",
+  sep = "|"
 )
+
 
 
 

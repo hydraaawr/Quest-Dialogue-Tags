@@ -31,18 +31,17 @@ db_dial_dawnguard.esm_massclass <- db_dial_dawnguard.esm_merged %>%
 
 
 ## ready for json db (filtering and adding tags)
-rejection_vector_dawnguard.esm <- c(
-  paste(
-    "another time",
-    "sorry, i can't",
-    "sorry to",
-    "can't help",
-    "not interested",
-    "I'd rather",
-    "think about it",
-    sep = "|"
-  )
+rejection_vector_dawnguard.esm <- paste(
+  "another time",
+  "sorry, i can't",
+  "sorry to",
+  "can't help",
+  "not interested",
+  "I'd rather",
+  "think about it",
+  sep = "|"
 )
+
 
 
 db_dial_dawnguard.esm_json_ready <- db_dial_dawnguard.esm_massclass %>%
