@@ -21,15 +21,9 @@ db_dial_sfo_merged <- shaper(db_dial_sfo)
 
 ## db with massively classified QNAM
 
-db_dial_sfo_massclass <- db_dial_sfo_merged %>%
-    mutate( ## clasify type of quest
-        QNAM_type = case_when(
-        str_detect(QNAM, "MQ") ~ "MQ", ## Main Quest
-          str_detect(QNAM, "Radiant") ~ "radiant", ## Radiant
-          str_detect(QNAM, "Misc") ~ "misc", ## Miscellaneous
 
-        )
-      )
+db_dial_sfo_massclass <- db_dial_sfo_merged %>%
+  massclasser_ccBGSSSE001_Fish.esm()
       
 
 
