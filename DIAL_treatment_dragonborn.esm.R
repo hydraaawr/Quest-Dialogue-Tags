@@ -39,8 +39,8 @@ db_dial_dragonborn.esm_massclass <- db_dial_dragonborn.esm_merged %>%
 ## ready for json db (filtering and adding tags)
 
 ## Rejection phrases vector (for filtering out unwanted dialogue)
-rejection_vector_dragonborn.esm <- c(
-  paste("another time",
+rejection_vector_dragonborn.esm <- paste(
+  "another time",
   "sorry, i can't",
   "sorry to",
   "can't help",
@@ -49,7 +49,7 @@ rejection_vector_dragonborn.esm <- c(
   "think about it",
   "good luck with that",
   "show up eventually",
-  sep = "|")
+  sep = "|"
 )
 
 

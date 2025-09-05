@@ -28,13 +28,12 @@ db_dial_ccBGSSSE001_Fish.esm_massclass <- db_dial_ccBGSSSE001_Fish.esm_merged %>
 
 
 ## ready for json db (filtering and adding tags)
-rejection_vector_ccBGSSSE001_Fish.esm <- c(
-  paste(
-    "I haven't found",
-    "I don't have time",
-    sep = "|"
-  )
+rejection_vector_ccBGSSSE001_Fish.esm <- paste(
+  "I haven't found",
+  "I don't have time",
+  sep = "|"
 )
+
 
 
 db_dial_ccBGSSSE001_Fish.esm_json_ready <- db_dial_ccBGSSSE001_Fish.esm_massclass %>%

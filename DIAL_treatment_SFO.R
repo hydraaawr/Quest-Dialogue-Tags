@@ -12,7 +12,7 @@ rm(list = ls())
 
 ## Loading
 
-source(".\\DIAL_treatment_functions_v3.0.R")
+source(".\\DIAL_treatment_functions_v4.0.R")
 db_dial_sfo <- read.csv(".\\dbs\\db_DIAL_sfo.csv", sep = ";")
 
 ## Procedure
@@ -71,23 +71,11 @@ load(".\\Resources\\DIAL_treatment_ccBGSSSE001_Fish.esm.RData")
 
 
 
-## Matching #############################################################################
-## These include untouched plugin records + sfoezied ones
-
-db_dial_ccBGSSSE001_Fish.esm_sfo_json_ready <- rows_update(db_dial_ccBGSSSE001_Fish.esm_json_ready,db_dial_sfo_json_ready, by = c("Formid_DIAL_isolated","Formid_INFO_isolated"), unmatched = "ignore")
+## Patching #############################################################################
 
 
-####
-
-## generate the extra ones added by sfo
-
-db_dial_sfo_new_json_ready <- anti_join(db_dial_sfo_json_ready,db_dial_ccBGSSSE001_Fish.esm_sfo_json_ready)
-
-## Failsafe for some special cases that had same fomid dial but different info (and generate repeated entries)
-Formid_DIAL_isolated_ccBGSSSE001_Fish.esm_sfo <- db_dial_ccBGSSSE001_Fish.esm_sfo_json_ready$Formid_DIAL_isolated
-
-db_dial_sfo_new_json_ready <- db_dial_sfo_new_json_ready %>%
-  filter(!Formid_DIAL_isolated %in% Formid_DIAL_isolated_ccBGSSSE001_Fish.esm_sfo)
+db_dial_ccBGSSSE001_Fish.esm_sfo_json_ready <- patcher_include(db_dial_ccBGSSSE001_Fish.esm_json_ready, db_dial_sfo_json_ready)[[1]]
+db_dial_sfo_new_json_ready <- patcher_include(db_dial_ccBGSSSE001_Fish.esm_json_ready, db_dial_sfo_json_ready)[[2]]
 
 #############################################################################################
 

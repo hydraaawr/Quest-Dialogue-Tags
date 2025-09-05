@@ -71,15 +71,14 @@ db_dial_ussep_massclass <- db_dial_ussep_merged %>%
 
 ## ready for json db (filtering and adding tags)
 
-rejection_vector_ussep <- c(
-  paste(
+rejection_vector_ussep <- paste(
   rejection_vector_skyrim.esm,
   rejection_vector_dawnguard.esm,
   rejection_vector_dragonborn.esm,
   rejection_vector_hearthfires.esm,
   sep = "|"
-  )
 )
+
 
 
 

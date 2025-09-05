@@ -90,22 +90,20 @@ rm_na_renamer_full_rnam <- function(db_dial_mass_class_isolated){
 
 ## this is for skyrim.esm and derivates ##############################################################
 
-rejection_vector_skyrim.esm <- c(
-  paste(
-    "another time",
-    "sorry, i can't",
-    "sorry to",
-    "can't help",
-    "not interested",
-    "I'd rather not",
-    "I'd rather be",
-    "not right now",
-    "Good luck with that",
-    "i don't have time (for this.|right now.)?$",
-    "i don't have time for that(\\.| now\\.)?$",
-    "i can't do that right now",
-    sep = "|"
-  )
+rejection_vector_skyrim.esm <- paste(
+  "another time",
+  "sorry, i can't",
+  "sorry to",
+  "can't help",
+  "not interested",
+  "I'd rather not",
+  "I'd rather be",
+  "not right now",
+  "Good luck with that",
+  "i don't have time (for this.|right now.)?$",
+  "i don't have time for that(\\.| now\\.)?$",
+  "i can't do that right now",
+  sep = "|"
 )
 
 jsonreadier_skyrim.esm <- function(db_dial_massclass_isolated){
