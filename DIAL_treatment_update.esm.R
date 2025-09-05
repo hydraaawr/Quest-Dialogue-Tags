@@ -17,20 +17,7 @@ db_dial_update.esm_merged <- shaper(db_dial_update.esm)
 ## db with massively classified QNAM
 
 db_dial_update.esm_massclass <- db_dial_update.esm_merged %>%
-      mutate( ## clasify type of quest
-        QNAM_type = case_when(
-          str_detect(QNAM, "^MQ") ~ "MQ", ## Main Quest
-          str_detect(QNAM, "^MG") ~ "MG", ## Mages guild
-          str_detect(QNAM, "^C\\d{2}|CR") ~ "C", ## Companions
-          str_detect(QNAM, "^DB") ~ "DB", ## Dark brotherhood
-          str_detect(QNAM, "^CW") ~ "CW", ## Civil war(legion + stormcloacks)
-          str_detect(QNAM, "^TG") ~ "TG", ## Thieves guild
-          str_detect(QNAM, "^DA\\d{2}") ~ "DA", ## Daedric
-          str_detect(QNAM, "^MS\\d{2}|^VC\\d{2}|^dun|^NN\\d{2}|^[Tt]\\d{2}") ~ "MS", ## Side quests
-          str_detect(QNAM, "Favor|Freeform|^Tutorial|BQ|Farm|City Dialogue") ~ "misc_skyrim", ## Miscellaneous
-          str_detect(Formid_DIAL,"Heard any rumors lately?|What's the word around town?") ~ "rumor_skyrim" ## rumors
-        )
-      )
+  massclasser_skyrim.esm()
       
 
 
