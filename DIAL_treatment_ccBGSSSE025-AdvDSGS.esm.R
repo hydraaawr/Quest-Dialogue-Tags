@@ -7,7 +7,7 @@ rm(list = ls())
 
 ## Loading
 
-source(".\\DIAL_treatment_main_functions_v2.1.R")
+source(".\\DIAL_treatment_functions_v4.0.R")
 db_dial_ccBGSSSE025_AdvDSGS.esm <- read.csv(".\\dbs\\db_DIAL_ccBGSSSE025_AdvDSGS.esm.csv", sep = ";")
 
 
@@ -34,21 +34,7 @@ db_dial_ccBGSSSE025_AdvDSGS.esm_json_ready <- db_dial_ccBGSSSE025_AdvDSGS.esm_ma
         ## No classified out
         !is.na(QNAM_type)
       ) %>%
-        # filter(
-        #   # Remove entries with rejection phrases because those might or might not contain scriptname
-        #   !str_detect(FULL, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather") |
-        #   !str_detect(RNAM, "(?i)another time|sorry, i can't|sorry to|can't help|not interested|I'd rather not")
-        # ) %>%
-          filter(
-            # Ensure at least one of RNAM or FULL has a value
-            !is.na(RNAM) | !is.na(FULL)
-          ) %>% 
-            mutate(
-              # Replace any RNAM containing "TIF_" with "NA (Quest)"
-              RNAM = if_else(str_detect(RNAM, "TIF_"), "NA", RNAM),
-              FULL_trans = paste0(FULL, " (Quest)"), ## Add "(Quest)"
-              RNAM_trans = paste0(RNAM, " (Quest)")
-            )
+        rm_na_renamer_full_rnam()
 
 
 ################################################################################
