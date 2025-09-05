@@ -16,13 +16,24 @@ db_dial_hearthfires.esm_merged <- shaper(db_dial_hearthfires.esm)
 
 ## db with massively classified QNAM
 
-db_dial_hearthfires.esm_massclass <- db_dial_hearthfires.esm_merged %>%
-      mutate( ## clasify type of quest
-        QNAM_type = case_when(
-          str_detect(QNAM, "^BYOHHouse") ~ "house_hearthfires", ## Main Quest
 
-        )
-      )
+massclasser_hearthfires.esm <- function(db_dial_merged){
+
+  db_dial_massclass <- db_dial_merged %>%
+        mutate( ## clasify type of quest
+          QNAM_type = case_when(
+          str_detect(QNAM, "^BYOHHouse") ~ "house_hearthfires", ## Main Quest
+          )
+        ) 
+
+  return(db_dial_massclass)
+
+}
+
+
+
+db_dial_hearthfires.esm_massclass <- db_dial_hearthfires.esm_merged %>%
+ massclasser_hearthfires.esm()
       
 
 
