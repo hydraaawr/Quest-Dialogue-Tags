@@ -16,9 +16,13 @@ db_dial_dragonborn.esm_merged <- shaper(db_dial_dragonborn.esm)
 
 ## db with massively classified QNAM
 
-db_dial_dragonborn.esm_massclass <- db_dial_dragonborn.esm_merged %>%
-      mutate( ## clasify type of quest
-        QNAM_type = case_when(
+
+
+massclasser_dragonborn.esm <- function(db_dial_merged){
+
+  db_dial_massclass <- db_dial_merged %>%
+        mutate( ## clasify type of quest
+          QNAM_type = case_when(
           str_detect(QNAM, "DLC2MQ01|DLC2WE09|DLC2MQ02|DLC2MQ03|DLC2MQ03B|DLC2MQ04|DLC2MQ05|DLC2MQ06") ~ "MQ", ## Main Quest
           str_detect(QNAM, "DLC2BlackBook04Quest|DLC2RR03|DLC2RR01|DLC2TT1b|DLC2RR02") ~ "RRSD", ## Raven Rock Side Quests
           str_detect(QNAM, "DLC2RR03Intro|DLC2RRFavor03|DLC2RRFavor06|DLC2RRFavor02|DLC2RRFavor07|DLC2RRFavor04|DLC2TGQuest|DLC2RRFavor05|DLC2RRFavor01") ~ "RRmisc", ## Raven Rock miscellaneous
@@ -31,8 +35,16 @@ db_dial_dragonborn.esm_massclass <- db_dial_dragonborn.esm_merged %>%
           str_detect(QNAM, "DLC2BlackBook06Quest|DLC2BlackBook05Quest|DLC2BlackBook03Quest|DLC2dunHaknirTreasureQST|DLC2dunHaknirTreasureQSTMisc|DLC2EbonyWarriorQuest|DLC2dunKolbjornQST|DLC2dunKolbjornMiscQST") ~ "OS", ## Other Side
           str_detect(QNAM, "DLC2WE06|DLC2dunHrodulf|DLC2KagrumezQST|DLC2SV02AncarionMerchant|DLC2dunKolbjornMiscQST|DLC2dunKarstaagQST|DLC2dunFrostmoonQSTMisc") ~ "misc", ## other miscellaneous quests
           str_detect(Formid_DIAL,"Rumor") ~ "rumor_dragonborn" ## rumors
-        )
-      ) 
+          )
+        ) 
+
+  return(db_dial_massclass)
+
+}
+
+
+db_dial_dragonborn.esm_massclass <- db_dial_dragonborn.esm_merged %>%
+  massclasser_dragonborn.esm()
       
 
 
