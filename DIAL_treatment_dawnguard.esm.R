@@ -16,17 +16,28 @@ db_dial_dawnguard.esm_merged <- shaper(db_dial_dawnguard.esm)
 
 ## db with massively classified QNAM
 
-db_dial_dawnguard.esm_massclass <- db_dial_dawnguard.esm_merged %>%
-      mutate( ## clasify type of quest
-        QNAM_type = case_when(
+massclasser_dawnguard.esm <- function(db_dial_merged){
+
+  db_dial_massclass <- db_dial_merged %>%
+        mutate( ## clasify type of quest
+          QNAM_type = case_when(
           str_detect(QNAM, "DLC1VQ01MiscObjective|DLC1VQ01|DLC1VQ02|DLC1HunterBaseIntro|DLC1VQ03Hunter|DLC1VampireBaseIntro|DLC1VQ03Vampire|DLC1VQElder|DLC1VQElderHandler|DLC1VQ04|DLC1VQ05|DLC1VQ06|DLC1VQ07|DLC1VQ08") ~ "MQ", ## Main Quest
           str_detect(QNAM, "DLC1RH") ~ "DG", ## dawnguard radiants
           str_detect(QNAM, "DLC1RV") ~ "VP", ## vampire radiants
           str_detect(QNAM, "DLC1VQSaint|DLC1LD") ~ "SQ", ## Side Quests
           str_detect(QNAM, "DLC1VQDragon|DLC1VQFVBooks|DLC01SoulCairnHorseQuest2|DLC1Surgery") ~ "misc_dawnguard", ## Misc
           str_detect(QNAM, "DLC1VampireTutorial") ~ "VT"
-        )
-      ) 
+          )
+        ) 
+
+  return(db_dial_massclass)
+
+}
+
+
+
+db_dial_dawnguard.esm_massclass <- db_dial_dawnguard.esm_merged %>%
+      massclasser_dawnguard.esm()
       
 
 
