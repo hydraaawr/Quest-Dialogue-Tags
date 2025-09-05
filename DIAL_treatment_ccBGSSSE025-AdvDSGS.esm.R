@@ -16,13 +16,23 @@ db_dial_ccBGSSSE025_AdvDSGS.esm_merged <- shaper(db_dial_ccBGSSSE025_AdvDSGS.esm
 
 ## db with massively classified QNAM
 
-db_dial_ccBGSSSE025_AdvDSGS.esm_massclass <- db_dial_ccBGSSSE025_AdvDSGS.esm_merged %>%
-      mutate( ## clasify type of quest
-        QNAM_type = case_when(
+massclasser_ccBGSSSE025_AdvDSGS.esm <- function(db_dial_merged){
+
+  db_dial_massclass <- db_dial_merged %>%
+        mutate( ## clasify type of quest
+          QNAM_type = case_when(
           str_detect(QNAM, "QuestA|QuestB") ~ "MQ_SS", ## Main Quest
           str_detect(QNAM, "MiscQuest|ElytraPetAcquisition|StaadaQuest") ~ "misc_SS" ## Miscellaneous
-        )
-      )
+          )
+        ) 
+
+  return(db_dial_massclass)
+
+}
+
+
+db_dial_ccBGSSSE025_AdvDSGS.esm_massclass <- db_dial_ccBGSSSE025_AdvDSGS.esm_merged %>%
+  massclasser_ccBGSSSE025_AdvDSGS.esm()
       
 
 

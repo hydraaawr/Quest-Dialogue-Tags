@@ -16,14 +16,25 @@ db_dial_ccBGSSSE001_Fish.esm_merged <- shaper(db_dial_ccBGSSSE001_Fish.esm)
 
 ## db with massively classified QNAM
 
-db_dial_ccBGSSSE001_Fish.esm_massclass <- db_dial_ccBGSSSE001_Fish.esm_merged %>%
-      mutate( ## clasify type of quest
-        QNAM_type = case_when(
+massclasser_ccBGSSSE001_Fish.esm <- function(db_dial_merged){
+
+  db_dial_massclass <- db_dial_merged %>%
+        mutate( ## clasify type of quest
+          QNAM_type = case_when(
           str_detect(QNAM, "MQ") ~ "MQ", ## Main Quest
           str_detect(QNAM, "Radiant") ~ "radiant", ## Radiant
           str_detect(QNAM, "Misc") ~ "misc", ## Miscellaneous
-        )
-      )
+          )
+        ) 
+
+  return(db_dial_massclass)
+
+}
+
+
+db_dial_ccBGSSSE001_Fish.esm_massclass <- db_dial_ccBGSSSE001_Fish.esm_merged %>%
+  massclasser_ccBGSSSE001_Fish.esm()
+  
       
 
 
