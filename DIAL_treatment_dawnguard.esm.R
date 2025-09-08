@@ -59,7 +59,17 @@ rumor_gen_dawnguard.esm <- function(db_dial_massclass){ ## generate rumors becau
 }
 
 
+custom_filter_dawnguard.esm <- function(db_dial_massclass){ ## custom manual filters
 
+  db_dial_massclass <- db_dial_massclass %>%
+    filter(
+     # Exclude "DLC1VQ01 Awakening"
+        !(str_detect(QNAM, "DLC1VQ01 Awakening")),
+        # Exclude vampire tutorials without scriptname
+        !(str_detect(QNAM_type, "VT") & is.na(Scriptname))
+    )
+    return(db_dial_massclass)
+}
 
 
 
@@ -84,14 +94,10 @@ db_dial_dawnguard.esm_json_ready <- db_dial_dawnguard.esm_massclass %>%
       filter(
         ## No classified out
         !is.na(QNAM_type),
-        # Exclude "DLC1VQ01 Awakening"
-        !(str_detect(QNAM, "DLC1VQ01 Awakening")),
-        # Exclude vampire tutorials without scriptname
-        !(str_detect(QNAM_type, "VT") & is.na(Scriptname))
-
       ) %>%
-        filter_rejection_phrases(rejection_vector_dawnguard.esm) %>%
-          rm_na_renamer_full_rnam()
+        custom_filter_dawnguard.esm() %>%
+          filter_rejection_phrases(rejection_vector_dawnguard.esm) %>%
+            rm_na_renamer_full_rnam()
           
 
 ################################################################################

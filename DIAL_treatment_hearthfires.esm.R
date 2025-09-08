@@ -39,6 +39,23 @@ db_dial_hearthfires.esm_massclass <- db_dial_hearthfires.esm_merged %>%
 
 ## ready for json db (filtering and adding tags)
 
+
+custom_filter_hearthfires.esm <- function(db_dial_massclass){ ## custom manual filters
+
+  db_dial_massclass <- db_dial_massclass %>%
+    filter(
+      # Ensure at least one of RNAM or FULL has a value
+      !is.na(RNAM) | !is.na(FULL)
+    )
+    return(db_dial_massclass)
+}
+
+
+
+
+
+
+
 rejection_vector_hearthfires.esm <- paste(
   "never mind",
   "i'll have to think about it",
@@ -55,10 +72,7 @@ db_dial_hearthfires.esm_json_ready <- db_dial_hearthfires.esm_massclass %>%
         ## No classified out
         !is.na(QNAM_type),
       ) %>% 
-          filter(
-            # Ensure at least one of RNAM or FULL has a value
-            !is.na(RNAM) | !is.na(FULL)
-          ) %>%
+        custom_filter_hearthfires.esm() %>%
             filter_rejection_phrases(rejection_vector_hearthfires.esm) %>%
               rm_na_renamer_full_rnam()
 

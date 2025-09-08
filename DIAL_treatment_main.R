@@ -58,29 +58,18 @@ rejection_vector_ussep <- paste(
 
 db_dial_ussep_json_ready <- db_dial_ussep_massclass %>%
   isolate_ids() %>%
-    rumor_gen_skyrim.esm() %>%
-      rumor_gen_dawnguard.esm() %>%
-        rumor_gen_dragonborn.esm() %>%
-            filter(
-              ## No classified out
-              !is.na(QNAM_type),
-              ## skyrim.esm
-              # Exclude "City Dialogue" without Scriptname
-              !(str_detect(QNAM, "City Dialogue") & is.na(Scriptname)),
-              ## Exclude rumors without Scriptname
-              !(str_detect(QNAM_type, "rumor") & is.na(Scriptname)),
-              ## Exclude some CW dials without scriptname
-              !(str_detect(Formid_DIAL, "CW00JoinAboutFactionTopic|CW00AboutTopic|CWAbout|CWWhatsEmpireDoingTopic|CWWhatWillItTakeTopic") & is.na(Scriptname)),
-              ## Exclude MS dials without scriptname
-              !(str_detect(Formid_DIAL, "^MS") & is.na(Scriptname)),
-              ## dawnguard.esm
-              # Exclude "DLC1VQ01 Awakening"
-              !(str_detect(QNAM, "DLC1VQ01 Awakening")),
-              # Exclude vampire tutorials without scriptname
-              !(str_detect(QNAM_type, "VT") & is.na(Scriptname))
-            ) %>%
-              filter_rejection_phrases(rejection_vector_ussep) %>%
-                rm_na_renamer_full_rnam()
+      filter(
+        ## No classified out
+        !is.na(QNAM_type)
+      ) %>%
+        rumor_gen_skyrim.esm() %>%
+          rumor_gen_dawnguard.esm() %>%
+            rumor_gen_dragonborn.esm() %>%
+                custom_filter_skyrim.esm() %>%
+                  custom_filter_dawnguard.esm() %>%
+                      custom_filter_hearthfires.esm() %>%
+                        filter_rejection_phrases(rejection_vector_ussep) %>%
+                          rm_na_renamer_full_rnam()
 
 
 
