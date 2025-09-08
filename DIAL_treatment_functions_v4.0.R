@@ -139,6 +139,21 @@ rumor_gen_skyrim.esm <- function(db_dial_massclass){ ## generate rumors because 
 }
 
 
+custom_filter_skyrim.esm <- function(db_dial_massclass){ ## custom manual filters for skyrim.esm
+
+  db_dial_massclass <- db_dial_massclass %>%
+    filter(
+      # Exclude "City Dialogue" without Scriptname
+      !(str_detect(QNAM, "City Dialogue") & is.na(Scriptname)),
+      ## Exclude rumors without Scriptname
+      !(str_detect(QNAM_type, "rumor") & is.na(Scriptname)),
+      ## Exclude some CW dials without scriptname
+      !(str_detect(Formid_DIAL, "CW00JoinAboutFactionTopic|CW00AboutTopic|CWAbout|CWWhatsEmpireDoingTopic|CWWhatWillItTakeTopic") & is.na(Scriptname)),
+      ## Exclude MS dials without scriptname
+      !(str_detect(Formid_DIAL, "^MS") & is.na(Scriptname))
+    )
+    return(db_dial_massclass)
+}
 
 
 
@@ -164,18 +179,11 @@ jsonreadier_skyrim.esm <- function(db_dial_massclass){
       rumor_gen_skyrim.esm %>%
             filter(
               ## No classified out
-              !is.na(QNAM_type),
-              # Exclude "City Dialogue" without Scriptname
-              !(str_detect(QNAM, "City Dialogue") & is.na(Scriptname)),
-              ## Exclude rumors without Scriptname
-              !(str_detect(QNAM_type, "rumor") & is.na(Scriptname)),
-              ## Exclude some CW dials without scriptname
-              !(str_detect(Formid_DIAL, "CW00JoinAboutFactionTopic|CW00AboutTopic|CWAbout|CWWhatsEmpireDoingTopic|CWWhatWillItTakeTopic") & is.na(Scriptname)),
-              ## Exclude MS dials without scriptname
-              !(str_detect(Formid_DIAL, "^MS") & is.na(Scriptname))
+              !is.na(QNAM_type)
             ) %>%
-              filter_rejection_phrases(rejection_vector_skyrim.esm) %>%
-                rm_na_renamer_full_rnam()
+              custom_filter_skyrim.esm() %>%
+                filter_rejection_phrases(rejection_vector_skyrim.esm) %>%
+                  rm_na_renamer_full_rnam()
 
 
             
