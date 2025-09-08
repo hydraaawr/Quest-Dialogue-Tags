@@ -34,11 +34,10 @@ db_dial_sfo_json_ready <- db_dial_sfo_massclass %>%
       filter(
         ## No classified out
         !is.na(QNAM_type),
-        ## Exclude without scripts
-        !is.na(Scriptname)
       ) %>%
-        filter_rejection_phrases(rejection_vector_ccBGSSSE001_Fish.esm) %>%
-          rm_na_renamer_full_rnam()
+        custom_filter_ccBGSSSE001_Fish.esm.esm() %>%
+          filter_rejection_phrases(rejection_vector_ccBGSSSE001_Fish.esm) %>%
+            rm_na_renamer_full_rnam()
 
 
 

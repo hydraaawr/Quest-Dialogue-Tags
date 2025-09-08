@@ -42,14 +42,28 @@ db_dial_sti_massclass <- db_dial_sti_merged %>%
 
 ## ready for json db (filtering and adding tags)
 
+custom_filter_STI <- function(db_dial_massclass){ ## custom manual filters
+
+  db_dial_massclass <- db_dial_massclass %>%
+    filter(
+      
+     ## Exclude without scripts
+        !is.na(Scriptname) | str_detect(FULL,"is up to something") 
+    )
+    return(db_dial_massclass)
+}
+
+
+
+
+
 db_dial_sti_json_ready <- db_dial_sti_massclass %>%
   isolate_ids() %>%
       filter(
         ## No classified out
-        !is.na(QNAM_type),
-        ## Exclude without scripts
-        !is.na(Scriptname) | str_detect(FULL,"is up to something") 
+        !is.na(QNAM_type) 
       ) %>%
+        custom_filter_STI() %>%
           rm_na_renamer_full_rnam()
 
 

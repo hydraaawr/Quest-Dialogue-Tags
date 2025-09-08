@@ -39,6 +39,22 @@ db_dial_ccBGSSSE001_Fish.esm_massclass <- db_dial_ccBGSSSE001_Fish.esm_merged %>
 
 
 ## ready for json db (filtering and adding tags)
+
+
+custom_filter_ccBGSSSE001_Fish.esm.esm <- function(db_dial_massclass){ ## custom manual filters
+
+  db_dial_massclass <- db_dial_massclass %>%
+    filter(
+     ## Exclude without scripts
+        !is.na(Scriptname)
+    )
+    return(db_dial_massclass)
+}
+
+
+
+
+
 rejection_vector_ccBGSSSE001_Fish.esm <- paste(
   "I haven't found",
   "I don't have time",
@@ -51,12 +67,11 @@ db_dial_ccBGSSSE001_Fish.esm_json_ready <- db_dial_ccBGSSSE001_Fish.esm_massclas
   isolate_ids() %>%
       filter(
         ## No classified out
-        !is.na(QNAM_type),
-        ## Exclude without scripts
-        !is.na(Scriptname)
+        !is.na(QNAM_type),  
       ) %>%
-        filter_rejection_phrases(rejection_vector_ccBGSSSE001_Fish.esm) %>%
-          rm_na_renamer_full_rnam()
+        custom_filter_ccBGSSSE001_Fish.esm.esm() %>%
+          filter_rejection_phrases(rejection_vector_ccBGSSSE001_Fish.esm) %>%
+            rm_na_renamer_full_rnam()
 
 
 ################################################################################
