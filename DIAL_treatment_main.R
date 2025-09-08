@@ -58,28 +58,9 @@ rejection_vector_ussep <- paste(
 
 db_dial_ussep_json_ready <- db_dial_ussep_massclass %>%
   isolate_ids() %>%
-  ## skyrim.esm + dawnguard.esm
-   mutate(   ## generate "rumor"
-      FULL = case_when(
-        str_detect(Formid_DIAL, "Rumor|T01Innkeeper") & is.na(RNAM) & is.na(FULL) & QNAM_type == "rumor_skyrim|MS" ~ "Heard any rumors lately?", ## generate "Rumor"
-        TRUE ~ FULL 
-        ),
-      RNAM = case_when(
-        str_detect(FULL, "What's the word around town?") & is.na(RNAM) ~ "What's the word around town?", ## special case where we have to generate RNAM to trigger json generation INFO generation
-        TRUE ~ RNAM
-      )) %>%
-    ## dragonborn.esm
-    ## Here rumors work differently: You have to force generating multiple INFO RNAMS by filling both
-      mutate(
-        FULL = case_when(
-          str_detect(Formid_DIAL, "Rumors") & is.na(RNAM) & is.na(FULL) & !is.na(Scriptname) & QNAM_type == "rumor_dragonborn" ~ "Heard any rumors lately?", ## generate "Rumor"
-          TRUE ~ FULL
-        ),
-        RNAM = case_when(
-          str_detect(Formid_DIAL, "Rumors") & is.na(RNAM) & !is.na(Scriptname) & QNAM_type == "rumor_dragonborn" ~ "Heard any rumors lately?", ## generate "Rumor"
-          TRUE ~ RNAM
-        )
-          ) %>% ## these are combined of vanilla + dlcs
+    rumor_gen_skyrim.esm() %>%
+      rumor_gen_dawnguard.esm() %>%
+        rumor_gen_dragonborn.esm() %>%
             filter(
               ## No classified out
               !is.na(QNAM_type),

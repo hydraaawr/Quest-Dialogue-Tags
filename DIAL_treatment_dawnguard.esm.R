@@ -42,6 +42,29 @@ db_dial_dawnguard.esm_massclass <- db_dial_dawnguard.esm_merged %>%
 
 
 ## ready for json db (filtering and adding tags)
+
+
+
+rumor_gen_dawnguard.esm <- function(db_dial_massclass){ ## generate rumors because text is not in db
+
+  db_dial_massclass <- db_dial_massclass %>%
+    mutate(
+          FULL = case_when(
+            str_detect(Formid_DIAL, "Rumor") & is.na(RNAM) & is.na(FULL) ~ "Heard any rumors lately?", ## generate "Rumor"
+            TRUE ~ FULL
+          )
+    )
+
+  return(db_dial_massclass)
+}
+
+
+
+
+
+
+
+
 rejection_vector_dawnguard.esm <- paste(
   "another time",
   "sorry, i can't",
@@ -57,12 +80,7 @@ rejection_vector_dawnguard.esm <- paste(
 
 db_dial_dawnguard.esm_json_ready <- db_dial_dawnguard.esm_massclass %>%
   isolate_ids() %>%
-   mutate(
-      FULL = case_when(
-        str_detect(Formid_DIAL, "Rumor") & is.na(RNAM) & is.na(FULL) ~ "Heard any rumors lately?", ## generate "Rumor"
-        TRUE ~ FULL
-      ) 
-    ) %>% 
+   rumor_gen_dawnguard.esm() %>% 
       filter(
         ## No classified out
         !is.na(QNAM_type),

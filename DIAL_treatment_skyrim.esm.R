@@ -25,7 +25,6 @@ db_dial_skyrim.esm_massclass <- db_dial_skyrim.esm_merged %>%
 ## ready for json db (filtering and adding tags)
 
 db_dial_skyrim.esm_json_ready <- db_dial_skyrim.esm_massclass %>%
-  isolate_ids() %>%
    jsonreadier_skyrim.esm()
 
 

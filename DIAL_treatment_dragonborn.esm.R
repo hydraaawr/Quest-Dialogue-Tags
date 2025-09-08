@@ -50,6 +50,36 @@ db_dial_dragonborn.esm_massclass <- db_dial_dragonborn.esm_merged %>%
 
 ## ready for json db (filtering and adding tags)
 
+rumor_gen_dragonborn.esm <- function(db_dial_massclass){ ## generate rumors because text is not in db
+
+  db_dial_massclass <- db_dial_massclass %>%
+    mutate(
+    ## Here rumors work different vs skyrim and dawnguard: You have to force generating multiple INFO RNAMS by filling both
+      FULL = case_when(
+        str_detect(Formid_DIAL, "Rumors") & is.na(RNAM) & is.na(FULL) & !is.na(Scriptname) & QNAM_type == "rumor_dragonborn" ~ "Heard any rumors lately?", ## generate "Rumor"
+        TRUE ~ FULL
+      ),
+      RNAM = case_when(
+        str_detect(Formid_DIAL, "Rumors") & is.na(RNAM) & !is.na(Scriptname) & QNAM_type == "rumor_dragonborn" ~ "Heard any rumors lately?", ## generate "Rumor"
+        TRUE ~ RNAM
+      ),
+
+    )
+
+  return(db_dial_massclass)
+}
+
+
+
+
+
+
+
+
+
+
+
+
 ## Rejection phrases vector (for filtering out unwanted dialogue)
 rejection_vector_dragonborn.esm <- paste(
   "another time",
@@ -67,18 +97,7 @@ rejection_vector_dragonborn.esm <- paste(
 
 db_dial_dragonborn.esm_json_ready <- db_dial_dragonborn.esm_massclass %>%
   isolate_ids() %>%
-   mutate(
-    ## Here rumors work differently: You have to force generating multiple INFO RNAMS by filling both
-      FULL = case_when(
-        str_detect(Formid_DIAL, "Rumors") & is.na(RNAM) & is.na(FULL) & !is.na(Scriptname) ~ "Heard any rumors lately?", ## generate "Rumor"
-        TRUE ~ FULL
-      ),
-      RNAM = case_when(
-        str_detect(Formid_DIAL, "Rumors") & is.na(RNAM) & !is.na(Scriptname) ~ "Heard any rumors lately?", ## generate "Rumor"
-        TRUE ~ RNAM
-      ),
-
-    ) %>% 
+    rumor_gen_dragonborn.esm() %>%
       filter(
         ## No classified out
         !is.na(QNAM_type),
