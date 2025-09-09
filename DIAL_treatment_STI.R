@@ -1,5 +1,5 @@
 ## Author: Hydraaawr https://github.com/hydraaawr; https://www.nexusmods.com/users/83984133
-## combines base cc fishing + sfo changes
+
 
 library(dplyr)
 library(jsonlite)
@@ -8,7 +8,7 @@ library(stringr)
 rm(list = ls())
 
 
-## sfo treatment #######################################################
+## treatment #######################################################
 
 ## Loading
 
