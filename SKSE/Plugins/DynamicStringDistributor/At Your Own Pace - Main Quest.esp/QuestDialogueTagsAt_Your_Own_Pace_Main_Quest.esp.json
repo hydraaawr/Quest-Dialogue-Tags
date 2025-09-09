@@ -1,0 +1,27 @@
+[
+  {
+    "form_id": "FE021811|At Your Own Pace - Main Quest.esp",
+    "type": "DIAL FULL",
+    "string": "Can you ask your contact to get in touch with me? (Quest)"
+  },
+  {
+    "form_id": "FE02180F|At Your Own Pace - Main Quest.esp",
+    "type": "DIAL FULL",
+    "string": "I am looking to find out more about the Dragons. (Quest)"
+  },
+  {
+    "form_id": "FE021809|At Your Own Pace - Main Quest.esp",
+    "type": "DIAL FULL",
+    "string": "I am looking for more infomation on the Dragons. (Quest)"
+  },
+  {
+    "form_id": "FE021805|At Your Own Pace - Main Quest.esp",
+    "type": "DIAL FULL",
+    "string": "Are you reseaching the Dragons? (Quest)"
+  },
+  {
+    "form_id": "000DD02C|At Your Own Pace - Main Quest.esp",
+    "type": "DIAL FULL",
+    "string": "Do you need any help? (Quest)"
+  }
+]
