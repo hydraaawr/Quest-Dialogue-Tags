@@ -1,0 +1,22 @@
+[
+  {
+    "form_id": "FE021811|At Your Own Pace - Skyrim Unbound.esp",
+    "type": "DIAL FULL",
+    "string": "Can you ask them to get in touch with me? (Quest)"
+  },
+  {
+    "form_id": "FE02180F|At Your Own Pace - Skyrim Unbound.esp",
+    "type": "DIAL FULL",
+    "string": "Do you know anyone that knows more about the Dragons. (Quest)"
+  },
+  {
+    "form_id": "FE021805|At Your Own Pace - Skyrim Unbound.esp",
+    "type": "DIAL FULL",
+    "string": "Would any mage in particular know more? (Quest)"
+  },
+  {
+    "form_id": "FE021801|At Your Own Pace - Skyrim Unbound.esp",
+    "type": "DIAL FULL",
+    "string": "I am looking for more infomation about the Dragons. (Quest)"
+  }
+]
