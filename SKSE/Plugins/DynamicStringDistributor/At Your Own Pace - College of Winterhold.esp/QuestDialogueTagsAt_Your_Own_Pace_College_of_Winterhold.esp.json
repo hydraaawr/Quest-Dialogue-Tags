@@ -1,0 +1,28 @@
+[
+  {
+    "form_id": "000B8106|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "I would just like to visit the college. I won't be any trouble. (Quest)"
+  },
+  {
+    "form_id": "000AF0D8|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "May I enter the College? (Quest)"
+  },
+  {
+    "form_id": "00082A0F|Skyrim.esm",
+    "type": "DIAL FULL",
+    "string": "Are you resarching the Orb further? (Quest)"
+  }
+,
+  {
+    "form_id": "FE02180A|At Your Own Pace - Main Quest.esp",
+    "type": "INFO RNAM",
+    "string": "I am looking for work. Is the College looking for help with anything? (Quest)"
+  },
+  {
+    "form_id": "FE021808|At Your Own Pace - Main Quest.esp",
+    "type": "DIAL FULL",
+    "string": "Do you have any more lessons planned for us? (Quest)"
+  }
+]
